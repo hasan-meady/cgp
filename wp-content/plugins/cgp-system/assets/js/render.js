@@ -76,7 +76,7 @@ function displayResults(results) {
 
   document.querySelectorAll('.print-btn').forEach(button => {
     button.addEventListener('click', () => {
-      const printContent = button.dataset.printContent;
+      const printContent = decodeURIComponent(button.dataset.printContentEncoded);
       const drugName = decodeURIComponent(button.dataset.drugName);
       printSticker(drugName, printContent);
     });
@@ -128,16 +128,38 @@ function renderDrugResult(result) {
     html += `<div class="content">${formatContent(result.content, searchTerm)}</div>`;
   }
 
-  if (result.source === 'Drug Administration Food Interactions 2025 Care Givers Professionals EDITION' && result.content.print) {
-    let printContent = Array.isArray(result.content.print)
+  let printContentStr = '';
+  if (result.content && result.content.print) {
+    printContentStr = Array.isArray(result.content.print)
       ? `<ul>${result.content.print.map(item => `<li>${item}</li>`).join('')}</ul>`
       : result.content.print;
-    html += `
-      <button class="print-btn" data-print-content="${printContent}" data-drug-name="${encodeURIComponent(result.drug)}" title="طباعة ملصق">
-        <i class="fas fa-print"></i> Print Sticker
-      </button>
-    `;
+  } else if (result.content) {
+    if (typeof result.content === 'string') {
+      printContentStr = result.content;
+    } else if (Array.isArray(result.content) && typeof result.content[0] === 'string') {
+      printContentStr = `<ul>${result.content.map(item => `<li>${item}</li>`).join('')}</ul>`;
+    } else if (typeof result.content === 'object') {
+      const parts = [];
+      ['administration', 'instructions', 'precautions'].forEach(key => {
+        if (result.content[key]) {
+          parts.push(`<strong>${key}:</strong> ${result.content[key]}`);
+        }
+      });
+      printContentStr = parts.join('<br>') || 'See details on dashboard';
+    }
+  } else {
+    printContentStr = 'See details on dashboard';
   }
+
+  // Escape quotes to safely put inside data-attribute
+  const safePrintContent = encodeURIComponent(printContentStr);
+  const safeDrugName = encodeURIComponent(result.drug || result.title || result.name || '');
+
+  html += `
+    <button class="print-btn" data-print-content-encoded="${safePrintContent}" data-drug-name="${safeDrugName}" title="Print Sticker">
+      <i class="fas fa-print"></i> Print Sticker
+    </button>
+  `;
 
   // Add interactions container
   const drugNameForInteraction = result.drug || result.title || result.name || '';

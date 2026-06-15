@@ -122,13 +122,46 @@ function extractTagsFromResult(result, tagSet) {
 function printSticker(drugName, content) {
   printJS({
     printable: `
-        <div style="font-family: Arial, sans-serif; padding: 10px; border: 2px solid #000; max-width: 300px;">
-          <h2 style="text-align: center; margin: 0 0 10px 0;">${drugName}</h2>
-          <div style="font-size: 14px;">${content}</div>
+        <div class="label-container">
+          <div class="label-header">${drugName}</div>
+          <div class="label-content">${content}</div>
         </div>
       `,
     type: 'raw-html',
-    style: '.highlight-term { font-weight: bold; }' 
+    style: `
+      @page { margin: 0; size: auto; }
+      body { margin: 0; padding: 0; background: #fff; }
+      .label-container {
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        padding: 5px 10px;
+        color: #000;
+        page-break-inside: avoid;
+      }
+      .label-header {
+        text-align: center;
+        font-size: 16px;
+        font-weight: bold;
+        margin: 0 0 5px 0;
+        padding-bottom: 3px;
+        border-bottom: 2px solid #000;
+        text-transform: uppercase;
+      }
+      .label-content {
+        font-size: 12px;
+        line-height: 1.3;
+      }
+      .label-content ul {
+        padding-left: 12px;
+        margin: 3px 0;
+      }
+      .label-content li {
+        margin-bottom: 2px;
+      }
+      .highlight-term { font-weight: bold; }
+    ` 
   });
 }
 

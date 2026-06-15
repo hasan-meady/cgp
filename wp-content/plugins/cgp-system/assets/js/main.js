@@ -1,3 +1,4 @@
+
 // main.js
 
 let strict = false; 
@@ -19,12 +20,12 @@ document.addEventListener('DOMContentLoaded', () => {
   });
   
   if (searchInput) {
-    searchInput.addEventListener("input", function () {
-      clearTimeout(searchTimeout); 
-      searchTimeout = setTimeout(() => {
+    searchInput.addEventListener("keydown", function (e) {
+      if (e.key === "Enter") {
+        e.preventDefault();
         const term = this.value.trim();
         if (term.length >= 2) startSearching(term);
-      }, 300); 
+      }
     });
   }
 
