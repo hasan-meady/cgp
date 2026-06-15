@@ -1,0 +1,21 @@
+# WordPress core
+wp-config.php
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+
+# Large data dumps
+api_dump.json
+cgp-json-data/
+*.pdf
+
+# Environment files
+.env
+.htaccess
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Syncthing
+.stfolder/

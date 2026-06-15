@@ -1,0 +1,22 @@
+{
+  "name": "CGP Information Search",
+  "short_name": "CGP Search",
+  "description": "Comprehensive pharmaceutical guidelines and protocols.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3b5998",
+  "author": "Hasan Meady",
+  "icons": [
+    {
+      "src": "assets/images/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/images/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
