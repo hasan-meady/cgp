@@ -28,46 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  const filterAll = document.getElementById("filter-all");
-  if (filterAll) {
-    filterAll.addEventListener("change", function () {
-      const checkboxes = document.querySelectorAll('.filter-container .form-check-input:not(#filter-all)');
-      checkboxes.forEach(checkbox => {
-        checkbox.checked = this.checked;
-        checkbox.disabled = this.checked;
-      });
-      searchTerm = document.getElementById("search-input")?.value.trim();
-      startSearching(searchTerm);
-    });
-  }
 
-  document.querySelectorAll('.filter-container .form-check-input:not(#filter-all)').forEach(checkbox => {
-    checkbox.addEventListener("change", function () {
-      const allCheckbox = document.getElementById("filter-all");
-      if (this.checked && allCheckbox.checked) {
-        allCheckbox.checked = false;
-        document.querySelectorAll('.filter-container .form-check-input:not(#filter-all)').forEach(cb => {
-          cb.disabled = false;
-        });
-      }
-      if (!this.checked && allCheckbox.checked) {
-        allCheckbox.checked = false;
-        document.querySelectorAll('.filter-container .form-check-input:not(#filter-all)').forEach(cb => {
-          cb.disabled = true;
-        });
-      }
-      const checkboxes = document.querySelectorAll('.filter-container .form-check-input:not(#filter-all)');
-      const allChecked = Array.from(checkboxes).every(cb => cb.checked);
-      if (allChecked) {
-        document.getElementById("filter-all").checked = true;
-        checkboxes.forEach(cb => {
-          cb.disabled = true;
-        });
-      }
-      searchTerm = document.getElementById("search-input")?.value.trim();
-      startSearching(searchTerm);
-    });
-  });
 
   if (toggleBtn) {
     toggleBtn.addEventListener('click', function (e) {
@@ -135,11 +96,11 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // End rolling words animation on the first word after exactly 2 cycles (22 seconds)
+  // End rolling words animation on the first word immediately after the last word finishes (16 seconds)
   setTimeout(() => {
     const rollingWords = document.querySelector('.rolling-words');
     if (rollingWords) rollingWords.classList.add('finished');
-  }, 22000);
+  }, 16000);
 });
 
 function startSearching(term) {
@@ -161,40 +122,12 @@ function startSearching(term) {
     }
   }
 
-  const selectedSources = Array.from(document.querySelectorAll('.filter-container .form-check-input:checked'))
-    .map(cb => cb.value);
-
-  const results = searchDocuments(term, selectedSources);
-  displayResults(results);
-  logCGPSearch(term, results.length);
-}
-
-// Left for compatibility if it was used elsewhere
-function toggleFilter(show) {
-  const filterContainer = document.querySelector('.filter-container-wrapper');
-  const accordionCollapse = document.querySelector('#filter-collapse');
-  const filterToggleBtn = document.querySelector('.filter-toggle-btn');
-  
-  if (!filterContainer || !accordionCollapse || !filterToggleBtn) return;
-
-  if (show) {
-    filterContainer.style.display = 'block'; 
-    setTimeout(() => {
-      accordionCollapse.classList.add('show');
-      filterToggleBtn.classList.add('active');
-      filterToggleBtn.setAttribute('aria-expanded', 'true');
-      filterContainer.classList.add('active');
-    }, 10);
-  } else {
-    accordionCollapse.classList.remove('show');
-    filterToggleBtn.classList.remove('active');
-    filterToggleBtn.setAttribute('aria-expanded', 'false');
-    filterContainer.classList.remove('active');
-    setTimeout(() => {
-      if (!filterContainer.classList.contains('active')) {
-        filterContainer.style.display = 'none';
-      }
-    }, 300);
+  const results = searchDocuments(term, []);
+  if (typeof displayResults === 'function') {
+    displayResults(results);
+  }
+  if (typeof logCGPSearch === 'function') {
+    logCGPSearch(term, results.length);
   }
 }
 

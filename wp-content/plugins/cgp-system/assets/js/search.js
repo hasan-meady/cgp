@@ -142,44 +142,4 @@ function deduplicateResults(results) {
   return Array.from(resultMap.values());
 }
 
-function highlightSearchTerm(text, searchTerm) {
-  if (!searchTerm || searchTerm.length < 2) return text;
-  const regex = new RegExp(`(${searchTerm})`, 'gi');
-  return text.replace(regex, '<span class="highlight-term">$1</span>');
-}
 
-function containsTerm(text, searchTerm) {
-  if (!searchTerm || searchTerm.length < 2) return false;
-  return text.toLowerCase().includes(searchTerm.toLowerCase());
-}
-
-function highlightLine(content, searchTerm) {
-  let lowerContent = content.toLowerCase();
-  let lowerTerm = searchTerm.toLowerCase();
-
-  if (lowerContent.includes(lowerTerm)) {
-    const regex = new RegExp(`(${searchTerm})`, 'gi');
-    return content.replace(regex, '<span class="highlight-term">$1</span>');
-  }
-  return content;
-}
-
-function levenshteinDistance(a, b) {
-  const matrix = [];
-  for (let i = 0; i <= b.length; i++) matrix[i] = [i];
-  for (let j = 0; j <= a.length; j++) matrix[0][j] = j;
-  for (let i = 1; i <= b.length; i++) {
-    for (let j = 1; j <= a.length; j++) {
-      if (b.charAt(i - 1) === a.charAt(j - 1)) {
-        matrix[i][j] = matrix[i - 1][j - 1];
-      } else {
-        matrix[i][j] = Math.min(
-          matrix[i - 1][j - 1] + 1,
-          matrix[i][j - 1] + 1,
-          matrix[i - 1][j] + 1
-        );
-      }
-    }
-  }
-  return matrix[b.length][a.length];
-}

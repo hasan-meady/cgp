@@ -1,49 +1,45 @@
-/* Accordion Modernization */
+/* Accordion Modernization - Clean & Clear White/Black Relaxed Design */
 .result-item.accordion-item {
-  border: none;
-  border-radius: 16px !important;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg) !important;
   background-color: var(--theme-color);
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
-  margin-bottom: 24px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.02);
+  margin-bottom: 20px;
+  overflow: hidden;
 }
-
-/* .result-item.accordion-item:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
-} */
 
 /* Accordion Header */
 .result-item .accordion-button {
   background-color: var(--theme-color);
-  padding: 18px 20px;
+  padding: 20px 24px;
   flex-direction: column;
   align-items: flex-start;
-  color: #fff;
-  background: var(--accordion-gradient);
-  border-radius: 12px 12px 0 0 !important;
+  color: var(--primary-color);
+  border: none;
+  border-radius: 0 !important;
 }
 
 .result-item .accordion-button:not(.collapsed) {
-  background: var(--accordion-gradient);
+  background: var(--dark-color);
   box-shadow: none;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid var(--border-color);
 }
 
 .result-item .accordion-button:focus {
   box-shadow: none;
-  border-color: #e0e0e0;
+  outline: none;
 }
 
 .result-item .accordion-button:hover {
-  background: var(--accordion-gradient-hover) !important;
+  background: var(--dark-color) !important;
 }
 
 /* Accordion Icon */
 .accordion-icon {
-  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
-  font-size: 0.9em;
+  transition: transform 0.3s ease;
+  font-size: 1em;
   margin-left: auto;
-  color: rgba(255, 255, 255, 0.7);
+  color: var(--gray-color);
 }
 
 .accordion-button:not(.collapsed) .accordion-icon {
@@ -53,13 +49,9 @@
 
 /* Accordion Body */
 .result-item .accordion-body {
-  background-color: var(--dark-color);
-  transition: all 0.3s ease;
-  border-radius: 0 0 12px 12px;
-  padding: 16px;
+  background-color: var(--theme-color);
+  padding: 24px;
 }
-
-/* Hover removed for accordion body */
 
 /* Content Styling */
 .accordion-title-content {
@@ -67,31 +59,33 @@
 }
 
 .result-item .source {
-  font-size: 12px;
+  font-size: 13px;
   margin-bottom: 8px;
   width: 100%;
-  opacity: 0.9;
+  color: var(--text-muted);
 }
 
 .result-item h5.drug-name {
-  margin: 10px 0 5px 0;
+  margin: 0;
   font-weight: 600;
-  font-size: 1.4rem;
-  letter-spacing: 0.5px;
+  font-size: 1.5rem;
+  color: var(--primary-color);
 }
 
 .accordion-title-content h5.drug-name {
-  color: #f3e5f5;
+  color: var(--primary-color);
 }
 
 .accordion-body .drug-name {
-  color: var(--accent-color);
+  color: var(--primary-color);
   font-size: 1.3rem;
+  margin-bottom: 16px;
+  font-weight: 600;
 }
 
 /* Content Structure */
 .content-key {
-  color: #607d8b;
+  color: var(--primary-color);
   font-weight: 700;
   margin-left: 4px;
   text-transform: capitalize;
@@ -100,7 +94,7 @@
 .content-value {
   margin-top: 4px;
   padding-left: 24px;
-  border-left: 2px solid #e0e0e0;
+  border-left: 2px solid var(--border-color-hover);
 }
 
 /* List Styling */
@@ -115,8 +109,6 @@
   transition: all 0.2s ease;
 }
 
-/* Hover removed for accordion body li */
-
 /* Text Content */
 .result-item h6,
 .content,
@@ -130,9 +122,9 @@ p.dietary-considerations {
 
 .accordion-body .content {
   margin-top: 16px;
-  padding: 4px 8px;
-  background-color: rgba(0, 0, 0, 0.02);
-  border-radius: 8px;
+  padding: 8px 12px;
+  background-color: var(--dark-color);
+  border-radius: var(--radius-md);
 }
 
 @media (max-width: 768px) {

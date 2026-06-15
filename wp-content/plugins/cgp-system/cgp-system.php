@@ -75,17 +75,21 @@ function cgp_ui_shortcode() {
     wp_enqueue_style('cgp-accordion-css', $plugin_url . 'assets/css/accordion.css', array('cgp-variables-css'), filemtime($plugin_dir . 'assets/css/accordion.css'));
     wp_enqueue_style('cgp-sidebar-css', $plugin_url . 'assets/css/sidebar.css', array('cgp-variables-css'), filemtime($plugin_dir . 'assets/css/sidebar.css'));
     wp_enqueue_style('cgp-components-css', $plugin_url . 'assets/css/components.css', array('cgp-variables-css'), filemtime($plugin_dir . 'assets/css/components.css'));
+    wp_enqueue_style('cgp-autocomplete-css', $plugin_url . 'assets/css/autocomplete.css', array('cgp-variables-css'), filemtime($plugin_dir . 'assets/css/autocomplete.css'));
+    wp_enqueue_style('cgp-interactions-css', $plugin_url . 'assets/css/interactions.css', array('cgp-variables-css'), filemtime($plugin_dir . 'assets/css/interactions.css'));
+    wp_enqueue_style('cgp-chatbot-css', $plugin_url . 'assets/css/chatbot.css', array('cgp-variables-css'), filemtime($plugin_dir . 'assets/css/chatbot.css'));
     wp_enqueue_style('font-awesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
     
     // Enqueue external libraries via CDN because local lib directory is missing
-    wp_enqueue_style('awesomplete-css', 'https://cdnjs.cloudflare.com/ajax/libs/awesomplete/1.1.5/awesomplete.min.css');
     wp_enqueue_script('awesomplete', 'https://cdnjs.cloudflare.com/ajax/libs/awesomplete/1.1.5/awesomplete.min.js', array(), null, true);
     wp_enqueue_script('printjs', 'https://cdnjs.cloudflare.com/ajax/libs/print-js/1.6.0/print.js', array(), null, true);
     
     // Enqueue modularized JS files with correct dependencies
     wp_enqueue_script('cgp-api', $plugin_url . 'assets/js/api.js', array('jquery'), filemtime($plugin_dir . 'assets/js/api.js'), true);
-    wp_enqueue_script('cgp-search', $plugin_url . 'assets/js/search.js', array('cgp-api'), filemtime($plugin_dir . 'assets/js/search.js'), true);
-    wp_enqueue_script('cgp-render', $plugin_url . 'assets/js/render.js', array('cgp-search'), filemtime($plugin_dir . 'assets/js/render.js'), true);
+    wp_enqueue_script('cgp-utils', $plugin_url . 'assets/js/utils.js', array(), filemtime($plugin_dir . 'assets/js/utils.js'), true);
+    wp_enqueue_script('cgp-search', $plugin_url . 'assets/js/search.js', array('cgp-api', 'cgp-utils'), filemtime($plugin_dir . 'assets/js/search.js'), true);
+    wp_enqueue_script('cgp-interactions', $plugin_url . 'assets/js/interactions.js', array('cgp-api'), filemtime($plugin_dir . 'assets/js/interactions.js'), true);
+    wp_enqueue_script('cgp-render', $plugin_url . 'assets/js/render.js', array('cgp-search', 'cgp-utils', 'cgp-interactions'), filemtime($plugin_dir . 'assets/js/render.js'), true);
     wp_enqueue_script('cgp-main', $plugin_url . 'assets/js/main.js', array('cgp-render', 'awesomplete'), filemtime($plugin_dir . 'assets/js/main.js'), true);
     wp_enqueue_script('cgp-chatbot-js', $plugin_url . 'assets/js/chatbot.js', array('jquery'), filemtime($plugin_dir . 'assets/js/chatbot.js'), true);
     
