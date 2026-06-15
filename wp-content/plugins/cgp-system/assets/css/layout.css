@@ -133,6 +133,12 @@
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
 }
 
+@media only screen and (max-width: 1199px) {
+  #search-tags-sidebar {
+    display: none !important;
+  }
+}
+
 @media only screen and (min-width: 1200px) {
 }
 

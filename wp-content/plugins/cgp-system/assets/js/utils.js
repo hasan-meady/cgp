@@ -129,36 +129,44 @@ function printSticker(drugName, content) {
       `,
     type: 'raw-html',
     style: `
-      @page { margin: 0; size: auto; }
-      body { margin: 0; padding: 0; background: #fff; }
-      .label-container {
-        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      @page { margin: 0mm; size: 4in 6in portrait; }
+      body { 
+        margin: 0; 
+        padding: 0; 
+        background: #fff; 
         width: 100%;
         height: 100%;
+        -webkit-print-color-adjust: exact;
+      }
+      .label-container {
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        width: 3.8in; /* slightly less than 4in to avoid cutoff */
+        max-height: 5.8in;
         box-sizing: border-box;
-        padding: 5px 10px;
+        padding: 0.2in;
         color: #000;
         page-break-inside: avoid;
+        overflow: hidden;
       }
       .label-header {
         text-align: center;
-        font-size: 16px;
+        font-size: 20px;
         font-weight: bold;
-        margin: 0 0 5px 0;
-        padding-bottom: 3px;
+        margin: 0 0 10px 0;
+        padding-bottom: 5px;
         border-bottom: 2px solid #000;
         text-transform: uppercase;
       }
       .label-content {
-        font-size: 12px;
-        line-height: 1.3;
+        font-size: 14px;
+        line-height: 1.4;
       }
       .label-content ul {
-        padding-left: 12px;
-        margin: 3px 0;
+        padding-left: 15px;
+        margin: 5px 0;
       }
       .label-content li {
-        margin-bottom: 2px;
+        margin-bottom: 4px;
       }
       .highlight-term { font-weight: bold; }
     ` 

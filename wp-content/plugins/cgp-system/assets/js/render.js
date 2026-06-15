@@ -155,11 +155,18 @@ function renderDrugResult(result) {
   const safePrintContent = encodeURIComponent(printContentStr);
   const safeDrugName = encodeURIComponent(result.drug || result.title || result.name || '');
 
-  html += `
-    <button class="print-btn" data-print-content-encoded="${safePrintContent}" data-drug-name="${safeDrugName}" title="Print Sticker">
-      <i class="fas fa-print"></i> Print Sticker
-    </button>
-  `;
+  let hasDietary = false;
+  if (result.content && typeof result.content === 'object' && !Array.isArray(result.content)) {
+    hasDietary = Object.keys(result.content).some(k => /dietary/i.test(k));
+  }
+
+  if (hasDietary) {
+    html += `
+      <button class="print-btn" data-print-content-encoded="${safePrintContent}" data-drug-name="${safeDrugName}" title="Print Sticker">
+        <i class="fas fa-print"></i> Print Sticker
+      </button>
+    `;
+  }
 
   // Add interactions container
   const drugNameForInteraction = result.drug || result.title || result.name || '';
