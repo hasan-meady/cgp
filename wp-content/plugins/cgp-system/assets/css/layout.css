@@ -188,6 +188,7 @@
 .cgp-layout-wrapper {
   width: 100%;
   padding: 0 15px;
+  box-sizing: border-box;
 }
 
 .cgp-layout-grid {
@@ -197,6 +198,24 @@
   width: 100%;
   max-width: 1400px;
   margin: 0 auto;
+}
+
+/* Mobile: post area takes full width */
+@media (max-width: 991px) {
+  .cgp-layout-wrapper {
+    padding: 0 10px;
+  }
+  .cgp-grid-center {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+  .results-container {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
 }
 
 @media (min-width: 992px) {

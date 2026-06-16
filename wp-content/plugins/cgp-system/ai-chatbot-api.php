@@ -36,8 +36,10 @@ function cgp_handle_ask_ai($request) {
     set_transient($transient_key, $attempts + 1, HOUR_IN_SECONDS);
 
     // 3. Retrieve Context (Optimized RAG search using Database LIKE queries)
-    $question_words = array_filter(explode(' ', strtolower($question)), function($w) {
-        return strlen($w) > 3; // Only search for significant words
+    // First, remove punctuation so words like "medication?" don't break the search
+    $clean_question = preg_replace('/[^\p{L}\p{N}\s]/u', '', strtolower($question));
+    $question_words = array_filter(explode(' ', $clean_question), function($w) {
+        return mb_strlen($w) >= 3; // Search for words 3+ characters
     });
     
     $context_chunks = array();
@@ -90,15 +92,22 @@ function cgp_handle_ask_ai($request) {
     $context_string = empty($context_chunks) ? "No specific data found in database for the given keywords." : implode("\n\n---\n\n", $context_chunks);
 
     // 4. Construct Secure Prompt
+    $has_context = !empty($context_chunks);
     $system_prompt = "You are a professional, helpful, and concise medical assistant created by Hasan Meady for 'CGP Information Search'.\n";
-    $system_prompt .= "You MUST answer the user's question based ONLY on the following context retrieved from our database.\n";
-    $system_prompt .= "If the answer cannot be found in the context below, simply reply: 'I'm sorry, I do not have enough verified information in Hasan Meady's database to answer that. Please check the sidebar to see which medical guides are currently available.' DO NOT invent or assume medical facts.\n\n";
-    $system_prompt .= "CONTEXT:\n" . $context_string;
+    if ($has_context) {
+        $system_prompt .= "Answer the user's question using the following database context as your PRIMARY source. Prefer information from the context when available.\n";
+        $system_prompt .= "If the context contains relevant information, use it. If not, you may supplement with your general medical knowledge but CLEARLY indicate when you are doing so.\n\n";
+        $system_prompt .= "DATABASE CONTEXT:\n" . $context_string;
+    } else {
+        $system_prompt .= "No specific data was found in Hasan Meady's local database for this query.\n";
+        $system_prompt .= "You may answer using your general medical knowledge, but BEGIN your answer with this note: \"⚠️ This drug/topic is not yet in our local database. The following is general medical information:\"\n";
+        $system_prompt .= "Keep your answer concise, professional, and accurate. Do NOT invent facts."; 
+    }
 
     $user_prompt = "User Question: " . $question;
 
     // 5. Call Gemini API
-    $api_key = get_option('cgp_gemini_api_key');
+    $api_key = defined('API_KEY') ? API_KEY : get_option('cgp_gemini_api_key');
     if (empty($api_key)) {
         return new WP_Error('no_api', 'The AI system is currently unconfigured.', array('status' => 500));
     }

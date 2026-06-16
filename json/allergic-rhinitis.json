@@ -1,0 +1,863 @@
+{
+  "id": "allergic-rhinitis",
+  "title": "Allergic Rhinitis Pharmaceutical Care",
+  "type": "condition-guide",
+  "release": "Release #3",
+  "committee": "Eastern 2 Scientific Committee",
+  "sections": [
+    {
+      "section_title": "Allergic Rhinitis Overview",
+      "items": [
+        {
+          "item_title": "Allergic Rhinitis",
+          "keywords": [
+            "allergic rhinitis overview",
+            "rhinitis definition",
+            "nasal inflammation",
+            "IgE-mediated allergy",
+            "rhinitis symptoms",
+            "nasal congestion",
+            "sneezing",
+            "dry cough"
+          ],
+          "blocks": [
+            {
+              "block_heading": "Overview",
+              "block_type": "list",
+              "data": [
+                "Allergic rhinitis is an inflammatory disease mediated by Immunoglobulin-E",
+                "Characterized by nasal congestion, rhinorrhea (almost thin and watery transparent nasal drainage), sneezing, and/or nasal itching, red watery eyes, accompanied by dry cough in some cases"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Symptoms",
+      "items": [
+        {
+          "item_title": "Symptoms of Rhinitis",
+          "keywords": [
+            "allergy symptoms",
+            "rhinitis symptoms",
+            "itchy eyes",
+            "watery eyes",
+            "sneezing",
+            "nasal congestion",
+            "runny nose",
+            "mouth breathing"
+          ],
+          "blocks": [
+            {
+              "block_heading": "Symptoms",
+              "block_type": "list",
+              "data": [
+                "Red and itchy, watery eyes",
+                "Sneezing, congestion, runny nose",
+                "Itchy or sore throat, post-nasal drip, cough",
+                "Fatigue",
+                "Mouth breathing"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Causes",
+      "items": [
+        {
+          "item_title": "Causes of Rhinitis",
+          "keywords": [
+            "allergy causes",
+            "rhinitis triggers",
+            "pollen allergy",
+            "dust mite allergy",
+            "pet allergy",
+            "smoking allergy",
+            "perfume allergy",
+            "occupational rhinitis"
+          ],
+          "blocks": [
+            {
+              "block_heading": "Causes",
+              "block_type": "list",
+              "data": [
+                "Pollens and outdoor molds",
+                "Dust mites",
+                "Pets and animals",
+                "Smoking",
+                "Perfumes",
+                "Occupational allergens (e.g., cement factories)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Diagnosis",
+      "items": [
+        {
+          "item_title": "Diagnosis of Rhinitis",
+          "keywords": [
+            "allergy diagnosis",
+            "rhinitis diagnosis",
+            "allergy history",
+            "symptom assessment",
+            "allergy triggers",
+            "exposure assessment",
+            "seasonal allergies"
+          ],
+          "blocks": [
+            {
+              "block_heading": "Diagnostic Steps",
+              "block_type": "list",
+              "data": [
+                "Ask about previous history of allergic rhinitis",
+                "Assess duration and frequency of symptoms",
+                "Identify suspected exposures or exacerbating factors",
+                "Determine seasonality of symptoms",
+                "Listen to symptoms from patient first, then ask targeted questions"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Classification of Allergic Rhinitis",
+      "items": [
+        {
+          "item_title": "Classification of Rhinitis",
+          "keywords": [
+            "rhinitis classification",
+            "allergy severity",
+            "mild rhinitis",
+            "severe rhinitis",
+            "intermittent rhinitis",
+            "persistent rhinitis"
+          ],
+          "blocks": [
+            {
+              "block_heading": "Severity Classification",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Mild",
+                  "children": [
+                    "Symptoms present but not interfering with quality of life",
+                    "Normal sleep",
+                    "Normal daily activities",
+                    "Normal work and school",
+                    "No troublesome symptoms"
+                  ]
+                },
+                {
+                  "parent": "Moderate/Severe",
+                  "children": [
+                    "Symptoms interfere with daily activities like sleeping or work",
+                    "Abnormal sleep",
+                    "Impairment of daily activities, sport, and leisure",
+                    "Difficulties at school or work",
+                    "Troublesome symptoms"
+                  ]
+                }
+              ]
+            },
+            {
+              "block_heading": "Duration Classification",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Intermittent",
+                  "children": [
+                    "Symptoms present for <4 days/week or <4 weeks at a time"
+                  ]
+                },
+                {
+                  "parent": "Persistent",
+                  "children": [
+                    "Symptoms present ≥4 days/week and ≥4 weeks at a time"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Differential Diagnosis",
+      "items": [
+        {
+          "item_title": "Differential Diagnosis",
+          "keywords": [
+            "differential diagnosis",
+            "rhinitis comparison",
+            "rhinosinusitis",
+            "allergic rhinitis",
+            "common cold",
+            "sinusitis",
+            "allergic rhinitis vs cold",
+            "allergic rhinitis vs sinusitis"
+          ],
+          "blocks": [
+            {
+              "block_heading": "Allergic Rhinitis",
+              "block_type": "key_value",
+              "data": [
+                { "key": "onset", "value": "Sudden" },
+                { "key": "duration", "value": "Varies" },
+                { "key": "fever", "value": "No" },
+                { "key": "body_pain", "value": "No" },
+                { "key": "nasal_discharge", "value": "Clear, thin, watery" },
+                { "key": "sneezing", "value": "Yes" },
+                { "key": "bad_breath", "value": "No" },
+                { "key": "upper_teeth_pain", "value": "No" },
+                { "key": "double_sickness", "value": "No" },
+                { "key": "facial_pain", "value": "No" },
+                { "key": "additional_features", "value": ["Itchy watery eyes", "History of allergy"] }
+              ]
+            },
+            {
+              "block_heading": "Common Cold",
+              "block_type": "key_value",
+              "data": [
+                { "key": "onset", "value": "Gradual" },
+                { "key": "duration", "value": "<10 days" },
+                { "key": "fever", "value": "Yes" },
+                { "key": "body_pain", "value": "May be" },
+                { "key": "nasal_discharge", "value": "Thick, whitish, may be colored" },
+                { "key": "sneezing", "value": "Yes" },
+                { "key": "bad_breath", "value": "No" },
+                { "key": "upper_teeth_pain", "value": "No" },
+                { "key": "double_sickness", "value": "No" },
+                { "key": "facial_pain", "value": "No" },
+                { "key": "additional_features", "value": ["Low-grade fever"] }
+              ]
+            },
+            {
+              "block_heading": "Sinusitis",
+              "block_type": "key_value",
+              "data": [
+                { "key": "onset", "value": "Varies" },
+                { "key": "duration", "value": "May last >14 days" },
+                { "key": "fever", "value": "Yes" },
+                { "key": "body_pain", "value": "May be" },
+                { "key": "nasal_discharge", "value": "Cloudy, colored" },
+                { "key": "sneezing", "value": "No" },
+                { "key": "bad_breath", "value": "Yes" },
+                { "key": "upper_teeth_pain", "value": "Yes" },
+                { "key": "double_sickness", "value": "Yes" },
+                { "key": "facial_pain", "value": "Yes" },
+                { "key": "additional_features", "value": ["Pain over cheek radiating to teeth, increases with bending", "Facial pain at vertex, temple, or occiput"] }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Non-Pharmacologic Management",
+      "items": [
+        {
+          "item_title": "Management of Rhinitis",
+          "keywords": [
+            "non pharmacologic management allergic rhinitis",
+            "allergy prevention",
+            "pollen avoidance",
+            "pollen removal",
+            "dust mite control",
+            "dust mite prevention",
+            "humidity control",
+            "pet allergy prevention",
+            "cat allergen reduction",
+            "occupational allergen protection"
+          ],
+          "blocks": [
+            {
+              "block_heading": "Non-Pharmacologic Strategies",
+              "block_type": "list",
+              "data": [
+                "Keep windows and doors of house and car closed during pollen season (use air conditioning on recirculating mode if necessary)",
+                "Shower after outdoor exposure to remove pollen from hair and skin",
+                "Use impermeable mattress and pillow covers to reduce dust mite exposure",
+                "Wash bed linens every 2 weeks in hot water (≥130°F) to kill dust mites",
+                "Maintain indoor humidity below 50% using dehumidification or air conditioning",
+                "For animal allergy: complete avoidance or confine animal to non-carpeted areas and keep out of bedroom",
+                "Reduce cat allergen levels with filters and by bathing the cat weekly",
+                "Use facial masks for occupational allergens"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "First Line Therapies",
+      "items": [
+        {
+          "item_title": "Mometasone",
+          "associated_brands": ["NASONEX"],
+          "keywords": ["NASONEX", "mometasone", "nasal spray", "steroid spray", "intranasal corticosteroid", "allergy spray"],
+          "blocks": [
+            {
+              "block_heading": "Therapy Details",
+              "block_type": "key_value",
+              "data": [
+                { "key": "type", "value": "Intranasal Corticosteroids" },
+                { "key": "efficacy", "value": "Can treat all symptoms of allergic rhinitis" },
+                { "key": "onset", "value": "Effective after 10-12 hours, maximum effect in 1-2 weeks" },
+                { "key": "safety", "value": "Safe for long duration/chronic use" },
+                { "key": "additional_instructions", "value": "Use with gargle (Dentu, Avohex, or Betadine) or normal saline nasal spray/wash" }
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Fluticasone",
+          "associated_brands": ["FLIXONASE"],
+          "keywords": ["FLIXONASE", "fluticasone", "nasal spray", "steroid spray", "intranasal corticosteroid"],
+          "blocks": [
+            {
+              "block_heading": "Therapy Details",
+              "block_type": "key_value",
+              "data": [
+                { "key": "type", "value": "Intranasal Corticosteroids" },
+                { "key": "efficacy", "value": "Can treat all symptoms of allergic rhinitis" },
+                { "key": "onset", "value": "Effective after 10-12 hours, maximum effect in 1-2 weeks" },
+                { "key": "safety", "value": "Safe for long duration/chronic use" },
+                { "key": "additional_instructions", "value": "Use with gargle (Dentu, Avohex, or Betadine) or normal saline nasal spray/wash" }
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Budesonide",
+          "associated_brands": ["BUDINID"],
+          "keywords": ["BUDINID", "budesonide", "nasal spray", "pregnancy-safe allergy", "steroid spray"],
+          "blocks": [
+            {
+              "block_heading": "Therapy Details",
+              "block_type": "key_value",
+              "data": [
+                { "key": "type", "value": "Intranasal Corticosteroids" },
+                { "key": "efficacy", "value": "Can treat all symptoms of allergic rhinitis" },
+                { "key": "onset", "value": "Effective after 10-12 hours, maximum effect in 1-2 weeks" },
+                { "key": "safety", "value": "Only one approved for pregnant women" },
+                { "key": "additional_instructions", "value": "Use with gargle (Dentu, Avohex, or Betadine) or normal saline nasal spray/wash" }
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Fexofenadine",
+          "associated_brands": ["TELFAST", "FEXODINE"],
+          "keywords": ["TELFAST", "FEXODINE", "fexofenadine", "oral antihistamine", "non-sedating antihistamine"],
+          "blocks": [
+            {
+              "block_heading": "Therapy Details",
+              "block_type": "key_value",
+              "data": [
+                { "key": "type", "value": "Oral Antihistamines (2nd generation)" },
+                { "key": "efficacy", "value": "Can treat all symptoms except nasal congestion" },
+                { "key": "duration", "value": "Use as needed or until symptoms resolve" }
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Loratadine",
+          "associated_brands": ["LORINE", "CLARITINE"],
+          "keywords": ["LORINE", "CLARITINE", "loratadine", "pregnancy-safe antihistamine", "oral allergy medication"],
+          "blocks": [
+            {
+              "block_heading": "Therapy Details",
+              "block_type": "key_value",
+              "data": [
+                { "key": "type", "value": "Oral Antihistamines (2nd generation)" },
+                { "key": "efficacy", "value": "Can treat all symptoms except nasal congestion" },
+                { "key": "duration", "value": "Use as needed or until symptoms resolve" },
+                { "key": "safety", "value": "Safe in pregnant women" }
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Cetirizine",
+          "associated_brands": ["ZYRTIC", "ARTIZ"],
+          "keywords": ["ZYRTIC", "ARTIZ", "cetirizine", "breastfeeding-safe antihistamine", "oral allergy treatment"],
+          "blocks": [
+            {
+              "block_heading": "Therapy Details",
+              "block_type": "key_value",
+              "data": [
+                { "key": "type", "value": "Oral Antihistamines (2nd generation)" },
+                { "key": "efficacy", "value": "Can treat all symptoms except nasal congestion" },
+                { "key": "duration", "value": "Use as needed or until symptoms resolve" },
+                { "key": "safety", "value": "Safe during lactation" }
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Desloratadine",
+          "associated_brands": ["AERIUS", "NEORIN"],
+          "keywords": ["AERIUS", "NEORIN", "desloratadine", "oral antihistamine", "non-sedating antihistamine"],
+          "blocks": [
+            {
+              "block_heading": "Therapy Details",
+              "block_type": "key_value",
+              "data": [
+                { "key": "type", "value": "Oral Antihistamines (2nd generation)" },
+                { "key": "efficacy", "value": "Can treat all symptoms except nasal congestion" },
+                { "key": "duration", "value": "Use as needed or until symptoms resolve" }
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Loratadine/Pseudoephedrine",
+          "associated_brands": ["CLARINASE", "LORINASE-D"],
+          "keywords": ["CLARINASE", "LORINASE-D", "loratadine/pseudoephedrine", "antihistamine decongestant", "nasal congestion relief"],
+          "blocks": [
+            {
+              "block_heading": "Therapy Details",
+              "block_type": "key_value",
+              "data": [
+                { "key": "type", "value": "Combined Oral Antihistamine/Decongestant" },
+                { "key": "efficacy", "value": "Treats all symptoms including nasal congestion" },
+                { "key": "duration", "value": "Short course (3-5 days)" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Additional Therapies",
+      "items": [
+        {
+          "item_title": "Levocabastine",
+          "associated_brands": ["LIVOSTIN spray"],
+          "keywords": ["LIVOSTIN spray", "levocabastine", "nasal antihistamine", "allergy nasal spray", "combination allergy therapy"],
+          "blocks": [
+            {
+              "block_heading": "Therapy Details",
+              "block_type": "key_value",
+              "data": [
+                { "key": "type", "value": "Intranasal Antihistamines" },
+                { "key": "indication", "value": "When intranasal corticosteroids alone are insufficient" }
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Pseudoephedrine",
+          "associated_brands": ["Sudafed"],
+          "keywords": ["pseudoephedrine", "Sudafed", "oral decongestant", "nasal congestion relief", "allergy decongestant"],
+          "blocks": [
+            {
+              "block_heading": "Therapy Details",
+              "block_type": "key_value",
+              "data": [
+                { "key": "type", "value": "Oral Decongestants" },
+                { "key": "duration", "value": "Short course (3-5 days)" }
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Xylometazoline",
+          "associated_brands": ["Otrivin"],
+          "keywords": ["Otrivin", "xylometazoline", "nasal decongestant", "short-term congestion relief", "nasal spray decongestant"],
+          "blocks": [
+            {
+              "block_heading": "Therapy Details",
+              "block_type": "key_value",
+              "data": [
+                { "key": "type", "value": "Nasal Decongestants" },
+                { "key": "duration", "value": "Not to exceed 3-5 days" }
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Saline Nasal Sprays",
+          "keywords": ["saline spray", "nasal irrigation", "salt water rinse", "non-medicated nasal spray", "nasal moisturizer"],
+          "blocks": [
+            {
+              "block_heading": "Therapy Details",
+              "block_type": "key_value",
+              "data": [
+                { "key": "type", "value": "Intranasal Saline" },
+                { "key": "indication", "value": "For nasal congestion relief" }
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Immunotherapy and Surgery",
+          "keywords": ["immunotherapy", "allergy surgery", "severe rhinitis treatment"],
+          "blocks": [
+            {
+              "block_heading": "Therapy Details",
+              "block_type": "text",
+              "data": "Reserved for patients with severe symptoms not responding to pharmacological therapy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Treatment Protocol",
+      "items": [
+        {
+          "item_title": "Mild Intermittent",
+          "keywords": ["mild rhinitis treatment", "oral antihistamines", "intermittent allergy", "seasonal allergy treatment"],
+          "blocks": [
+            {
+              "block_heading": "Treatment",
+              "block_type": "text",
+              "data": "Oral H1-blocker ± decongestant (e.g., saline spray, nasal/oral decongestant if nasal congestion present)"
+            }
+          ]
+        },
+        {
+          "item_title": "Moderate/Severe Intermittent",
+          "keywords": ["moderate rhinitis", "nasal antihistamines", "severe allergy", "allergy flare treatment"],
+          "blocks": [
+            {
+              "block_heading": "Treatment",
+              "block_type": "text",
+              "data": "Intranasal H1-blocker ± decongestant"
+            }
+          ]
+        },
+        {
+          "item_title": "Mild Persistent",
+          "keywords": ["persistent rhinitis", "steroid nasal spray", "chronic allergy", "year-round allergy treatment"],
+          "blocks": [
+            {
+              "block_heading": "Treatment",
+              "block_type": "text",
+              "data": "Intranasal steroid, Intranasal H1-blocker ± decongestant"
+            }
+          ]
+        },
+        {
+          "item_title": "Moderate/Severe Persistent",
+          "keywords": ["severe persistent rhinitis", "combination allergy therapy", "chronic allergy management"],
+          "blocks": [
+            {
+              "block_heading": "Treatment",
+              "block_type": "text",
+              "data": "Intranasal steroid + Oral H1-blocker ± decongestant, consider combination therapy if monotherapy insufficient"
+            }
+          ]
+        },
+        {
+          "item_title": "With Asthma",
+          "keywords": ["allergic asthma", "Montelukast", "Singulair", "asthma and rhinitis", "leukotriene inhibitor"],
+          "blocks": [
+            {
+              "block_heading": "Treatment",
+              "block_type": "text",
+              "data": "Add Montelukast (e.g., Singulair)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Nasal Allergy Prophylaxis",
+      "items": [
+        {
+          "item_title": "Prevalin Allergy",
+          "keywords": ["Prevalin Allergy", "allergen barrier", "nasal gel", "allergy prevention spray", "non-drug allergy treatment", "sesame allergy"],
+          "blocks": [
+            {
+              "block_heading": "Forms",
+              "block_type": "key_value",
+              "data": [
+                { "key": "Adult formula", "value": "12 years and above" },
+                { "key": "Kids formula", "value": "6 to 12 years" }
+              ]
+            },
+            {
+              "block_heading": "Mechanism",
+              "block_type": "text",
+              "data": "Forms micro-gel that traps allergens, transforms to liquid after shaking and back to gel in nose"
+            },
+            {
+              "block_heading": "Dosing",
+              "block_type": "text",
+              "data": "1-2 sprays per nostril, 2-3 times daily"
+            },
+            {
+              "block_heading": "Duration",
+              "block_type": "text",
+              "data": "Works up to 6 hours"
+            },
+            {
+              "block_heading": "Instructions",
+              "block_type": "list",
+              "data": [
+                "Shake bottle vigorously upright 4 times",
+                "Turn upside down and shake 4 times",
+                "Remove cap",
+                "Prime pump by pressing applicator for 5-10 seconds until full spray is obtained"
+              ]
+            },
+            {
+              "block_heading": "Contraindication",
+              "block_type": "text",
+              "data": "Contraindicated for patients with sesame allergy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Nasal Moisturizers",
+      "items": [
+        {
+          "item_title": "Vivo spray",
+          "keywords": ["Vivo spray", "nasal moisturizer", "sesame oil spray", "dry nose relief", "non-medicated nasal spray"],
+          "blocks": [
+            {
+              "block_heading": "Product Details",
+              "block_type": "key_value",
+              "data": [
+                { "key": "age", "value": "6 years and above" },
+                { "key": "ingredients", "value": "Sesame oil, aloe oil" },
+                { "key": "dosing", "value": "1-3 times daily" },
+                { "key": "function", "value": "Moisturizes dry nasal mucosa, preserves and prevents water loss" }
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Vivo Plus spray",
+          "keywords": ["Vivo Plus spray", "nasal moisturizer", "bergamot oil", "marjoram oil", "dry nose relief"],
+          "blocks": [
+            {
+              "block_heading": "Product Details",
+              "block_type": "key_value",
+              "data": [
+                { "key": "age", "value": "6 years and above" },
+                { "key": "ingredients", "value": "Sesame oil, aloe oil, bergamot oil, marjoram oils" },
+                { "key": "dosing", "value": "1-3 times daily" },
+                { "key": "function", "value": "Moisturizes dry nasal mucosa, provides pleasant odor" }
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Salinose gel",
+          "keywords": ["Salinose gel", "saline nasal gel", "nasal dryness", "nasal moisturizing gel"],
+          "blocks": [
+            {
+              "block_heading": "Product Details",
+              "block_type": "key_value",
+              "data": [
+                { "key": "age", "value": "Adults" },
+                { "key": "ingredients", "value": "Sodium chloride gel" },
+                { "key": "dosing", "value": "1-2 times daily" },
+                { "key": "function", "value": "Moisturizes nasal mucosa" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Ocular Symptoms Relief",
+      "items": [
+        {
+          "item_title": "Levocabastine Eye Drops",
+          "associated_brands": ["LIVOSTIN Eye Drops"],
+          "keywords": ["LIVOSTIN Eye Drops", "allergy eye drops", "itchy eyes", "ocular allergy", "levocabastine", "eye allergy relief"],
+          "blocks": [
+            {
+              "block_heading": "Product Details",
+              "block_type": "key_value",
+              "data": [
+                { "key": "active", "value": "Levocabastine 0.5mg/ml" },
+                { "key": "dosing", "value": "As needed for itchy eyes" }
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Sodium Cromoglicate",
+          "associated_brands": ["Croma Ophthalmic Solution"],
+          "keywords": ["Croma Eye Drops", "sodium cromoglicate", "mast cell stabilizer", "allergic conjunctivitis", "eye allergy treatment"],
+          "blocks": [
+            {
+              "block_heading": "Product Details",
+              "block_type": "key_value",
+              "data": [
+                { "key": "active", "value": "Sodium Cromoglicate" },
+                { "key": "dosing", "value": "Twice daily" },
+                { "key": "function", "value": "Alleviates eye inflammation and watery eyes" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Throat Soothing and Gargles",
+      "items": [
+        {
+          "item_title": "Cetylpyridinium Chloride Lozenges",
+          "associated_brands": ["Septolete"],
+          "keywords": ["Septolete", "cetylpyridinium chloride", "throat lozenges", "antiseptic lozenge"],
+          "blocks": [
+            {
+              "block_heading": "Product Details",
+              "block_type": "key_value",
+              "data": [
+                { "key": "active", "value": "Cetylpyridinium chloride" },
+                { "key": "function", "value": "Antiseptic for mouth and throat" },
+                { "key": "age", "value": "Not suitable for age <4 years" },
+                { "key": "dosing", "value": "1 tablet every 2-3 hours, max 8 tablets/day for adults" }
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Chlorhexidine Lozenges",
+          "associated_brands": ["Septo"],
+          "keywords": ["Septo", "chlorhexidine", "diabetic-safe lozenge", "throat antiseptic"],
+          "blocks": [
+            {
+              "block_heading": "Product Details",
+              "block_type": "key_value",
+              "data": [
+                { "key": "active", "value": "Chlorhexidine" },
+                { "key": "function", "value": "Antiseptic for mouth and throat" },
+                { "key": "suitability", "value": "Suitable for diabetic patients" },
+                { "key": "dosing", "value": "1 tablet 3 times daily" }
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Strepsils Lozenges",
+          "keywords": ["Strepsils", "hexylresorcinol", "diabetic-safe lozenge", "throat relief"],
+          "blocks": [
+            {
+              "block_heading": "Product Details",
+              "block_type": "list",
+              "data": [
+                "Strepsils Lemon: Suitable for diabetic patients",
+                "Strepsils Extra: Contains hexylresorcinol for antiseptic and local anesthetic action"
+              ]
+            },
+            {
+              "block_heading": "Function",
+              "block_type": "text",
+              "data": "Soothes sore throat, provides fast relief"
+            }
+          ]
+        },
+        {
+          "item_title": "Iodine Gargle",
+          "associated_brands": ["Betadine"],
+          "keywords": ["Betadine", "iodine gargle", "oral antiseptic", "sore throat relief"],
+          "blocks": [
+            {
+              "block_heading": "Product Details",
+              "block_type": "key_value",
+              "data": [
+                { "key": "active", "value": "Iodine" },
+                { "key": "function", "value": "Antiseptic for oral cavity and sore throat" },
+                { "key": "dosing", "value": "2-3 times daily" }
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Chlorhexidine Mouthwash",
+          "associated_brands": ["Dentu", "Avohex"],
+          "keywords": ["Dentu", "Avohex", "chlorhexidine gargle", "iodine alternative"],
+          "blocks": [
+            {
+              "block_heading": "Product Details",
+              "block_type": "key_value",
+              "data": [
+                { "key": "active", "value": "Chlorhexidine" },
+                { "key": "function", "value": "Antiseptic for oral cavity, suitable for patients intolerant to iodine" },
+                { "key": "dosing", "value": "2-3 times daily" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Referral Indications",
+      "items": [
+        {
+          "item_title": "Referral Indications",
+          "keywords": [
+            "referral indications allergic rhinitis",
+            "allergy specialist",
+            "pediatric allergy",
+            "severe allergy cases",
+            "treatment failure",
+            "allergy impact",
+            "allergen testing"
+          ],
+          "blocks": [
+            {
+              "block_heading": "When to Refer",
+              "block_type": "list",
+              "data": [
+                "Patient less than 2 years old",
+                "Severe symptoms",
+                "Poor or no response to therapy",
+                "Quality of life excessively impaired (e.g., no sleep, absence from work)",
+                "Need for specific allergen identification"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Complications",
+      "items": [
+        {
+          "item_title": "Complications of Rhinitis",
+          "keywords": [
+            "allergy complications allergic rhinitis",
+            "rhinitis complications",
+            "sinusitis",
+            "ear infections",
+            "allergy-induced asthma",
+            "eustachian tube issues",
+            "sleep apnea allergies"
+          ],
+          "blocks": [
+            {
+              "block_heading": "Complications",
+              "block_type": "list",
+              "data": [
+                "Acute or chronic sinusitis",
+                "Otitis media",
+                "Asthma (independent risk factor, especially in patients diagnosed with AR during infancy)",
+                "Eustachian tube dysfunction (ear fullness, otalgia, ear-popping)",
+                "Sleep disturbance or apnea"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

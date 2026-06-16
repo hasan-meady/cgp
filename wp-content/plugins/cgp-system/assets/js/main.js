@@ -20,6 +20,11 @@ document.addEventListener('DOMContentLoaded', () => {
   });
   
   if (searchInput) {
+    // Auto-focus the input when page loads
+    setTimeout(() => {
+      searchInput.focus();
+    }, 100);
+
     searchInput.addEventListener("keydown", function (e) {
       if (e.key === "Enter") {
         e.preventDefault();
@@ -90,6 +95,11 @@ document.addEventListener('DOMContentLoaded', () => {
           startSearching(searchTerm);
           searchInput.focus();
         });
+
+        // Guarantee focus after Awesomplete modifies the DOM
+        setTimeout(() => {
+          searchInput.focus();
+        }, 150);
 
       } else {
         console.error("Awesomplete not loaded or search input not found");

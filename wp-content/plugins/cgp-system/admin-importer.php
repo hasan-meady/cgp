@@ -41,6 +41,11 @@ function cgp_handle_import_submission() {
         $data = json_decode($json_string, true);
 
         if (json_last_error() === JSON_ERROR_NONE && is_array($data)) {
+            // If the root is a single object (associative array), wrap it in an array
+            if (isset($data['id']) || isset($data['title'])) {
+                $data = [$data];
+            }
+
             $imported_count = 0;
             
             foreach ($data as $item) {
@@ -154,7 +159,7 @@ function cgp_handle_import_submission() {
         $category = sanitize_text_field($_POST['cgp_quick_category']);
         $keywords = !empty($_POST['cgp_quick_keywords']) ? array_map('trim', explode(',', sanitize_text_field($_POST['cgp_quick_keywords']))) : [];
         
-        $content = [];
+        $blocks = [];
         if (isset($_POST['cgp_content_keys']) && isset($_POST['cgp_content_values'])) {
             $keys = $_POST['cgp_content_keys'];
             $values = $_POST['cgp_content_values'];
@@ -163,16 +168,16 @@ function cgp_handle_import_submission() {
                 // Allow some basic formatting but sanitize
                 $v = wp_kses_post($values[$i]);
                 if (!empty($k) && !empty($v)) {
-                    $content[$k] = $v;
+                    $blocks[] = [
+                        'block_heading' => $k,
+                        'block_type' => 'text',
+                        'data' => $v
+                    ];
                 }
             }
         }
-        
-        if (!empty($keywords)) {
-            $content['keywords'] = $keywords;
-        }
 
-        // Format to match the exact schema of cards.json
+        // Format to match the exact schema
         $item = [
             'id' => sanitize_title($title),
             'title' => $title,
@@ -181,10 +186,13 @@ function cgp_handle_import_submission() {
             'committee' => 'Manual Builder',
             'sections' => [
                 [
-                    'title' => $category,
-                    'content' => [
+                    'section_title' => $category,
+                    'items' => [
                         [
-                            $title => $content
+                            'item_title' => $title,
+                            'associated_brands' => [],
+                            'keywords' => $keywords,
+                            'blocks' => $blocks
                         ]
                     ]
                 ]
@@ -192,10 +200,6 @@ function cgp_handle_import_submission() {
         ];
 
         // Format as array since process_json_insertion handles arrays or single objects if they are wrapped
-        // Wait, process_json_insertion does: foreach ($data as $item)
-        // If we wrap it in an array, $item inside the loop will be our schema!
-        // But $process_json_insertion checks $item['drug'] or $item['title'] to set the WP post title.
-        // Our schema has 'title' at the top level! So it will use 'title'.
         $json_string = wp_json_encode([$item]);
         $process_json_insertion($json_string);
     }
@@ -233,21 +237,24 @@ function cgp_handle_import_submission() {
     "committee": "Medical Committee",
     "sections": [
       {
-        "title": "Category of the Guide (e.g. Oncology, Cardiology)",
-        "content": [
+        "section_title": "Category of the Guide (e.g. Oncology, Cardiology)",
+        "items": [
           {
-            "Drug Name or Protocol Name": {
-              "Administration": "Details about administration...",
-              "Instructions": "General instructions...",
-              "Precautions": [
-                "Precaution point 1",
-                "Precaution point 2"
-              ],
-              "Dietary Considerations": [
-                "Dietary point 1"
-              ],
-              "keywords": ["tag1", "tag2", "disease name", "symptom"]
-            }
+            "item_title": "Drug Name or Protocol Name",
+            "associated_brands": ["Brand 1", "Brand 2"],
+            "keywords": ["tag1", "disease name", "brand name", "symptom"],
+            "blocks": [
+              {
+                "block_heading": "Administration",
+                "block_type": "text",
+                "data": "Details about administration..."
+              },
+              {
+                "block_heading": "Precautions",
+                "block_type": "list",
+                "data": ["Precaution 1", "Precaution 2"]
+              }
+            ]
           }
         ]
       }
@@ -256,11 +263,12 @@ function cgp_handle_import_submission() {
 ]
 
 Rules:
-1. You MUST nest the actual drug details inside `sections` -> `content` -> `Drug Name` exactly as shown above.
-2. All sections from the PDF must be represented as keys directly under the Drug Name object (e.g. "Administration", "Adverse Effects", "Contraindications"). DO NOT summarize. Extract exactly as it is.
-3. You MUST include a "keywords" array inside the Drug Name object containing highly relevant search terms (diseases, drug names, synonyms, symptoms, brands).
-4. Ignore references, authors, or staff created names. Focus purely on medical/pharmacology data.
-5. Ensure the output is 100% valid JSON and return an ARRAY of objects (even if there is only 1 object).';
+1. You MUST use the exact schema shown above: sections -> items -> blocks.
+2. For `block_type`, use one of: "text", "list", "key_value", "nested_list", "table". Structure the `data` field appropriately.
+3. You MUST include a "keywords" array inside the item containing highly relevant search terms.
+4. Extract associated brand names into the `associated_brands` array.
+5. Ignore references, authors, or staff created names. Focus purely on medical/pharmacology data.
+6. Ensure the output is 100% valid JSON and return an ARRAY of objects (even if there is only 1 object).';
 
             // Gemini API Request Payload
             $payload = array(

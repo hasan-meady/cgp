@@ -129,24 +129,33 @@ function renderDrugResult(result) {
   }
 
   let printContentStr = '';
-  if (result.content && result.content.print) {
-    printContentStr = Array.isArray(result.content.print)
-      ? `<ul>${result.content.print.map(item => `<li>${item}</li>`).join('')}</ul>`
-      : result.content.print;
-  } else if (result.content) {
-    if (typeof result.content === 'string') {
-      printContentStr = result.content;
-    } else if (Array.isArray(result.content) && typeof result.content[0] === 'string') {
-      printContentStr = `<ul>${result.content.map(item => `<li>${item}</li>`).join('')}</ul>`;
-    } else if (typeof result.content === 'object') {
-      const parts = [];
-      ['administration', 'instructions', 'precautions'].forEach(key => {
-        if (result.content[key]) {
-          parts.push(`<strong>${key}:</strong> ${result.content[key]}`);
+  let showPrintButton = false;
+
+  if (result.content && result.content.blocks && Array.isArray(result.content.blocks)) {
+    const parts = [];
+    result.content.blocks.forEach(block => {
+      const heading = (block.block_heading || '').toLowerCase();
+      if (/print|admin|instruct|precaution|dos|diet/i.test(heading)) {
+        showPrintButton = true;
+        let dataStr = '';
+        if (block.block_type === 'text') {
+           dataStr = block.data;
+        } else if (block.block_type === 'list' && Array.isArray(block.data)) {
+           dataStr = `<ul>${block.data.map(i => `<li>${i}</li>`).join('')}</ul>`;
+        } else if (block.block_type === 'key_value' && Array.isArray(block.data)) {
+           dataStr = `<ul>${block.data.map(kv => {
+             let val = Array.isArray(kv.value) ? kv.value.join(', ') : kv.value;
+             return `<li><strong>${kv.key}:</strong> ${val}</li>`;
+           }).join('')}</ul>`;
+        } else {
+           dataStr = String(block.data);
         }
-      });
-      printContentStr = parts.join('<br>') || 'See details on dashboard';
-    }
+        if (dataStr && dataStr !== 'undefined') {
+            parts.push(`<strong>${block.block_heading}:</strong><br>${dataStr}`);
+        }
+      }
+    });
+    printContentStr = parts.join('<br><br>') || 'See details on dashboard';
   } else {
     printContentStr = 'See details on dashboard';
   }
@@ -155,12 +164,7 @@ function renderDrugResult(result) {
   const safePrintContent = encodeURIComponent(printContentStr);
   const safeDrugName = encodeURIComponent(result.drug || result.title || result.name || '');
 
-  let hasDietary = false;
-  if (result.content && typeof result.content === 'object' && !Array.isArray(result.content)) {
-    hasDietary = Object.keys(result.content).some(k => /dietary/i.test(k));
-  }
-
-  if (hasDietary) {
+  if (showPrintButton) {
     html += `
       <button class="print-btn" data-print-content-encoded="${safePrintContent}" data-drug-name="${safeDrugName}" title="Print Sticker">
         <i class="fas fa-print"></i> Print Sticker

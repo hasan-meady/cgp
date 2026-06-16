@@ -7,67 +7,91 @@ function formatContent(content, searchTerm = '') {
 
   if (!content) return '';
 
-  if (typeof content === 'string') {
-    return `<li class="content-value">${highlightLine(content, searchTerm)}</li>`
+  let html = '';
+
+  // Render Associated Brands
+  if (content.associated_brands && Array.isArray(content.associated_brands) && content.associated_brands.length > 0) {
+     const brandsString = content.associated_brands.map(b => `<span class="brand-badge" style="background:#e8f0fe; color:#1a73e8; border-radius:12px; padding:2px 8px; margin-right:5px; font-size:12px; display:inline-block;">${b}</span>`).join(' ');
+     html += `
+       <div class="brands-wrapper mb-2">
+         <strong>Brands:</strong> ${highlightSearchTerm(brandsString, searchTerm)}
+       </div>
+     `;
   }
 
-  if (Array.isArray(content)) {
-    if (content.every(item => typeof item === 'string')) {
-      if (content.some(item => item.includes('keywords:'))) {
-        const keywordsString = content.map(keyword => `<span class="keyword-badge">${keyword}</span>`).join(' ');
-        return `
-          <div class="keywords-wrapper">
-            <strong>Keywords:</strong> 
-            <span class="keywords-list">${highlightSearchTerm(keywordsString, searchTerm)}</span>
-          </div>
-        `;
-      }
-      return `<ul>${content.map(item =>
-        `<li class="${containsTerm(item, searchTerm) ? 'term-line' : ''}">${highlightSearchTerm(item, searchTerm)}</li>`
-      ).join('')}</ul>`;
-    }
-    return content.map(item => formatContent(item, searchTerm)).join('');
+  // Render Keywords
+  if (content.keywords && Array.isArray(content.keywords) && content.keywords.length > 0) {
+     const keywordsString = content.keywords.map(kw => `<span class="keyword-badge">${kw}</span>`).join(' ');
+     html += `
+       <div class="keywords-wrapper mb-3 keywords-items keywords-wrapper-spacing">
+         ${highlightSearchTerm(keywordsString, searchTerm)}
+       </div>
+     `;
   }
 
-  if (typeof content === 'object') {
-    let html = '';
-    for (const [key, value] of Object.entries(content)) {
-      if (value !== undefined && value !== null) {
-        let valueContent;
-        let keywordClass = ""
-        let className = ""
-        
-        if (key === 'keywords' && Array.isArray(value)) {
-          className = getClassByKeyName(key)
-          const keywordsString = value.map(keyword => `<span class="keyword-badge">${keyword}</span>`).join(' ');
-          valueContent = `
-            <div class="keywords-items">
-              ${highlightSearchTerm(keywordsString, searchTerm)}
-            </div>
-          `;
-          keywordClass = 'keywords-wrapper-spacing'
+  // Render Blocks
+  if (content.blocks && Array.isArray(content.blocks)) {
+    html += '<ul>';
+    content.blocks.forEach(block => {
+      if (!block.data) return;
+      
+      const className = getClassByKeyName(block.block_heading || "");
+      let blockContentHtml = '';
 
+      if (block.block_type === 'text') {
+        blockContentHtml = `<div class="content-value">${highlightLine(String(block.data), searchTerm)}</div>`;
+      } 
+      else if (block.block_type === 'list') {
+        if (Array.isArray(block.data)) {
+           blockContentHtml = `<ul>${block.data.map(item => 
+             `<li class="${containsTerm(String(item), searchTerm) ? 'term-line' : ''}">${highlightLine(String(item), searchTerm)}</li>`
+           ).join('')}</ul>`;
         } else {
-          className = getClassByKeyName(key)
-          valueContent = typeof value === 'string'
-            ? highlightLine(value, searchTerm)
-            : formatContent(value, searchTerm);
+           blockContentHtml = `<div class="content-value">${highlightLine(String(block.data), searchTerm)}</div>`;
         }
-
-        if (!html) html += '<ul>';
-        html += `
-          <li class="${containsTerm(key, searchTerm) ? 'term-line' : ''}  ${keywordClass}  ${className}">
-            <strong class="content-key">${highlightSearchTerm(key, searchTerm)}:</strong> 
-            <div class="content-value">${valueContent}</div>
-          </li>
-        `;
       }
-    }
-    if (html) html += '</ul>';
-    return html;
+      else if (block.block_type === 'key_value') {
+        if (Array.isArray(block.data)) {
+           blockContentHtml = `<ul>${block.data.map(kv => {
+             const keyHtml = `<strong>${highlightSearchTerm(kv.key, searchTerm)}:</strong>`;
+             let valHtml = '';
+             if (Array.isArray(kv.value)) {
+                valHtml = `<ul>${kv.value.map(v => `<li>${highlightLine(String(v), searchTerm)}</li>`).join('')}</ul>`;
+             } else {
+                valHtml = `<span>${highlightLine(String(kv.value), searchTerm)}</span>`;
+             }
+             return `<li class="${containsTerm(kv.key, searchTerm) || containsTerm(String(kv.value), searchTerm) ? 'term-line' : ''}">${keyHtml} ${valHtml}</li>`;
+           }).join('')}</ul>`;
+        }
+      }
+      else if (block.block_type === 'nested_list') {
+        if (Array.isArray(block.data)) {
+           blockContentHtml = `<ul>${block.data.map(nl => {
+             const parentHtml = `<strong>${highlightSearchTerm(nl.parent, searchTerm)}:</strong>`;
+             let childrenHtml = '';
+             if (Array.isArray(nl.children)) {
+                childrenHtml = `<ul>${nl.children.map(c => `<li>${highlightLine(String(c), searchTerm)}</li>`).join('')}</ul>`;
+             }
+             return `<li>${parentHtml} ${childrenHtml}</li>`;
+           }).join('')}</ul>`;
+        }
+      }
+      else {
+         // fallback for unknown types or table
+         blockContentHtml = `<div class="content-value"><pre>${highlightLine(JSON.stringify(block.data, null, 2), searchTerm)}</pre></div>`;
+      }
+
+      html += `
+        <li class="${containsTerm(block.block_heading, searchTerm) ? 'term-line' : ''} ${className}">
+          <strong class="content-key">${highlightSearchTerm(block.block_heading, searchTerm)}:</strong> 
+          <div class="content-value mt-1">${blockContentHtml}</div>
+        </li>
+      `;
+    });
+    html += '</ul>';
   }
 
-  return String(content);
+  return html;
 }
 
 function getClassByKeyName(keyName) {
@@ -84,23 +108,25 @@ function getClassByKeyName(keyName) {
     className = "icon-interactions";
   } else if (/precautions/i.test(keyName)) {
     className = "icon-precautions";
-  } else if (/Dietary Consideratopn/i.test(keyName)) {
+  } else if (/Dietary/i.test(keyName)) {
     className = "icon-dietary-considerations";
   } else if (/Pregnancy/i.test(keyName)) {
     className = "icon-pregnancy";
   } else if (/Lactation/i.test(keyName)) {
     className = "icon-lactation";
+  } else if (/Symptoms/i.test(keyName)) {
+    className = "icon-precautions";
   }
-  return className
+  return className;
 }
 
-function createDrugResult(item, section, document, key = null) {
+function createDrugResult(item, section, document) {
   return {
     source: document.title,
-    category: section.category || section.title || "",
-    title: item.title || section.category || section.title || "",
-    drug: key || "",
-    section: section.title || "",
+    category: section.section_title || section.category || section.title || "",
+    title: item.item_title || section.category || section.title || "",
+    drug: item.item_title || "",
+    section: section.section_title || section.title || "",
     content: item || [],
   };
 }
@@ -110,12 +136,6 @@ function extractTagsFromResult(result, tagSet) {
     if (result.content.keywords && Array.isArray(result.content.keywords)) {
       result.content.keywords.forEach(kw => tagSet.add(kw));
     }
-    // Also look inside nested structures if necessary
-    Object.values(result.content).forEach(val => {
-      if (typeof val === 'object' && val !== null && val.keywords && Array.isArray(val.keywords)) {
-        val.keywords.forEach(kw => tagSet.add(kw));
-      }
-    });
   }
 }
 
@@ -140,7 +160,7 @@ function printSticker(drugName, content) {
       }
       .label-container {
         font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-        width: 3.8in; /* slightly less than 4in to avoid cutoff */
+        width: 3.8in;
         max-height: 5.8in;
         box-sizing: border-box;
         padding: 0.2in;

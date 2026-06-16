@@ -7,29 +7,23 @@ function extractKeywords() {
   allData.forEach((document) => {
     if (!document || !document.sections) return;
     document.sections.forEach((section) => {
-      if (section.content) {
-        extractKeywordsFromContent(section.content);
+      if (section.items && Array.isArray(section.items)) {
+        section.items.forEach(item => {
+           if (item.keywords && Array.isArray(item.keywords)) {
+             item.keywords.forEach(kw => allKeywords.add(kw.toLowerCase()));
+           }
+           if (item.associated_brands && Array.isArray(item.associated_brands)) {
+             item.associated_brands.forEach(b => allKeywords.add(b.toLowerCase()));
+           }
+           if (item.item_title) {
+             allKeywords.add(item.item_title.toLowerCase());
+           }
+        });
       }
     });
   });
 
   allKeywords = Array.from(allKeywords);
-}
-
-function extractKeywordsFromContent(content) {
-  if (!content) return;
-
-  if (Array.isArray(content)) {
-    content.forEach((item) => extractKeywordsFromContent(item));
-  } else if (typeof content === 'object' && content !== null) {
-    if (content.keywords && Array.isArray(content.keywords)) {
-      content.keywords.forEach((keyword) => allKeywords.add(keyword.toLowerCase()));
-    }
-    if (content.title) {
-      allKeywords.add(content.title.toLowerCase());
-    }
-    Object.values(content).forEach((value) => extractKeywordsFromContent(value));
-  }
 }
 
 function searchDocuments(searchTerm, selectedSources = []) {
@@ -50,6 +44,7 @@ function searchDocuments(searchTerm, selectedSources = []) {
 }
 
 function isFlexibleMatch(text, searchWords) {
+  if (!text) return false;
   const normalizedText = text.toLowerCase().replace(/[^a-z0-9\s]/g, ' ').replace(/\s+/g, ' ').trim();
   const textWords = normalizedText.split(/\s+/);
 
@@ -65,90 +60,50 @@ function isFlexibleMatch(text, searchWords) {
   });
 }
 
-function searchInContent(content, searchWords, parentKey = null) {
-  if (!content) return [];
-  const matches = [];
+function searchSectionFlexible(section, document, searchWords, results) {
+  if (section.items && Array.isArray(section.items)) {
+    const searchTerms = Array.isArray(searchWords) ? searchWords : [searchWords];
+    
+    section.items.forEach(item => {
+      let isMatch = false;
 
-  const checkKeywords = (obj, key) => {
-    if (obj.keywords) {
-      const searchTerms = Array.isArray(searchWords) ? searchWords : [searchWords];
-      
-      let isKeywordMatches = obj.keywords.some(keyword => {
-        const lowerKeyword = keyword.toLowerCase().trim();
+      // 1. Check title, keywords, and brands for direct/flexible match
+      const searchableStrings = [
+        item.item_title || "",
+        ...(item.keywords || []),
+        ...(item.associated_brands || [])
+      ];
+
+      isMatch = searchableStrings.some(str => {
+        if (!str) return false;
+        const lowerStr = str.toLowerCase().trim();
         return searchTerms.some(term => {
           const lowerTerm = term.toLowerCase().trim();
-          return lowerKeyword.includes(lowerTerm) || lowerTerm.includes(lowerKeyword);
+          return lowerStr.includes(lowerTerm) || lowerTerm.includes(lowerStr);
         });
       });
-      if (isKeywordMatches) {
-        if (key) {
-          matches.push({ [key.replace(/\[\d+\]/g, '')]: obj });
-        } else {
-          matches.push(obj);
-        }
-        return true;
-      }
-    }
-    return false;
-  };
 
-  if (Array.isArray(content)) {
-    content.forEach((item) => {
-      const itemKey = parentKey ? `${parentKey}` : null;
-      matches.push(...searchInContent(item, searchWords, itemKey));
+      // 2. If no direct keyword match, check if title or brands have a flexible match
+      if (!isMatch) {
+         if (isFlexibleMatch(item.item_title, searchTerms)) {
+            isMatch = true;
+         } else if (item.associated_brands && item.associated_brands.some(b => isFlexibleMatch(b, searchTerms))) {
+            isMatch = true;
+         }
+      }
+
+      // 3. Check inside blocks
+      if (!isMatch && item.blocks && Array.isArray(item.blocks)) {
+         isMatch = item.blocks.some(block => {
+            const blockDataStr = JSON.stringify(block.data).toLowerCase();
+            return searchTerms.some(term => blockDataStr.includes(term.toLowerCase().trim()));
+         });
+      }
+
+      if (isMatch) {
+        results.push(createDrugResult(item, section, document));
+      }
     });
-  }
-  else if (typeof content === 'object' && content !== null) {
-    const matchedByKeyword = checkKeywords(content, parentKey);
-    
-    if (!matchedByKeyword) {
-      let foundInValues = false;
-      const searchTerms = Array.isArray(searchWords) ? searchWords : [searchWords];
-      
-      for (const [key, value] of Object.entries(content)) {
-        if (typeof value === 'string' && isFlexibleMatch(value, searchTerms)) {
-           foundInValues = true;
-           break;
-        } else if (key === 'title' && typeof value === 'string' && searchTerms.some(term => value.toLowerCase().includes(term.toLowerCase().trim()))) {
-           foundInValues = true;
-           break;
-        }
-      }
-      
-      if (foundInValues) {
-        if (parentKey) {
-          matches.push({ [parentKey.replace(/\[\d+\]/g, '')]: content });
-        } else {
-          matches.push(content);
-        }
-      } else {
-        for (const [key, value] of Object.entries(content)) {
-          const nestedKey = parentKey ? `${parentKey} > ${key}` : key;
-          if (Array.isArray(value)) {
-            value.forEach((subItem) => {
-              matches.push(...searchInContent(subItem, searchWords, `${nestedKey}`));
-            });
-          } else if (typeof value === 'object' && value !== null) {
-            matches.push(...searchInContent(value, searchWords, nestedKey));
-          }
-        }
-      }
-    }
-  }
-
-  return matches;
-}
-
-function searchSectionFlexible(section, document, searchWords, results) {
-  if (section.content) {
-    const contentMatches = searchInContent(section.content, searchWords);
-    if (contentMatches.length > 0) {
-      contentMatches.forEach(match => {
-        const [key, content] = Object.entries(match)[0] || [null, match];
-        const finalKey = key === "keywords" ? null : key;
-        results.push(createDrugResult(content, section, document, finalKey));
-      });
-    }
   }
 }
 
@@ -164,6 +119,7 @@ function deduplicateResults(results) {
           result.title || "",
           result.drug || "",
           result.section || "",
+          result.category || "",
           JSON.stringify(result.content, (k, v) => (v === undefined ? null : v))
         ].join("|");
         if (!resultMap.has(key)) resultMap.set(key, result);
@@ -175,5 +131,3 @@ function deduplicateResults(results) {
 
   return Array.from(resultMap.values());
 }
-
-

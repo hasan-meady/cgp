@@ -1,0 +1,1081 @@
+{
+  "id": "digestive-and-respiratory-products",
+  "title": "PHARMA INFO - EMAILS",
+  "type": "product-guide",
+  "release": "Release #1",
+  "committee": "Pharmaceutical Care Committee",
+  "sections": [
+    {
+      "section_title": "Digestive Products",
+      "items": [
+        {
+          "item_title": "Ondansetron",
+          "associated_brands": ["Zoron"],
+          "keywords": [
+            "Zoron",
+            "ondansetron",
+            "Zofran",
+            "anti-emetic",
+            "nausea"
+          ],
+          "blocks": [
+            {
+              "block_heading": "Indications",
+              "block_type": "list",
+              "data": [
+                "Treatment of nausea and vomiting in children with acute gastroenteritis in emergency pediatric settings",
+                "Effective in managing nausea and vomiting during pregnancy"
+              ]
+            },
+            {
+              "block_heading": "Advantages",
+              "block_type": "list",
+              "data": [
+                "80% efficacy in reducing vomiting in children within the first hour of treatment",
+                "Shorter observation time and lower readmission rates to emergency departments",
+                "Available in IV, IM, and oral tablet formulations"
+              ]
+            },
+            {
+              "block_heading": "Dosage Forms",
+              "block_type": "list",
+              "data": [
+                "Zoron™ 8 mg",
+                "Zoron™ 4 mg",
+                "Zoron™ 10 tablets"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Diclofenac Sodium + Omeprazole",
+          "associated_brands": ["Divide Combo"],
+          "keywords": [
+            "Divide Combo",
+            "diclofenac",
+            "omeprazole",
+            "NSAID",
+            "gastric protection"
+          ],
+          "blocks": [
+            {
+              "block_heading": "Indications",
+              "block_type": "list",
+              "data": [
+                "NSAID therapy with enhanced GI protection"
+              ]
+            },
+            {
+              "block_heading": "Advantages",
+              "block_type": "list",
+              "data": [
+                "Significantly higher healing rates than ranitidine in 8-week treatment",
+                "Greater acid suppression than ranitidine leading to continued remission",
+                "Only fixed-dose combination in Middle East with effective pain relief and GI tolerability",
+                "Unique gastro-resistant and prolonged release diclofenac delivery"
+              ]
+            },
+            {
+              "block_heading": "References",
+              "block_type": "list",
+              "data": [
+                "Yeoman ND et al. N Engl J Med. 1998 Mar 12;338(11):719-26",
+                "Divide Combo 75 mg/20 mg capsules SPC",
+                "Allman R et al. Drugs. 2015 May;73(8):839-77"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Digestal",
+          "keywords": [
+            "Digestal",
+            "digestive enzymes",
+            "herbal",
+            "bloating",
+            "flatulence"
+          ],
+          "blocks": [
+            {
+              "block_heading": "Composition",
+              "block_type": "list",
+              "data": [
+                "Dried Artichoke leaf extract 100 mg",
+                "Dried Fennel fruit extract 80 mg",
+                "Dried Peppermint leaf extract 60 mg",
+                "Dried Papaya fruit extract 80 mg"
+              ]
+            },
+            {
+              "block_heading": "Indications",
+              "block_type": "list",
+              "data": [
+                "Improves digestion process",
+                "Reduces bloating and flatulence"
+              ]
+            },
+            {
+              "block_heading": "Dosage",
+              "block_type": "list",
+              "data": [
+                "2 capsules during or immediately after meals"
+              ]
+            },
+            {
+              "block_heading": "Packaging",
+              "block_type": "list",
+              "data": [
+                "30 capsules"
+              ]
+            },
+            {
+              "block_heading": "Origin",
+              "block_type": "list",
+              "data": [
+                "Made in Germany"
+              ]
+            },
+            {
+              "block_heading": "Price",
+              "block_type": "list",
+              "data": [
+                "84.75 SAR"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Easylax",
+          "keywords": [
+            "Easylax",
+            "enema",
+            "constipation",
+            "bowel prep",
+            "phosphate"
+          ],
+          "blocks": [
+            {
+              "block_heading": "Type",
+              "block_type": "list",
+              "data": [
+                "Rectal Enema for Adults"
+              ]
+            },
+            {
+              "block_heading": "Indications (Arabic)",
+              "block_type": "list",
+              "data": [
+                "علاج الإمساك العديد والتحضير لبعض العمليات الجراحية لافراغ الامعاء"
+              ]
+            },
+            {
+              "block_heading": "Composition (Arabic)",
+              "block_type": "list",
+              "data": [
+                "فوسفات الصوديوم أحادي القاعدة ثنائي الهيدرات",
+                "فوسفات ثنائي الصوديوم دوديكاهيدرات"
+              ]
+            },
+            {
+              "block_heading": "Usage (Arabic)",
+              "block_type": "list",
+              "data": [
+                "استخدم حقنة شرحية واحدة عند الضرورة أو حسب الوصفة الطبية"
+              ]
+            },
+            {
+              "block_heading": "Age Group",
+              "block_type": "list",
+              "data": [
+                "للكبار ( اكثر من 12 سنة)"
+              ]
+            },
+            {
+              "block_heading": "Price",
+              "block_type": "list",
+              "data": [
+                "35 ريال"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Isipeg Children",
+          "keywords": [
+            "Isipeg Children",
+            "PEG",
+            "suppository",
+            "pediatric",
+            "constipation"
+          ],
+          "blocks": [
+            {
+              "block_heading": "Type",
+              "block_type": "list",
+              "data": [
+                "12 Rectal Suppositories"
+              ]
+            },
+            {
+              "block_heading": "Indications (Arabic)",
+              "block_type": "list",
+              "data": [
+                "ملين سريع الفاعلية لحالات الامساك الحادة والمزمنة"
+              ]
+            },
+            {
+              "block_heading": "Composition (Arabic)",
+              "block_type": "list",
+              "data": [
+                "بولي إيثيلين جليكول",
+                "المسل 4000"
+              ]
+            },
+            {
+              "block_heading": "Usage (Arabic)",
+              "block_type": "list",
+              "data": [
+                "استخدم تحميلة واحدة عند الضرورة أو حسب الوصفة الطبية"
+              ]
+            },
+            {
+              "block_heading": "Age Group",
+              "block_type": "list",
+              "data": [
+                "لألطفال من عمر 2 سنين"
+              ]
+            },
+            {
+              "block_heading": "Price",
+              "block_type": "list",
+              "data": [
+                "44 ريال"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Redulex Baby",
+          "keywords": [
+            "Redulex Baby",
+            "colic",
+            "infant",
+            "chamomile",
+            "fennel"
+          ],
+          "blocks": [
+            {
+              "block_heading": "Type",
+              "block_type": "list",
+              "data": [
+                "12 Rectal Suppositories"
+              ]
+            },
+            {
+              "block_heading": "Indications (Arabic)",
+              "block_type": "list",
+              "data": [
+                "التقلصات والإنتقاخ والمغض المعوي (سريع الفاعلية في خلال 15-30 دقيقة)"
+              ]
+            },
+            {
+              "block_heading": "Composition (Arabic)",
+              "block_type": "list",
+              "data": [
+                "مكونات طبيعية مستخلصة من ازهار البابونج وأوراق باسم اللهون ويدور الشمر"
+              ]
+            },
+            {
+              "block_heading": "Dosage (Arabic)",
+              "block_type": "list",
+              "data": [
+                "من أسبوعين إلى 3 لشهر: نصف تحميله تصل إلى 3 مرات في اليوم",
+                "للرضع من 3 لشهر إلى 1 سنة: تحميله واحدة حتى 3 مرات في اليوم",
+                "للأطفال من 2 إلى 6 سنوات: تحميله واحدة تصل إلى 3-4 مرات في اليوم"
+              ]
+            },
+            {
+              "block_heading": "Age Group",
+              "block_type": "list",
+              "data": [
+                "للرضع والأطفال من عمر أسبوعين"
+              ]
+            },
+            {
+              "block_heading": "Price",
+              "block_type": "list",
+              "data": [
+                "44 ريال"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Lax Forte Baby",
+          "keywords": [
+            "Lax Forte Baby",
+            "olive oil",
+            "constipation",
+            "pediatric",
+            "suppository"
+          ],
+          "blocks": [
+            {
+              "block_heading": "Type",
+              "block_type": "list",
+              "data": [
+                "10 Rectal Suppositories"
+              ]
+            },
+            {
+              "block_heading": "Indications (Arabic)",
+              "block_type": "list",
+              "data": [
+                "ملين طبيعي للإمساك سريع الفاعلية في خلال 30-15 دقيقة"
+              ]
+            },
+            {
+              "block_heading": "Composition (Arabic)",
+              "block_type": "list",
+              "data": [
+                "مستخلص الزيدة مع زيت الزيتون"
+              ]
+            },
+            {
+              "block_heading": "Dosage (Arabic)",
+              "block_type": "list",
+              "data": [
+                "من أسبوعين إلى 3 أشهر: نصف تحميله مرتين يوميا",
+                "أشهر - سنة 1: تحميله مرتين يوميا",
+                "سنوات: 1 تحميله ثلاث مرات يوميا",
+                "أكثر من 4 سنوات: 1 تحميله أربع مرات يوميا"
+              ]
+            },
+            {
+              "block_heading": "Age Group",
+              "block_type": "list",
+              "data": [
+                "للرضع والأطفال من عمر أسبوعين"
+              ]
+            },
+            {
+              "block_heading": "Price",
+              "block_type": "list",
+              "data": [
+                "44 ريال"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "eulax",
+          "keywords": [
+            "eulax",
+            "PEG",
+            "macrogol",
+            "osmotic laxative",
+            "constipation"
+          ],
+          "blocks": [
+            {
+              "block_heading": "Composition (Arabic)",
+              "block_type": "list",
+              "data": [
+                "بولي إيثيلين جليكول 300 ملحاول 17 جم"
+              ]
+            },
+            {
+              "block_heading": "Indications (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يخفف من الأمساك الغير منتظم"
+              ]
+            },
+            {
+              "block_heading": "Usage (Arabic)",
+              "block_type": "list",
+              "data": [
+                "البالغون والأطفال أكثر من 17 عام بذوب كيس واحد في 100 إلى 200 ملال من السؤال الباردة أو الساخنة ثم يشرب مرة واحدة في اليوم"
+              ]
+            },
+            {
+              "block_heading": "Packaging",
+              "block_type": "list",
+              "data": [
+                "العبوة تحتوي على 30 كيس"
+              ]
+            },
+            {
+              "block_heading": "Price",
+              "block_type": "list",
+              "data": [
+                "52.95 ريال سعودي"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Filtrum Activated Charcoal",
+          "associated_brands": ["FILTRUM"],
+          "keywords": [
+            "FILTRUM",
+            "activated charcoal",
+            "detox",
+            "poisoning",
+            "adsorbent"
+          ],
+          "blocks": [
+            {
+              "block_heading": "Forms",
+              "block_type": "list",
+              "data": [
+                "10 TABLETS 29.50 SAR",
+                "50 TABLETS 75.00 SAR"
+              ]
+            },
+            {
+              "block_heading": "Composition",
+              "block_type": "list",
+              "data": [
+                "Hydrolyzed Lignin 400 mg (مركب طبيعي مستخرج من لحاء الأشجار)",
+                "Activated Carbon (يتم تحضيره من مواد كربونية مثل الخلف بعد معالجتها حرارياً)"
+              ]
+            },
+            {
+              "block_heading": "Advantages (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يتمتع بمسام متعددة الأحجام والأشكال، مما يجعله أكثر كفاءة في امتصاص السموم والبكتيريا والغازات والميروسات",
+                "أقوى 1000 مرة من القحم النشط",
+                "أمن للاستخدام طويل الأمد، لا يمنص ولا سبب التهاب الأمعاء أو تهيج الجهاز الهضفي"
+              ]
+            },
+            {
+              "block_heading": "Dosage",
+              "block_type": "list",
+              "data": [
+                "قرصين مرتين يومياً"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Laxatrol",
+          "associated_brands": ["LAXATROL"],
+          "keywords": [
+            "LAXATROL",
+            "docusate",
+            "sennosides",
+            "stimulant laxative",
+            "stool softener"
+          ],
+          "blocks": [
+            {
+              "block_heading": "Composition",
+              "block_type": "list",
+              "data": [
+                "Docusate Sodium and Semiosides 8.6/50 mg"
+              ]
+            },
+            {
+              "block_heading": "Mechanism",
+              "block_type": "list",
+              "data": [
+                "Dual Action: Laxatol softens stool by increasing water content and stimulates intestinal movement for easier passage"
+              ]
+            },
+            {
+              "block_heading": "Dosage",
+              "block_type": "list",
+              "data": [
+                "2 to 4 tablets"
+              ]
+            },
+            {
+              "block_heading": "Pack Size",
+              "block_type": "list",
+              "data": [
+                "100 tab"
+              ]
+            },
+            {
+              "block_heading": "Price",
+              "block_type": "list",
+              "data": [
+                "42.9"
+              ]
+            },
+            {
+              "block_heading": "Pregnancy Use",
+              "block_type": "list",
+              "data": [
+                "It can be safely used in pregnancy, with recommended use starting from the second trimester"
+              ]
+            },
+            {
+              "block_heading": "Children Use",
+              "block_type": "list",
+              "data": [
+                "Yes (2+ years)"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "HemaGel procto",
+          "keywords": [
+            "HemaGel procto",
+            "hemorrhoids",
+            "anal fissure",
+            "proctology",
+            "wound healing"
+          ],
+          "blocks": [
+            {
+              "block_heading": "Indications (Arabic)",
+              "block_type": "list",
+              "data": [
+                "التئام الجروح الحادة والمزمنة في الغشاء الشرجي لدى المرضى الذين يعانون من الشقوق الشرجية والبولسير",
+                "التخلص من الشعور بالازعاج، وخاصة الشعور بالحرقة والحكة في المستقيم",
+                "الحد من النزيف لدى المرضى الذين يعانون من نزيف البولسير"
+              ]
+            },
+            {
+              "block_heading": "Usage (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يتم اعطاء هيما جيل مرة واحدة يومياً قبل النوم"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "HemaGel",
+          "keywords": [
+            "HemaGel",
+            "wound gel",
+            "skin healing",
+            "moisturizing gel"
+          ],
+          "blocks": [
+            {
+              "block_heading": "Type (Arabic)",
+              "block_type": "list",
+              "data": [
+                "جل مرطب للجروح السطحية"
+              ]
+            },
+            {
+              "block_heading": "Benefits (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يغطي الجرح ويحميه من التلوث الثانوي من الخارج",
+                "يساعد على تسريع التئام الجروح",
+                "يقلل من إفرازات الجرح والرائحة الكريهة",
+                "يساعد على تقليل الألم ويدعم تكوين الأنسجة الجديدة"
+              ]
+            },
+            {
+              "block_heading": "Usage (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يتم وضع طبقة رقيقة على الجرح بعد تنظيفه مرة واحدة يومياً"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Diosmin",
+          "associated_brands": ["Phebodia"],
+          "keywords": [
+            "Phebodia",
+            "Diosmin",
+            "CVI",
+            "hemorrhoids",
+            "venous insufficiency"
+          ],
+          "blocks": [
+            {
+              "block_heading": "Composition",
+              "block_type": "list",
+              "data": [
+                "Diosmin 600 mg (film-coated tablet)"
+              ]
+            },
+            {
+              "block_heading": "Indications",
+              "block_type": "list",
+              "data": [
+                "Chronic Venous Insufficiency (CVI)",
+                "Hemorrhoids"
+              ]
+            },
+            {
+              "block_heading": "Dosage",
+              "block_type": "list",
+              "data": [
+                "1 tablet per day (CVI)",
+                "2-3 tablets per day for 5-7 days (hemorrhoids, lower during regimen)"
+              ]
+            },
+            {
+              "block_heading": "Advantages",
+              "block_type": "list",
+              "data": [
+                "Optimal dose of 600 mg diosmin",
+                "Less excipients",
+                "Registered at European Pharmacopoeia"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Otilonium Bromide",
+          "associated_brands": ["Debromu"],
+          "keywords": [
+            "Debromu",
+            "Otilonium Bromide",
+            "IBS",
+            "spasmolytic",
+            "digestive tract"
+          ],
+          "blocks": [
+            {
+              "block_heading": "Composition",
+              "block_type": "list",
+              "data": [
+                "Otilonium Bromide 40 mg"
+              ]
+            },
+            {
+              "block_heading": "Indications",
+              "block_type": "list",
+              "data": [
+                "Irritable Bowel Syndrome (IBS)",
+                "Spastic-painful manifestations of the distal enteric tract"
+              ]
+            },
+            {
+              "block_heading": "Dosage",
+              "block_type": "list",
+              "data": [
+                "1 tablet (40 mg, coated) 2-3 times a day"
+              ]
+            },
+            {
+              "block_heading": "Advantages",
+              "block_type": "list",
+              "data": [
+                "Very low systemic absorption (3%)",
+                "Side-effect free at therapeutic dose",
+                "Can be prescribed to patients with myasthenia gravis, megacolon, and narrow angle glaucoma (unlike Hyoscine)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Respiratory Products",
+      "items": [
+        {
+          "item_title": "Salbutamol",
+          "associated_brands": ["Ventimax"],
+          "keywords": [
+            "Ventimax",
+            "salbutamol",
+            "bronchodilator",
+            "asthma",
+            "COPD"
+          ],
+          "blocks": [
+            {
+              "block_heading": "Indications",
+              "block_type": "list",
+              "data": [
+                "Bronchial Asthma",
+                "Chronic Obstructive Pulmonary Diseases (COPD)",
+                "Emphysema",
+                "Chronic Bronchitis"
+              ]
+            },
+            {
+              "block_heading": "Dosage Forms",
+              "block_type": "list",
+              "data": [
+                "Ventimax™ 100 mcg",
+                "Ventimax™ HFA"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Budesonide",
+          "associated_brands": ["PulmoJet"],
+          "keywords": [
+            "PulmoJet",
+            "budesonide",
+            "inhaled corticosteroid",
+            "asthma maintenance"
+          ],
+          "blocks": [
+            {
+              "block_heading": "Indications",
+              "block_type": "list",
+              "data": [
+                "Maintenance treatment for asthma",
+                "Reduces exacerbations and improves lung function"
+              ]
+            },
+            {
+              "block_heading": "Dosage Forms",
+              "block_type": "list",
+              "data": [
+                "PulmoJet™ 200 mcg",
+                "PulmoJet™ 400 mcg"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Fluticasone + Salmeterol",
+          "associated_brands": ["CombiJet"],
+          "keywords": [
+            "CombiJet",
+            "fluticasone",
+            "salmeterol",
+            "combination inhaler",
+            "asthma",
+            "COPD"
+          ],
+          "blocks": [
+            {
+              "block_heading": "Indications",
+              "block_type": "list",
+              "data": [
+                "Asthma maintenance therapy",
+                "COPD management"
+              ]
+            },
+            {
+              "block_heading": "Dosage Forms",
+              "block_type": "list",
+              "data": [
+                "CombiJet™ 50/250 mcg",
+                "CombiJet™ 50/500 mcg"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Montelukast",
+          "associated_brands": ["Airfast"],
+          "keywords": [
+            "Montelukast",
+            "Airfast",
+            "leukotriene inhibitor",
+            "asthma",
+            "allergic rhinitis"
+          ],
+          "blocks": [
+            {
+              "block_heading": "Indications",
+              "block_type": "list",
+              "data": [
+                "Prophylaxis and chronic treatment of asthma",
+                "Relief of symptoms of allergic rhinitis"
+              ]
+            },
+            {
+              "block_heading": "Dosage Forms",
+              "block_type": "list",
+              "data": [
+                "Airfast™ 4 mg granules",
+                "Airfast™ 5 mg chewable tablets",
+                "Airfast™ 10 mg tablets"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Dextromethorphan + Guaifenesin",
+          "associated_brands": ["contra"],
+          "keywords": [
+            "contra",
+            "ديكستروميتورفان",
+            "جوابشينيسين",
+            "سعال",
+            "طارد للبلغم"
+          ],
+          "blocks": [
+            {
+              "block_heading": "Composition (Arabic)",
+              "block_type": "list",
+              "data": [
+                "ديكستروميتورفان هيدروبوميد 10 ملحم",
+                "جوابشينيسين 100 ملحم"
+              ]
+            },
+            {
+              "block_heading": "Indications (Arabic)",
+              "block_type": "list",
+              "data": [
+                "تخفيف سريع للسعال مع كونترا",
+                "يتركب من درجة المفعول"
+              ]
+            },
+            {
+              "block_heading": "Mechanism (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يعمل على تهدئة السعال من خلال التأثير على الإشارات في الدماغ التي تحفز الرغبه في السعال",
+                "طارد لليلفم يساعد على إزالة اليلفم وتخفيفه في الشعب الهوائية"
+              ]
+            },
+            {
+              "block_heading": "Dosage (Arabic)",
+              "block_type": "list",
+              "data": [
+                "2 كبسولة كل 6 إلى 8 ساعات عند الضرورة"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Oxymetazoline + Xylometazoline",
+          "associated_brands": ["ClariSpray"],
+          "keywords": [
+            "ClariSpray",
+            "Oxymetazoline",
+            "Xylometazoline",
+            "nasal decongestant",
+            "allergic rhinitis"
+          ],
+          "blocks": [
+            {
+              "block_heading": "Composition",
+              "block_type": "list",
+              "data": [
+                "Oxymetazoline",
+                "Xylometazoline"
+              ]
+            },
+            {
+              "block_heading": "Indications",
+              "block_type": "list",
+              "data": [
+                "Nasal decongestion"
+              ]
+            },
+            {
+              "block_heading": "Advantages",
+              "block_type": "list",
+              "data": [
+                "Starts working in seconds (25-59 sec)",
+                "No-drip pattern (dose stays in nose, no unwanted dripping or unpleasant taste)",
+                "Child-resistant cap",
+                "Can be used with pregnancy and children 6+ years"
+              ]
+            },
+            {
+              "block_heading": "Dosage",
+              "block_type": "list",
+              "data": [
+                "2x/day (every 12 hours)"
+              ]
+            },
+            {
+              "block_heading": "Packaging",
+              "block_type": "list",
+              "data": [
+                "150 sprays per bottle"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Other Products",
+      "items": [
+        {
+          "item_title": "Resveratrol",
+          "associated_brands": ["Veratol"],
+          "keywords": [
+            "Veratol",
+            "Resveratrol",
+            "antioxidant",
+            "heart health",
+            "anti-aging",
+            "neuroprotection"
+          ],
+          "blocks": [
+            {
+              "block_heading": "Composition",
+              "block_type": "list",
+              "data": [
+                "Resveratrol 100 mg"
+              ]
+            },
+            {
+              "block_heading": "Indications",
+              "block_type": "list",
+              "data": [
+                "Cardiovascular support",
+                "Antioxidant and anti-aging properties",
+                "Potential neuroprotection",
+                "Metabolic health support"
+              ]
+            },
+            {
+              "block_heading": "Health Benefits",
+              "block_type": "list",
+              "data": [
+                "May reduce blood pressure, LDL, and thrombosis risk (Heart)",
+                "May limit tumor growth (Cancer)",
+                "Protects nerve cells (Alzheimer's)",
+                "Enhances insulin sensitivity (Diabetes)",
+                "Anti-aging effects"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Phenazone + Lidocaine",
+          "associated_brands": ["OTIPAX"],
+          "keywords": [
+            "OTIPAX",
+            "Phenazone",
+            "Lidocaine",
+            "ألم الأذن",
+            "الأذن الوسطى"
+          ],
+          "blocks": [
+            {
+              "block_heading": "Composition",
+              "block_type": "list",
+              "data": [
+                "Phenazone",
+                "Lidocaine hydrochloride"
+              ]
+            },
+            {
+              "block_heading": "Indications (Arabic)",
+              "block_type": "list",
+              "data": [
+                "تخفيف ألم الأذن بسرعة بعد 5 دقائق",
+                "يستخدم في حالات انتصاب الأذن الوسطى مع وجود غشاء طيلة سليم"
+              ]
+            },
+            {
+              "block_heading": "Advantages (Arabic)",
+              "block_type": "list",
+              "data": [
+                "تركيبة فريدة تخفيف الألم بسرعة",
+                "فعالية مضاعفة بعد أول استخدام"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "ClariCare",
+          "keywords": [
+            "ClariCare",
+            "allergic rhinitis",
+            "anti-allergic",
+            "natural relief",
+            "fexofenadine"
+          ],
+          "blocks": [
+            {
+              "block_heading": "Indications",
+              "block_type": "list",
+              "data": [
+                "Help to relieve symptoms of allergic rhinitis",
+                "Strong Pause",
+                "Strong Cervical Pain"
+              ]
+            },
+            {
+              "block_heading": "Advantages",
+              "block_type": "list",
+              "data": [
+                "Drug-free approach prioritizing safe and natural relief",
+                "Proven anti-allergic",
+                "Anti-inflammatory properties",
+                "As effective as other antihistamines (fexofenadine)"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Sodium Hyaluronate",
+          "associated_brands": ["HYLO-VISION SAFE DROP"],
+          "keywords": [
+            "HYLO-VISION",
+            "SODIUM HYALURONATE",
+            "ترطيب العين",
+            "قطرة جل",
+            "تصحيح النظر"
+          ],
+          "blocks": [
+            {
+              "block_heading": "Composition",
+              "block_type": "list",
+              "data": [
+                "0.3% SODIUM HYALURONATE"
+              ]
+            },
+            {
+              "block_heading": "Indications (Arabic)",
+              "block_type": "list",
+              "data": [
+                "قطرة جل بمستوى لزيجمة مميز لإسباب ضيابية في النظر",
+                "ترطيب عميق طويل المفعول",
+                "تستخدم مع الحاسبات الاصفة",
+                "مالئمة الاستخدام بعد عمليات تصحيح النظر"
+              ]
+            },
+            {
+              "block_heading": "Advantages (Arabic)",
+              "block_type": "list",
+              "data": [
+                "شهور بالراحة الفورية",
+                "بدون مواد حافظة",
+                "صلاحية لمدة 4 شهر بعد الفتح"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Emergency Contraception",
+          "associated_brands": ["POSTINOR"],
+          "keywords": [
+            "POSTINOR",
+            "emergency contraception",
+            "pregnancy prevention",
+            "post-coitus"
+          ],
+          "blocks": [
+            {
+              "block_heading": "Indications",
+              "block_type": "list",
+              "data": [
+                "Emergency contraception"
+              ]
+            },
+            {
+              "block_heading": "Advantages",
+              "block_type": "list",
+              "data": [
+                "Up to 95.2% pregnancy prevention rate when taken within 72 hours post-coitus",
+                "Doses taken 12 hours apart",
+                "Earlier dose timing improves prevention"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

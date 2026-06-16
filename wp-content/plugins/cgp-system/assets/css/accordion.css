@@ -94,7 +94,7 @@
 .content-value {
   margin-top: 4px;
   padding-left: 24px;
-  border-left: 2px solid var(--border-color-hover);
+  /* border-left: 2px solid var(--border-color-hover); */
 }
 
 /* List Styling */
@@ -129,6 +129,24 @@ p.dietary-considerations {
 
 @media (max-width: 768px) {
   .result-item .accordion-button { padding: 15px; }
-  .result-item .accordion-body { padding: 15px; font-size: 14px; }
+  .result-item .accordion-body {
+    padding: 15px;
+    font-size: 14px;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
   .result-item h5.drug-name { font-size: 1.2rem; }
+  .accordion-body .content {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+  .content-value {
+    padding-left: 12px;
+    max-width: 100%;
+    overflow-wrap: break-word;
+  }
 }

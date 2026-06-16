@@ -1,0 +1,2843 @@
+{
+  "id": "drug-interactions",
+  "title": "Drug Administration Food Interactions 2025 Care Givers Professionals EDITION",
+  "type": "drug-interactions",
+  "release": "Release #1",
+  "committee": "Pharmaceutical Care Committee",
+  "sections": [
+    {
+      "section_title": "Oral Anti-diabetic Drugs",
+      "items": [
+        {
+          "item_title": "Metformin",
+          "associated_brands": ["Glucophage", "Glucare"],
+          "keywords": ["metformin", "glucophage", "glucare", "type 2 diabetes", "vitamin B12"],
+          "blocks": [
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "Taken with meals to decrease GIT upset.",
+                "For patients who have gastrointestinal intolerance of Metformin, slower titration, ensuring that the patient is taking the medication with food, or switching to an extended-release formulation may improve tolerability."
+              ]
+            },
+            {
+              "block_heading": "Dietary Considerations",
+              "block_type": "list",
+              "data": [
+                "Patients are advised to take supplemental Vitamin B12 (Calcium also decrease metformin-induced Vitamin B12 deficiency)."
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يؤخذ هذا العلاج مع الوجبات لتقليل اضطرابات المعدة",
+                "بالنسبة للمرضى الذين يعانون من عدم تحمل المعدة، ينصح بالتدرج البطيء في الجرعة مع الطعام",
+                "ينصح بتناول مكملات فيتامين B12 مع هذا العلاج"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Sulfonylureas",
+          "associated_brands": ["Amaryl", "Diamicron", "Daonil"],
+          "keywords": ["sulfonylureas", "amaryl", "diamicron", "daonil", "hypoglycemia", "diabetes medication"],
+          "blocks": [
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "Taken with meals or 30 min before meals to decrease risk of hypoglycaemia."
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يؤخذ هذا العلاج مع الوجبات أو قبل 30 دقيقة من الطعام",
+                "احذر من أعراض انخفاض السكر مثل الدوخة والتعرق"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Thiazolidinediones",
+          "associated_brands": ["Actos"],
+          "keywords": ["thiazolidinediones", "actos", "pioglitazone", "diabetes medication"],
+          "blocks": [
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "Taken with or without meals."
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يمكن تناول هذا العلاج مع أو بدون طعام",
+                "يجب مراقبة وظائف الكبد بانتظام"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "DPP-4 Inhibitors",
+          "associated_brands": ["Januvia", "Trajenta", "Galvus"],
+          "keywords": ["DPP-4 inhibitors", "januvia", "trajenta", "galvus", "sitagliptin", "linagliptin", "vildagliptin"],
+          "blocks": [
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "Taken with or without meals."
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يمكن تناول هذا العلاج مع أو بدون طعام",
+                "نادراً ما يسبب انخفاضاً في سكر الدم"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "SGLT-2 Inhibitors",
+          "associated_brands": ["Jardiance", "Forxiga"],
+          "keywords": ["SGLT-2 inhibitors", "jardiance", "forxiga", "empagliflozin", "dapagliflozin", "UTI prevention", "hydration"],
+          "blocks": [
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "Once daily in the morning, with or without food."
+              ]
+            },
+            {
+              "block_heading": "Dietary Considerations",
+              "block_type": "list",
+              "data": [
+                "Drinking plenty of water decrease risk of associated urinary tract infection and maintain hydration."
+              ]
+            },
+            {
+              "block_heading": "Brand Names",
+              "block_type": "list",
+              "data": [
+                "Jardiance® (10 mg, 25 mg film-coated tablets)",
+                "Jardiance® (Arabic script: چاردپانس)"
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يؤخذ هذا العلاج مرة يومياً في الصباح",
+                "اشرب الكثير من الماء لتجنب التهابات المسالك البولية"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Meglitinides",
+          "associated_brands": ["Novororm"],
+          "keywords": ["meglitinides", "Novororm", "repaglinide", "meal-time insulin", "hypoglycemia prevention"],
+          "blocks": [
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "Taken within 30 minutes before meals, typically 2-4 times/day in response to changes in meal pattern.",
+                "If a meal is missed, the dose should be skipped to avoid hypoglycemia."
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يؤخذ هذا العلاج قبل 30 دقيقة من الوجبات",
+                "إذا نسيت الوجبة، لا تأخذ الجرعة لتجنب انخفاض السكر"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Glucagon-Like Peptide-1 (GLP-1) Agonists",
+      "items": [
+        {
+          "item_title": "GLP-1 Agonists",
+          "keywords": ["GLP-1 agonists", "oral semaglutide", "rybelsus", "injectable diabetes"],
+          "blocks": [
+            {
+              "block_heading": "Oral Administration",
+              "block_type": "list",
+              "data": [
+                "Administer on an empty stomach 30-60 minutes before the first food, beverage, or other oral medications.",
+                "Taken with small amount of water (<120 ml of plain water only).",
+                "Swallow tablets whole; do not split, crush, or chew."
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic) - Oral",
+              "block_type": "list",
+              "data": [
+                "يؤخذ هذا العلاج على معدة فارغة قبل الطعام بـ30-60 دقيقة",
+                "يؤخذ مع كمية قليلة من الماء فقط",
+                "ابتلع القرص كاملاً دون مضغ أو كسر"
+              ]
+            },
+            {
+              "block_heading": "Subcutaneous Administration - Liraglutide",
+              "subtitle": "Victoza - Saxenda",
+              "block_type": "list",
+              "data": [
+                "Administer without regard to meals or time of day with injection site rotation."
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic) - Liraglutide",
+              "block_type": "list",
+              "data": [
+                "حقن هذا العلاج في أي وقت بغض النظر عن الوجبات",
+                "قم بتغيير موقع الحقن في كل مرة"
+              ]
+            },
+            {
+              "block_heading": "Subcutaneous Administration - Semaglutide",
+              "subtitle": "Ozempic",
+              "block_type": "list",
+              "data": [
+                "Administer at any time of day on the same day each week, with or without food."
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic) - Semaglutide",
+              "block_type": "list",
+              "data": [
+                "حقن هذا العلاج مرة أسبوعياً في نفس اليوم",
+                "يمكن الحقن مع أو بدون طعام"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Insulin Types",
+      "items": [
+        {
+          "item_title": "Rapid Acting Insulin",
+          "keywords": ["rapid-acting insulin", "novorapid", "humalog", "apidra", "meal-time insulin", "aspart", "lispro", "glulisine"],
+          "blocks": [
+            {
+              "block_heading": "Examples",
+              "block_type": "list",
+              "data": [
+                "Aspart (Novorapid), Lispro (Humalog), Glulisine (Apidra)"
+              ]
+            },
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "5-15 min before food.",
+                "Up to 20 min after food."
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يؤخذ هذا العلاج قبل 5-15 دقيقة من الطعام",
+                "يمكن أخذه حتى 20 دقيقة بعد الطعام عند الضرورة"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Regular Short Acting Insulin",
+          "keywords": ["short-acting insulin", "humulin R", "actrapid", "regular insulin"],
+          "blocks": [
+            {
+              "block_heading": "Examples",
+              "block_type": "list",
+              "data": [
+                "Humulin R, Actrapid"
+              ]
+            },
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "Administration 30 min before food."
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يؤخذ هذا العلاج قبل 30 دقيقة من الطعام"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Intermediate Acting Insulin",
+          "keywords": ["intermediate-acting insulin", "NPH insulin", "humulin N", "insulatard"],
+          "blocks": [
+            {
+              "block_heading": "Examples",
+              "block_type": "list",
+              "data": [
+                "Humulin N (NPH), Insulatard (NPH)"
+              ]
+            },
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "1–2 times with or without food."
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يؤخذ هذا العلاج مرة أو مرتين يومياً",
+                "يمكن أخذه مع أو بدون طعام"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Long Acting Insulin",
+          "keywords": ["long-acting insulin", "levemir", "lantus", "toujeo", "tresiba", "basal insulin", "detemir", "glargine", "degludec"],
+          "blocks": [
+            {
+              "block_heading": "Examples",
+              "block_type": "list",
+              "data": [
+                "Detemir (Levemir), Glargine (Lantus, Toujeo), Degludec (Tresiba)"
+              ]
+            },
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "Detemir: 1–2 times with or without food.",
+                "Glargine: Once daily at the same time every day with or without food.",
+                "Degludec: Once daily with or without food, any time of the day."
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يؤخذ هذا العلاج مرة أو مرتين يومياً حسب النوع",
+                "يجب الحفاظ على وقت ثابت لأخذه كل يوم"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Premixed Insulin",
+          "keywords": ["premixed insulin", "mixtard", "novomix", "ryzodeg", "xultophy", "soliqua"],
+          "blocks": [
+            {
+              "block_heading": "Examples",
+              "block_type": "list",
+              "data": [
+                "Short+ Intermediate (mixtard 30, humulin 70/30), Rapid + Intermediate (Novomix, Humalog mix), Rapid + Long (Ryzodeg), GLP-1 agonist + Long (Xultophy, SOLIQUA)"
+              ]
+            },
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "Short+ Intermediate: 2 divided doses daily 30–45 min before meal.",
+                "Rapid + Intermediate: 2 divided doses daily within 15 min before meal.",
+                "Novomix: When necessary may be used immediately after meals.",
+                "Rapid + Long (Ryzodeg): Once or twice per day, with any main meal.",
+                "Xultophy: Once with or without food at same time daily.",
+                "SOLIQUA: Once within one hour before first meal."
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يؤخذ هذا العلاج حسب النوع إما قبل أو بعد الوجبات",
+                "يجب اتباع التعليمات الخاصة بكل نوع بدقة"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Anti-obesity Agents",
+      "items": [
+        {
+          "item_title": "Orlistat",
+          "associated_brands": ["Xenical", "Fatlos"],
+          "keywords": ["orlistat", "xenical", "fatlos", "fat blocker", "weight loss"],
+          "blocks": [
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "Administer during or up to 1 hour after each main meal containing fat.",
+                "Separate dose by at least 2 hours from multivitamin containing fat-soluble vitamins (A, D, E, K).",
+                "Skip dose if a meal is missed or contains no fat."
+              ]
+            },
+            {
+              "block_heading": "Dietary Considerations",
+              "block_type": "list",
+              "data": [
+                "GI side effects of orlistat may increase if taken with any one meal very high in fat or diet with > 30% fat."
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يؤخذ هذا العلاج مع الوجبات الرئيسية المحتوية على دهون",
+                "لا تأخذ الجرعة إذا كانت الوجبة لا تحتوي على دهون",
+                "ابتعد عن الوجبات عالية الدهون لتجنب الآثار الجانبية"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Tirzepatide",
+          "associated_brands": ["Mounjaro"],
+          "keywords": ["tirzepatide", "mounjaro", "GLP-1", "GIP", "weight loss injection"],
+          "blocks": [
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "Administer at any time of day on the same day each week, with or without food.",
+                "If changing the day of administration is necessary, allow ≥72 hours between 2 doses.",
+                "Rotate injection sites with each dose."
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "حقن هذا العلاج مرة أسبوعياً في نفس اليوم",
+                "يمكن تغيير يوم الحقن مع الحفاظ على 72 ساعة بين الجرعات",
+                "قم بتغيير موقع الحقن في كل مرة"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Hypertensive Drugs",
+      "items": [
+        {
+          "item_title": "Thiazides",
+          "associated_brands": ["Monozide", "Esidrex"],
+          "keywords": ["sodium rich foods", "potassium rich foods", "thiazides", "hydrochlorothiazide", "HCTZ", "diuretic", "blood pressure", "potassium", "monozide", "esidrex"],
+          "blocks": [
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "Typically taken once daily in the morning to avoid night time urination (nocturia).",
+                "Take the last dose of multiple doses no later than 6 PM unless instructed otherwise.",
+                "Can be taken with or without food."
+              ]
+            },
+            {
+              "block_heading": "Dietary Considerations",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Potassium intake",
+                  "children": [
+                    "Can cause potassium loss.",
+                    "Patients may need to consume potassium-rich foods or take supplements."
+                  ]
+                },
+                {
+                  "parent": "Potassium rich foods",
+                  "children": [
+                    "Dried apricots [المشمش المجفف]",
+                    "Salmon [السلمون]",
+                    "Milk and dairy products [الحليب ومنتجات الألبان]",
+                    "Oranges and orange juice [البرتقال وعصير البرتقال]",
+                    "Potatoes with skin [البطاطس بالقشر]",
+                    "Bananas [الموز]",
+                    "Avocados [الأفوكادو]",
+                    "Cooked spinach [السبانخ المطبوخة]",
+                    "Beets [البنجر]"
+                  ]
+                },
+                {
+                  "parent": "Hydration",
+                  "children": [
+                    "Drink plenty of fluids unless otherwise directed by a doctor."
+                  ]
+                },
+                {
+                  "parent": "Sodium Restriction",
+                  "children": [
+                    "A low-sodium diet may enhance the effectiveness for blood pressure control."
+                  ]
+                }
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يؤخذ هذا العلاج عادة في الصباح لتجنب التبول الليلي",
+                "ينصح بتناول الأطعمة الغنية بالبوتاسيوم مع هذا العلاج",
+                "اشرب الكثير من الماء ما لم يخبرك الطبيب بخلاف ذلك"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Loop Diuretics",
+          "associated_brands": ["Lasix", "Fusix"],
+          "keywords": ["sodium rich foods", "potassium rich foods", "loop diuretics", "furosemide", "lasix", "fusix", "potassium depletion"],
+          "blocks": [
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "Often taken in the morning or early afternoon.",
+                "May be taken with food to reduce stomach upset."
+              ]
+            },
+            {
+              "block_heading": "Dietary Considerations",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Potassium intake",
+                  "children": [
+                    "Can cause potassium loss.",
+                    "Patients may need to consume potassium-rich foods or take supplements."
+                  ]
+                },
+                {
+                  "parent": "Potassium rich foods",
+                  "children": [
+                    "Dried apricots (المشمش المجفف)",
+                    "Salmon (السلمون)",
+                    "Milk and dairy products (الحليب ومنتجات الألبان)",
+                    "Oranges and orange juice (البرتقال وعصير البرتقال)",
+                    "Potatoes with skin (البطاطس بالقشر)",
+                    "Bananas (الموز)",
+                    "Avocados (الأفوكادو)",
+                    "Cooked spinach (السبانخ المطبوخة)",
+                    "Beets (البنجر)"
+                  ]
+                },
+                {
+                  "parent": "Hydration",
+                  "children": [
+                    "Drink plenty of fluids unless otherwise directed by a doctor."
+                  ]
+                },
+                {
+                  "parent": "Sodium Restriction",
+                  "children": [
+                    "A low-sodium diet may enhance the effectiveness for blood pressure control."
+                  ]
+                },
+                {
+                  "parent": "Sodium rich foods",
+                  "children": [
+                    "Processed foods (e.g., canned soups, chips, frozen meals)",
+                    "Cured meats (e.g., bacon, sausages)",
+                    "Salty snacks and condiments (e.g., soy sauce, pickles)"
+                  ]
+                }
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يؤخذ هذا العلاج عادة في الصباح أو بعد الظهر",
+                "يمكن أخذه مع الطعام لتقليل اضطراب المعدة",
+                "ينصح بتناول الأطعمة الغنية بالبوتاسيوم"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Potassium Sparing Diuretics",
+          "associated_brands": ["Aldactone"],
+          "keywords": ["potassium rich foods", "potassium-sparing diuretics", "spironolactone", "aldactone", "hyperkalemia risk"],
+          "blocks": [
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "Once daily, preferably in the morning or in the early afternoon, with or without food."
+              ]
+            },
+            {
+              "block_heading": "Dietary Considerations",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Potassium intake",
+                  "children": [
+                    "Limit or avoid potassium-rich foods."
+                  ]
+                },
+                {
+                  "parent": "Potassium rich foods",
+                  "children": [
+                    "Dried apricots [المشمش المجفف]",
+                    "Salmon [السلمون]",
+                    "Milk and dairy products [الحليب ومنتجات الألبان]",
+                    "Oranges and orange juice [البرتقال وعصير البرتقال]",
+                    "Potatoes with skin [البطاطس بالقشر]",
+                    "Bananas [الموز]",
+                    "Avocados [الأفوكادو]",
+                    "Cooked spinach [السبانخ المطبوخة]",
+                    "Beets [البنجر]"
+                  ]
+                },
+                {
+                  "parent": "Limit Sodium Foods",
+                  "children": [
+                    "Limit high-sodium foods."
+                  ]
+                },
+                {
+                  "parent": "Sodium rich foods",
+                  "children": [
+                    "Processed foods (e.g., chips, frozen meals)",
+                    "Cured meats (e.g., bacon, sausages)",
+                    "Salty snacks and condiments (e.g., soy sauce, pickles)"
+                  ]
+                },
+                {
+                  "parent": "Grapefruit",
+                  "children": [
+                    "Avoid grapefruit and grapefruit juice especially."
+                  ]
+                }
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يؤخذ هذا العلاج مرة يومياً في الصباح أو بعد الظهر",
+                "تجنب الأطعمة الغنية بالبوتاسيوم مع هذا العلاج",
+                "ابتعد عن الجريب فروت وعصيره"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "ACE Inhibitors",
+          "associated_brands": ["Coversyl", "Tenoryl", "Vasotec", "Zestril", "Accupril", "Acetap", "Capocard", "Capoten"],
+          "keywords": ["potassium rich foods", "ACE inhibitors", "lisinopril", "ramipril", "enalapril", "perindopril", "quinapril", "captopril"],
+          "blocks": [
+            {
+              "block_heading": "Examples",
+              "block_type": "list",
+              "data": [
+                "Lisinopril, Ramipril, Enalapril, Perindopril, Quinapril, Captopril"
+              ]
+            },
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "Once daily at the same time each day.",
+                "With or without Food except captopril 1 hr before meal as serum concentrations may be decreased if taken with food."
+              ]
+            },
+            {
+              "block_heading": "Dietary Considerations",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Potassium intake",
+                  "children": [
+                    "Limit or avoid potassium-rich foods."
+                  ]
+                },
+                {
+                  "parent": "Potassium rich foods",
+                  "children": [
+                    "Dried apricots [المشمش المجفف]",
+                    "Salmon [السلمون]",
+                    "Milk and dairy products [الحليب ومنتجات الألبان]",
+                    "Oranges and orange juice [البرتقال وعصير البرتقال]",
+                    "Potatoes with skin [البطاطس بالقشر]",
+                    "Bananas [الموز]",
+                    "Avocados [الأفوكادو]",
+                    "Cooked spinach [السبانخ المطبوخة]",
+                    "Beets [البنجر]"
+                  ]
+                },
+                {
+                  "parent": "Limit Sodium Foods",
+                  "children": [
+                    "Limit high-sodium foods."
+                  ]
+                },
+                {
+                  "parent": "Sodium rich foods",
+                  "children": [
+                    "Processed foods (e.g., chips, frozen meals)",
+                    "Cured meats (e.g., bacon, sausages)",
+                    "Salty snacks and condiments (e.g., soy sauce, pickles)"
+                  ]
+                },
+                {
+                  "parent": "Captopril",
+                  "children": [
+                    "Long-term use of captopril may lead to a zinc deficiency, which can result in altered taste perception."
+                  ]
+                }
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يؤخذ هذا العلاج يومياً في نفس الموعد",
+                "تجنب الأطعمة الغنية بالبوتاسيوم مع هذا العلاج",
+                "الكابتوبريل يؤخذ قبل الطعام بساعة"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "ARBs",
+          "keywords": ["potassium rich foods", "ARBs", "losartan", "valsartan", "irbesartan", "candesartan", "olmesartan", "angiotensin receptor blockers"],
+          "blocks": [
+            {
+              "block_heading": "Examples",
+              "block_type": "list",
+              "data": [
+                "Losartan, Valsartan, Irbesartan, Candesartan, Olmesartan"
+              ]
+            },
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "Once daily at the same time each day.",
+                "With or without food."
+              ]
+            },
+            {
+              "block_heading": "Dietary Considerations",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Potassium intake",
+                  "children": [
+                    "Limit or avoid potassium-rich foods."
+                  ]
+                },
+                {
+                  "parent": "Potassium rich foods",
+                  "children": [
+                    "Dried apricots [المشمش المجفف]",
+                    "Salmon [السلمون]",
+                    "Milk and dairy products [الحليب ومنتجات الألبان]",
+                    "Oranges and orange juice [البرتقال وعصير البرتقال]",
+                    "Potatoes with skin [البطاطس بالقشر]",
+                    "Bananas [الموز]",
+                    "Avocados [الأفوكادو]",
+                    "Cooked spinach [السبانخ المطبوخة]",
+                    "Beets [البنجر]"
+                  ]
+                }
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يؤخذ هذا العلاج يومياً في نفس الموعد",
+                "يمكن أخذه مع أو بدون طعام",
+                "تجنب الأطعمة الغنية بالبوتاسيوم"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Beta-Blockers",
+          "associated_brands": ["Tenormin", "Ravildo", "Monocor", "Coreg", "Lopresor", "Nebilet"],
+          "keywords": ["tea", "caffeine", "high Fat Meals", "beta blockers", "atenolol", "metoprolol", "carvedilol"],
+          "blocks": [
+            {
+              "block_heading": "Examples",
+              "block_type": "list",
+              "data": [
+                "Atenolol, Metoprolol, Carvedilol"
+              ]
+            },
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "Once daily at the same time each day.",
+                "With or without food except Metoprolol and Carvedilol: Should be taken with food or immediately after meals."
+              ]
+            },
+            {
+              "block_heading": "Dietary Considerations",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "High Fat Meals",
+                  "children": [
+                    "Increase drug absorption, particularly propranolol."
+                  ]
+                },
+                {
+                  "parent": "Caffeine",
+                  "children": [
+                    "May counteract the heart-rate-lowering effects."
+                  ]
+                }
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يؤخذ هذا العلاج يومياً في نفس الموعد",
+                "الميتوبرولول والكارفيديلول يؤخذان مع الطعام",
+                "تجنب الكافيين مع هذا العلاج"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Calcium Channel Blockers",
+          "associated_brands": ["Amlor", "Vascodipine", "Amvasc", "Lotense", "Lodipam", "Adalat"],
+          "keywords": ["magnesium Rich Foods", "calcium channel blockers", "amlodipine", "verapamil", "nifedipine"],
+          "blocks": [
+            {
+              "block_heading": "Examples",
+              "block_type": "list",
+              "data": [
+                "Amlodipine, Verapamil, Nifedipine (Adalat)"
+              ]
+            },
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "Once daily at the same time each day.",
+                "With or without food.",
+                "Isoptim SR 240: administer with food and tablet may be split in half."
+              ]
+            },
+            {
+              "block_heading": "Dietary Considerations",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Magnesium intake",
+                  "children": [
+                    "May complement the effects of calcium channel blockers."
+                  ]
+                },
+                {
+                  "parent": "Magnesium Rich Foods",
+                  "children": [
+                    "Chickpeas and black beans [الحمص والفاصوليا السوداء]",
+                    "Salmon [السلمون]",
+                    "Brown rice [الأرز البني]",
+                    "Dark chocolate [الشوكولاتة الداكنة]",
+                    "Pumpkin seeds [بذور اليقطين]",
+                    "Almonds [اللوز]",
+                    "Avocados [الأفوكادو]",
+                    "Cashews [الكاجو]",
+                    "Quinoa [الكينوا]",
+                    "السبانخ",
+                    "اللوز",
+                    "الشوفان"
+                  ]
+                },
+                {
+                  "parent": "Grapefruit juice",
+                  "children": [
+                    "Increase the serum concentration of drug leading to increased side effects (hypotension, bradycardia)."
+                  ]
+                }
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يؤخذ هذا العلاج يومياً في نفس الموعد",
+                "تجنب عصير الجريب فروت مع هذا العلاج",
+                "الأطعمة الغنية بالمغنيسيوم قد تكون مفيدة"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Lipid Lowering Agents",
+      "items": [
+        {
+          "item_title": "Statins",
+          "associated_brands": ["Atorlip", "Atorva", "Lipitor", "Zocor", "Crestor"],
+          "keywords": ["statins", "atorvastatin", "simvastatin", "rosuvastatin", "pravastatin", "grapefruit interaction"],
+          "blocks": [
+            {
+              "block_heading": "Examples",
+              "block_type": "list",
+              "data": [
+                "Atorvastatin, Simvastatin, Rosuvastatin, Pravastatin"
+              ]
+            },
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "In the evening (especially short-acting statins like simvastatin).",
+                "Long-acting ones (atorvastatin, rosuvastatin) can be taken any time.",
+                "Most can be taken with or without food, but pravastatin works best on an empty stomach."
+              ]
+            },
+            {
+              "block_heading": "Dietary Considerations",
+              "block_type": "list",
+              "data": [
+                "Avoid grapefruit and its juice, as it can increase statin levels and cause side effects."
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يؤخذ هذا العلاج في المساء (خاصة الأنواع قصيرة المفعول)",
+                "تجنب الجريب فروت وعصيره مع هذا العلاج",
+                "البرافاستاتين يؤخذ على معدة فارغة"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Aspirin (low-dose)",
+          "keywords": ["aspirin", "low-dose aspirin", "GIT protection", "salicylates"],
+          "blocks": [
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "Administer with food and full glass of water to minimize GIT upset."
+              ]
+            },
+            {
+              "block_heading": "Dietary Considerations",
+              "block_type": "list",
+              "data": [
+                "Limit curry powder, paprika, liquorice; may cause salicylate accumulation."
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يؤخذ هذا العلاج مع الطعام وكوب كامل من الماء",
+                "لتقليل اضطراب المعدة"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Anticoagulants and Antiplatelet Agents",
+      "items": [
+        {
+          "item_title": "Clopidogrel",
+          "associated_brands": ["Plavix"],
+          "keywords": ["clopidogrel", "plavix", "antiplatelet", "grapefruit interaction"],
+          "blocks": [
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "Administer without regard to meals."
+              ]
+            },
+            {
+              "block_heading": "Dietary Considerations",
+              "block_type": "list",
+              "data": [
+                "Avoid or minimize the consumption of grapefruit or grapefruit juice: may substantially reduce clopidogrel antiplatelet effects."
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يمكن تناول هذا العلاج مع أو بدون طعام",
+                "تجنب الجريب فروت وعصيره مع هذا العلاج"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Rivaroxaban",
+          "associated_brands": ["Xarelto"],
+          "keywords": ["rivaroxaban", "xarelto", "DOAC", "anticoagulant", "food requirements"],
+          "blocks": [
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "Doses ≥15mg administer with food.",
+                "Doses ≤10mg may be administered without regard to meals.",
+                "But for atrial fibrillation, administer with the evening meal."
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "الجرعات 15 ملغ فأكثر تؤخذ مع الطعام",
+                "بالنسبة لرجفان الأذينين، يؤخذ مع وجبة المساء"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Warfarin",
+          "associated_brands": ["Coufatex"],
+          "keywords": ["warfarin", "coufatex", "vitamin K", "anticoagulant", "diet consistency"],
+          "blocks": [
+            {
+              "block_heading": "Dietary Considerations",
+              "block_type": "list",
+              "data": [
+                "Warfarin's effectiveness can be affected by Vitamin K intake, as it works by antagonizing this vitamin.",
+                "Consistency in Dietary Vitamin K intake (Green Leafy Vegetables: Kale, spinach, broccoli, collards, turnip greens, Brussels sprouts, Green tea) is critical to maintaining stable blood thinning.",
+                "Cranberry and Grapefruit Juice: Both may inhibit warfarin metabolism, increasing bleeding risk."
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "الحفاظ على كمية ثابتة من فيتامين K في الغذاء",
+                "تجنب الجريب فروت والتوت البري مع هذا العلاج",
+                "مراقبة النزيف بانتظام"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Gout Medications",
+      "items": [
+        {
+          "item_title": "Allopurinol",
+          "associated_brands": ["No Uric", "Zyloric"],
+          "keywords": ["allopurinol", "no uric", "zyloric", "gout", "hyperuricemia"],
+          "blocks": [
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "Administer after meals with plenty of fluids (fluids sufficient to yield daily urinary output of at least 2 Liter and to maintain a neutral or slightly alkaline urine).",
+                "When the dose is greater than 300 mg, divide the total daily dose into smaller doses to help minimize gastrointestinal irritation."
+              ]
+            },
+            {
+              "block_heading": "Brand Names",
+              "block_type": "list",
+              "data": [
+                "Zyloric (90 tablets, 100 mg)"
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يؤخذ هذا العلاج بعد الطعام مع الكثير من السوائل",
+                "الجرعات الكبيرة تقسم على مدار اليوم"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Osteoporosis Medications",
+      "items": [
+        {
+          "item_title": "Alendronate",
+          "associated_brands": ["Fosamax", "Alendro"],
+          "keywords": ["alendronate", "fosamax", "alendro", "osteoporosis", "bisphosphonate"],
+          "blocks": [
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "Administer in the morning and ≥30 minutes before the first food, beverage (except plain water), or other medication(s) of the day.",
+                "Patients should stay upright (not to lie down) for ≥30 minutes and until after first food of the day (to reduce esophageal irritation).",
+                "The tablet should be swallowed whole; do not chew or suck."
+              ]
+            },
+            {
+              "block_heading": "Dietary Considerations",
+              "block_type": "list",
+              "data": [
+                "Co-administration with dairy products or calcium-rich foods (e.g., milk, cheese, yogurt) may decrease alendronate absorption.",
+                "Don't take with mineral water or with other beverages.",
+                "Beverages (especially orange juice, coffee, and mineral water) and food may reduce the absorption of alendronate as much as 60%."
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يؤخذ هذا العلاج صباحاً على معدة فارغة قبل الطعام بـ30 دقيقة",
+                "يجب البقاء في وضعية الجلوس أو الوقوف لمدة 30 دقيقة بعد أخذه",
+                "ابتلع القرص كاملاً دون مضغ"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Teriparatide",
+          "associated_brands": ["Forteo"],
+          "keywords": ["teriparatide", "forteo", "osteoporosis", "parathyroid hormone"],
+          "blocks": [
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "Initial administration should occur under circumstances in which the patient may sit or lie down to avoid orthostasis.",
+                "Inject into the thigh or abdominal wall.",
+                "Administer without regard to meals or time of day.",
+                "May administer dose immediately after removal from the refrigerator.",
+                "Each pen can be used for up to 28 days after the first opening.",
+                "pen must be primed prior to each dose."
+              ]
+            },
+            {
+              "block_heading": "Dietary Considerations",
+              "block_type": "list",
+              "data": [
+                "Ensure adequate calcium and vitamin D intake; if dietary intake is inadequate, dietary supplementation is recommended."
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "حقن هذا العلاج في الفخذ أو جدار البطن",
+                "يمكن أخذه في أي وقت بغض النظر عن الوجبات",
+                "تأكد من الحصول على كمية كافية من الكالسيوم وفيتامين د"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Thyroid and Antithyroid Drugs",
+      "items": [
+        {
+          "item_title": "Levothyroxine",
+          "associated_brands": ["Eltroxin", "Euthyrox"],
+          "keywords": ["levothyroxine", "eltroxin", "euthyrox", "thyroid hormone", "hypothyroidism"],
+          "blocks": [
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "Administer consistently in the morning on an empty stomach, at least 30 to 60 minutes before breakfast or at bedtime (3-4 hours after dinner).",
+                "Alternatively, may administer at night 3 to 4 hours after the meal (e.g.: in Ramadan)."
+              ]
+            },
+            {
+              "block_heading": "Dietary Considerations",
+              "block_type": "list",
+              "data": [
+                "Do not administer within 4 hours of Calcium-rich foods (e.g., milk, yogurt, cheese), Iron-rich foods (e.g., red meat, lentils, spinach), and High-fiber foods (e.g., whole grains, broccoli), Soy products (e.g., tofu, soy milk) and Bile acid sequestrants (Cholestyramine)."
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يؤخذ هذا العلاج صباحاً على معدة فارغة قبل الفطور بـ30-60 دقيقة",
+                "أو ليلاً بعد 3-4 ساعات من العشاء (في رمضان مثلاً)",
+                "تجنب الأطعمة الغنية بالكالسيوم والحديد لمدة 4 ساعات بعد أخذه"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Methimazole",
+          "associated_brands": ["Neo-Mercazole"],
+          "keywords": ["methimazole", "neo-mercazole", "hyperthyroidism", "antithyroid"],
+          "blocks": [
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "Can be taken with or without food."
+              ]
+            },
+            {
+              "block_heading": "Dietary Considerations",
+              "block_type": "list",
+              "data": [
+                "Avoid iodine-rich foods or supplements. Examples: Iodine-rich foods include seaweed (e.g., nori, kelp), iodized salt, and seafood (e.g., shrimp, cod, tuna)."
+              ]
+            },
+            {
+              "block_heading": "Brand Names",
+              "block_type": "list",
+              "data": [
+                "NeoMercazole® (5 mg Tablets, 100 Tablets)"
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يمكن تناول هذا العلاج مع أو بدون طعام",
+                "تجنب الأطعمة الغنية باليود مثل المأكولات البحرية"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Urinary Incontinence Medications",
+      "items": [
+        {
+          "item_title": "Tolterodine",
+          "associated_brands": ["Detrustiol"],
+          "keywords": ["tolterodine", "detrustiol", "overactive bladder", "anticholinergic"],
+          "blocks": [
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "After food."
+              ]
+            },
+            {
+              "block_heading": "Dietary Considerations",
+              "block_type": "list",
+              "data": [
+                "Food increases bioavailability (~53%).",
+                "Grapefruit juice may increase serum levels/toxicity (Avoid)."
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يؤخذ هذا العلاج بعد الطعام",
+                "تجنب عصير الجريب فروت مع هذا العلاج"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Solifenacin",
+          "associated_brands": ["Vesicare"],
+          "keywords": ["solifenacin", "vesicare", "overactive bladder", "anticholinergic"],
+          "blocks": [
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "With or without food and must be swallowed whole with liquid at the same time every day."
+              ]
+            },
+            {
+              "block_heading": "Dietary Considerations",
+              "block_type": "list",
+              "data": [
+                "Grapefruit juice may increase serum levels/toxicity (Avoid)."
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يؤخذ هذا العلاج يومياً في نفس الموعد",
+                "يمكن أخذه مع أو بدون طعام",
+                "ابتلع القرص كاملاً مع الماء"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Trospium chloride",
+          "associated_brands": ["Spasmolyte"],
+          "keywords": ["trospium", "spasmolyte", "overactive bladder", "anticholinergic"],
+          "blocks": [
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "Administer with water on an empty stomach at least 1 hour prior to meals."
+              ]
+            },
+            {
+              "block_heading": "Dietary Considerations",
+              "block_type": "list",
+              "data": [
+                "Fatty meal reduces the absorption and bioavailability.",
+                "Avoid consuming any alcohol within 2 hours of taking a dose."
+              ]
+            },
+            {
+              "block_heading": "Brand Names",
+              "block_type": "list",
+              "data": [
+                "Spasmolyte (200 mg)"
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يؤخذ هذا العلاج على معدة فارغة قبل الطعام بساعة",
+                "تجنب الوجبات الدسمة مع هذا العلاج",
+                "لا تشرب الكحول لمدة ساعتين بعد الجرعة"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Sexual Dysfunction",
+      "items": [
+        {
+          "item_title": "Sildenafil",
+          "associated_brands": ["Viagra"],
+          "keywords": ["sildenafil", "viagra", "erectile dysfunction", "PDE5 inhibitor"],
+          "blocks": [
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "Should be taken approximately 1 hour (from 30 minutes to 4 hours) before sexual activity.",
+                "May be taken with or without food."
+              ]
+            },
+            {
+              "block_heading": "Dietary Considerations",
+              "block_type": "list",
+              "data": [
+                "Administration with high fat meals may delay absorption.",
+                "Grapefruit juice may increase serum levels/toxicity."
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يؤخذ هذا العلاج قبل النشاط الجنسي بـ30 دقيقة إلى 4 ساعات",
+                "تجنب الوجبات الدسمة مع هذا العلاج",
+                "تجنب عصير الجريب فروت"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Tadalafil",
+          "associated_brands": ["Cialis", "Herox"],
+          "keywords": ["tadalafil", "cialis", "herox", "erectile dysfunction", "PDE5 inhibitor"],
+          "blocks": [
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "Should be taken at least 30 minutes prior to sexual activity.",
+                "When used on a once-daily basis, should be taken at the same time each day, without regard to timing of sexual activity.",
+                "May be taken with or without food."
+              ]
+            },
+            {
+              "block_heading": "Dietary Considerations",
+              "block_type": "list",
+              "data": [
+                "Grapefruit juice may increase serum levels/toxicity."
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يؤخذ هذا العلاج قبل النشاط الجنسي بـ30 دقيقة على الأقل",
+                "الاستخدام اليومي يؤخذ في نفس الموعد يومياً",
+                "تجنب عصير الجريب فروت"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Vardenafil",
+          "associated_brands": ["Levitra"],
+          "keywords": ["vardenafil", "levitra", "erectile dysfunction", "PDE5 inhibitor"],
+          "blocks": [
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "May be administered with or without food, approximately 60 minutes prior to sexual activity.",
+                "Oral disintegrating tablet should not be removed from blister pack until administered.",
+                "Using dry hands, place immediately on tongue.",
+                "Tablet will dissolve rapidly; do not take with liquid.",
+                "Do not crush, split, or chew."
+              ]
+            },
+            {
+              "block_heading": "Dietary Considerations",
+              "block_type": "list",
+              "data": [
+                "High-fat meals (but not moderate fat) decrease maximum serum concentration 18% to 50% and delay absorption by one hour.",
+                "Grapefruit juice may increase serum levels/toxicity."
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يؤخذ هذا العلاج قبل النشاط الجنسي بـ60 دقيقة",
+                "القرص الذواب يوضع على اللسان مباشرة دون ماء",
+                "تجنب الوجبات الدسمة وعصير الجريب فروت"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Dapoxetine",
+          "associated_brands": ["Depojoy", "Lejam", "Elong", "Dapo"],
+          "keywords": ["dapoxetine", "depojoy", "lejam", "elong", "dapo", "premature ejaculation"],
+          "blocks": [
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "1-3 hours before intercourse."
+              ]
+            },
+            {
+              "block_heading": "Dietary Considerations",
+              "block_type": "list",
+              "data": [
+                "Avoid consumption of grapefruit juice during, or within the 24 hours prior to, dapoxetine administration (increase serum concentration)."
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يؤخذ هذا العلاج قبل 1-3 ساعات من الجماع",
+                "تجنب عصير الجريب فروت لمدة 24 ساعة قبل وبعد الجرعة"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Atypical Antipsychotics",
+      "items": [
+        {
+          "item_title": "Quetiapine",
+          "associated_brands": ["Seroquel"],
+          "keywords": ["quetiapine", "seroquel", "antipsychotic", "bipolar disorder", "schizophrenia"],
+          "blocks": [
+            {
+              "block_heading": "IR Tablet",
+              "block_type": "list",
+              "data": [
+                "Administer with or without food."
+              ]
+            },
+            {
+              "block_heading": "ER Tablet",
+              "block_type": "list",
+              "data": [
+                "Administer without food or with a light meal, preferably in the evening."
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "الأقراص العادية تؤخذ مع أو بدون طعام",
+                "الأقراص الممتدة المفعول تؤخذ بدون طعام أو مع وجبة خفيفة مساءً"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Aripiprazole",
+          "associated_brands": ["Aripex", "Zolinda"],
+          "keywords": ["aripiprazole", "aripex", "zolinda", "antipsychotic", "bipolar disorder"],
+          "blocks": [
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "Administer with or without food."
+              ]
+            },
+            {
+              "block_heading": "Dietary Considerations",
+              "block_type": "list",
+              "data": [
+                "Ingestion of oral formulations with a high-fat meal delays time to peak plasma level."
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يمكن تناول هذا العلاج مع أو بدون طعام",
+                "الوجبات الدسمة قد تؤخر امتصاصه"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Lurasidone",
+          "associated_brands": ["Debilur"],
+          "keywords": ["lurasidone", "debilur", "antipsychotic", "schizophrenia", "bipolar depression"],
+          "blocks": [
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "Administer consistently at the same time every day with food (≥350 calories).",
+                "Evening administration may help reduce adverse effects."
+              ]
+            },
+            {
+              "block_heading": "Dietary Considerations",
+              "block_type": "list",
+              "data": [
+                "Administration with food (≥350 calories) increased Cmax and AUC of Lurasidone ~3 times and 2 times, respectively, compared to administration under fasting conditions.",
+                "Exposure was not affected by the fat content of the meal.",
+                "Grapefruit Juice may increase its serum concentration."
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يؤخذ هذا العلاج يومياً في نفس الموعد مع وجبة (350 سعرة حرارية على الأقل)",
+                "تجنب عصير الجريب فروت مع هذا العلاج"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Antiepileptic Drugs",
+      "items": [
+        {
+          "item_title": "Phenytoin",
+          "associated_brands": ["Epanutin"],
+          "keywords": ["phenytoin", "epanutin", "anticonvulsant", "epilepsy", "seizures"],
+          "blocks": [
+            {
+              "block_heading": "Dietary Considerations",
+              "block_type": "list",
+              "data": [
+                "Phenytoin may decrease mucosal uptake of folic acid and can lead to folic acid deficiency and megaloblastic anaemia.",
+                "Phenytoin use has been associated with low serum concentrations of Vitamin B2 (riboflavin), Vitamin B6 (pyridoxine) and Vitamin B12 (cyanocobalamin).",
+                "Phenytoin interferes with Vitamin D Metabolism and leads to Osteomalacia and Hypocalcemia, so Vitamin D supplements may be needed."
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "هذا العلاج قد يسبب نقص في حمض الفوليك وفيتامينات ب",
+                "قد يحتاج المريض إلى مكملات فيتامين د مع هذا العلاج"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Carbamazepine",
+          "associated_brands": ["Tegretol"],
+          "keywords": ["carbamazepine", "tegretol", "anticonvulsant", "epilepsy", "bipolar disorder"],
+          "blocks": [
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "Administer with food."
+              ]
+            },
+            {
+              "block_heading": "Dietary Considerations",
+              "block_type": "list",
+              "data": [
+                "Grapefruit juice increase the serum concentration of Tegretol.",
+                "Maintain adequate hydration, unless instructed to restrict fluid intake."
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يؤخذ هذا العلاج مع الطعام",
+                "تجنب عصير الجريب فروت مع هذا العلاج",
+                "اشرب كمية كافية من الماء"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Topiramate",
+          "associated_brands": ["Topamax"],
+          "keywords": ["topiramate", "topamax", "anticonvulsant", "migraine", "weight loss"],
+          "blocks": [
+            {
+              "block_heading": "Dietary Considerations",
+              "block_type": "list",
+              "data": [
+                "Ketogenic diet may increase the possibility of acidosis and/or kidney stones.",
+                "Monitor for symptoms of acidosis or kidney stones."
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "الحمية الكيتونية قد تزيد من خطر الحموضة وحصى الكلى مع هذا العلاج",
+                "راقب أعراض الحموضة أو حصى الكلى"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "GIT Medications",
+      "items": [
+        {
+          "item_title": "Racecadotril",
+          "associated_brands": ["Hidrasec"],
+          "keywords": ["racecadotril", "hidrasec", "antidiarrheal", "diarrhea treatment"],
+          "blocks": [
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "Take initial dose at onset of diarrhea.",
+                "Maintain consistent dosing intervals.",
+                "Continue until two normal stools, (maximum 7 days)."
+              ]
+            },
+            {
+              "block_heading": "Dietary Considerations",
+              "block_type": "list",
+              "data": [
+                "Can be taken with or without food but preferred before meals."
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يؤخذ هذا العلاج عند بدء الإسهال",
+                "يستمر حتى عودة البراز إلى طبيعته (7 أيام كحد أقصى)",
+                "يفضل أخذه قبل الوجبات"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Diosmectite",
+          "associated_brands": ["Dioclear"],
+          "keywords": ["diosmectite", "dioclear", "antidiarrheal", "adsorbent"],
+          "blocks": [
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "Mix thoroughly with 50-100 mL water.",
+                "Ensure complete dissolution.",
+                "Administer between meals.",
+                "Maintain 2-3 hour spacing from other medications."
+              ]
+            },
+            {
+              "block_heading": "Dietary Considerations",
+              "block_type": "list",
+              "data": [
+                "Separate from meals by 1-2 hours.",
+                "May affect nutrient absorption.",
+                "Potential mineral absorption interference."
+              ]
+            },
+            {
+              "block_heading": "Dosage",
+              "block_type": "list",
+              "data": [
+                "Adults: 1 and 2 times per day",
+                "Children of age: 5 years: 1 and 4: 3 times per day"
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يخلط هذا العلاج جيداً مع 50-100 مل من الماء",
+                "يؤخذ بين الوجبات",
+                "يفصل عن الأدوية الأخرى بساعتين على الأقل"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Oral Rehydration Formula",
+          "keywords": ["oral rehydration", "ORS", "diarrhea", "dehydration", "babylyte"],
+          "blocks": [
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "After each loose stool.",
+                "Sip slowly over 15-20 minutes.",
+                "Continue until diarrhea resolves.",
+                "Maintain upright position.",
+                "Store in clean, covered container, refrigerate if possible.",
+                "Discard unused portion after 24 hours."
+              ]
+            },
+            {
+              "block_heading": "Dosage",
+              "block_type": "list",
+              "data": [
+                "Mild to moderate dehydration: 50 to 100 ml/kg over 4 hrs.",
+                "Maintenance Dose: 10 ml/kg for each loose stool and 2 ml/kg of episode of emesis.",
+                "Give ORS in small, frequent amounts, for infants & children.",
+                "Continue breastfeeding or formula feeding alongside ORS.",
+                "Refer if there are signs of dehydration."
+              ]
+            },
+            {
+              "block_heading": "Dietary Considerations",
+              "block_type": "list",
+              "data": [
+                "Avoid using together with carbonated beverages, high-sugar drinks, caffeinated beverages, full-strength fruit juices, and sports drinks."
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يؤخذ هذا العلاج بعد كل مرة إسهال",
+                "يشرب ببطء على مدار 15-20 دقيقة",
+                "استمر حتى توقف الإسهال",
+                "تجنب المشروبات الغازية والعصائر المركزة"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Bisacodyl",
+          "associated_brands": ["Dulcolax"],
+          "keywords": ["bisacodyl", "dulcolax", "laxative", "constipation"],
+          "blocks": [
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "Administer with water.",
+                "Swallow whole tablet; don't break, chew or crush.",
+                "Maximum recommended duration: 7 days for self-treatment.",
+                "Discontinue if symptoms persist beyond 7 days."
+              ]
+            },
+            {
+              "block_heading": "Dietary Considerations",
+              "block_type": "list",
+              "data": [
+                "Don't administer within 1 hour of antacids, juice, milk, or dairy products → (may cause the delayed-release tablets to release drug prior to reaching the large intestine causing Gastric irritation and/or cramps)."
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يؤخذ هذا العلاج مع الماء",
+                "ابتلع القرص كاملاً دون مضغ أو كسر",
+                "لا يستخدم لأكثر من 7 أيام دون استشارة طبية"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Senna",
+          "associated_brands": ["Ronzalax"],
+          "keywords": ["senna", "ronzalax", "laxative", "constipation"],
+          "blocks": [
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "Take at bedtime for morning bowel movement.",
+                "Maximum recommended duration: 7 days for self-treatment.",
+                "Discontinue if symptoms persist beyond 7 days."
+              ]
+            },
+            {
+              "block_heading": "Dietary Considerations",
+              "block_type": "list",
+              "data": [
+                "Take on an empty stomach for optimal absorption.",
+                "Allow at least 2 hours gap before/after meals.",
+                "Administer 2 hours before or after other medications."
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يؤخذ هذا العلاج قبل النوم لتأثيره في الصباح",
+                "يؤخذ على معدة فارغة لتحسين الامتصاص",
+                "لا يستخدم لأكثر من 7 أيام دون استشارة طبية"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Psyllium",
+          "associated_brands": ["Agiolax"],
+          "keywords": ["psyllium", "plantago ovata", "fiber", "constipation"],
+          "blocks": [
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "The granules should be swallowed unchewed with an abundant amount of liquid (about 1⁄4 liter).",
+                "When more than one dose is required, they should be divided throughout the day.",
+                "Separate dose by at least 2 hours from other drug therapies."
+              ]
+            },
+            {
+              "block_heading": "Dietary Considerations",
+              "block_type": "list",
+              "data": [
+                "Administer with meals by mixing with food, preferably yogurt."
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يؤخذ هذا العلاج مع كمية وفيرة من الماء",
+                "يمكن خلطه مع الطعام ويفضل اللبن",
+                "يفصل عن الأدوية الأخرى بساعتين على الأقل"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "PEG - Macrogol",
+          "associated_brands": ["Movicol"],
+          "keywords": ["PEG", "macrogol", "polyethylene glycol", "constipation"],
+          "blocks": [
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "Take on empty stomach when possible.",
+                "Avoid solid food during bowel preparation.",
+                "Separate from meals by 2 hours.",
+                "Space other medications by 2 hours.",
+                "Stir powder in 120 to 240 mL (4 to 8 ounces) of water, juice, soda, coffee, or tea until dissolved and administer immediately."
+              ]
+            },
+            {
+              "block_heading": "Brand Names",
+              "block_type": "list",
+              "data": [
+                "Movicol® (20 sachets)"
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يؤخذ هذا العلاج على معدة فارغة إذا أمكن",
+                "يخلط المسحوق جيداً مع الماء أو العصير ويشرب فوراً",
+                "يفصل عن الوجبات والأدوية الأخرى بساعتين"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Proton Pump Inhibitors (PPIs)",
+          "keywords": ["PPIs", "proton pump inhibitors", "omeprazole", "pantoprazole", "rabeprazole", "esomeprazole", "dexlansoprazole", "acid reflux"],
+          "blocks": [
+            {
+              "block_heading": "Examples",
+              "block_type": "list",
+              "data": [
+                "Omeprazole, Pantoprazole, Rabeprazole, Esomeprazole, Dexlansoprazole"
+              ]
+            },
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "Generally PPIs should be taken in the morning on empty stomach: Morning PPI: 30-60 minutes before breakfast & Antacids, minimum 2 hours separation.",
+                "Evening PPI (if prescribed): 30-60 minutes before dinner.",
+                "Omeprazole/Esomeprazole: Take on empty stomach.",
+                "Nexium sachets (powder form) can mix with apple juice (Avoid grapefruit juice).",
+                "Dexlansoprazole: Can be taken with food.",
+                "May open the capsule, sprinkle the intact granules onto 1 tablespoon of applesauce, and swallow intact granules immediately (do not chew granules).",
+                "Do not save applesauce and granule mixture for later use."
+              ]
+            },
+            {
+              "block_heading": "Dietary Considerations",
+              "block_type": "list",
+              "data": [
+                "Avoid within 2 hours: Antacids, Iron & Calcium supplements, Sucralfate.",
+                "Prolonged treatment (more than 1-2 years) may lead to malabsorption of dietary Vitamin B12, Calcium and Magnesium."
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يؤخذ هذا العلاج صباحاً على معدة فارغة قبل الفطور بـ30-60 دقيقة",
+                "أوميبرازول وإيسوميبرازول يؤخذان على معدة فارغة",
+                "تجنب مضادات الحموضة ومكملات الحديد والكالسيوم لمدة ساعتين بعد الجرعة"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Mesalamine",
+          "associated_brands": ["Pentasa"],
+          "keywords": ["mesalamine", "pentasa", "ulcerative colitis", "inflammatory bowel disease"],
+          "blocks": [
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "Administer with meals.",
+                "Swallow whole capsule; don't crush or chew.",
+                "If a patient is unable to swallow the capsule, may open capsule and sprinkle the entire contents (controlled-release beads) onto yogurt or applesauce."
+              ]
+            },
+            {
+              "block_heading": "Dietary Considerations",
+              "block_type": "list",
+              "data": [
+                "Maintain adequate hydration during therapy (to minimize nephrolithiasis risk)."
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يؤخذ هذا العلاج مع الوجبات",
+                "ابتلع الكبسولة كاملة أو انثر محتوياتها على الزبادي أو التفاح المهروس",
+                "اشرب كمية كافية من الماء أثناء العلاج"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Mebeverine",
+          "associated_brands": ["Duspatalin", "Verine"],
+          "keywords": ["mebeverine", "duspatalin", "verine", "IBS", "irritable bowel syndrome"],
+          "blocks": [
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "Oral swallow whole tablets and capsules with at least 100 mL of water.",
+                "Do not crush or chew modified release capsules.",
+                "Tablets should not be chewed due to unpleasant taste."
+              ]
+            },
+            {
+              "block_heading": "Dietary Considerations",
+              "block_type": "list",
+              "data": [
+                "Administer 20 minutes before meals."
+              ]
+            },
+            {
+              "block_heading": "Brand Names",
+              "block_type": "list",
+              "data": [
+                "Duspatalin® (200 mg)"
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يؤخذ هذا العلاج مع 100 مل على الأقل من الماء",
+                "يؤخذ قبل الوجبات بـ20 دقيقة",
+                "ابتلع الأقراص أو الكبسولات كاملة دون مضغ"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Antihistamines and Corticosteroids",
+      "items": [
+        {
+          "item_title": "Fexofenadine",
+          "associated_brands": ["Telfast"],
+          "keywords": ["fexofenadine", "telfast", "antihistamine", "allergy"],
+          "blocks": [
+            {
+              "block_heading": "Dietary Considerations",
+              "block_type": "list",
+              "data": [
+                "High-fat meals decrease the bioavailability of fexofenadine by ~50%.",
+                "Fruit juice (apple, grapefruit, orange) may decrease bioavailability of fexofenadine by ~36%.",
+                "So separating consumption by at least 4 hours may decrease the significance of this interaction."
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "الوجبات الدسمة تقلل من امتصاص هذا العلاج",
+                "يفصل عن عصائر الفاكهة بـ4 ساعات على الأقل"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Bilastine",
+          "associated_brands": ["Bilaxten"],
+          "keywords": ["bilastine", "bilaxten", "antihistamine", "allergy"],
+          "blocks": [
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "1 hour before or 2 hours after intake of food or fruit juices.",
+                "Oral dispersible tablet: Place on tongue to allow tablet to dissolve so it can be easily swallowed.",
+                "May also disperse in water prior to administration."
+              ]
+            },
+            {
+              "block_heading": "Brand Names",
+              "block_type": "list",
+              "data": [
+                "Bilaxten® (20 mg, 30 tablets)"
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يؤخذ هذا العلاج قبل الطعام بساعة أو بعده بساعتين",
+                "القرص الذواب يوضع على اللسان ليذوب أو يخلط مع الماء"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Rupatadine",
+          "keywords": ["rupatadine", "antihistamine", "allergy"],
+          "blocks": [
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "Administer with or without food."
+              ]
+            },
+            {
+              "block_heading": "Dietary Considerations",
+              "block_type": "list",
+              "data": [
+                "Grapefruit juice increases Rupatadine systemic exposure 3.5-fold.",
+                "Management: Avoid grapefruit juice during therapy."
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يمكن تناول هذا العلاج مع أو بدون طعام",
+                "تجنب عصير الجريب فروت مع هذا العلاج"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Montelukast",
+          "associated_brands": ["Singulair", "Airfast"],
+          "keywords": ["montelukast", "singulair", "airfast", "leukotriene inhibitor", "asthma"],
+          "blocks": [
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "May administer without regard to food or meals.",
+                "When treating asthma, administer dose in the evening.",
+                "Patients with allergic rhinitis may individualize administration time (morning or evening).",
+                "Patients with both asthma and allergic rhinitis should take their dose in the evening.",
+                "Granules: May be administered directly into the mouth, dissolved in 5 mL of cold or room temperature baby formula or breast milk, or mixed with a spoonful of cold or room temperature applesauce, yogurt, carrots, rice, and ice cream; do not add to any other liquids or foods; administer within 15 minutes of opening the packet; liquids may be taken subsequent to administration."
+              ]
+            },
+            {
+              "block_heading": "Brand Names",
+              "block_type": "list",
+              "data": [
+                "Singulair® (4 mg, 28 tablets)"
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يؤخذ هذا العلاج مساءً لعلاج الربو",
+                "الحبيبات يمكن خلطها مع الطعام أو الحليب للأطفال",
+                "يمكن أخذه مع أو بدون طعام"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Prednisolone/Dexamethasone",
+          "associated_brands": ["Predo"],
+          "keywords": ["prednisolone", "predo", "dexamethasone", "corticosteroid", "anti-inflammatory"],
+          "blocks": [
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "Administer after meals or with food or milk to decrease GI upset.",
+                "May administer antacids between meals to help prevent peptic ulcers."
+              ]
+            },
+            {
+              "block_heading": "Dietary Considerations",
+              "block_type": "list",
+              "data": [
+                "↑ ↑ Dietary intake of Pyridoxine, Vitamin C, Vitamin D, Folate, Calcium, and Phosphorus.",
+                "↓ ↓ Dietary intake of sodium and potassium supplements."
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يؤخذ هذا العلاج بعد الطعام لتقليل اضطراب المعدة",
+                "ينصح بزيادة تناول فيتامينات ب، ج، د، الكالسيوم والفوسفور",
+                "قلل من تناول الصوديوم والبوتاسيوم"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Budesonide",
+          "associated_brands": ["Cortiment"],
+          "keywords": ["budesonide", "cortiment", "corticosteroid", "inflammatory bowel disease"],
+          "blocks": [
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "Administer in the morning at least 1 hour before a meal.",
+                "Swallow whole; do not open, crush, or chew."
+              ]
+            },
+            {
+              "block_heading": "Dietary Considerations",
+              "block_type": "list",
+              "data": [
+                "Avoid grapefruit juice.",
+                "Grapefruit juice may double systemic exposure of orally administered budesonide."
+              ]
+            },
+            {
+              "block_heading": "Brand Names",
+              "block_type": "list",
+              "data": [
+                "Cortiment® (9 mg tablets)"
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يؤخذ هذا العلاج صباحاً قبل الطعام بساعة على الأقل",
+                "ابتلع القرص كاملاً دون مضغ أو كسر",
+                "تجنب عصير الجريب فروت مع هذا العلاج"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Antibiotics and Antifungals",
+      "items": [
+        {
+          "item_title": "Amoxicillin + Clavulanic acid",
+          "associated_brands": ["Augmentin", "Klavox", "Megamox"],
+          "keywords": ["amoxicillin", "clavulanic acid", "augmentin", "klavox", "megamox", "antibiotic"],
+          "blocks": [
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "Take with food to enhance absorption and reduce gastrointestinal side effects."
+              ]
+            },
+            {
+              "block_heading": "Brand Names",
+              "block_type": "list",
+              "data": [
+                "Augmentin (14 tablets)"
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يؤخذ هذا العلاج مع الطعام لتحسين الامتصاص",
+                "لتقليل الآثار الجانبية على المعدة"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Cefuroxime",
+          "associated_brands": ["Zinoximor", "Zinnat", "Zamur"],
+          "keywords": ["cefuroxime", "zinoximor", "zinnat", "zamur", "antibiotic"],
+          "blocks": [
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "Take with food to enhance absorption.",
+                "Must be taken at least 1 hour before or 2 hours after the administration of short-acting antacids."
+              ]
+            },
+            {
+              "block_heading": "Brand Names",
+              "block_type": "list",
+              "data": [
+                "Zinnat® (10 tablets, 500 mg)"
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يؤخذ هذا العلاج مع الطعام لتحسين الامتصاص",
+                "يفصل عن مضادات الحموضة بساعة على الأقل"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Sulfamethoxazole",
+          "associated_brands": ["Bactrim"],
+          "keywords": ["sulfamethoxazole", "bactrim", "antibiotic", "UTI treatment"],
+          "blocks": [
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "Can be taken with or without food.",
+                "Take with plenty of water.",
+                "Limit sun exposure."
+              ]
+            },
+            {
+              "block_heading": "Brand Names",
+              "block_type": "list",
+              "data": [
+                "Bactrim® Forte (10 tablets)"
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يمكن تناول هذا العلاج مع أو بدون طعام",
+                "اشرب الكثير من الماء مع هذا العلاج",
+                "تجنب التعرض المباشر للشمس"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Nitrofurantoin",
+          "associated_brands": ["Uvamin Retard", "Arygid"],
+          "keywords": ["nitrofurantoin", "uvamin retard", "arygid", "antibiotic", "UTI treatment"],
+          "blocks": [
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "Take with food to improve absorption and reduce stomach upset."
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يؤخذ هذا العلاج مع الطعام لتحسين الامتصاص",
+                "لتقليل اضطراب المعدة"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Quinolones",
+          "associated_brands": ["Cipromax", "Cipro", "Ciproxen"],
+          "keywords": ["quinolones", "ciprofloxacin", "levofloxacin", "cipromax", "cipro", "ciproxen", "antibiotic"],
+          "blocks": [
+            {
+              "block_heading": "Examples",
+              "block_type": "list",
+              "data": [
+                "Ciprofloxacin, Levofloxacin"
+              ]
+            },
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "Administer at least 2 hours before or 6 hours after antacids, dairy products, calcium-fortified products or other products containing calcium, iron, or zinc."
+              ]
+            },
+            {
+              "block_heading": "Dietary Considerations",
+              "block_type": "list",
+              "data": [
+                "Caffeine with ciprofloxacin, as ciprofloxacin may increase its effects.",
+                "Orange juice may decrease absorption."
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يفصل هذا العلاج عن مضادات الحموضة ومنتجات الألبان بساعتين على الأقل",
+                "تجنب الكافيين وعصير البرتقال مع هذا العلاج"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Doxycycline",
+          "associated_brands": ["Doxy", "Doxydar", "APo doxy", "Tabocine"],
+          "keywords": ["doxycycline", "doxy", "doxydar", "apo doxy", "tabocine", "antibiotic"],
+          "blocks": [
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "Best absorption if taken on an empty stomach, 1 hour before or 2 hours after meals.",
+                "Can be taken with meals to decrease GI upset.",
+                "Some guidelines recommend being taken with at least 240 mL of water and have patient sit up for at least 30 min to reduce the risk of oesophageal irritation and ulceration."
+              ]
+            },
+            {
+              "block_heading": "Dietary Considerations",
+              "block_type": "list",
+              "data": [
+                "Separate from dairy products, calcium-fortified products, iron supplements, multivitamins with minerals, and antacids by at least 2 hours."
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يؤخذ هذا العلاج على معدة فارغة قبل الطعام بساعة أو بعده بساعتين",
+                "يمكن أخذه مع الطعام لتقليل اضطراب المعدة",
+                "يفصل عن منتجات الألبان ومكملات الحديد والكالسيوم بساعتين"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Azithromycin",
+          "associated_brands": ["Zithromax", "Zetron", "Azi once"],
+          "keywords": ["azithromycin", "zithromax", "zetron", "azi once", "antibiotic"],
+          "blocks": [
+            {
+              "block_heading": "Suspension",
+              "block_type": "list",
+              "data": [
+                "Can be taken with or without food but may be better tolerated with food."
+              ]
+            },
+            {
+              "block_heading": "Capsules",
+              "block_type": "list",
+              "data": [
+                "Better to be taken 1 hour before or 2 hours after food."
+              ]
+            },
+            {
+              "block_heading": "Tablets",
+              "block_type": "list",
+              "data": [
+                "Can be taken with or without food."
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "المعلق يمكن أخذه مع أو بدون طعام",
+                "الكبسولات تؤخذ قبل الطعام بساعة أو بعده بساعتين",
+                "الأقراص يمكن تناولها مع أو بدون طعام"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Cefdinir",
+          "associated_brands": ["Omnicef"],
+          "keywords": ["cefdinir", "omnicef", "antibiotic"],
+          "blocks": [
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "At least 2 hours before or after antacids or iron supplements.",
+                "Shake suspension well before use."
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يفصل هذا العلاج عن مضادات الحموضة ومكملات الحديد بساعتين",
+                "يخلط المعلق جيداً قبل الاستخدام"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Minocycline",
+          "keywords": ["minocycline", "antibiotic", "acne treatment"],
+          "blocks": [
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "May be administered with or without food.",
+                "Administer with adequate fluid to decrease the risk of oesophageal irritation and ulceration.",
+                "Should be separated from iron preparations."
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يمكن تناول هذا العلاج مع أو بدون طعام",
+                "اشرب كمية كافية من الماء مع الجرعة",
+                "يفصل عن مستحضرات الحديد"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Metronidazole",
+          "associated_brands": ["Flagyl", "Flazol"],
+          "keywords": ["metronidazole", "flagyl", "flazol", "antibiotic", "antiprotozoal"],
+          "blocks": [
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "Administer with food to minimize stomach upset.",
+                "Shake suspension well before use."
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يؤخذ هذا العلاج مع الطعام لتقليل اضطراب المعدة",
+                "يخلط المعلق جيداً قبل الاستخدام"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Fluconazole",
+          "associated_brands": ["Duracan", "Diflucan"],
+          "keywords": ["fluconazole", "duracan", "diflucan", "antifungal"],
+          "blocks": [
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "May be administered without regard to meals."
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يمكن تناول هذا العلاج مع أو بدون طعام"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Itraconazole",
+          "associated_brands": ["Tracon"],
+          "keywords": ["itraconazole", "tracon", "antifungal"],
+          "blocks": [
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "Take capsules with a full meal to ensure maximal absorption."
+              ]
+            },
+            {
+              "block_heading": "Dietary Considerations",
+              "block_type": "list",
+              "data": [
+                "Grapefruit / Grapefruit juice may decrease or increase itraconazole serum levels (Keep consumption consistent; monitor for altered effects with concomitant use)."
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يؤخذ هذا العلاج مع وجبة كاملة لتحسين الامتصاص",
+                "تجنب عصير الجريب فروت أو حافظ على كمية ثابتة إذا كنت تتناوله"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Minerals and Vitamins",
+      "items": [
+        {
+          "item_title": "Iron",
+          "associated_brands": ["FEROSE - F", "FEROMIN", "Ronzavit"],
+          "keywords": ["iron", "anemia", "iron deficiency", "iron supplements"],
+          "blocks": [
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "Absorption is better if empty stomach but can be used after food to decrease GIT side effects."
+              ]
+            },
+            {
+              "block_heading": "Dietary Considerations",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Foods That Impair Absorption",
+                  "children": [
+                    "meals [الوجبات]",
+                    "coffee [القهوة]",
+                    "eggs [البيض]",
+                    "oxalates [أوكسالات] (Spinach, Kale, Beets, Nuts, Chocolate, Tea, Wheat bran, Rhubarb, Strawberries, Some herbs)",
+                    "phytates [فيتات] (Soy, Fiber, Cereals, Some nuts, Beans, Lentils, Peas)",
+                    "tannates [تانينات] (Tea, Cocoa, Some spices, Some berries)",
+                    "calcium [الكالسيوم] (Milk, Yogurt, Cheese, Some greens, Fish)"
+                  ]
+                },
+                {
+                  "parent": "Medications That Decrease Gastric Acidity",
+                  "children": [
+                    "Antacids (take iron 2 hours before or 4 hours after the antacid)",
+                    "Histamine receptor blockers (discontinue if no longer needed)",
+                    "Proton pump inhibitors (discontinue if no longer needed)"
+                  ]
+                },
+                {
+                  "parent": "Foods Supplements That Increase Absorption",
+                  "children": [
+                    "Vitamin C",
+                    "Orange juice"
+                  ]
+                },
+                {
+                  "parent": "Note",
+                  "children": [
+                    "Iron Bisglycinate (Ronzavit – Ferro28) is lessaffected by pH changes than other iron compound so it is recommended with PPIs users."
+                  ]
+                }
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "امتصاص هذا العلاج أفضل على معدة فارغة",
+                "يمكن أخذه مع الطعام لتقليل اضطراب المعدة",
+                "تجنب القهوة والشاي ومنتجات الألبان مع هذا العلاج",
+                "فيتامين سي وعصير البرتقال يحسنان الامتصاص"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Calcium Carbonate",
+          "associated_brands": ["Bio Cal-D"],
+          "keywords": ["calcium", "calcium carbonate", "bone health", "osteoporosis"],
+          "blocks": [
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "Absorption is better when taken with meals."
+              ]
+            },
+            {
+              "block_heading": "Dietary Considerations",
+              "block_type": "list",
+              "data": [
+                "Foods high in oxalates may decrease absorption."
+              ]
+            },
+            {
+              "block_heading": "Brand Names",
+              "block_type": "list",
+              "data": [
+                "Bio Cal-D (60 tablets)"
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يؤخذ هذا العلاج مع الطعام لتحسين الامتصاص",
+                "تجنب الأطعمة الغنية بالأوكسالات مع هذا العلاج"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Vitamin D",
+          "keywords": ["vitamin D", "cholecalciferol", "bone health", "calcium absorption"],
+          "blocks": [
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "Administer with the largest meal of the day.",
+                "Better absorption after fatty meals."
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "يؤخذ هذا العلاج مع أكبر وجبة في اليوم",
+                "الوجبات الدسمة تحسن امتصاصه"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Calcium Rich Foods",
+          "keywords": ["calcium foods", "calcium-rich diet", "bone health foods"],
+          "blocks": [
+            {
+              "block_heading": "Foods",
+              "block_type": "list",
+              "data": [
+                "Sesame seeds [حبوب السمسم]",
+                "Parmesan cheese [جبنة البارميزان]",
+                "White beans [الفاصوليا البيضاء]",
+                "Dark leafy greens [الخضروات الورقية الداكنة]",
+                "Milk [الحليب]",
+                "Calcium-fortified tofu [التوفو المدعم بالكالسيوم]",
+                "Yogurt [الزبادي]",
+                "Calcium-fortified orange juice [عصير البرتقال المدعم بالكالسيوم]",
+                "Almonds [اللوز]"
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "أطعمة غنية بالكالسيوم:",
+                "حبوب السمسم، الجبنة، الفاصوليا البيضاء، الخضار الورقية الداكنة",
+                "الحليب، الزبادي، اللوز، عصير البرتقال المدعم"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Potassium Rich Foods",
+          "keywords": ["potassium foods", "potassium-rich diet", "electrolyte balance"],
+          "blocks": [
+            {
+              "block_heading": "Foods",
+              "block_type": "list",
+              "data": [
+                "Dried apricots [المشمش المجفف]",
+                "Salmon [السلمون]",
+                "Milk and dairy products [الحليب ومنتجات الألبان]",
+                "Oranges and orange juice [البرتقال وعصير البرتقال]",
+                "Potatoes with skin [البطاطس بالقشر]",
+                "Bananas [الموز]",
+                "Avocados [الأفوكادو]",
+                "Cooked spinach [السبانخ المطبوخة]",
+                "Beets [البنجر]"
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "أطعمة غنية بالبوتاسيوم:",
+                "المشمش المجفف، السلمون، الحليب، البرتقال",
+                "البطاطس بالقشر، الموز، الأفوكادو، السبانخ، البنجر"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Magnesium Rich Foods",
+          "keywords": ["magnesium foods", "magnesium-rich diet", "muscle health"],
+          "blocks": [
+            {
+              "block_heading": "Foods",
+              "block_type": "list",
+              "data": [
+                "Chickpeas and black beans [الحمص والفاصوليا السوداء]",
+                "Salmon [السلمون]",
+                "Brown rice [الأرز البني]",
+                "Dark chocolate [الشوكولاتة الداكنة]",
+                "Pumpkin seeds [بذور اليقطين]",
+                "Almonds [اللوز]",
+                "Avocados [الأفوكادو]",
+                "Cashews [الكاجو]",
+                "Quinoa [الكينوا]"
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "أطعمة غنية بالمغنيسيوم:",
+                "الحمص، الفاصوليا السوداء، السلمون، الأرز البني",
+                "الشوكولاتة الداكنة، بذور اليقطين، اللوز، الأفوكادو، الكاجو، الكينوا"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Oxalate Rich Foods",
+          "keywords": ["oxalate foods", "kidney stones", "calcium oxalate"],
+          "blocks": [
+            {
+              "block_heading": "Foods",
+              "block_type": "list",
+              "data": [
+                "Dried figs [التين المجفف]",
+                "Blackberries [العليق]",
+                "Tea [الشاي]",
+                "Parsley [البقدونس]",
+                "Wild berries [التوت البري]",
+                "Whole grains [الحبوب الكاملة]",
+                "Legumes [البقوليات]",
+                "Nuts [المكسرات]",
+                "Dark chocolate [الشوكولاتة الداكنة]",
+                "Sweet potatoes [البطاطس الحلوة]",
+                "Spinach [السبانخ]",
+                "Beets [البنجر]"
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "أطعمة غنية بالأوكسالات (تجنبها مع حصوات الكلى):",
+                "التين المجفف، التوت، الشاي، البقدونس",
+                "الحبوب الكاملة، المكسرات، الشوكولاتة الداكنة، البطاطس الحلوة، السبانخ، البنجر"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Vitamin K Rich Foods",
+          "keywords": ["vitamin K foods", "warfarin diet", "blood clotting"],
+          "blocks": [
+            {
+              "block_heading": "Foods",
+              "block_type": "list",
+              "data": [
+                "Canola oil and soybean oil [زيت الكانولا وزيت الصويا]",
+                "Blueberries [التوت]",
+                "Green cabbage [الملفوف الأخضر]",
+                "Parsley and kale [البقدونس والكرنب]",
+                "Avocados [الأفوكادو]",
+                "Broccoli [البروكلي]",
+                "Kale [الكرنب]",
+                "Brussels sprouts [كرنب بروكسل]"
+              ]
+            },
+            {
+              "block_heading": "Print Instructions (Arabic)",
+              "block_type": "list",
+              "data": [
+                "أطعمة غنية بفيتامين ك (تجنبها مع الوارفارين):",
+                "زيت الكانولا، التوت، الملفوف الأخضر",
+                "البقدونس، الأفوكادو، البروكلي، الكرنب"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

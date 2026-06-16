@@ -32,7 +32,7 @@ if (!is_wp_error($old_terms)) {
     echo "Deleted " . count($old_terms) . " old terms.\n<br>";
 }
 
-$json_dir = __DIR__ . '/cgp-json-data';
+$json_dir = __DIR__ . '/json';
 $files = glob($json_dir . '/*.json');
 
 foreach ($files as $file) {
