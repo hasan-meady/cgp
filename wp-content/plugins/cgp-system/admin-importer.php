@@ -44,11 +44,12 @@ function cgp_handle_import_submission() {
             $imported_count = 0;
             
             foreach ($data as $item) {
-                if (isset($item['title'])) {
-                    $existing = get_page_by_title($item['title'], OBJECT, 'cgp_item');
+                $item_title = isset($item['drug']) ? $item['drug'] : (isset($item['title']) ? $item['title'] : 'Untitled');
+                if (!empty($item_title)) {
+                    $existing = get_page_by_title($item_title, OBJECT, 'cgp_item');
                     if (!$existing) {
                         $post_id = wp_insert_post(array(
-                            'post_title' => sanitize_text_field($item['title']),
+                            'post_title' => sanitize_text_field($item_title),
                             'post_type' => 'cgp_item',
                             'post_status' => 'publish'
                         ));
@@ -100,7 +101,7 @@ function cgp_handle_import_submission() {
         }
 
         $item = [
-            'title' => $title,
+            'drug' => $title,
             'category' => $category,
             'source' => 'Manual Entry',
             'content' => $content
@@ -137,29 +138,28 @@ function cgp_handle_import_submission() {
 
 [
   {
-    "id": "unique-kebab-case-identifier",
-    "title": "Title of the Drug or Guide",
-    "type": "condition-guide",
-    "release": "Release #1",
-    "committee": "WeCare committee",
-    "sections": [
-      {
-        "title": "Name of Section",
-        "content": [
-          {
-            "Subsection Title": ["Point 1", "Point 2"],
-            "keywords": ["keyword1", "keyword2"]
-          }
-        ]
-      }
-    ]
+    "source": "AI Extraction",
+    "category": "Category of the Guide (e.g. Oncology, Cardiology)",
+    "drug": "Main Title or Drug Name",
+    "content": {
+      "Administration": "Details about administration...",
+      "Instructions": "General instructions...",
+      "Precautions": [
+        "Precaution point 1",
+        "Precaution point 2"
+      ],
+      "Dietary Considerations": [
+        "Dietary point 1"
+      ],
+      "keywords": ["tag1", "tag2", "disease name", "symptom"]
+    }
   }
 ]
 
 Rules:
-1. Every section MUST contain a "keywords" array inside its content blocks containing relevant search terms (diseases, drug names, symptoms).
-2. Maintain highly nested structures if there are subsections.
-3. Ensure the output is 100% valid JSON.';
+1. All sections from the PDF must be represented as keys directly under the "content" object (e.g. "Administration", "Adverse Effects", "Contraindications").
+2. You MUST include a "keywords" array inside the "content" object containing relevant search terms (diseases, drug names, synonyms, symptoms).
+3. Ensure the output is 100% valid JSON and return an ARRAY of objects (even if there is only 1 object).';
 
             // Gemini API Request Payload
             $payload = array(
