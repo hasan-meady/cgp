@@ -126,7 +126,11 @@ async function startSearching(term) {
 
   try {
     // Show loading state if needed here
-    
+    const resultsContainer = document.getElementById('search-results');
+    if (resultsContainer) {
+      resultsContainer.innerHTML = '<div class="cgp-global-loader-container"><div class="cgp-global-loader"></div></div>';
+    }
+
     // Fetch matching data from DB
     const response = await fetch(cgpData.apiUrl + '?q=' + encodeURIComponent(term));
     if (!response.ok) throw new Error('Network error');
@@ -149,6 +153,10 @@ async function startSearching(term) {
     }
   } catch (error) {
     console.error("Search failed:", error);
+    const resultsContainer = document.getElementById('search-results');
+    if (resultsContainer) {
+      resultsContainer.innerHTML = '<div style="text-align: center; padding: 20px; color: #d32f2f;">An error occurred while searching. Please try again.</div>';
+    }
   }
 }
 

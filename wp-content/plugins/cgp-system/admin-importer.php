@@ -172,14 +172,30 @@ function cgp_handle_import_submission() {
             $content['keywords'] = $keywords;
         }
 
+        // Format to match the exact schema of cards.json
         $item = [
-            'drug' => $title,
-            'category' => $category,
-            'source' => 'Manual Entry',
-            'content' => $content
+            'id' => sanitize_title($title),
+            'title' => $title,
+            'type' => 'manual-guide',
+            'release' => 'Manual Entry',
+            'committee' => 'Manual Builder',
+            'sections' => [
+                [
+                    'title' => $category,
+                    'content' => [
+                        [
+                            $title => $content
+                        ]
+                    ]
+                ]
+            ]
         ];
 
-        // Format as array since the importer expects an array of items
+        // Format as array since process_json_insertion handles arrays or single objects if they are wrapped
+        // Wait, process_json_insertion does: foreach ($data as $item)
+        // If we wrap it in an array, $item inside the loop will be our schema!
+        // But $process_json_insertion checks $item['drug'] or $item['title'] to set the WP post title.
+        // Our schema has 'title' at the top level! So it will use 'title'.
         $json_string = wp_json_encode([$item]);
         $process_json_insertion($json_string);
     }
@@ -206,32 +222,45 @@ function cgp_handle_import_submission() {
             $base64_pdf = base64_encode($pdf_data);
 
             // Construct Gemini Prompt
-            $prompt = 'I am uploading a pharmaceutical guideline/protocol PDF. Please extract the entire document into the following strict JSON array format. Do not include any markdown formatting, only the raw JSON.
+            $prompt = 'I am uploading a pharmaceutical guideline/protocol PDF. Please extract the entire document into the following strict JSON array format. Do not include any markdown formatting, only the raw JSON. Do NOT summarize or miss details. Ignore staff names or document references.
 
 [
   {
-    "source": "AI Extraction",
-    "category": "Category of the Guide (e.g. Oncology, Cardiology)",
-    "drug": "Main Title or Drug Name",
-    "content": {
-      "Administration": "Details about administration...",
-      "Instructions": "General instructions...",
-      "Precautions": [
-        "Precaution point 1",
-        "Precaution point 2"
-      ],
-      "Dietary Considerations": [
-        "Dietary point 1"
-      ],
-      "keywords": ["tag1", "tag2", "disease name", "symptom"]
-    }
+    "id": "generated-id",
+    "title": "Main Document Title",
+    "type": "product-guide",
+    "release": "AI Extraction",
+    "committee": "Medical Committee",
+    "sections": [
+      {
+        "title": "Category of the Guide (e.g. Oncology, Cardiology)",
+        "content": [
+          {
+            "Drug Name or Protocol Name": {
+              "Administration": "Details about administration...",
+              "Instructions": "General instructions...",
+              "Precautions": [
+                "Precaution point 1",
+                "Precaution point 2"
+              ],
+              "Dietary Considerations": [
+                "Dietary point 1"
+              ],
+              "keywords": ["tag1", "tag2", "disease name", "symptom"]
+            }
+          }
+        ]
+      }
+    ]
   }
 ]
 
 Rules:
-1. All sections from the PDF must be represented as keys directly under the "content" object (e.g. "Administration", "Adverse Effects", "Contraindications").
-2. You MUST include a "keywords" array inside the "content" object containing relevant search terms (diseases, drug names, synonyms, symptoms).
-3. Ensure the output is 100% valid JSON and return an ARRAY of objects (even if there is only 1 object).';
+1. You MUST nest the actual drug details inside `sections` -> `content` -> `Drug Name` exactly as shown above.
+2. All sections from the PDF must be represented as keys directly under the Drug Name object (e.g. "Administration", "Adverse Effects", "Contraindications"). DO NOT summarize. Extract exactly as it is.
+3. You MUST include a "keywords" array inside the Drug Name object containing highly relevant search terms (diseases, drug names, synonyms, symptoms, brands).
+4. Ignore references, authors, or staff created names. Focus purely on medical/pharmacology data.
+5. Ensure the output is 100% valid JSON and return an ARRAY of objects (even if there is only 1 object).';
 
             // Gemini API Request Payload
             $payload = array(
