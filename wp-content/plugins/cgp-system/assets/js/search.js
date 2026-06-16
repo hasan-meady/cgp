@@ -71,15 +71,25 @@ function searchInContent(content, searchWords, parentKey = null) {
 
   const checkKeywords = (obj, key) => {
     if (obj.keywords) {
-      let isKeywordMatches = obj.keywords.some(keyword => keyword.toLowerCase().trim() == searchWords.toLowerCase().trim());
+      const searchTerms = Array.isArray(searchWords) ? searchWords : [searchWords];
+      
+      let isKeywordMatches = obj.keywords.some(keyword => {
+        const lowerKeyword = keyword.toLowerCase().trim();
+        return searchTerms.some(term => {
+          const lowerTerm = term.toLowerCase().trim();
+          return lowerKeyword.includes(lowerTerm) || lowerTerm.includes(lowerKeyword);
+        });
+      });
       if (isKeywordMatches) {
         if (key) {
           matches.push({ [key.replace(/\[\d+\]/g, '')]: obj });
         } else {
           matches.push(obj);
         }
+        return true;
       }
     }
+    return false;
   };
 
   if (Array.isArray(content)) {
@@ -89,15 +99,39 @@ function searchInContent(content, searchWords, parentKey = null) {
     });
   }
   else if (typeof content === 'object' && content !== null) {
-    checkKeywords(content, parentKey);
-    for (const [key, value] of Object.entries(content)) {
-      const nestedKey = parentKey ? `${parentKey} > ${key}` : key;
-      if (Array.isArray(value)) {
-        value.forEach((subItem) => {
-          matches.push(...searchInContent(subItem, searchWords, `${nestedKey}`));
-        });
+    const matchedByKeyword = checkKeywords(content, parentKey);
+    
+    if (!matchedByKeyword) {
+      let foundInValues = false;
+      const searchTerms = Array.isArray(searchWords) ? searchWords : [searchWords];
+      
+      for (const [key, value] of Object.entries(content)) {
+        if (typeof value === 'string' && isFlexibleMatch(value, searchTerms)) {
+           foundInValues = true;
+           break;
+        } else if (key === 'title' && typeof value === 'string' && searchTerms.some(term => value.toLowerCase().includes(term.toLowerCase().trim()))) {
+           foundInValues = true;
+           break;
+        }
+      }
+      
+      if (foundInValues) {
+        if (parentKey) {
+          matches.push({ [parentKey.replace(/\[\d+\]/g, '')]: content });
+        } else {
+          matches.push(content);
+        }
       } else {
-        matches.push(...searchInContent(value, searchWords, nestedKey));
+        for (const [key, value] of Object.entries(content)) {
+          const nestedKey = parentKey ? `${parentKey} > ${key}` : key;
+          if (Array.isArray(value)) {
+            value.forEach((subItem) => {
+              matches.push(...searchInContent(subItem, searchWords, `${nestedKey}`));
+            });
+          } else if (typeof value === 'object' && value !== null) {
+            matches.push(...searchInContent(value, searchWords, nestedKey));
+          }
+        }
       }
     }
   }

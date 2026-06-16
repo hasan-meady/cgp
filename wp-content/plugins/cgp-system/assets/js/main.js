@@ -104,7 +104,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }, 16000);
 });
 
-function startSearching(term) {
+async function startSearching(term) {
   const dashboard = document.getElementById('initial-dashboard-feed');
   const sidebarWrapper = document.getElementById('main-sidebar-wrapper');
   
@@ -114,6 +114,7 @@ function startSearching(term) {
       if (sidebarWrapper && dashboard.innerHTML.trim() !== '') {
         sidebarWrapper.style.display = 'block';
       }
+      return;
     } else {
       dashboard.style.display = 'none';
       const sidebar = document.getElementById('search-tags-sidebar');
@@ -123,12 +124,31 @@ function startSearching(term) {
     }
   }
 
-  const results = searchDocuments(term, []);
-  if (typeof displayResults === 'function') {
-    displayResults(results);
-  }
-  if (typeof logCGPSearch === 'function') {
-    logCGPSearch(term, results.length);
+  try {
+    // Show loading state if needed here
+    
+    // Fetch matching data from DB
+    const response = await fetch(cgpData.apiUrl + '?q=' + encodeURIComponent(term));
+    if (!response.ok) throw new Error('Network error');
+    const matchedData = await response.json();
+    
+    // Temporarily replace allData so searchDocuments searches ONLY the matched DB results
+    const previousData = allData;
+    allData = matchedData;
+    
+    const results = searchDocuments(term, []);
+    
+    // Restore allData so autocomplete works
+    allData = previousData;
+    
+    if (typeof displayResults === 'function') {
+      displayResults(results);
+    }
+    if (typeof logCGPSearch === 'function') {
+      logCGPSearch(term, results.length);
+    }
+  } catch (error) {
+    console.error("Search failed:", error);
   }
 }
 

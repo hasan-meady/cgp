@@ -8,6 +8,7 @@
 require_once plugin_dir_path(__FILE__) . 'interactions-api.php';
 require_once plugin_dir_path(__FILE__) . 'admin-importer.php';
 require_once plugin_dir_path(__FILE__) . 'ai-chatbot-api.php';
+require_once plugin_dir_path(__FILE__) . 'auto-importer.php';
 
 // 1. Register Custom Post Type & Taxonomy
 function cgp_register_post_types() {
@@ -34,10 +35,21 @@ add_action('init', 'cgp_register_post_types');
 
 // 2. Register REST API Search Endpoint
 function cgp_rest_search($request) {
+    $q = $request->get_param('q');
     $args = array(
         'post_type' => 'cgp_item',
         'posts_per_page' => -1,
     );
+    
+    if (!empty($q)) {
+        $args['meta_query'] = array(
+            array(
+                'key' => '_cgp_json_data',
+                'value' => sanitize_text_field($q),
+                'compare' => 'LIKE'
+            )
+        );
+    }
     
     $posts = get_posts($args);
     $results = array();

@@ -9,6 +9,29 @@ require_once ABSPATH . 'wp-admin/includes/plugin.php';
 activate_plugin('cgp-system/cgp-system.php');
 echo "Activated CGP System plugin.\n<br>";
 
+echo "Wiping all old cgp_item posts...\n<br>";
+$old_posts = get_posts(array(
+    'post_type' => 'cgp_item',
+    'numberposts' => -1,
+    'post_status' => 'any'
+));
+foreach ($old_posts as $p) {
+    wp_delete_post($p->ID, true);
+}
+echo "Deleted " . count($old_posts) . " old posts.\n<br>";
+
+echo "Wiping all old cgp_keyword terms...\n<br>";
+$old_terms = get_terms(array(
+    'taxonomy' => 'cgp_keyword',
+    'hide_empty' => false,
+));
+if (!is_wp_error($old_terms)) {
+    foreach ($old_terms as $t) {
+        wp_delete_term($t->term_id, 'cgp_keyword');
+    }
+    echo "Deleted " . count($old_terms) . " old terms.\n<br>";
+}
+
 $json_dir = __DIR__ . '/cgp-json-data';
 $files = glob($json_dir . '/*.json');
 

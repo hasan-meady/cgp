@@ -8,6 +8,7 @@ wp-content/upgrade/
 api_dump.json
 cgp-json-data/
 *.pdf
+*.txt
 
 # Environment files
 .env

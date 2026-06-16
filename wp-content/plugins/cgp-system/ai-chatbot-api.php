@@ -35,43 +35,59 @@ function cgp_handle_ask_ai($request) {
     // Increment Rate Limit
     set_transient($transient_key, $attempts + 1, HOUR_IN_SECONDS);
 
-    // 3. Retrieve Context (Simple RAG search)
-    $args = array(
-        'post_type' => 'cgp_item',
-        'posts_per_page' => -1,
-    );
-    $posts = get_posts($args);
-    $context_chunks = array();
+    // 3. Retrieve Context (Optimized RAG search using Database LIKE queries)
+    $question_words = array_filter(explode(' ', strtolower($question)), function($w) {
+        return strlen($w) > 3; // Only search for significant words
+    });
     
-    // Very simple keyword matching for relevance
-    $question_words = explode(' ', strtolower($question));
+    $context_chunks = array();
     $scored_posts = array();
 
-    foreach ($posts as $post) {
-        $json_data = get_post_meta($post->ID, '_cgp_json_data', true);
-        if ($json_data) {
-            $score = 0;
-            $lower_json = strtolower($json_data);
-            foreach ($question_words as $word) {
-                if (strlen($word) > 3 && strpos($lower_json, $word) !== false) {
-                    $score++;
+    if (!empty($question_words)) {
+        // Query posts that match any of the keywords in the database
+        $meta_query = array('relation' => 'OR');
+        foreach ($question_words as $word) {
+            $meta_query[] = array(
+                'key' => '_cgp_json_data',
+                'value' => sanitize_text_field($word),
+                'compare' => 'LIKE'
+            );
+        }
+
+        $args = array(
+            'post_type' => 'cgp_item',
+            'posts_per_page' => 10, // Limit to top 10 potential matches
+            'meta_query' => $meta_query
+        );
+        $posts = get_posts($args);
+
+        // Now score the matched posts for relevance
+        foreach ($posts as $post) {
+            $json_data = get_post_meta($post->ID, '_cgp_json_data', true);
+            if ($json_data) {
+                $score = 0;
+                $lower_json = strtolower($json_data);
+                foreach ($question_words as $word) {
+                    if (strpos($lower_json, $word) !== false) {
+                        $score++;
+                    }
+                }
+                if ($score > 0) {
+                    $scored_posts[] = array('score' => $score, 'data' => $json_data);
                 }
             }
-            if ($score > 0) {
-                $scored_posts[] = array('score' => $score, 'data' => $json_data);
-            }
+        }
+
+        // Sort by relevance and take top 3
+        usort($scored_posts, function($a, $b) { return $b['score'] - $a['score']; });
+        $top_posts = array_slice($scored_posts, 0, 3);
+        
+        foreach ($top_posts as $tp) {
+            $context_chunks[] = $tp['data'];
         }
     }
-
-    // Sort by relevance and take top 3
-    usort($scored_posts, function($a, $b) { return $b['score'] - $a['score']; });
-    $top_posts = array_slice($scored_posts, 0, 3);
     
-    foreach ($top_posts as $tp) {
-        $context_chunks[] = $tp['data'];
-    }
-    
-    $context_string = empty($context_chunks) ? "No specific data found in database." : implode("\n\n---\n\n", $context_chunks);
+    $context_string = empty($context_chunks) ? "No specific data found in database for the given keywords." : implode("\n\n---\n\n", $context_chunks);
 
     // 4. Construct Secure Prompt
     $system_prompt = "You are a professional, helpful, and concise medical assistant created by Hasan Meady for 'CGP Information Search'.\n";

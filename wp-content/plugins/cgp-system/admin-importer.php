@@ -46,7 +46,13 @@ function cgp_handle_import_submission() {
             foreach ($data as $item) {
                 $item_title = isset($item['drug']) ? $item['drug'] : (isset($item['title']) ? $item['title'] : 'Untitled');
                 if (!empty($item_title)) {
-                    $existing = get_page_by_title($item_title, OBJECT, 'cgp_item');
+                    $existing_query = new WP_Query(array(
+                        'title' => $item_title,
+                        'post_type' => 'cgp_item',
+                        'post_status' => 'any',
+                        'posts_per_page' => 1
+                    ));
+                    $existing = $existing_query->have_posts() ? $existing_query->posts[0] : null;
                     if (!$existing) {
                         $post_id = wp_insert_post(array(
                             'post_title' => sanitize_text_field($item_title),
@@ -74,6 +80,72 @@ function cgp_handle_import_submission() {
         if (!empty($_POST['cgp_json_payload'])) {
             $process_json_insertion(stripslashes($_POST['cgp_json_payload']));
         }
+    }
+
+    // Handle JSON File Upload (Multiple Files)
+    if (isset($_POST['cgp_json_upload_nonce']) && wp_verify_nonce($_POST['cgp_json_upload_nonce'], 'cgp_json_upload_action')) {
+        if (!empty($_FILES['cgp_json_file']['tmp_name'])) {
+            $tmp_names = (array) $_FILES['cgp_json_file']['tmp_name'];
+            $file_names = (array) $_FILES['cgp_json_file']['name'];
+            
+            foreach ($tmp_names as $index => $tmp_name) {
+                if (empty($tmp_name)) continue;
+                
+                $file_name = $file_names[$index];
+                $extension = pathinfo($file_name, PATHINFO_EXTENSION);
+                
+                if (strtolower($extension) !== 'json') {
+                    add_settings_error('cgp_messages', 'cgp_message', "Skipped $file_name: Only JSON files are allowed.", 'error');
+                    continue;
+                }
+                
+                $json_data = file_get_contents($tmp_name);
+                
+                // Handle different encodings (UTF-16LE is common for PowerShell/Windows exports)
+                if (substr($json_data, 0, 2) === "\xFF\xFE") {
+                    $json_data = mb_convert_encoding(substr($json_data, 2), 'UTF-8', 'UTF-16LE');
+                } elseif (substr($json_data, 0, 2) === "\xFE\xFF") {
+                    $json_data = mb_convert_encoding(substr($json_data, 2), 'UTF-8', 'UTF-16BE');
+                } elseif (substr($json_data, 0, 3) === "\xEF\xBB\xBF") {
+                    $json_data = substr($json_data, 3); // Remove UTF-8 BOM
+                } elseif (strpos(substr($json_data, 0, 100), "\x00") !== false) {
+                    $json_data = mb_convert_encoding($json_data, 'UTF-8', 'UTF-16LE'); // Assume LE if null bytes exist
+                }
+                
+                $process_json_insertion($json_data);
+            }
+        }
+    }
+
+    // Handle Wipe Data
+    if (isset($_POST['cgp_wipe_nonce']) && wp_verify_nonce($_POST['cgp_wipe_nonce'], 'cgp_wipe_action')) {
+        $cgp_posts = get_posts(array('post_type' => 'cgp_item', 'posts_per_page' => -1, 'post_status' => 'any'));
+        $count = 0;
+        foreach ($cgp_posts as $p) {
+            wp_delete_post($p->ID, true);
+            $count++;
+        }
+        add_settings_error('cgp_messages', 'cgp_message', "Successfully wiped $count guides.", 'updated');
+    }
+
+    // Handle Backup Data
+    if (isset($_POST['cgp_backup_nonce']) && wp_verify_nonce($_POST['cgp_backup_nonce'], 'cgp_backup_action')) {
+        $cgp_posts = get_posts(array('post_type' => 'cgp_item', 'posts_per_page' => -1, 'post_status' => 'any'));
+        $export_data = array();
+        foreach ($cgp_posts as $p) {
+            $json_data = get_post_meta($p->ID, '_cgp_json_data', true);
+            if ($json_data) {
+                $decoded = json_decode($json_data, true);
+                if ($decoded) {
+                    $export_data[] = $decoded;
+                }
+            }
+        }
+        $json_export = wp_json_encode($export_data);
+        header('Content-Type: application/json');
+        header('Content-Disposition: attachment; filename="cgp-database-backup-' . date('Y-m-d') . '.json"');
+        echo $json_export;
+        exit;
     }
 
     // 4. Handle Quick Manual Entry Builder
@@ -267,6 +339,15 @@ function cgp_render_admin_importer() {
                         <button type="submit" class="button button-secondary">Import Manual JSON</button>
                     </p>
                 </form>
+
+                <hr style="margin: 20px 0; border: 0; border-top: 1px solid #eee;">
+                
+                <h3 style="margin-top: 0; font-size: 14px; font-weight: 600;">Or Upload .json Files (Bulk Upload Supported)</h3>
+                <form method="post" action="" enctype="multipart/form-data" style="display: flex; gap: 10px; align-items: center;">
+                    <?php wp_nonce_field('cgp_json_upload_action', 'cgp_json_upload_nonce'); ?>
+                    <input type="file" name="cgp_json_file[]" accept=".json,application/json" multiple required>
+                    <button type="submit" class="button button-secondary">Upload JSON Files</button>
+                </form>
             </div>
 
             <!-- Quick Manual Entry Builder Area -->
@@ -327,6 +408,26 @@ function cgp_render_admin_importer() {
                     document.getElementById('quick-entry-rows').appendChild(row);
                 }
                 </script>
+            </div>
+
+            <!-- Backup Data Area -->
+            <div style="flex: 1 1 100%; background: #e8f5e9; padding: 25px; border: 1px solid #c8e6c9; border-radius: 8px; margin-top: 10px;">
+                <h2 style="color: #2e7d32;"><span class="dashicons dashicons-download"></span> Backup Database</h2>
+                <p>Use this button to download a complete backup of all CGP Guides currently in the database. You can re-upload this file later to restore your data.</p>
+                <form method="post" action="">
+                    <?php wp_nonce_field('cgp_backup_action', 'cgp_backup_nonce'); ?>
+                    <button type="submit" class="button button-primary" style="background: #2e7d32; border-color: #1b5e20; text-shadow: none;">Download Backup (JSON)</button>
+                </form>
+            </div>
+
+            <!-- Wipe Data Area -->
+            <div style="flex: 1 1 100%; background: #fff5f5; padding: 25px; border: 1px solid #ffcdd2; border-radius: 8px; margin-top: 10px;">
+                <h2 style="color: #d32f2f;"><span class="dashicons dashicons-trash"></span> Danger Zone: Wipe All Data</h2>
+                <p>Use this button to completely delete all CGP Guides from the database. This action cannot be undone.</p>
+                <form method="post" action="" onsubmit="return confirm('Are you sure you want to delete ALL guides? This cannot be undone.');">
+                    <?php wp_nonce_field('cgp_wipe_action', 'cgp_wipe_nonce'); ?>
+                    <button type="submit" class="button button-primary" style="background: #d32f2f; border-color: #b71c1c; text-shadow: none;">Wipe All Data</button>
+                </form>
             </div>
 
         </div>
