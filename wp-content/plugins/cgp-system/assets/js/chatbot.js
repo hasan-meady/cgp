@@ -5,7 +5,7 @@
         const chatHTML = `
             <div id="cgp-chat-widget">
                 <button id="cgp-chat-toggle" class="cgp-chat-toggle-btn">
-                    <i class="fas fa-comment-medical"></i> Ask AI
+                    <i class="fas fa-comment-medical"></i> Ask
                 </button>
                 <div id="cgp-chat-window" class="cgp-chat-window" style="display: none;">
                     <div class="cgp-chat-header">

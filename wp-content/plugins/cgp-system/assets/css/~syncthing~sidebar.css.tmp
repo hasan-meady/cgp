@@ -1,0 +1,187 @@
+/* Sources Card Styles */
+.sources-toggle-btn {
+  position: fixed;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background: var(--theme-color);
+  color: var(--secondary-color);
+  border: 1px solid var(--border-color);
+  border-left: none;
+  width: 45px;
+  height: 55px;
+  border-radius: 0 12px 12px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 2000;
+  box-shadow: 4px 0 12px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.sources-toggle-btn i {
+  font-size: 22px;
+}
+
+.sources-toggle-btn:hover {
+  background: var(--accent-color);
+  color: white;
+  width: 55px;
+}
+
+.sources-card {
+  position: fixed;
+  left: -320px;
+  top: 0;
+  width: 300px;
+  height: 100vh;
+  background: var(--theme-color);
+  box-shadow: 2px 0 15px rgba(0, 0, 0, 0.1);
+  z-index: 2000;
+  transition: all 0.3s ease;
+  overflow-y: auto;
+}
+
+.sources-card.active {
+  left: 0;
+}
+
+.sources-card .card-header {
+  background: var(--accent-color);
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sources-card .card-header h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.sources-card .close-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 0;
+  line-height: 1;
+}
+
+.sources-card .card-body {
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.sources-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sources-list li {
+  padding: 10px 0;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.sources-list li a {
+  color: var(--primary-color);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  transition: all 0.2s ease;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.sources-list li a:hover {
+  background-color: rgba(var(--style-color-rgb), 0.1);
+  color: var(--accent-color);
+  transform: translateX(5px);
+}
+
+.sources-list li:last-child {
+  border-bottom: none;
+}
+
+.sources-card .sources-list i {
+  margin-right: 10px;
+  width: 20px;
+  text-align: center;
+  color: var(--secondary-color);
+}
+
+.sources-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1999;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+}
+
+.sources-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+@media (max-width: 768px) {
+  .sources-card { width: 280px; }
+}
+
+/* Tags Sidebar Styles */
+.tags-sidebar { 
+  background: var(--theme-color); 
+  border-radius: 16px; 
+  padding: 20px; 
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); 
+  position: sticky; 
+  top: 20px; 
+  border: 1px solid var(--border-color); 
+}
+.tags-sidebar-header h5 { 
+  margin: 0 0 15px 0; 
+  font-size: 1.1rem; 
+  color: var(--primary-color); 
+  font-weight: 600; 
+}
+.tags-sidebar-content { 
+  display: flex; 
+  flex-wrap: wrap; 
+  gap: 8px; 
+}
+
+/* Custom Scrollbar for Tags Sidebar - Premium Sleek Design */
+.tags-sidebar-content { 
+  max-height: calc(100vh - 220px); 
+  overflow-y: auto; 
+  padding-right: 8px; 
+  scrollbar-width: thin; /* Firefox support */
+  scrollbar-color: rgba(0, 0, 0, 0.2) transparent;
+}
+.tags-sidebar-content::-webkit-scrollbar { 
+  width: 8px; 
+}
+.tags-sidebar-content::-webkit-scrollbar-track { 
+  background: transparent; 
+}
+.tags-sidebar-content::-webkit-scrollbar-thumb { 
+  background-color: rgba(0, 0, 0, 0.15); 
+  border-radius: 20px; 
+  border: 2px solid var(--theme-color); /* Creates padding effect */
+}
+.tags-sidebar-content::-webkit-scrollbar-thumb:hover { 
+  background-color: rgba(0, 0, 0, 0.35); 
+}
