@@ -12,7 +12,7 @@
 
 .term-line::before,
 .term-line.icon-default::before {
-  content: "✓"; color: #4caf50; font-size: 12px; margin-right: 10px; position: relative; top: -1px;
+  content: "\2713"; color: #4caf50; font-size: 12px; margin-right: 10px; position: relative; top: -1px;
 }
 
 .highlight-term {

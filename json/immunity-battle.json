@@ -1,0 +1,853 @@
+{
+  "id": "immunity-battle",
+  "title": "Immunity Battle",
+  "type": "condition-guide",
+  "release": "Release #1",
+  "committee": "Eastern 2 Scientific Committee",
+  "sections": [
+    {
+      "section_title": "Immune System Overview",
+      "items": [
+        {
+          "item_title": "Definition",
+          "keywords": ["immunity battle", "immune system", "immune defense"],
+          "blocks": [
+            {
+              "block_heading": "Definition",
+              "block_type": "list",
+              "data": [
+                "The immune system protects the human body from enemies attacks including infectious diseases (viruses, bacteria, fungi, parasites), allergens, and tumors."
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Components",
+          "keywords": ["immunity battle", "innate immunity", "adaptive immunity"],
+          "blocks": [
+            {
+              "block_heading": "Innate Immunity",
+              "block_type": "list",
+              "data": [
+                "Active from birth",
+                "Consists of physical barriers (skin, gastrointestinal tract lining)",
+                "Specialized immune cells that quickly attack pathogens",
+                "Responds quickly leading to inflammation and fever",
+                "Attacks broadly without recognizing specific pathogens"
+              ]
+            },
+            {
+              "block_heading": "Adaptive Immunity",
+              "block_type": "list",
+              "data": [
+                "Learns from exposure to new germs",
+                "Immune cells remember invaders for faster future response"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Key Players",
+          "keywords": ["immunity battle", "leukocytes", "lymphatic system", "white blood cells", "phagocytes", "lymphocytes"],
+          "blocks": [
+            {
+              "block_heading": "Leukocytes (White Blood Cells)",
+              "block_type": "list",
+              "data": [
+                "Patrol blood and tissues searching for intruders",
+                "Launch immune attacks when detecting foreign substances",
+                "Types: Phagocytes (engulf pathogens) and Lymphocytes (B-cells and T-cells)"
+              ]
+            },
+            {
+              "block_heading": "Lymphatic System",
+              "block_type": "list",
+              "data": [
+                "Network of lymph vessels that collect excess fluids",
+                "Lymph nodes filter and trap harmful germs",
+                "Swollen lymph nodes indicate active immune response"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Immune System Activation",
+      "items": [
+        {
+          "item_title": "Process",
+          "keywords": ["immunity battle", "antigens", "antibodies", "B-cells", "immune response", "pathogen defense", "adaptive immunity", "flu vaccination", "immune activation"],
+          "blocks": [
+            {
+              "block_heading": "Process",
+              "block_type": "list",
+              "data": [
+                "Antigens (microbes, toxins, chemicals) trigger immune response",
+                "First exposure stores information about the germ",
+                "Subsequent exposures trigger faster response via B-cells producing antibodies",
+                "Antibodies attach to antigens signaling immune system to attack"
+              ]
+            },
+            {
+              "block_heading": "Challenges",
+              "block_type": "list",
+              "data": [
+                "Some pathogens adapt and change over time (e.g., requiring annual flu shots)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Immune Cell Types",
+      "items": [
+        {
+          "item_title": "Mast Cell",
+          "keywords": ["immunity battle", "immune cells", "mast cell", "histamine", "inflammation", "immune response"],
+          "blocks": [
+            {
+              "block_heading": "Characteristics",
+              "block_type": "text",
+              "data": "Dilates blood vessels, induces inflammation through histamines and heparin, recruits macrophages and neutrophils"
+            },
+            {
+              "block_heading": "Location",
+              "block_type": "text",
+              "data": "Connective tissues, mucous membranes"
+            }
+          ]
+        },
+        {
+          "item_title": "Macrophage",
+          "keywords": ["immunity battle", "immune cells", "macrophage", "phagocyte", "pathogen clearance", "antigen presentation"],
+          "blocks": [
+            {
+              "block_heading": "Characteristics",
+              "block_type": "text",
+              "data": "Phagocytic cell that consumes pathogens and cancer cells, stimulates other immune cells"
+            },
+            {
+              "block_heading": "Location",
+              "block_type": "text",
+              "data": "Migrates from blood vessels into tissues"
+            }
+          ]
+        },
+        {
+          "item_title": "Natural Killer Cell",
+          "keywords": ["immunity battle", "immune cells", "NK cell", "natural killer", "tumor surveillance", "viral defense"],
+          "blocks": [
+            {
+              "block_heading": "Characteristics",
+              "block_type": "text",
+              "data": "Kills tumor cells and virus-infected cells"
+            },
+            {
+              "block_heading": "Location",
+              "block_type": "text",
+              "data": "Circulates in blood and migrates into tissues"
+            }
+          ]
+        },
+        {
+          "item_title": "Dendritic Cell",
+          "keywords": ["immunity battle", "immune cells", "dendritic cell", "antigen presentation", "adaptive immunity", "immune activation"],
+          "blocks": [
+            {
+              "block_heading": "Characteristics",
+              "block_type": "text",
+              "data": "Presents antigens triggering adaptive immunity"
+            },
+            {
+              "block_heading": "Location",
+              "block_type": "text",
+              "data": "Epithelial tissue, migrates to lymph nodes when activated"
+            }
+          ]
+        },
+        {
+          "item_title": "Monocyte",
+          "keywords": ["immunity battle", "immune cells", "monocyte", "macrophage precursor", "inflammation response"],
+          "blocks": [
+            {
+              "block_heading": "Characteristics",
+              "block_type": "text",
+              "data": "Differentiates into macrophages and dendritic cells in response to inflammation"
+            },
+            {
+              "block_heading": "Location",
+              "block_type": "text",
+              "data": "Stored in spleen, moves through blood to infected tissues"
+            }
+          ]
+        },
+        {
+          "item_title": "Neutrophil",
+          "keywords": ["immunity battle", "immune cells", "neutrophil", "first responder", "bacterial defense", "phagocytosis"],
+          "blocks": [
+            {
+              "block_heading": "Characteristics",
+              "block_type": "text",
+              "data": "First responders at infection sites (50-60% of leukocytes), releases toxins against bacteria/fungi"
+            },
+            {
+              "block_heading": "Location",
+              "block_type": "text",
+              "data": "Migrates from blood vessels into tissues"
+            }
+          ]
+        },
+        {
+          "item_title": "Basophil",
+          "keywords": ["immunity battle", "immune cells", "basophil", "histamine", "parasite defense", "allergic response"],
+          "blocks": [
+            {
+              "block_heading": "Characteristics",
+              "block_type": "text",
+              "data": "Defends against parasites, releases inflammation-causing histamines"
+            },
+            {
+              "block_heading": "Location",
+              "block_type": "text",
+              "data": "Circulates in blood and migrates to tissues"
+            }
+          ]
+        },
+        {
+          "item_title": "Eosinophil",
+          "keywords": ["immunity battle", "immune cells", "eosinophil", "parasite defense", "allergic response", "tissue inflammation"],
+          "blocks": [
+            {
+              "block_heading": "Characteristics",
+              "block_type": "text",
+              "data": "Releases toxins against bacteria/parasites (can cause tissue damage)"
+            },
+            {
+              "block_heading": "Location",
+              "block_type": "text",
+              "data": "Circulates in blood and migrates to tissues"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Natural Body Defenses",
+      "items": [
+        {
+          "item_title": "Eyes",
+          "keywords": ["immunity battle", "natural defenses", "tears", "lysozyme", "ocular immunity"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Tears have anti-microbial action"
+            }
+          ]
+        },
+        {
+          "item_title": "Nose",
+          "keywords": ["immunity battle", "natural defenses", "nasal hair", "mucus", "particle filtration"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Hair & mucus trap foreign bodies"
+            }
+          ]
+        },
+        {
+          "item_title": "Respiratory Tract",
+          "keywords": ["immunity battle", "natural defenses", "respiratory immunity", "mucociliary clearance", "cough reflex"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Mucous & cilia activate cough reflex"
+            }
+          ]
+        },
+        {
+          "item_title": "Stomach",
+          "keywords": ["immunity battle", "natural defenses", "gastric acid", "stomach pH", "pathogen inactivation"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Acidic HCl inactivates ingested pathogens"
+            }
+          ]
+        },
+        {
+          "item_title": "Small Intestine",
+          "keywords": ["immunity battle", "natural defenses", "gut flora", "microbiome", "intestinal immunity"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Bacterial flora (probiotics) regulate immune homeostasis"
+            }
+          ]
+        },
+        {
+          "item_title": "Genital Organs",
+          "keywords": ["immunity battle", "natural defenses", "vaginal flora", "lactobacillus", "genital immunity"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Bacterial Flora (Lactobacillus) & epithelial cells produce H2O2 and lactic acid"
+            }
+          ]
+        },
+        {
+          "item_title": "Skin",
+          "keywords": ["immunity battle", "natural defenses", "skin barrier", "sebum", "cutaneous immunity"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Sweat & skin oils have anti-microbial action"
+            }
+          ]
+        },
+        {
+          "item_title": "Breast Milk",
+          "keywords": ["immunity battle", "natural defenses", "colostrum", "lactoferrin", "breastfeeding immunity"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Colostrum (lactoferrin) contains IgG, IgM, IgA which activate immunity"
+            }
+          ]
+        },
+        {
+          "item_title": "Immunity Suppressors",
+          "keywords": ["immunity battle", "immune health", "lifestyle factors"],
+          "blocks": [
+            {
+              "block_heading": "Immunity Suppressors",
+              "block_type": "list",
+              "data": [
+                "Poor diet",
+                "Nutrient deficiencies",
+                "Alcohol",
+                "Lack of sleep",
+                "Physical inactivity",
+                "Poor personal hygiene",
+                "Impaired normal flora",
+                "Environmental toxins"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Boosting Immunity",
+      "items": [
+        {
+          "item_title": "Lifestyle Factors",
+          "keywords": ["immunity battle", "immune health", "lifestyle factors"],
+          "blocks": [
+            {
+              "block_heading": "Recommendations",
+              "block_type": "list",
+              "data": [
+                "Stay up-to-date on recommended vaccines",
+                "Maintain a healthy diet",
+                "Exercise regularly",
+                "Keep body hydrated",
+                "Get plenty of sleep",
+                "Minimize stress",
+                "Quit smoking"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Omega-3",
+          "keywords": ["immunity battle", "immune boosters", "omega-3", "fish oil", "anti-inflammatory", "EPA", "DHA"],
+          "blocks": [
+            {
+              "block_heading": "Benefits",
+              "block_type": "list",
+              "data": [
+                "Stimulate immunity response",
+                "Trigger anti-inflammatory effect",
+                "Increase absorption of fat soluble vitamins (K, E, D, A)"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Dietary Fibers",
+          "keywords": ["immunity battle", "immune boosters", "fiber", "prebiotics", "gut health", "microbiome"],
+          "blocks": [
+            {
+              "block_heading": "Benefits",
+              "block_type": "list",
+              "data": [
+                "Maintain gut flora",
+                "Act as prebiotics (food for probiotics)",
+                "Boost immunity system"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Probiotics",
+          "keywords": ["immunity battle", "immune boosters", "probiotics", "lactobacillus", "bifidobacterium", "microbiome"],
+          "blocks": [
+            {
+              "block_heading": "Benefits",
+              "block_type": "list",
+              "data": [
+                "Maintain gut & vaginal flora",
+                "Boost immunity system"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Propolis",
+          "keywords": ["immunity battle", "immune boosters", "propolis", "bee product", "flavonoids", "antiviral"],
+          "blocks": [
+            {
+              "block_heading": "Benefits",
+              "block_type": "list",
+              "data": [
+                "Contains flavonoids that enhance immunity response",
+                "Increases interferon (antiviral) & interleukin release",
+                "Enhances phagocytosis"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Garlic",
+          "keywords": ["immunity battle", "immune boosters", "garlic", "allicin", "antimicrobial", "antioxidant"],
+          "blocks": [
+            {
+              "block_heading": "Benefits",
+              "block_type": "list",
+              "data": [
+                "Antibiotic and antifungal effect (allicin)",
+                "Potent antioxidant",
+                "Acts as prebiotic to maintain body flora"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Echinacea",
+          "keywords": ["immunity battle", "immune boosters", "echinacea", "herbal remedy", "immune stimulant"],
+          "blocks": [
+            {
+              "block_heading": "Benefits",
+              "block_type": "list",
+              "data": [
+                "Potent antioxidant",
+                "Anti-inflammatory",
+                "Boosts immunity response"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Colostrum",
+          "keywords": ["immunity battle", "immune boosters", "colostrum", "lactoferrin", "immunoglobulins", "passive immunity"],
+          "blocks": [
+            {
+              "block_heading": "Benefits",
+              "block_type": "list",
+              "data": ["Contains IgG, IgM, IgA which activate immunity system"]
+            }
+          ]
+        },
+        {
+          "item_title": "Ginger",
+          "keywords": ["immunity battle", "immune boosters", "ginger", "anti-inflammatory", "digestive aid"],
+          "blocks": [
+            {
+              "block_heading": "Benefits",
+              "block_type": "list",
+              "data": ["Contains beneficial compounds in combination with other ingredients"]
+            }
+          ]
+        },
+        {
+          "item_title": "Manuka Honey",
+          "keywords": ["immunity battle", "immune boosters", "manuka honey", "antimicrobial", "wound healing"],
+          "blocks": [
+            {
+              "block_heading": "Benefits",
+              "block_type": "list",
+              "data": [
+                "Antimicrobial effect",
+                "Promotes skin tissue healing",
+                "Anti-inflammatory effect"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Phytochemicals",
+          "keywords": ["immunity battle", "immune boosters", "phytochemicals", "plant compounds", "curcumin", "carotenoids"],
+          "blocks": [
+            {
+              "block_heading": "Benefits",
+              "block_type": "list",
+              "data": [
+                "Antiviral effect",
+                "Maintain gut flora",
+                "Lower CRP level",
+                "Curcumin prevents virus penetration to organs",
+                "Carotenoids have antioxidant effect"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Essential Vitamins and Minerals",
+      "items": [
+        {
+          "item_title": "Vitamin A",
+          "keywords": ["immunity battle", "essential nutrients", "vitamin A", "retinol", "immune barrier", "respiratory health"],
+          "blocks": [
+            {
+              "block_heading": "Role",
+              "block_type": "text",
+              "data": "Maintains lining of respiratory & GIT tract, protecting against infection"
+            },
+            {
+              "block_heading": "Food Sources",
+              "block_type": "list",
+              "data": ["Carrots", "mango", "Salmon", "eggs"]
+            }
+          ]
+        },
+        {
+          "item_title": "Vitamin B Complex",
+          "keywords": ["immunity battle", "essential nutrients", "B vitamins", "thiamine", "riboflavin", "niacin", "coenzymes", "cytokine regulation"],
+          "blocks": [
+            {
+              "block_heading": "Role",
+              "block_type": "text",
+              "data": "Important component of co-enzymes, regulates pro-inflammatory cytokines, improves respiratory functions"
+            },
+            {
+              "block_heading": "Food Sources",
+              "block_type": "list",
+              "data": ["Peanuts", "plain yogurt", "lentils", "Tuna", "fish"]
+            }
+          ]
+        },
+        {
+          "item_title": "Vitamin C",
+          "keywords": ["immunity battle", "essential nutrients", "vitamin C", "ascorbic acid", "antioxidant", "CRP", "interferon", "antiviral"],
+          "blocks": [
+            {
+              "block_heading": "Role",
+              "block_type": "text",
+              "data": "Classical antioxidant, lowers CRP level, augments interferon production (antiviral effect)"
+            },
+            {
+              "block_heading": "Food Sources",
+              "block_type": "list",
+              "data": ["Oranges", "lemon", "broccoli", "cauliflower"]
+            }
+          ]
+        },
+        {
+          "item_title": "Vitamin D",
+          "keywords": ["immunity battle", "essential nutrients", "vitamin D", "cholecalciferol", "immune regulation", "respiratory health", "antiviral"],
+          "blocks": [
+            {
+              "block_heading": "Role",
+              "block_type": "text",
+              "data": "Regulates innate and adaptive immune system, preserves epithelial cell junctions in respiratory tract, promotes antiviral compounds, modulates inflammatory response"
+            },
+            {
+              "block_heading": "Food Sources",
+              "block_type": "list",
+              "data": ["Chicken", "egg", "low fat yogurt", "Salmon"]
+            }
+          ]
+        },
+        {
+          "item_title": "Vitamin E",
+          "keywords": ["immunity battle", "essential nutrients", "vitamin E", "tocopherol", "antioxidant", "TH1/TH2 balance", "NK cells"],
+          "blocks": [
+            {
+              "block_heading": "Role",
+              "block_type": "text",
+              "data": "Potent antioxidant, regulates TH1/TH2 balance, activates natural killer cells"
+            },
+            {
+              "block_heading": "Food Sources",
+              "block_type": "list",
+              "data": ["Sunflower seeds", "nuts", "almonds", "kiwi"]
+            }
+          ]
+        },
+        {
+          "item_title": "Zinc",
+          "keywords": ["immunity battle", "essential nutrients", "zinc", "viral inhibition", "antioxidant cofactor", "immune support"],
+          "blocks": [
+            {
+              "block_heading": "Role",
+              "block_type": "text",
+              "data": "Inhibits viral uncoating & replication, co-factor for antioxidant enzymes"
+            },
+            {
+              "block_heading": "Food Sources",
+              "block_type": "list",
+              "data": ["Nuts", "pumpkin seeds", "beef", "lamb"]
+            }
+          ]
+        },
+        {
+          "item_title": "Selenium",
+          "keywords": ["immunity battle", "essential nutrients", "selenium", "antioxidant", "glutathione peroxidase", "immune support"],
+          "blocks": [
+            {
+              "block_heading": "Role",
+              "block_type": "text",
+              "data": "Antioxidant, co-factor for synthesis of antioxidant enzymes"
+            },
+            {
+              "block_heading": "Food Sources",
+              "block_type": "list",
+              "data": ["Sunflower seeds", "salmon", "ham"]
+            }
+          ]
+        },
+        {
+          "item_title": "Iron",
+          "keywords": ["immunity battle", "essential nutrients", "iron", "T-cell development", "immune cell maturation", "hemoglobin"],
+          "blocks": [
+            {
+              "block_heading": "Role",
+              "block_type": "text",
+              "data": "Crucial for T-cells proliferation and maturation"
+            },
+            {
+              "block_heading": "Food Sources",
+              "block_type": "list",
+              "data": ["Apricots", "cherry tomatoes", "peas"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Non-Pharmacological Recommendations",
+      "items": [
+        {
+          "item_title": "Recommendations",
+          "keywords": ["immunity battle", "hygiene", "healthy diet", "hydration", "vaccines", "stress management", "immune health", "antibiotic stewardship", "lifestyle factors"],
+          "blocks": [
+            {
+              "block_heading": "Recommendations",
+              "block_type": "list",
+              "data": [
+                "Wash hands regularly during the day",
+                "Maintain social distance in crowded places",
+                "Wear face mask when sick or in contact with patients",
+                "Eat healthy foods and avoid junk food",
+                "Keep body hydrated",
+                "Check blood vitamins and minerals annually",
+                "Avoid unnecessary antibiotics",
+                "Consult pharmacist or physician about medications",
+                "Maintain optimal blood glucose and blood pressure"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Case Studies",
+      "items": [
+        {
+          "item_title": "Case 1: Recurrent Vaginal Irritation",
+          "associated_brands": ["Dicoflor", "Uriage Gyn-Phy"],
+          "keywords": ["immunity battle", "dicoflor", "lactobacillus", "uritage gyn-phy", "vaginal health", "probiotics", "pH balance", "immune support"],
+          "blocks": [
+            {
+              "block_heading": "Scenario",
+              "block_type": "text",
+              "data": "30-year-old woman with recurrent vaginal irritation"
+            },
+            {
+              "block_heading": "Assessment",
+              "block_type": "text",
+              "data": "Evaluate discharge characteristics (color, odor)"
+            },
+            {
+              "block_heading": "Recommendations",
+              "block_type": "list",
+              "data": [
+                "Dicoflor Vaginal Capsules to reestablish Lactobacillus flora",
+                "Uriage Gyn-Phy intimate wash to maintain pH",
+                "Check for obesity, diabetes, swimming pool use, public toilet exposure"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Case 2: Diabetic with Flu and Foot Ulcer",
+          "associated_brands": ["Sambune", "Flu-Shield 1000", "Rongarlic"],
+          "keywords": ["immunity battle", "sambune", "flu-shield", "echinacea", "omega-3", "probiotics", "rongarlic", "manuka honey", "antioxidant", "immune booster", "flu treatment", "wound healing"],
+          "blocks": [
+            {
+              "block_heading": "Scenario",
+              "block_type": "text",
+              "data": "40-year-old diabetic with flu-like symptoms and foot ulcer"
+            },
+            {
+              "block_heading": "Assessment",
+              "block_type": "list",
+              "data": [
+                "Evaluate symptom duration and severity",
+                "Check mucous color (greenish may indicate bacterial infection)",
+                "Assess comorbidities and medication interactions",
+                "Evaluate immunity strength and vitamin D levels"
+              ]
+            },
+            {
+              "block_heading": "Recommendations",
+              "block_type": "list",
+              "data": [
+                "Sambune Capsule (antioxidant, immunity booster)",
+                "Flu-Shield 1000 (Echinacea extract)",
+                "Omega-3, Probiotics, Rongarlic Capsules",
+                "Manuka Honey for foot ulcer (topical)",
+                "Symptomatic treatment for flu"
+              ]
+            },
+            {
+              "block_heading": "Precautions",
+              "block_type": "text",
+              "data": "Contraindicated with blood thinners if product contains ginger"
+            }
+          ]
+        },
+        {
+          "item_title": "Case 3: Children with Frequent Illnesses",
+          "associated_brands": ["Genius Syrup", "Enterogermina", "Protexin Restore"],
+          "keywords": ["immunity battle", "genius syrup", "colostrum", "propolis", "echinacea", "omega-3", "enterogermina", "protexin restore", "probiotics", "pediatric immunity", "mental health"],
+          "blocks": [
+            {
+              "block_heading": "Scenario",
+              "block_type": "text",
+              "data": "Children with frequent illnesses and attention issues"
+            },
+            {
+              "block_heading": "Assessment",
+              "block_type": "list",
+              "data": [
+                "Frequency of illnesses",
+                "Nutritional status",
+                "Vitamin D levels",
+                "Anemia status",
+                "Sunlight exposure"
+              ]
+            },
+            {
+              "block_heading": "Recommendations",
+              "block_type": "list",
+              "data": [
+                "Genius Syrup (colostrum and propolis)",
+                "Echinacea Gums",
+                "Omega-3 Syrup (for immunity and mental health)",
+                "Probiotics (Enterogermina vials, Protexin Restore)"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Case 4: Athlete Seeking Immunity Support",
+          "associated_brands": ["Marny's Royal Jelly", "Ronprop", "Ronzavit Zinc", "Paradox Omega Sport"],
+          "keywords": ["immunity battle", "marny's royal jelly", "ronprop", "ronzavit zinc", "paradox omega", "zinc", "omega-3", "royal jelly", "athlete immunity", "sports performance"],
+          "blocks": [
+            {
+              "block_heading": "Scenario",
+              "block_type": "text",
+              "data": "Athlete asking for whey protein and immunity support"
+            },
+            {
+              "block_heading": "Recommendations",
+              "block_type": "list",
+              "data": [
+                "Marny's Royal Jelly 5000 vial (immunity and performance)",
+                "Ronprop Vials (general immunity)",
+                "Ronzavit Zinc Capsules",
+                "Paradox Omega Sport Capsules (protection against sports injuries)"
+              ]
+            },
+            {
+              "block_heading": "Notes",
+              "block_type": "list",
+              "data": [
+                "Propolis may trigger asthma",
+                "Preventive immunity boosting is crucial"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Case 5: Family Travel Preparation",
+          "associated_brands": ["Genius Syrup", "Ronamune", "Protexin Restore", "Enterogermina", "Ronprop", "Marny's Royal Jelly", "Sambune", "Flu-Shield 1000", "C-Ronz Rosa", "Dicoflor", "Uriage Gyn-Phy"],
+          "keywords": ["immunity battle", "genius syrup", "ronamune", "β-glucan", "lactoferrin", "echinacea", "protexin restore", "enterogermina", "ronprop", "marny's royal jelly", "sambune", "flu-shield", "c-ronz rosa", "dicoflor", "uritage gyn-phy", "vitamin C", "probiotics", "travel immunity", "family health"],
+          "blocks": [
+            {
+              "block_heading": "Scenario",
+              "block_type": "text",
+              "data": "Family preparing for travel to Malaysia"
+            },
+            {
+              "block_heading": "Children Recommendations",
+              "block_type": "list",
+              "data": [
+                "Genius Syrup",
+                "Ronamune Syrup (β-Glucan and Lactoferrin)",
+                "Echinacea Gums",
+                "Protexin Restore sachets",
+                "Enterogermina vials"
+              ]
+            },
+            {
+              "block_heading": "Adults Recommendations",
+              "block_type": "list",
+              "data": [
+                "Ronprop Vials",
+                "Marny's royal jelly 5000 vial",
+                "Sambune Capsule",
+                "Flu-Shield 1000",
+                "Vitamin C (C-Ronz Rosa 500 Capsules)",
+                "Probiotics",
+                "Dicoflor Vaginal Capsules for women",
+                "Uriage Gyn-Phy intimate wash"
+              ]
+            },
+            {
+              "block_heading": "Additional Advice",
+              "block_type": "list",
+              "data": [
+                "Skin care products (cleansers, sun block, moisturizers)",
+                "Symptomatic medications (anti-histamines, nasal sprays, analgesics)"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

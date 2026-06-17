@@ -1,0 +1,1243 @@
+{
+  "id": "oral-care",
+  "title": "Oral Care 2025 Lifestyle Edition",
+  "type": "oral-care-guide",
+  "release": "Release #1",
+  "committee": "Oral Care Committee",
+  "sections": [
+    {
+      "section_title": "Introduction",
+      "items": [
+        {
+          "item_title": "Oral Hygiene Definition",
+          "keywords": ["oral hygiene", "oral cavity", "teeth cleaning"],
+          "blocks": [
+            {
+              "block_heading": "Definition",
+              "block_type": "text",
+              "data": "Practices that aim to keep the oral cavity clean and free of diseases by regular cleaning of teeth and associated soft tissues."
+            }
+          ]
+        },
+        {
+          "item_title": "Oral Anatomy",
+          "keywords": ["oral anatomy", "teeth", "tongue", "tonsils", "gum", "gingiva", "hard palate", "soft palate", "uvula", "labial frenulum", "oropharynx"],
+          "blocks": [
+            {
+              "block_heading": "Components",
+              "block_type": "key_value",
+              "data": [
+                { "key": "Teeth", "value": "Essential for chewing and biting" },
+                { "key": "Tongue", "value": "Aids in tasting and swallowing" },
+                { "key": "Tonsils", "value": "Part of the immune system in the throat" },
+                { "key": "Gum", "value": "Provides support and protection for teeth" },
+                { "key": "Gingiva", "value": "The tissue surrounding the teeth" },
+                { "key": "Hard Palate", "value": "The bony front part of the roof of the mouth" },
+                { "key": "Soft Palate", "value": "The muscular back part of the roof of the mouth" },
+                { "key": "Uvula", "value": "The small fleshy extension at the back of the soft palate" },
+                { "key": "Labial Frenulum", "value": "The thin tissue connecting the lips to the gums" },
+                { "key": "Central Incisor", "value": "Front teeth used for cutting food" },
+                { "key": "Lateral Incisor", "value": "Teeth adjacent to central incisors" },
+                { "key": "Canine", "value": "Pointed teeth for tearing food" },
+                { "key": "Premolars", "value": "Teeth used for crushing food" },
+                { "key": "Molars", "value": "Back teeth used for grinding food" },
+                { "key": "Oropharynx", "value": "The part of the throat behind the mouth" }
+              ]
+            },
+            {
+              "block_heading": "Visual Reference",
+              "block_type": "text",
+              "data": "Diagram showing all anatomical components with labels"
+            }
+          ]
+        },
+        {
+          "item_title": "Cases - Halitosis Detection",
+          "keywords": ["bad breath detection", "halitosis test"],
+          "blocks": [
+            {
+              "block_heading": "Halitosis Detection Methods",
+              "block_type": "text",
+              "data": "Methods to self-detect bad breath"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Halitosis (Bad Breath)",
+      "items": [
+        {
+          "item_title": "Causes of Halitosis",
+          "keywords": ["halitosis", "bad breath", "dry mouth", "oral hygiene", "tobacco"],
+          "blocks": [
+            {
+              "block_heading": "Factors",
+              "block_type": "list",
+              "data": [
+                "Food and Drink (garlic, onions, coffee)",
+                "Medications causing dry mouth",
+                "Poor oral hygiene",
+                "Dry mouth (xerostomia)",
+                "Infections in mouth or throat",
+                "Tobacco products",
+                "Dental issues",
+                "Systemic diseases"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Ramadan-Specific Causes",
+          "keywords": ["Ramadan halitosis", "fasting breath", "diabetes breath", "asthma inhalers", "oral candidiasis"],
+          "blocks": [
+            {
+              "block_heading": "Factors",
+              "block_type": "list",
+              "data": [
+                "Sweet consumption leading to dental caries",
+                "Smoking drying the mouth and causing odor",
+                "Asthma medications leading to oral candidiasis",
+                "Specific medications causing dry mouth or gingival hyperplasia",
+                "Diabetes-related ketone bodies",
+                "Food debris contributing to infections"
+              ]
+            },
+            {
+              "block_heading": "Prevention Tips",
+              "block_type": "list",
+              "data": [
+                "Hydration: Drink enough water and use mouth fresheners",
+                "Healthy Diet: Maintain a balanced diet with fruits and vegetables",
+                "Mouthwash Usage: Use mouthwash correctly for maximum benefit",
+                "Avoid Smoking and Energy Drinks",
+                "Toothbrush Care: Replace toothbrush regularly and brush properly"
+              ]
+            },
+            {
+              "block_heading": "Cultural Reference (Arabic)",
+              "block_type": "text",
+              "data": "قال رسول الله صلى الله عليه وسلم: «السواك مطهره للفم مرضاه للرب »"
+            },
+            {
+              "block_heading": "Cultural Reference (Translation)",
+              "block_type": "text",
+              "data": "The Prophet Muhammad (peace be upon him) said: 'The miswak is a purification for the mouth and pleasing to the Lord.'"
+            }
+          ]
+        },
+        {
+          "item_title": "Medications Causing Halitosis",
+          "keywords": ["medications causing halitosis", "xerostomia", "oral microbiome", "drug-induced halitosis", "Methotrexate", "Cyclophosphamide", "Fluconazole"],
+          "blocks": [
+            {
+              "block_heading": "Medication Categories",
+              "block_type": "key_value",
+              "data": [
+                { "key": "Antihistamines", "value": "Medications for allergy relief" },
+                { "key": "Antidepressants", "value": "Medications for mental health treatment" },
+                { "key": "Blood Pressure Medications", "value": "Medications to manage blood pressure" },
+                { "key": "Sedatives", "value": "Medications for relaxation and sleep" },
+                { "key": "Chemotherapy Drugs", "value": "Includes Methotrexate and Cyclophosphamide which can lead to dry mouth and oral ulcers" },
+                { "key": "Acne Treatment", "value": "Medications for acne management" },
+                { "key": "Antiparkinsonian", "value": "Medications for Parkinson's disease symptoms" },
+                { "key": "Antibiotics", "value": "Includes Metronidazole and Tetracycline which can disrupt oral bacteria balance" },
+                { "key": "Diuretics", "value": "Examples include Furosemide and Hydrochlorothiazide which increase urine output" },
+                { "key": "Vitamin Supplements", "value": "High-dose fish oil and Vitamin B can cause strong mouth odors" },
+                { "key": "Nitrates and Nitrites", "value": "Examples are Nitroglycerin and Isosorbide dinitrate known for causing metallic breath odor" },
+                { "key": "Asthma Inhalers", "value": "Can cause candidiasis" },
+                { "key": "Antifungal", "value": "Fluconazole can alter taste perception" }
+              ]
+            },
+            {
+              "block_heading": "Reasons for Halitosis",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Dry Mouth (Xerostomia)",
+                  "children": ["Saliva is essential for washing away food particles and bacteria. Reduced saliva flow allows bacteria to thrive, producing volatile sulfur compounds (VSCs) that cause bad breath."]
+                },
+                {
+                  "parent": "Chemical Odors",
+                  "children": ["Some medications release chemicals that are excreted through the lungs, leading to unpleasant breath."]
+                },
+                {
+                  "parent": "Altered Oral Microbiome",
+                  "children": ["Medications like antibiotics can disrupt the natural balance of bacteria in the mouth, leading to overgrowth of odor-causing bacteria."]
+                },
+                {
+                  "parent": "Dehydration",
+                  "children": ["Diuretics and other drugs can cause dehydration, reducing saliva production and contributing to bad breath."]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Systemic Causes of Halitosis",
+          "keywords": ["systemic halitosis", "diabetes breath", "liver disease", "kidney disease", "GI disorders"],
+          "blocks": [
+            {
+              "block_heading": "Conditions",
+              "block_type": "key_value",
+              "data": [
+                { "key": "Diabetes Conditions", "value": "Various diabetes-related issues can lead to bad breath including ketone bodies" },
+                { "key": "Liver Conditions", "value": "Liver diseases can cause distinctive odors in breath" },
+                { "key": "Kidney Conditions", "value": "Kidney diseases can lead to fishy or ammonia-like breath" },
+                { "key": "Gastrointestinal Issues", "value": "GI disorders can result in bad breath from reflux or infections" },
+                { "key": "Respiratory Infections", "value": "Can produce foul-smelling breath" },
+                { "key": "Autoimmune Disorders", "value": "Conditions like Sjögren's can cause dry mouth and halitosis" },
+                { "key": "HIV/AIDS", "value": "Can lead to oral infections causing bad breath" },
+                { "key": "Cancer Effects", "value": "Certain cancers and treatments can result in halitosis" },
+                { "key": "Tuberculosis", "value": "Can cause distinctive bad breath" }
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Optimal Oral Care During Ramadan",
+          "keywords": ["Ramadan oral care", "iftar", "suhoor", "miswak", "water flosser", "Islamic oral care"],
+          "blocks": [
+            {
+              "block_heading": "Recommendations",
+              "block_type": "list",
+              "data": [
+                "Brush teeth after iftar and suhoor using a soft brush",
+                "Floss after iftar and suhoor to remove debris",
+                "Use a water flosser for effective plaque removal",
+                "Clean the tongue after suhoor to maintain freshness",
+                "Use mouthwash twice daily for improved breath",
+                "Use miswak during insak to prevent dryness"
+              ]
+            },
+            {
+              "block_heading": "Additional Tips",
+              "block_type": "list",
+              "data": [
+                "Maintain hydration between iftar and suhoor",
+                "Avoid smoking and energy drinks",
+                "Replace toothbrush regularly",
+                "Use mouth fresheners",
+                "Maintain a balanced diet with fruits and vegetables",
+                "Use mouthwash correctly for maximum benefit"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Types of Brushes and Devices",
+      "items": [
+        {
+          "item_title": "Manual Toothbrushes",
+          "associated_brands": ["Dentu", "Aloedent", "Nabrodent"],
+          "keywords": ["manual toothbrush", "toothbrush bristles", "brushing technique", "Dentu", "Aloedent", "Nabrodent"],
+          "blocks": [
+            {
+              "block_heading": "Features",
+              "block_type": "key_value",
+              "data": [
+                { "key": "Effectiveness", "value": "Effective for removing plaque and food debris when used correctly" },
+                { "key": "Affordability", "value": "Affordable and widely available" },
+                { "key": "Examples", "value": ["Dentu", "Aloedent", "Nabrodent"] },
+                { "key": "Technique", "value": "Requires proper brushing technique (e.g., 2 minutes, gentle circular motions)" },
+                { "key": "Best For", "value": "People who prefer simplicity and control over their brushing routine" }
+              ]
+            },
+            {
+              "block_heading": "Bristle Types",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Hard Bristles",
+                  "children": ["Not recommended", "Risks: Enamel Damage, Gum Damage"]
+                },
+                {
+                  "parent": "Medium Bristles",
+                  "children": ["Effective Cleaning", "Risks: Gum Irritation Risk"]
+                },
+                {
+                  "parent": "Soft Bristles",
+                  "children": ["Recommended for most users", "Benefits: Gentle on enamel and gums"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Electrical Toothbrushes",
+          "associated_brands": ["Oral B", "S.O.S"],
+          "keywords": ["electric toothbrush", "plaque removal", "gingivitis prevention", "Oral B", "S.O.S"],
+          "blocks": [
+            {
+              "block_heading": "Features",
+              "block_type": "key_value",
+              "data": [
+                { "key": "Power Source", "value": "Battery-powered or rechargeable toothbrushes with rotating or vibrating bristles" },
+                { "key": "Effectiveness", "value": "More effective at removing plaque and reducing gingivitis compared to manual brushes" },
+                { "key": "Examples", "value": ["Oral B", "S.O.S"] },
+                { "key": "Timer Feature", "value": "Built-in timers ensure you brush for the recommended 2 minutes" },
+                { "key": "Usability", "value": "Easier to use for people with limited dexterity (e.g., arthritis patients)" }
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Orthodontic Toothbrushes",
+          "associated_brands": ["Dentu Orthodentic TP", "Dr.Brush"],
+          "keywords": ["orthodontic toothbrush", "braces care", "orthodontic appliances", "Dentu Orthodentic TP", "Dr.Brush"],
+          "blocks": [
+            {
+              "block_heading": "Features",
+              "block_type": "key_value",
+              "data": [
+                { "key": "Design Features", "value": "Designed for people with braces or other orthodontic appliances" },
+                { "key": "Examples", "value": ["Dentu Orthodentic TP", "Dr.Brush"] },
+                { "key": "Brush Head Size", "value": "Smaller brush heads and specialized bristles clean around brackets and wires" },
+                { "key": "Health Benefits", "value": "Prevents plaque buildup and tooth decay during orthodontic treatment" }
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Tongue Brushes",
+          "associated_brands": ["Trisa Scraper", "Tung brush"],
+          "keywords": ["tongue brush", "tongue scraper", "fresh breath", "Trisa Scraper", "Tung brush"],
+          "blocks": [
+            {
+              "block_heading": "Features",
+              "block_type": "key_value",
+              "data": [
+                { "key": "Benefits", "value": ["Fresh Breath", "Improved Taste", "Oral Health"] },
+                { "key": "Examples", "value": ["Trisa Scraper", "Tung brush"] },
+                { "key": "Purpose", "value": "Scraping surface and removing bacteria" }
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Dental Floss",
+          "associated_brands": ["Aloedent", "Dentu flosser", "Oral B"],
+          "keywords": ["dental floss", "flossing", "interdental cleaning", "Aloedent", "Oral B"],
+          "blocks": [
+            {
+              "block_heading": "Features",
+              "block_type": "key_value",
+              "data": [
+                { "key": "Benefits", "value": ["Removes debris", "Prevents cavities", "Prevents gum disease"] },
+                { "key": "Examples", "value": ["Aloedent", "Dentu flosser", "Oral B"] }
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Orthodontic Wax",
+          "associated_brands": ["Dentu", "Dr Brush"],
+          "keywords": ["orthodontic wax", "braces comfort", "dental wax", "Dentu", "Dr Brush"],
+          "blocks": [
+            {
+              "block_heading": "Benefits",
+              "block_type": "list",
+              "data": [
+                "Relieves pain and discomfort caused by sharp parts of braces",
+                "Prevents sores and cuts on the cheeks and gums",
+                "Easy to use and safe for the mouth",
+                "Improves treatment experience by making braces more comfortable"
+              ]
+            },
+            {
+              "block_heading": "Usage Steps",
+              "block_type": "list",
+              "data": [
+                "Clean the area and cut a small piece of wax",
+                "Shape it and apply it to the irritating part of the braces",
+                "Replace it regularly before eating or brushing your teeth"
+              ]
+            },
+            {
+              "block_heading": "Examples",
+              "block_type": "list",
+              "data": ["Dentu", "Dr Brush"]
+            }
+          ]
+        },
+        {
+          "item_title": "Orthodontic vs Interdental Brushes",
+          "keywords": ["orthodontic brush", "interdental brush", "braces cleaning"],
+          "blocks": [
+            {
+              "block_heading": "Comparison Table",
+              "block_type": "table",
+              "data": {
+                "columns": ["Feature", "Orthodontic", "Interdental"],
+                "rows": [
+                  { "Feature": "Primary Use", "Orthodontic": "General cleaning of teeth and braces", "Interdental": "Cleaning tight spaces between teeth and around braces" },
+                  { "Feature": "Design", "Orthodontic": "V-shaped or longer middle bristles", "Interdental": "Small, narrow brush with a handle" },
+                  { "Feature": "Frequency", "Orthodontic": "Used daily as the main toothbrush", "Interdental": "Used daily as a supplement to brushing" },
+                  { "Feature": "Effectiveness", "Orthodontic": "Cleans surfaces of teeth and braces", "Interdental": "Cleans between teeth and hard-to-reach areas" },
+                  { "Feature": "Best For", "Orthodontic": "Overall cleaning", "Interdental": "Detailed cleaning of gaps and around wires" }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Types of Mouthwashes",
+      "items": [
+        {
+          "item_title": "Fluoride Mouthwash",
+          "associated_brands": ["Listrine", "Sensodyne"],
+          "keywords": ["fluoride mouthwash", "enamel strengthening", "cavity prevention", "Listrine", "Sensodyne"],
+          "blocks": [
+            {
+              "block_heading": "Features",
+              "block_type": "key_value",
+              "data": [
+                { "key": "Contains", "value": "Fluoride to strengthen enamel and prevent cavities" },
+                { "key": "Benefits", "value": ["Reduces risk of tooth decay", "Helps remineralize weak spots on teeth"] },
+                { "key": "Best For", "value": "People prone to cavities or with weak enamel" },
+                { "key": "Examples", "value": ["Listrine", "Sensodyne"] },
+                { "key": "Usage", "value": "Swish 15ml for 1 minute daily after brushing" }
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Antiseptic Mouthwash",
+          "associated_brands": ["Dentu", "Avchex", "Betadine"],
+          "keywords": ["antiseptic mouthwash", "chlorhexidine", "gingivitis treatment", "Dentu", "Avchex", "Betadine"],
+          "blocks": [
+            {
+              "block_heading": "Features",
+              "block_type": "key_value",
+              "data": [
+                { "key": "Contains", "value": "Ingredients like chlorhexidine or cetylpyridinium chloride to kill bacteria" },
+                { "key": "Benefits", "value": ["Reduces plaque and gingivitis", "Freshens breath by eliminating odor-causing bacteria"] },
+                { "key": "Best For", "value": "Those with gum disease or chronic bad breath" },
+                { "key": "Examples", "value": ["Dentu", "Avchex", "Betadine"] },
+                { "key": "Usage", "value": "Swish 15ml for 1 minute daily after brushing" }
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Cosmetic Mouthwash",
+          "keywords": ["cosmetic mouthwash", "breath freshener"],
+          "blocks": [
+            {
+              "block_heading": "Features",
+              "block_type": "key_value",
+              "data": [
+                { "key": "Purpose", "value": "Primarily designed to freshen breath and improve taste" },
+                { "key": "Limitations", "value": "Masks bad breath temporarily; does not provide therapeutic benefits" },
+                { "key": "Best For", "value": "Individuals looking for a quick breath freshener" },
+                { "key": "Usage", "value": "Swish 15ml for 1 minute as needed" }
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Alcohol-Free Mouthwash",
+          "keywords": ["alcohol-free mouthwash", "sensitive mouth"],
+          "blocks": [
+            {
+              "block_heading": "Features",
+              "block_type": "key_value",
+              "data": [
+                { "key": "Benefits", "value": ["Gentle on sensitive gums and oral tissues", "Reduces risk of dry mouth"] },
+                { "key": "Best For", "value": "People with sensitive mouths or those who experience dryness" },
+                { "key": "Usage", "value": "Swish 15ml for 1 minute daily after brushing" }
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Natural/Herbal Mouthwash",
+          "keywords": ["natural mouthwash", "herbal mouthwash", "holistic oral care"],
+          "blocks": [
+            {
+              "block_heading": "Features",
+              "block_type": "key_value",
+              "data": [
+                { "key": "Ingredients", "value": "Aloe vera, tea tree oil, or peppermint" },
+                { "key": "Benefits", "value": ["Freshens breath and soothes gums", "Free from artificial chemicals and alcohol"] },
+                { "key": "Best For", "value": "Individuals seeking a more holistic approach" },
+                { "key": "Usage", "value": "Swish 15ml for 1 minute daily after brushing" }
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Whitening Mouthwash",
+          "associated_brands": ["BlueDaimonds Colux"],
+          "keywords": ["whitening mouthwash", "teeth whitening", "surface stains", "BlueDaimonds Colux", "hydrogen peroxide"],
+          "blocks": [
+            {
+              "block_heading": "Features",
+              "block_type": "key_value",
+              "data": [
+                { "key": "Contains", "value": "Hydrogen peroxide, Activated charcoal or other whitening agents" },
+                { "key": "Benefits", "value": "Helps remove surface stains and brighten teeth over time" },
+                { "key": "Limitations", "value": "Does not replace professional whitening treatments" },
+                { "key": "Best For", "value": "Those looking to maintain a brighter smile" },
+                { "key": "Examples", "value": ["BlueDaimonds Colux"] },
+                { "key": "Usage", "value": "Swish 15ml for 1 minute daily after brushing" }
+              ]
+            },
+            {
+              "block_heading": "Active Ingredients",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Blue Covarine",
+                  "children": [
+                    "Function: Reduces tooth yellowness and improves whiteness immediately after brushing",
+                    "Mechanism: Forms optical layer on tooth surface"
+                  ]
+                },
+                {
+                  "parent": "Hydrogen Peroxide",
+                  "children": [
+                    "Function: Oxidizes organic pigments in teeth",
+                    "Safety: Does not alter enamel or dentine significantly"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "RDA for Toothpaste (Relative Dentin Abrasivity)",
+      "items": [
+        {
+          "item_title": "RDA Definition",
+          "keywords": ["RDA", "toothpaste abrasivity", "enamel safety"],
+          "blocks": [
+            {
+              "block_heading": "Definition",
+              "block_type": "text",
+              "data": "Measure of efficiency and safety of toothpaste in removing stains and plaque without causing erosion of tooth enamel or dentin irritation."
+            },
+            {
+              "block_heading": "Standards",
+              "block_type": "list",
+              "data": ["ADA (American Dental Association)", "FDA (Food and Drug Administration)"]
+            }
+          ]
+        },
+        {
+          "item_title": "RDA Classifications",
+          "keywords": ["toothpaste abrasiveness", "enamel protection", "stain removal", "OHWHITE", "Depurdent"],
+          "blocks": [
+            {
+              "block_heading": "Low Abrasion (0-70)",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Description",
+                  "children": ["Very safe for daily use and sensitive teeth"]
+                },
+                {
+                  "parent": "Examples",
+                  "children": ["Baby sensitive teeth toothpaste"]
+                }
+              ]
+            },
+            {
+              "block_heading": "Average Abrasion (71-100)",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Description",
+                  "children": ["Suitable for most people with a balance of cleaning and protection"]
+                },
+                {
+                  "parent": "Examples",
+                  "children": ["Daily use toothpaste"]
+                }
+              ]
+            },
+            {
+              "block_heading": "High Abrasion (101-150)",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Description",
+                  "children": ["May be effective for removing stains but should be used with caution"]
+                },
+                {
+                  "parent": "Examples",
+                  "children": ["OHWHITE"]
+                }
+              ]
+            },
+            {
+              "block_heading": "Very High Abrasion (150-250)",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Description",
+                  "children": ["May cause enamel erosion over time, recommended for use only when needed under dentist supervision"]
+                },
+                {
+                  "parent": "Examples",
+                  "children": ["Depurdent"]
+                }
+              ]
+            },
+            {
+              "block_heading": "Tips",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Sensitivity",
+                  "children": ["Choose toothpaste with RDA <70 if suffering from tooth sensitivity or enamel erosion"]
+                },
+                {
+                  "parent": "Whitening",
+                  "children": ["For whitening, choose RDA between 70-100, but not for intensive daily use"]
+                },
+                {
+                  "parent": "Expiration",
+                  "children": ["Toothpaste works best within 3 months from opening as active ingredients (including fluoride) may dry out and lose effectiveness"]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Oral Care for Orthodontic Patients",
+      "items": [
+        {
+          "item_title": "Purpose of Orthodontics",
+          "keywords": ["orthodontics", "dental alignment", "functional bite"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Create a healthy, functional bite with straight teeth that properly meet opposing teeth in the opposite jaw"
+            },
+            {
+              "block_heading": "Problems Addressed",
+              "block_type": "list",
+              "data": [
+                "Difficulty biting, chewing, and speaking",
+                "Harder to clean crooked or crowded teeth"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Oral Care Routine",
+          "keywords": ["braces care", "orthodontic brushing", "interdental cleaning", "water flosser"],
+          "blocks": [
+            {
+              "block_heading": "Brushing",
+              "block_type": "list",
+              "data": [
+                "Use soft toothbrush at 45-degree angle against gums",
+                "Brush braces as part of routine",
+                "Brush at least three times daily",
+                "Technique: Gentle circular motions for 2 minutes"
+              ]
+            },
+            {
+              "block_heading": "Flossing",
+              "block_type": "list",
+              "data": [
+                "Floss daily using floss threader or water flosser",
+                "Use interproximal brush for spaces between teeth"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Orthodontic vs Interdental Brushes (Ortho Section)",
+          "keywords": ["orthodontic brush", "interdental brush", "braces cleaning"],
+          "blocks": [
+            {
+              "block_heading": "Comparison Table",
+              "block_type": "table",
+              "data": {
+                "columns": ["Feature", "Orthodontic", "Interdental"],
+                "rows": [
+                  { "Feature": "Primary Use", "Orthodontic": "General cleaning of teeth and braces", "Interdental": "Cleaning tight spaces between teeth and around braces" },
+                  { "Feature": "Design", "Orthodontic": "V-shaped or longer middle bristles", "Interdental": "Small, narrow brush with handle" },
+                  { "Feature": "Frequency", "Orthodontic": "Used daily as main toothbrush", "Interdental": "Used daily as supplement to brushing" },
+                  { "Feature": "Effectiveness", "Orthodontic": "Cleans surfaces of teeth and braces", "Interdental": "Cleans between teeth and hard-to-reach areas" },
+                  { "Feature": "Best For", "Orthodontic": "Overall cleaning", "Interdental": "Detailed cleaning of gaps and around wires" }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "item_title": "Food Recommendations for Braces",
+          "keywords": ["braces diet", "foods for braces", "orthodontic nutrition"],
+          "blocks": [
+            {
+              "block_heading": "Foods to Avoid",
+              "block_type": "list",
+              "data": [
+                "Jellybeans",
+                "Taffy",
+                "Nuts",
+                "Gum",
+                "Hard Candy",
+                "Caramel",
+                "Ice",
+                "Sticky Foods",
+                "Sugary Drinks and Juices",
+                "Acidic and Pigmented Foods"
+              ]
+            },
+            {
+              "block_heading": "Recommended Foods",
+              "block_type": "list",
+              "data": [
+                "Softened Vegetables",
+                "Boneless Seafood/Meat",
+                "Soft Breads and Pastries",
+                "Creamy Masked Potatoes",
+                "Bananas and Canned Fruits",
+                "Cottage Cheese",
+                "Soft Cereal"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Whitening Products",
+      "items": [
+        {
+          "item_title": "Whitening Toothpastes",
+          "keywords": ["whitening toothpaste", "enamel safe", "stain removal"],
+          "blocks": [
+            {
+              "block_heading": "Features",
+              "block_type": "list",
+              "data": [
+                "Advanced dentifrice with high cleaning power and minimal dental abrasion",
+                "Enamel safe",
+                "Unique formulas without harmful bleaching agents",
+                "97% effective natural origin ingredients",
+                "Usage: Brush 2 minutes, 3 times daily",
+                "Suitable for adults and children over 12",
+                "Prevents tartar build-up and stains from food/drinks",
+                "Long-lasting protection"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Whitening Agents",
+          "keywords": ["whitening agents", "PAP", "activated charcoal", "baking soda", "blue covarine", "hydrogen peroxide"],
+          "blocks": [
+            {
+              "block_heading": "Categories",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "PAP",
+                  "children": ["Whitening agent"]
+                },
+                {
+                  "parent": "Papain",
+                  "children": ["Whitening enzyme"]
+                },
+                {
+                  "parent": "Lactoperoxidase",
+                  "children": ["Whitening enzyme"]
+                },
+                {
+                  "parent": "Activated Charcoal",
+                  "children": ["Natural whitener"]
+                },
+                {
+                  "parent": "Baking Soda",
+                  "children": ["Mild abrasive whitener"]
+                },
+                {
+                  "parent": "Blue Covarine",
+                  "children": ["Function: Reduces tooth yellowness immediately", "Mechanism: Forms optical layer on tooth surface"]
+                },
+                {
+                  "parent": "Hydrogen Peroxide",
+                  "children": ["Function: Oxidizes organic pigments in teeth", "Safety: Does not alter enamel or dentine significantly"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Whitening Mouthwash",
+          "associated_brands": ["BlueDaimonds Colux"],
+          "keywords": ["whitening mouthwash", "hydrogen peroxide", "teeth whitening", "BlueDaimonds Colux"],
+          "blocks": [
+            {
+              "block_heading": "Features",
+              "block_type": "list",
+              "data": [
+                "Contains hydrogen peroxide or other whitening agents",
+                "Helps maintain whitening between treatments",
+                "Daily use after brushing",
+                "Swish 15ml for 1 minute",
+                "Examples: BlueDaimonds Colux"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Blue Diamonds Foam",
+          "keywords": ["blue diamonds foam", "blue covarine", "heat-activated whitening"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Heat-activated dental foam that whitens and maintains teeth whiteness"
+            },
+            {
+              "block_heading": "Components",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Blue Covarine",
+                  "children": [
+                    "Function: Reduces tooth yellowness and improves whiteness immediately after brushing",
+                    "Mechanism: Forms optical layer on tooth surface"
+                  ]
+                },
+                {
+                  "parent": "Hydrogen Peroxide",
+                  "children": [
+                    "Function: Oxidizes organic pigments in teeth",
+                    "Safety: Without altering enamel or dentine significantly"
+                  ]
+                }
+              ]
+            },
+            {
+              "block_heading": "Usage",
+              "block_type": "list",
+              "data": [
+                "Daily use after each brush",
+                "Swish 15ml for 1 minute"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Gum Protection and Whitening Ingredients",
+          "keywords": ["gum protection", "hyaluronic acid", "whitening agents", "xylitol", "zinc"],
+          "blocks": [
+            {
+              "block_heading": "Categories",
+              "block_type": "key_value",
+              "data": [
+                { "key": "Gum Protection", "value": "Hyaluronic Acid, Panthenol, Vitamin E" },
+                { "key": "Whitening", "value": "PAP, Papain, Lactoperoxidase, Activated Charcoal, Baking Soda" },
+                { "key": "Desensitizer", "value": "Potassium Nitrate" },
+                { "key": "Remineralization", "value": "Fluoride, Theobromine" },
+                { "key": "Anti-cavity/Anti-tartar", "value": "Xylitol, Stevia, Pirofosfatos" },
+                { "key": "Halitosis Control", "value": "Zinc" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Oral Care for Kids",
+      "items": [
+        {
+          "item_title": "Importance of Children's Oral Care",
+          "keywords": ["children oral care", "pediatric dentistry", "kids dental health"],
+          "blocks": [
+            {
+              "block_heading": "Benefits",
+              "block_type": "list",
+              "data": [
+                "Prevents cavities",
+                "Supports overall health (prevents heart disease, diabetes)",
+                "Promotes healthy gums (prevents gum disease and tooth loss)",
+                "Boosts confidence (healthy teeth and bright smile)"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Causes of Dental Problems in Children",
+          "keywords": ["childhood cavities", "dental problems", "thumb sucking"],
+          "blocks": [
+            {
+              "block_heading": "Factors",
+              "block_type": "list",
+              "data": [
+                "Poor brushing habits",
+                "Sugary diets",
+                "Lack of fluoride",
+                "Infrequent dental visits",
+                "Thumb sucking"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Child Journey to Oral Health",
+          "keywords": ["kids brushing", "first tooth", "pediatric dental visits"],
+          "blocks": [
+            {
+              "block_heading": "Stages",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Before Teeth Emerge",
+                  "children": ["Clean baby's gums with soft cloth after feeding"]
+                },
+                {
+                  "parent": "First Tooth Appearance",
+                  "children": ["Brush twice daily with fluoride-free toothpaste"]
+                },
+                {
+                  "parent": "Two Teeth Touch",
+                  "children": ["Start flossing daily"]
+                },
+                {
+                  "parent": "Regular Dental Visits",
+                  "children": ["Schedule check-ups every six months"]
+                },
+                {
+                  "parent": "Supervision",
+                  "children": ["Supervise brushing until child can spit toothpaste"]
+                }
+              ]
+            },
+            {
+              "block_heading": "Additional Tips",
+              "block_type": "list",
+              "data": [
+                "Healthy diet: Limit sugary snacks and drinks; encourage fruits, vegetables, and water",
+                "Lead by example: Children mimic parents' oral hygiene",
+                "Fun design toothbrushes make brushing enjoyable",
+                "Establish consistent routine for morning and night brushing"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Toothpaste Selection for Kids",
+          "associated_brands": ["Aloedent", "Colgate"],
+          "keywords": ["kids toothpaste", "fluoride toothpaste", "fluorosis prevention", "Aloedent", "Colgate"],
+          "blocks": [
+            {
+              "block_heading": "Types",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Fluoride Toothpaste",
+                  "children": ["Strengthens enamel, prevents cavities", "Suitable for children over 2", "Examples: Aloedent, Colgate"]
+                },
+                {
+                  "parent": "Natural Toothpaste",
+                  "children": ["Made with organic ingredients, free from artificial additives", "Limitation: May lack fluoride"]
+                },
+                {
+                  "parent": "Fluoride-Free Toothpaste",
+                  "children": ["Prevents fluorosis in young children who swallow toothpaste", "Ideal for ages 0-2", "Examples: Aloedent"]
+                },
+                {
+                  "parent": "Flavored Toothpaste",
+                  "children": ["Makes brushing fun with kid-friendly flavors", "Benefits: Encourages regular brushing habits"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Toothbrush Selection for Kids",
+          "keywords": ["kids toothbrush", "age-appropriate toothbrushes"],
+          "blocks": [
+            {
+              "block_heading": "Age Recommendations",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Ages 0-2",
+                  "children": ["Type: Soft-bristled silicone toothbrush", "Features: Gentle on gums, often with safety shield"]
+                },
+                {
+                  "parent": "Ages 2-6",
+                  "children": ["Type: Fun design toothbrush options", "Features: Colorful handles, favorite characters"]
+                },
+                {
+                  "parent": "Ages 6+",
+                  "children": ["Type: Larger soft-bristled toothbrush choices", "Features: Similar to adult brushes but smaller size"]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Oral Care for Dental Implants",
+      "items": [
+        {
+          "item_title": "Importance of Implant Care",
+          "keywords": ["dental implants", "implant care", "jawbone preservation"],
+          "blocks": [
+            {
+              "block_heading": "Benefits",
+              "block_type": "list",
+              "data": [
+                "Supports systemic health by improving oral hygiene",
+                "Restores chewing ability",
+                "Provides natural aesthetics",
+                "Prevents bone loss by maintaining jawbone density",
+                "Ensures long-lasting solution",
+                "Reduces risk of bacterial infections"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Causes of Implant Problems",
+          "keywords": ["implant problems", "implant failure", "bruxism"],
+          "blocks": [
+            {
+              "block_heading": "Risk Factors",
+              "block_type": "list",
+              "data": [
+                "Poor oral hygiene",
+                "Smoking impacts healing",
+                "Gum disease affects stability",
+                "Bruxism (teeth grinding)",
+                "Underlying medical conditions"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Implant Care Routine",
+          "keywords": ["implant maintenance", "implant hygiene", "water flosser"],
+          "blocks": [
+            {
+              "block_heading": "Recommendations",
+              "block_type": "list",
+              "data": [
+                "Brush twice daily with soft toothbrush",
+                "Floss daily",
+                "Use antimicrobial mouthwash",
+                "Avoid hard foods",
+                "Quit smoking",
+                "Use water flosser to super clean teeth and surrounding areas",
+                "Regular dental visits",
+                "Monitor for signs of trouble (redness, swelling, bleeding)"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Denture Care",
+          "associated_brands": ["Corega", "Fifty dent"],
+          "keywords": ["denture care", "denture cleaning", "dental adhesive", "Corega", "Fifty dent"],
+          "blocks": [
+            {
+              "block_heading": "Routine",
+              "block_type": "list",
+              "data": [
+                "Remove and brush denture daily with non-abrasive cleaner",
+                "Soak in denture-cleaning solution overnight",
+                "Brush natural teeth and gums twice daily",
+                "Rinse with antimicrobial, non-alcoholic mouthwash",
+                "Use dental adhesive for secure fitting"
+              ]
+            },
+            {
+              "block_heading": "Examples",
+              "block_type": "list",
+              "data": ["Corega", "Fifty dent"]
+            },
+            {
+              "block_heading": "Tips",
+              "block_type": "list",
+              "data": [
+                "Remove and clean the appliance daily; avoid wearing it 24/7 to allow gum rest",
+                "Avoid hard or sticky foods",
+                "Replace worn-out appliances to maintain fit and hygiene"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Mouth Sores",
+      "items": [
+        {
+          "item_title": "Types of Mouth Sores",
+          "keywords": ["mouth sores", "canker sores", "oral thrush", "cold sores", "leukoplakia", "Ronzavit B Complex", "Dentu Ulcer Gel", "Fluconazole"],
+          "blocks": [
+            {
+              "block_heading": "Canker Sores",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Description",
+                  "children": ["Small, non-contagious sores with uncertain causes, possibly linked to immune response or trauma"]
+                },
+                {
+                  "parent": "Treatment",
+                  "children": [
+                    "Vitamin E: Very important for gum health, especially in canker sores - Example: Ronzavit B Complex",
+                    "Hyaluronic Acid: Forms protective coating, reduces inflammation - Example: Dentu Ulcer Gel",
+                    "Chamomile: Has great anti-inflammatory, analgesic (pain-relieving), and antiseptic powers - Example: Dentu Ulcer gel"
+                  ]
+                }
+              ]
+            },
+            {
+              "block_heading": "Thrush",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Description",
+                  "children": ["Fungal infection caused by overgrowth of Candida yeast, appearing as white patches"]
+                },
+                {
+                  "parent": "Treatment",
+                  "children": ["Antifungal: Fluconazole"]
+                }
+              ]
+            },
+            {
+              "block_heading": "Cold Sores",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Description",
+                  "children": ["Contagious, fluid-filled blisters caused by herpes simplex virus, often around the lips"]
+                }
+              ]
+            },
+            {
+              "block_heading": "Leukoplakia",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Description",
+                  "children": ["Thick, whitish patches due to excess cell growth, commonly associated with tobacco use"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Associated Health Conditions",
+          "keywords": ["mouth ulcers", "systemic conditions", "oral manifestations"],
+          "blocks": [
+            {
+              "block_heading": "Conditions",
+              "block_type": "key_value",
+              "data": [
+                { "key": "Behçet's Disease", "value": "Rare disorder causing recurrent ulcers and inflammation" },
+                { "key": "Vitamin Deficiencies", "value": "Lack of essential vitamins leading to oral health issues" },
+                { "key": "Lupus", "value": "Autoimmune disorder manifesting in various symptoms, including oral" },
+                { "key": "Reactive Arthritis", "value": "Joint inflammation that can also affect oral health" },
+                { "key": "Celiac Disease", "value": "Gluten sensitivity linked to oral health problems" },
+                { "key": "Infections", "value": "Viral, bacterial, or fungal infections causing mouth ulcers" },
+                { "key": "Crohn's Disease", "value": "Inflammatory bowel disease associated with mouth ulcers" }
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Treatment and Support for Mouth Sores",
+          "associated_brands": ["Ronzavit B Complex", "Dentu Ulcer Gel", "Dr.Organic TP", "Dentu M.W", "C-Ronz"],
+          "keywords": ["mouth ulcer treatment", "oral lesions", "vitamin supplements", "Dr.Organic TP", "Dentu M.W", "C-Ronz"],
+          "blocks": [
+            {
+              "block_heading": "Recommendations",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Vitamin E",
+                  "children": ["Benefits: Very important for gum health, especially in canker sores", "Example: Ronzavit B Complex"]
+                },
+                {
+                  "parent": "SLS-Free Toothpaste",
+                  "children": ["Benefits: Reduces irritation", "Example: Dr.Organic TP"]
+                },
+                {
+                  "parent": "Hyaluronic Acid",
+                  "children": ["Benefits: Acts as anti-inflammatory by forming protective coating around oral cavity", "Example: Dentu Ulcer Gel"]
+                },
+                {
+                  "parent": "Chamomile",
+                  "children": ["Benefits: Anti-inflammatory, analgesic, antiseptic properties", "Example: Dentu Ulcer gel"]
+                },
+                {
+                  "parent": "Chlorhexidine",
+                  "children": ["Benefits: Antiseptic rinse reduces bacteria in mouth", "Example: Dentu M.W"]
+                },
+                {
+                  "parent": "Folic Acid",
+                  "children": ["Prevents ulcers and infections"]
+                },
+                {
+                  "parent": "Vitamin C",
+                  "children": ["Benefits: Powerful antioxidant that protects cells from free radical damage", "Example: C-Ronz"]
+                },
+                {
+                  "parent": "Vitamin B12",
+                  "children": ["Supports gum health and prevents ulcers"]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Dietary Supplements for Oral Health",
+      "items": [
+        {
+          "item_title": "Essential Supplements",
+          "keywords": ["oral health supplements", "dental nutrition", "vitamins for teeth"],
+          "blocks": [
+            {
+              "block_heading": "Supplements",
+              "block_type": "key_value",
+              "data": [
+                { "key": "Calcium", "value": "Promotes health of teeth and bones" },
+                { "key": "Vitamin D", "value": "Enhances calcium absorption for stronger teeth" },
+                { "key": "Vitamin C", "value": "Strengthens gums and improves wound healing" },
+                { "key": "Magnesium", "value": "Strengthens bones and balances minerals in the body" },
+                { "key": "Zinc", "value": "Boosts immunity and aids in healing oral infections" },
+                { "key": "Omega-3 Fatty Acids", "value": "Protects gums and reduces inflammation" },
+                { "key": "Vitamin A", "value": "Supports soft tissue health and prevents dry mouth" },
+                { "key": "Coenzyme Q10", "value": "Reduces inflammation and promotes gum tissue repair" },
+                { "key": "Vitamin K2", "value": "Regulates calcium in teeth and bones" },
+                { "key": "Probiotics", "value": "Promotes healthy bacteria balance in mouth" }
+              ]
+            },
+            {
+              "block_heading": "Note",
+              "block_type": "text",
+              "data": "Dietary supplements are important but cannot replace daily oral hygiene practices like brushing and flossing"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

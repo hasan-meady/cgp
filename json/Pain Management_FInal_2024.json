@@ -1,0 +1,1841 @@
+{
+  "id": "pain_management",
+  "title": "Pain Management Guidelines",
+  "type": "condition-guide",
+  "release": "Final Release",
+  "committee": "Pain Management Revision Team",
+  "sections": [
+    {
+      "section_title": "Pain Overview",
+      "items": [
+        {
+          "item_title": "Pain Definition",
+          "keywords": ["pain", "somatic pain", "biochemistry of pain", "pain signals", "NGF", "bradykinin", "serotonin", "ATP receptors"],
+          "blocks": [
+            {
+              "block_heading": "Definition",
+              "block_type": "text",
+              "data": "Unpleasant sensory and emotional experience associated with actual or potential tissue damage"
+            },
+            {
+              "block_heading": "Characteristics",
+              "block_type": "list",
+              "data": [
+                "Somatic pain indicates tissue damage",
+                "Involves complex physiological and biochemical processes",
+                "Includes transmission and perception of pain signals through molecules, receptors, and pathways"
+              ]
+            },
+            {
+              "block_heading": "Mechanism Table",
+              "block_type": "table",
+              "data": {
+                "columns": ["Stimulus", "Receptor"],
+                "rows": [
+                  { "Stimulus": "NGF", "Receptor": "TKA" },
+                  { "Stimulus": "Bradykinin", "Receptor": "BK2" },
+                  { "Stimulus": "Serotonin", "Receptor": "5-HT3" },
+                  { "Stimulus": "ATP", "Receptor": "P2X3" },
+                  { "Stimulus": "H+", "Receptor": "ASIC3/VR1" },
+                  { "Stimulus": "Lipids", "Receptor": "PGE2/CB1/VR1" },
+                  { "Stimulus": "Heat", "Receptor": "VR1/VRL-1" },
+                  { "Stimulus": "Pressure", "Receptor": "DEC/ENaC ?" }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Classification of Pain",
+      "items": [
+        {
+          "item_title": "Pain Classification",
+          "keywords": ["acute pain", "chronic pain", "nociceptive pain", "neuropathic pain", "ischemic pain", "referred pain", "pain scale"],
+          "blocks": [
+            {
+              "block_heading": "Pain Types",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Acute",
+                  "children": ["Sudden onset, resolves within 3 months"]
+                },
+                {
+                  "parent": "Chronic",
+                  "children": ["Gradual onset, lasts >6 months"]
+                },
+                {
+                  "parent": "Nociceptive",
+                  "children": ["Somatic (tissue damage)", "Visceral (internal organs)"]
+                },
+                {
+                  "parent": "Neuropathic",
+                  "children": ["Somatosensory nervous system damage/dysfunction"]
+                },
+                {
+                  "parent": "Ischemic",
+                  "children": ["Insufficient oxygen supply"]
+                },
+                {
+                  "parent": "Referred",
+                  "children": ["Felt in different location from source"]
+                }
+              ]
+            },
+            {
+              "block_heading": "Pain Scale",
+              "block_type": "list",
+              "data": [
+                "Pain Free",
+                "Very Mild",
+                "Discomforting",
+                "Tolerable",
+                "Distressing",
+                "Very Distressing",
+                "Intense",
+                "Very Intense",
+                "Utterly Horrible",
+                "Unbearable",
+                "Unimaginable Unspeakable"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Pain Management Medications",
+      "items": [
+        {
+          "item_title": "Opioids",
+          "keywords": ["opioids", "morphine", "codeine", "hydrocodone", "fentanyl", "tramadol"],
+          "blocks": [
+            {
+              "block_heading": "Indication",
+              "block_type": "text",
+              "data": "Moderate to severe pain"
+            },
+            {
+              "block_heading": "Examples",
+              "block_type": "list",
+              "data": ["Morphine, Codeine, Hydrocodone, Fentanyl, Tramadol"]
+            }
+          ]
+        },
+        {
+          "item_title": "Paracetamol",
+          "keywords": ["paracetamol", "paracetamol details", "acetaminophen", "cox-3", "analgesic", "antipyretic"],
+          "blocks": [
+            {
+              "block_heading": "Properties",
+              "block_type": "list",
+              "data": [
+                "Potent antipyretic/analgesic",
+                "Minimal anti-inflammatory",
+                "Possibly inhibits COX-3"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "NSAIDs",
+          "keywords": ["nsaids", "prostaglandins", "analgesic", "antipyretic", "anti-inflammatory"],
+          "blocks": [
+            {
+              "block_heading": "Properties",
+              "block_type": "list",
+              "data": [
+                "Antipyretic, analgesic, anti-inflammatory",
+                "Prostaglandin synthesis inhibition"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Co-Analgesics",
+          "keywords": ["co-analgesics", "gabapentin", "pregabalin", "carbamazepine", "amitriptyline", "nortriptyline", "duloxetine", "venlafaxine"],
+          "blocks": [
+            {
+              "block_heading": "Indication",
+              "block_type": "text",
+              "data": "Neuropathic pain"
+            },
+            {
+              "block_heading": "Categories",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Anticonvulsants",
+                  "children": ["Gabapentin, Pregabalin, Carbamazepine"]
+                },
+                {
+                  "parent": "Tricyclic Antidepressants",
+                  "children": ["Amitriptyline, Nortriptyline"]
+                },
+                {
+                  "parent": "SNRIs",
+                  "children": ["Duloxetine, Venlafaxine"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Corticosteroids",
+          "keywords": ["corticosteroids", "anti-inflammatory"],
+          "blocks": [
+            {
+              "block_heading": "Indication",
+              "block_type": "text",
+              "data": "Inflammation/edema pain"
+            },
+            {
+              "block_heading": "Administration Routes",
+              "block_type": "list",
+              "data": ["Systemic", "Local", "Nasal sprays"]
+            }
+          ]
+        },
+        {
+          "item_title": "Muscle Relaxants",
+          "keywords": ["skeletal muscle relaxants", "chlorzoxazone", "tizanidine", "Relaxon", "Sirdalud"],
+          "blocks": [
+            {
+              "block_heading": "Indication",
+              "block_type": "text",
+              "data": "Spasms/tension"
+            },
+            {
+              "block_heading": "Usage",
+              "block_type": "text",
+              "data": "Often with analgesics"
+            },
+            {
+              "block_heading": "Examples",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Chlorzoxazone",
+                  "children": ["Brands: Relaxon", "Dose: 250-500 mg 3-4 times daily"]
+                },
+                {
+                  "parent": "Tizanidine",
+                  "children": ["Brands: Sirdalud", "Dose: 2-4 mg every 8-12 hours"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Topical Analgesics",
+          "keywords": ["topical analgesics", "capsaicin", "lidocaine", "Salonpas", "Offen'"],
+          "blocks": [
+            {
+              "block_heading": "Benefits",
+              "block_type": "text",
+              "data": "Localized symptoms, minimal systemic exposure"
+            },
+            {
+              "block_heading": "Examples",
+              "block_type": "list",
+              "data": ["NSAIDs, capsaicin, lidocaine patches"]
+            },
+            {
+              "block_heading": "Brands",
+              "block_type": "list",
+              "data": ["Salonpas Patch, Offen' Patch"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Paracetamol Details",
+      "items": [
+        {
+          "item_title": "Paracetamol",
+          "keywords": ["paracetamol", "acetaminophen", "liver injury", "carbamazepine", "lamotrigine", "warfarin", "Tylenol", "Panadol"],
+          "blocks": [
+            {
+              "block_heading": "Properties",
+              "block_type": "list",
+              "data": [
+                "Potent antipyretic/analgesic",
+                "Minimal anti-inflammatory",
+                "Possibly inhibits COX-3"
+              ]
+            },
+            {
+              "block_heading": "Dosage",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Adults",
+                  "children": ["325-1000 mg every 6-8 hours, max 4000 mg/day"]
+                },
+                {
+                  "parent": "Pediatrics",
+                  "children": ["10-15 mg/kg/dose every 4-6 hours, max 5 doses/day"]
+                },
+                {
+                  "parent": "Rectal Pediatrics",
+                  "children": ["10-20 mg/kg/dose every 4-6 hours, max 75 mg/kg/day"]
+                }
+              ]
+            },
+            {
+              "block_heading": "Hepatic Impairment",
+              "block_type": "text",
+              "data": "Max 2000 mg/day in mild/moderate cases"
+            },
+            {
+              "block_heading": "Contraindications",
+              "block_type": "list",
+              "data": ["Alcoholism", "Malnutrition", "Fasting", "Low body weight", "Advanced age", "With interacting drugs"]
+            },
+            {
+              "block_heading": "Side Effects",
+              "block_type": "list",
+              "data": [
+                "Safe in infants, children, asthma, peptic ulcer, renal failure, pregnancy, lactation",
+                "Overdose may cause severe, potentially fatal liver injury"
+              ]
+            },
+            {
+              "block_heading": "Drug Interactions",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Carbamazepine",
+                  "children": ["Effect: Increases metabolism, reduces effect, raises liver damage risk", "Action: Monitor therapy"]
+                },
+                {
+                  "parent": "Lamotrigine",
+                  "children": ["Effect: Serum concentration may decrease", "Action: Monitor therapy"]
+                },
+                {
+                  "parent": "Warfarin",
+                  "children": ["Effect: Anticoagulant effect enhanced with >1.3-2 g/day for multiple days", "Action: Monitor therapy"]
+                }
+              ]
+            },
+            {
+              "block_heading": "Counseling Points",
+              "block_type": "list",
+              "data": ["Avoid exceeding dose", "Avoid other paracetamol products", "Use ml dosing for children"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "NSAIDs Details",
+      "items": [
+        {
+          "item_title": "Non-Selective COX Inhibitors",
+          "keywords": ["cox-1 inhibitors", "non-selective nsaids", "gi side effects", "renal toxicity", "Brufen", "Nurofen", "Voltaren", "Aleve"],
+          "blocks": [
+            {
+              "block_heading": "Characteristics",
+              "block_type": "list",
+              "data": ["Inhibit COX-1/COX-2", "GI/renal side effects"]
+            },
+            {
+              "block_heading": "Examples",
+              "block_type": "list",
+              "data": ["Ibuprofen, Diclofenac, Naproxen, Mefenamic acid, Meloxicam"]
+            },
+            {
+              "block_heading": "Brands",
+              "block_type": "list",
+              "data": ["Brufen, Nurofen, Voltaren, Aleve, Ponstan Forte, Mobic"]
+            }
+          ]
+        },
+        {
+          "item_title": "Selective COX-2 Inhibitors",
+          "keywords": ["cox-2 inhibitors", "cardiovascular risks", "selective nsaids", "gi sparing", "Celebrex", "Arcoxia"],
+          "blocks": [
+            {
+              "block_heading": "Benefits",
+              "block_type": "text",
+              "data": "Reduced GI issues"
+            },
+            {
+              "block_heading": "Risks",
+              "block_type": "text",
+              "data": "Potential cardiovascular risks"
+            },
+            {
+              "block_heading": "Examples",
+              "block_type": "list",
+              "data": ["Celecoxib, Etoricoxib"]
+            },
+            {
+              "block_heading": "Brands",
+              "block_type": "list",
+              "data": ["Celebrex, Arcoxia"]
+            }
+          ]
+        },
+        {
+          "item_title": "Ibuprofen",
+          "associated_brands": ["brufen", "nurofen"],
+          "keywords": ["ibuprofen", "brufen", "nurofen", "otc pain relief", "fever reducer"],
+          "blocks": [
+            {
+              "block_heading": "Dosage Regimen",
+              "block_type": "list",
+              "data": ["400 mg every 4-6 hours or 600 mg every 6-8 hours"],
+              "subtitle": "Max: 1200 mg (OTC)/3200 mg (prescription)"
+            }
+          ]
+        },
+        {
+          "item_title": "Diclofenac",
+          "associated_brands": ["Voltaren"],
+          "keywords": ["diclofenac", "voltaren", "topical nsaid", "arthritis pain"],
+          "blocks": [
+            {
+              "block_heading": "Dosage Regimen",
+              "block_type": "list",
+              "data": ["50 mg every 8-12 hours"],
+              "subtitle": "Max: 150 mg"
+            }
+          ]
+        },
+        {
+          "item_title": "Naproxen",
+          "associated_brands": ["Aleve"],
+          "keywords": ["naproxen", "aleve", "long-acting nsaid", "menstrual cramps"],
+          "blocks": [
+            {
+              "block_heading": "Dosage Regimen",
+              "block_type": "list",
+              "data": ["250-500 mg every 12 hours or 250 mg every 6-8 hours"],
+              "subtitle": "Max: 1250-1500 mg (acute)/1000 mg (chronic)"
+            }
+          ]
+        },
+        {
+          "item_title": "Meloxicam",
+          "associated_brands": ["Mobic"],
+          "keywords": ["meloxicam", "mobic", "coxicam", "once-daily nsaid"],
+          "blocks": [
+            {
+              "block_heading": "Dosage Regimen",
+              "block_type": "list",
+              "data": ["7.5-15 mg once daily"],
+              "subtitle": "Max: 15 mg"
+            }
+          ]
+        },
+        {
+          "item_title": "Etoricoxib",
+          "associated_brands": ["Arcoxia"],
+          "keywords": ["etoricoxib", "arcoxia", "cox-2 selective", "high-potency nsaid"],
+          "blocks": [
+            {
+              "block_heading": "Dosage Regimen",
+              "block_type": "list",
+              "data": ["30-60 mg once daily"],
+              "subtitle": "Max: 60 mg (chronic)/120 mg (acute, up to 8 days)"
+            }
+          ]
+        },
+        {
+          "item_title": "Celecoxib",
+          "associated_brands": ["Celebrex"],
+          "keywords": ["celecoxib", "celebrex", "cox-2 inhibitor", "osteoarthritis"],
+          "blocks": [
+            {
+              "block_heading": "Dosage Regimen",
+              "block_type": "list",
+              "data": ["200 mg daily or 100 mg every 12 hours"],
+              "subtitle": "Max: 400 mg"
+            }
+          ]
+        },
+        {
+          "item_title": "Mefenamic acid",
+          "associated_brands": ["ponstan forte"],
+          "keywords": ["mefenamic acid", "ponstan forte", "menstrual pain", "short-term nsaid"],
+          "blocks": [
+            {
+              "block_heading": "Dosage Regimen",
+              "block_type": "list",
+              "data": ["500 mg 3 times daily"]
+            }
+          ]
+        },
+        {
+          "item_title": "NSAIDs Precautions",
+          "keywords": ["fertility", "nsaids precautions", "Ibuprofen"],
+          "blocks": [
+            {
+              "block_heading": "GIT Bleeding",
+              "block_type": "text",
+              "data": "Avoid if active gastric disease or history of gastric bleeding"
+            },
+            {
+              "block_heading": "Cardiovascular",
+              "block_type": "text",
+              "data": "Long term use should be avoided in patients with high cardiovascular risk"
+            },
+            {
+              "block_heading": "Hypertension",
+              "block_type": "text",
+              "data": "May increase blood pressure - monitor hypertensive patients"
+            },
+            {
+              "block_heading": "Nephrotoxicity",
+              "block_type": "text",
+              "data": "Avoid in patients with impaired renal function, diuretic use, geriatrics, heart failure, dehydration, liver disease"
+            },
+            {
+              "block_heading": "Hepatotoxicity",
+              "block_type": "text",
+              "data": "Extreme caution in hepatic patients - paracetamol preferred in mild hepatic impairment"
+            },
+            {
+              "block_heading": "Asthma",
+              "block_type": "text",
+              "data": "May exacerbate asthma - avoid if history of bronchospasm after NSAIDs use"
+            },
+            {
+              "block_heading": "Fertility",
+              "block_type": "text",
+              "data": "Women having difficulty conceiving should avoid NSAIDs"
+            },
+            {
+              "block_heading": "Pregnancy",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "First 20 weeks",
+                  "children": ["Can be used only if prescribed by physician"]
+                },
+                {
+                  "parent": "After 20 weeks",
+                  "children": ["Avoided due to risk of Oligohydramnios and Neonatal kidney impairment"]
+                },
+                {
+                  "parent": "Third trimester",
+                  "children": ["Contraindicated"]
+                }
+              ]
+            },
+            {
+              "block_heading": "Breastfeeding",
+              "block_type": "text",
+              "data": "Ibuprofen is preferred NSAID in breastfeeding"
+            },
+            {
+              "block_heading": "Pediatrics",
+              "block_type": "text",
+              "data": "Ibuprofen most appropriate for children - avoid aspirin under 18 years (Reye's syndrome)"
+            }
+          ]
+        },
+        {
+          "item_title": "NSAIDs Interactions",
+          "keywords": ["diuretics", "antiplatelets", "aspirin", "anti-inflammatory", "analgesics", "Brufen interactions", "Voltaren", "Ibuprofen", "Celebrex"],
+          "blocks": [
+            {
+              "block_heading": "Interactions",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "NSAID Usage",
+                  "children": ["Avoid use of more than one NSAID"]
+                },
+                {
+                  "parent": "Bleeding Risk",
+                  "children": ["Increased bleeding risk with antiplatelets/anticoagulants"]
+                },
+                {
+                  "parent": "Renal Function",
+                  "children": ["Decreased renal function with ACEI/ARBs especially with diuretics"]
+                },
+                {
+                  "parent": "Aspirin Timing",
+                  "children": ["Ibuprofen should be administered 30-120 minutes after aspirin or at least 8 hours before"]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Headache Management",
+      "items": [
+        {
+          "item_title": "Headache Types",
+          "keywords": ["headache", "migraine", "tension headache", "cluster headache", "sinus headache"],
+          "blocks": [
+            {
+              "block_heading": "Primary Headaches",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Examples",
+                  "children": ["Migraine, Cluster, Tension"]
+                },
+                {
+                  "parent": "Triggers",
+                  "children": [
+                    "Large amounts of caffeine",
+                    "Skipping meals",
+                    "Dehydration",
+                    "Sleep disturbances",
+                    "Bad posture",
+                    "Stress",
+                    "Screen use",
+                    "Sensory stimuli (lights, smells, noises)",
+                    "Hormonal changes",
+                    "Alcohol"
+                  ]
+                }
+              ]
+            },
+            {
+              "block_heading": "Secondary Headaches",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Common Causes",
+                  "children": [
+                    "Sinus infections",
+                    "Eye strain",
+                    "Dental problems",
+                    "Ear infections",
+                    "Medication side effects",
+                    "Dehydration"
+                  ]
+                },
+                {
+                  "parent": "Serious Causes",
+                  "children": [
+                    "Aneurysms",
+                    "High blood pressure",
+                    "Glaucoma",
+                    "Brain tumors",
+                    "Head injuries",
+                    "Meningitis",
+                    "Stroke"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Tension Headache",
+          "keywords": ["tension headache", "stress headache", "ibuprofen", "paracetamol"],
+          "blocks": [
+            {
+              "block_heading": "Symptoms",
+              "block_type": "list",
+              "data": [
+                "Mild to moderate dull pain",
+                "Tightness or pressure across forehead or sides",
+                "Doesn't worsen with movement"
+              ]
+            },
+            {
+              "block_heading": "Duration",
+              "block_type": "text",
+              "data": "30 minutes to several days (chronic if 15+ days/month)"
+            },
+            {
+              "block_heading": "Pharmacological Treatment",
+              "block_type": "list",
+              "data": ["NSAIDs"]
+            },
+            {
+              "block_heading": "Non-Pharmacological Treatment",
+              "block_type": "list",
+              "data": [
+                "Massage",
+                "Meditation",
+                "Exercise",
+                "Neck stretching",
+                "Adequate sleep",
+                "Healthy diet",
+                "Hydration",
+                "Limit caffeine/alcohol"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Cluster Headache",
+          "keywords": ["cluster headache", "oxygen therapy", "triptans", "dihydroergotamine", "propranolol", "verapamil"],
+          "blocks": [
+            {
+              "block_heading": "Mechanism",
+              "block_type": "text",
+              "data": "Dilation of blood vessels supplying brain and face, causing pressure on trigeminal nerve"
+            },
+            {
+              "block_heading": "Symptoms",
+              "block_type": "list",
+              "data": [
+                "Severe pain on one side",
+                "Teary/red eyes",
+                "Congestion on same side as pain",
+                "Restlessness/agitation"
+              ]
+            },
+            {
+              "block_heading": "Duration",
+              "block_type": "text",
+              "data": "15 minutes to 3 hours (can occur several times daily)"
+            },
+            {
+              "block_heading": "Acute Treatment",
+              "block_type": "list",
+              "data": ["100% oxygen", "Triptans", "Dihydroergotamine (DHE)"]
+            },
+            {
+              "block_heading": "Preventive Treatment",
+              "block_type": "list",
+              "data": [
+                "Blood pressure medications (propranolol, verapamil)",
+                "Steroids (prednisone)",
+                "Ergotamine",
+                "Antidepressants",
+                "Anticonvulsants (topiramate, valproic acid)",
+                "Lithium carbonate",
+                "Muscle relaxants (baclofen)"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Migraine",
+          "keywords": ["migraine", "aura", "triptans", "Relpax", "Imigran", "CGRP inhibitors", "Botox", "Vyepti", "Aimovig"],
+          "blocks": [
+            {
+              "block_heading": "Symptoms",
+              "block_type": "list",
+              "data": [
+                "Moderate to severe throbbing pain (one/both sides)",
+                "Nausea/vomiting",
+                "Light/sound/smell sensitivity",
+                "Worsens with movement"
+              ]
+            },
+            {
+              "block_heading": "Duration",
+              "block_type": "text",
+              "data": "4-72 hours (chronic if 15+ days/month for 3+ months)"
+            },
+            {
+              "block_heading": "Aura",
+              "block_type": "text",
+              "data": "Sensory, motor and speech symptoms acting as warning signals"
+            },
+            {
+              "block_heading": "Acute Treatment",
+              "block_type": "list",
+              "data": [
+                "Anti-nausea (promethazine)",
+                "Paracetamol",
+                "NSAIDs (aspirin, naproxen, ibuprofen)",
+                "Triptans (eletriptan, sumatriptan)"
+              ]
+            },
+            {
+              "block_heading": "Preventive Treatment",
+              "block_type": "list",
+              "data": [
+                "CGRP inhibitors (epitinezumab, erenumab, fremanezumab, galcanezumab)",
+                "Botox injections"
+              ]
+            },
+            {
+              "block_heading": "Supplements",
+              "block_type": "list",
+              "data": [
+                "Vitamin B2 (400 mg/day)",
+                "Magnesium (400-600 mg oxide/day)",
+                "Vitamin D",
+                "Coenzyme Q10 (200 mg/day for 60 days)"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Sinus Headache",
+          "keywords": ["sinus headache", "sinusitis", "Telfast", "Aerius", "Otrivin", "prednisolone"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Symptom of sinus infections (sinusitis)"
+            },
+            {
+              "block_heading": "Symptoms",
+              "block_type": "list",
+              "data": [
+                "Dull pain behind eyes, cheekbones, forehead or nose bridge",
+                "Worsens with head movement or bending"
+              ]
+            },
+            {
+              "block_heading": "Causes",
+              "block_type": "list",
+              "data": [
+                "Viral/bacterial infection",
+                "Common cold",
+                "Seasonal allergies",
+                "Smoking",
+                "Structural issues (polyps, deviated septum)",
+                "Weak immune system"
+              ]
+            },
+            {
+              "block_heading": "Treatment",
+              "block_type": "list",
+              "data": [
+                "Antibiotics (for bacterial infections)",
+                "Antihistamines (Telfast, Aerius)",
+                "Decongestants (Otrivin)",
+                "Pain relievers (paracetamol, NSAIDs)",
+                "Steroids (prednisolone)"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Headache Red Flags",
+          "keywords": ["headache red flags", "medical emergency", "meningitis", "stroke warning signs"],
+          "blocks": [
+            {
+              "block_heading": "Symptoms Requiring Immediate Attention",
+              "block_type": "list",
+              "data": [
+                "Stiff neck",
+                "Rash",
+                "Vomiting",
+                "Confusion",
+                "Slurred speech",
+                "Worst headache ever",
+                "Fever ≥38°C",
+                "Paralysis",
+                "Visual loss",
+                "Morning headache with persistent nausea",
+                "Post-injury headache"
+              ]
+            },
+            {
+              "block_heading": "Action",
+              "block_type": "text",
+              "data": "Require immediate medical attention"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Earache Management",
+      "items": [
+        {
+          "item_title": "Earache",
+          "keywords": ["earache", "otitis media", "Earcalm", "Dewax", "Otosan", "benzocaine", "phenazone"],
+          "blocks": [
+            {
+              "block_heading": "Causes",
+              "block_type": "list",
+              "data": [
+                "Ear infection (middle/outer ear)",
+                "Air pressure changes",
+                "Foreign body",
+                "Injury",
+                "Ear wax buildup",
+                "Referred pain (sinusitis, tonsillitis)",
+                "TMJ problems",
+                "Dental problems"
+              ]
+            },
+            {
+              "block_heading": "Referral Criteria",
+              "block_type": "list",
+              "data": [
+                "Persistent/worsening pain",
+                "Fluid discharge",
+                "Fever",
+                "Hearing loss",
+                "Diabetes/immunocompromised",
+                "Age <2 years"
+              ]
+            },
+            {
+              "block_heading": "Pharmacological Treatment",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Wax softeners",
+                  "children": ["Dewax, Waxol, Otosan, Otiblock"]
+                },
+                {
+                  "parent": "Analgesic ear drops",
+                  "children": ["Earcalm (benzocaine 1% + phenazone 5%)"]
+                },
+                {
+                  "parent": "Systemic analgesics",
+                  "children": ["Paracetamol, Ibuprofen"]
+                },
+                {
+                  "parent": "Antibiotic ear drops",
+                  "children": ["Outer ear infections"]
+                }
+              ]
+            },
+            {
+              "block_heading": "Non-Pharmacological Treatment",
+              "block_type": "list",
+              "data": [
+                "Warm cloth/heat pack",
+                "Head elevation during sleep",
+                "Avoid cotton buds",
+                "Avoid drops if eardrum burst"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Toothache Management",
+      "items": [
+        {
+          "item_title": "Toothache",
+          "keywords": ["toothache", "dental pain", "Avocaine", "Avohex", "Dentu", "Meridol", "fluoride toothpaste"],
+          "blocks": [
+            {
+              "block_heading": "Causes",
+              "block_type": "list",
+              "data": [
+                "Sensitive teeth",
+                "Gum disease",
+                "Impacted tooth",
+                "Pulp inflammation",
+                "Tooth decay",
+                "Abscess",
+                "Cracked tooth",
+                "Non-dental causes (sinus infection)"
+              ]
+            },
+            {
+              "block_heading": "Red Flags",
+              "block_type": "text",
+              "data": "Unbearable pain with fever/chills"
+            },
+            {
+              "block_heading": "Pharmacological Treatment",
+              "block_type": "list",
+              "data": [
+                "Paracetamol",
+                "Ibuprofen",
+                "Diclofenac potassium/sodium",
+                "Local anesthetic (Avocaine spray)"
+              ]
+            },
+            {
+              "block_heading": "Non-Pharmacological Treatment",
+              "block_type": "list",
+              "data": [
+                "Ice pack (20 minutes)",
+                "Mouth wash (Avohex, Dentu, Meridol)",
+                "Proper oral hygiene",
+                "Hydrogen peroxide rinse"
+              ]
+            },
+            {
+              "block_heading": "Prevention",
+              "block_type": "list",
+              "data": [
+                "Brush twice daily with fluoride toothpaste",
+                "Floss daily",
+                "Limit sugar intake"
+              ]
+            },
+            {
+              "block_heading": "Breastfeeding Note",
+              "block_type": "text",
+              "data": "Ibuprofen (lowest effective dose) and paracetamol are safe"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Chest Pain Management",
+      "items": [
+        {
+          "item_title": "Chest Pain",
+          "keywords": ["chest pain", "GERD", "heartburn", "Omeprazole", "Lansoprazole", "Parafon", "Javelin", "Manuka honey"],
+          "blocks": [
+            {
+              "block_heading": "Differential Diagnosis",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "GERD/Heartburn",
+                  "children": ["Post-meal, regurgitation, bloating"]
+                },
+                {
+                  "parent": "Chest strain",
+                  "children": ["Post-injury/exercise, improves with rest"]
+                },
+                {
+                  "parent": "Anxiety/panic",
+                  "children": ["Triggered by stress, palpitations, sweating"]
+                },
+                {
+                  "parent": "Chest infection",
+                  "children": ["Worsens with breathing, productive cough, fever"]
+                },
+                {
+                  "parent": "Heart problems",
+                  "children": ["Pericarditis (sharp pain worse with breathing/lying)", "Angina/Heart attack"]
+                }
+              ]
+            },
+            {
+              "block_heading": "Cardiac Risk Factors",
+              "block_type": "list",
+              "data": [
+                "Smoking",
+                "Obesity",
+                "Hypertension",
+                "Diabetes",
+                "High cholesterol",
+                "Family history of early heart disease"
+              ]
+            },
+            {
+              "block_heading": "Treatment for GERD",
+              "block_type": "list",
+              "data": ["Antacids", "PPIs (Omeprazole, Lansoprazole, Pantoprazole)", "Lifestyle modifications"]
+            },
+            {
+              "block_heading": "Treatment for Musculoskeletal Pain",
+              "block_type": "list",
+              "data": ["Muscle relaxants (Parafon, Javelin cream)", "Analgesics (Diclofenac gel, Ibuprofen tablets)"]
+            },
+            {
+              "block_heading": "Non-Pharmacological Measures",
+              "block_type": "list",
+              "data": [
+                "Avoid large meals",
+                "Weight loss if obese",
+                "Limit caffeine",
+                "Elevate head of bed",
+                "Manuka honey (if not diabetic)",
+                "Rest"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Back Pain Management",
+      "items": [
+        {
+          "item_title": "Back Pain",
+          "keywords": ["back pain", "sciatica", "Roxonin", "Rofenac", "Voltaren", "Parafon", "Javelin", "Hollaid", "Nexcare", "Beurer"],
+          "blocks": [
+            {
+              "block_heading": "Causes",
+              "block_type": "list",
+              "data": ["Pulled muscle (strain)", "Slipped disc", "Sciatica", "Ankylosing spondylitis"]
+            },
+            {
+              "block_heading": "Pharmacological Treatment",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "NSAIDs",
+                  "children": ["Roxonin (tablets, patches), Rofenac (tablets, gel), Voltaren Emulgel"]
+                },
+                {
+                  "parent": "Muscle relaxants",
+                  "children": ["Parafon capsules, Javelin Deep heat"]
+                }
+              ]
+            },
+            {
+              "block_heading": "Non-Pharmacological Treatment",
+              "block_type": "list",
+              "data": [
+                "Ice packs (pain/swelling)",
+                "Heat packs (stiffness/spasms)",
+                "Massage/stretching",
+                "Avoid prolonged bed rest",
+                "Hot/cold patches (Hollaid, Nexcare)",
+                "Massage devices (Beurer MG70, MG21, Omron E4)",
+                "Seat massager for prolonged sitting",
+                "Stay active with daily exercises"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Abdominal Pain Conditions",
+      "items": [
+        {
+          "item_title": "Pancreatitis",
+          "keywords": ["pancreatitis", "digestive enzymes", "Codeine", "Morphine"],
+          "blocks": [
+            {
+              "block_heading": "Causes",
+              "block_type": "list",
+              "data": [
+                "Gallstones",
+                "Drugs (Sitagliptin, Valproic acid)",
+                "High triglycerides",
+                "High calcium",
+                "Pancreatic cancer",
+                "Trauma/surgery"
+              ]
+            },
+            {
+              "block_heading": "Symptoms",
+              "block_type": "list",
+              "data": [
+                "Upper abdominal pain radiating to back",
+                "Tenderness",
+                "Fever",
+                "Rapid pulse",
+                "Nausea/vomiting",
+                "Worse after eating",
+                "Oily, smelly stools"
+              ]
+            },
+            {
+              "block_heading": "Non-Pharmacological Treatment",
+              "block_type": "list",
+              "data": ["Stop smoking", "Avoid alcohol"]
+            },
+            {
+              "block_heading": "Pharmacological Treatment",
+              "block_type": "list",
+              "data": ["Non-opioids (Paracetamol, Ibuprofen)", "Mild opioids (Codeine)", "Strong opioids (Morphine)"]
+            },
+            {
+              "block_heading": "Supplements",
+              "block_type": "list",
+              "data": ["Digestive enzymes"]
+            }
+          ]
+        },
+        {
+          "item_title": "Cholecystitis",
+          "keywords": ["cholecystitis", "gallbladder inflammation", "gallstones"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Inflammation of gallbladder due to blocked bile duct"
+            },
+            {
+              "block_heading": "Symptoms",
+              "block_type": "list",
+              "data": [
+                "Severe RUQ/central abdominal pain",
+                "Radiates to right shoulder/back",
+                "Tenderness",
+                "Nausea/vomiting",
+                "Fever"
+              ]
+            },
+            {
+              "block_heading": "Non-Pharmacological Treatment",
+              "block_type": "list",
+              "data": ["Fasting initially"]
+            },
+            {
+              "block_heading": "Pharmacological Treatment",
+              "block_type": "list",
+              "data": ["IV fluids", "NSAIDs", "Antibiotics (if infected)"]
+            }
+          ]
+        },
+        {
+          "item_title": "Appendicitis",
+          "keywords": ["appendicitis", "surgical emergency"],
+          "blocks": [
+            {
+              "block_heading": "Symptoms",
+              "block_type": "list",
+              "data": [
+                "Sudden RLQ pain (starts periumbilical)",
+                "Worsens with movement/coughing",
+                "Nausea/vomiting",
+                "Loss of appetite",
+                "Low-grade fever",
+                "Constipation/diarrhea",
+                "Bloating"
+              ]
+            },
+            {
+              "block_heading": "Management",
+              "block_type": "text",
+              "data": "Emergency referral - no analgesics to avoid masking symptoms"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Hemorrhoids Management",
+      "items": [
+        {
+          "item_title": "Hemorrhoids",
+          "keywords": ["hemorrhoids", "piles", "Daflon", "diosmin", "Neohealer", "Enterogermina", "Prebio-M"],
+          "blocks": [
+            {
+              "block_heading": "Causes",
+              "block_type": "list",
+              "data": [
+                "Prolonged sitting",
+                "Chronic diarrhea/constipation",
+                "Obesity",
+                "Pregnancy",
+                "Low-fiber diet",
+                "Heavy lifting"
+              ]
+            },
+            {
+              "block_heading": "Internal Symptoms",
+              "block_type": "list",
+              "data": ["Painless bleeding", "Prolapse (pain/irritation)"]
+            },
+            {
+              "block_heading": "External Symptoms",
+              "block_type": "list",
+              "data": ["Itching/irritation", "Pain/discomfort", "Swelling", "Bleeding"]
+            },
+            {
+              "block_heading": "Pharmacological Treatment",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Oral analgesics",
+                  "children": ["NSAIDs, Selective COX-2 inhibitors (Celebrex, Arcoxia)"]
+                },
+                {
+                  "parent": "Topical treatments",
+                  "children": ["Hydrocortisone, Neohealer (cream/suppository every 8 hours for 21 days)"]
+                },
+                {
+                  "parent": "Venotonic",
+                  "children": ["Daflon (Diosmin)", "Regimen: 6 tabs daily ×4 days → 4 tabs daily ×3 days → 2 tabs daily ×2 months"]
+                }
+              ]
+            },
+            {
+              "block_heading": "Non-Pharmacological Treatment",
+              "block_type": "list",
+              "data": [
+                "High-fiber diet",
+                "Probiotics (Enterogermina)",
+                "Prebiotics (Prebio-M)",
+                "Warm baths (10-15 minutes 2-3×/day)",
+                "C-shape seating pillow"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Dysmenorrhea Management",
+      "items": [
+        {
+          "item_title": "Dysmenorrhea",
+          "keywords": ["dysmenorrhea", "menstrual cramps", "Ponstan Forte", "mefenamic acid", "MenstruHeat", "evening primrose"],
+          "blocks": [
+            {
+              "block_heading": "Symptoms",
+              "block_type": "list",
+              "data": [
+                "Throbbing/cramping lower abdominal pain",
+                "Starts 1-3 days before period",
+                "Peaks at 24 hours",
+                "Radiates to lower back/thighs",
+                "Nausea",
+                "Loose stools",
+                "Headache",
+                "Dizziness"
+              ]
+            },
+            {
+              "block_heading": "Pharmacological Treatment",
+              "block_type": "list",
+              "data": ["NSAIDs (Mefenamic acid - Ponstan Forte 500mg TID)"]
+            },
+            {
+              "block_heading": "Non-Pharmacological Treatment",
+              "block_type": "list",
+              "data": ["Exercise", "Hydration", "Hot drinks", "Heat application (MenstruHeat Patch)"]
+            },
+            {
+              "block_heading": "Supplements",
+              "block_type": "list",
+              "data": ["Evening primrose oil", "Vitamin E", "Omega-3", "Vitamin B1/B6", "Magnesium"]
+            },
+            {
+              "block_heading": "Hormonal Treatment",
+              "block_type": "list",
+              "data": ["Birth control (prevents ovulation)"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Renal Colic",
+      "items": [
+        {
+          "item_title": "Renal Colic",
+          "keywords": ["renal colic", "kidney stones", "hyoscine", "epimag", "coli-urinal", "alka-ur"],
+          "blocks": [
+            {
+              "block_heading": "Causes",
+              "block_type": "list",
+              "data": ["Kidney stones", "High protein/oxalate diets", "Family history", "Obesity"]
+            },
+            {
+              "block_heading": "Symptoms",
+              "block_type": "list",
+              "data": [
+                "Intense pain along side between ribs and hip or lower abdomen",
+                "Radiating to back/groin",
+                "Nausea, vomiting",
+                "Blood in urine",
+                "Cloudy/foul-smelling urine",
+                "Urgent urination",
+                "Altered patterns",
+                "Fever/chills if infected"
+              ]
+            },
+            {
+              "block_heading": "Non-Pharmacological Management",
+              "block_type": "list",
+              "data": [
+                "Drink 8-10 glasses water daily",
+                "Reduce salt/animal protein",
+                "Limit oxalate-rich foods (spinach, nuts, rhubarb)",
+                "Use cranberry products for UTI prevention"
+              ]
+            },
+            {
+              "block_heading": "Pharmacological Management",
+              "block_type": "list",
+              "data": [
+                "Pain Relievers (NSAIDs)",
+                "Antispasmodics (Hyoscine)",
+                "Stone-Specific Treatments (Epimag for oxalate stones, Coli-Urinal, Alka-Ur for urate stones)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Neck Pain",
+      "items": [
+        {
+          "item_title": "Neck Pain",
+          "keywords": ["neck pain", "cervical spondylosis", "cervical dystonia", "botox", "Voltaren Emulgel"],
+          "blocks": [
+            {
+              "block_heading": "Causes",
+              "block_type": "list",
+              "data": [
+                "Cervical strain",
+                "Spondylosis",
+                "Fracture",
+                "Dystonia",
+                "Osteoarthritis",
+                "Myofascial pain syndrome",
+                "Fibromyalgia"
+              ]
+            },
+            {
+              "block_heading": "Types",
+              "block_type": "list",
+              "data": ["Axial (in neck)", "Radicular (radiating to shoulders/arms)"]
+            },
+            {
+              "block_heading": "Duration",
+              "block_type": "list",
+              "data": ["Acute (days to 6 weeks)", "Chronic (>3 months)"]
+            },
+            {
+              "block_heading": "Symptoms",
+              "block_type": "list",
+              "data": [
+                "Neck pain",
+                "Radiating to upper back/arms/shoulders",
+                "Muscle spasms",
+                "Headache at neck base",
+                "Irritability",
+                "Trouble concentrating",
+                "Sleeplessness",
+                "Stiffness"
+              ]
+            },
+            {
+              "block_heading": "General Treatment",
+              "block_type": "list",
+              "data": [
+                "Oral/Topical NSAIDs",
+                "Muscle Relaxants",
+                "Alternate ice/heat compresses",
+                "Soft cervical collar",
+                "Mobilization exercises"
+              ]
+            },
+            {
+              "block_heading": "Cervical Spondylosis",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Additional Symptoms",
+                  "children": ["Grinding during movement", "Balance issues"]
+                },
+                {
+                  "parent": "Treatment",
+                  "children": ["Corticosteroids", "Gabapentin", "Pregabalin", "TCAs", "SSRIs", "Surgery"]
+                }
+              ]
+            },
+            {
+              "block_heading": "Cervical Dystonia",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Symptoms",
+                  "children": ["Chin/ear toward shoulder", "Chin up/down"]
+                },
+                {
+                  "parent": "Treatment",
+                  "children": ["Botox", "Surgery for chronic cases"]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Lower Limbs Pain",
+      "items": [
+        {
+          "item_title": "Osteoarthritis",
+          "keywords": ["osteoarthritis", "duloxetine", "cymbalta", "tens", "omron e4", "cortisone", "hyalubrix"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Degenerative joint disease, common in older people"
+            },
+            {
+              "block_heading": "Cause",
+              "block_type": "text",
+              "data": "Joint tissue breakdown"
+            },
+            {
+              "block_heading": "Symptoms",
+              "block_type": "list",
+              "data": ["Pain, stiffness, tenderness", "Loss of flexibility", "Bone spurs", "Swelling"]
+            },
+            {
+              "block_heading": "Medications",
+              "block_type": "list",
+              "data": ["Acetaminophen", "NSAIDs", "Duloxetine (Cymbalta)"]
+            },
+            {
+              "block_heading": "Therapies",
+              "block_type": "list",
+              "data": ["Physical therapy", "TENS (Omron E4)", "Cortisone injections", "Lubrication injections (Hyalubrix)", "Joint replacement"]
+            },
+            {
+              "block_heading": "Supplements",
+              "block_type": "list",
+              "data": ["Omega 3", "Collagen type II", "Glucosamine", "Chondroitin", "MSM"]
+            }
+          ]
+        },
+        {
+          "item_title": "Gout",
+          "keywords": ["gout", "colchicine", "allopurinol", "febuxostat", "uric acid"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Inflammatory arthritis from uric acid crystal buildup"
+            },
+            {
+              "block_heading": "Common Locations",
+              "block_type": "text",
+              "data": "Big toe/lower limbs"
+            },
+            {
+              "block_heading": "Symptoms",
+              "block_type": "list",
+              "data": ["Intense joint pain/swelling", "Inflammation/redness", "Limited range of motion"]
+            },
+            {
+              "block_heading": "Treatment",
+              "block_type": "list",
+              "data": ["NSAIDs", "Colchicine", "Corticosteroids", "Allopurinol", "Febuxostat"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Case Studies",
+      "items": [
+        {
+          "item_title": "Case 1: Tension Headache",
+          "keywords": ["tension headache", "ibuprofen", "rofenac", "rapidus", "diclofenac", "celebrex", "etoricoxib", "paracetamol"],
+          "blocks": [
+            {
+              "block_heading": "Patient Presentation",
+              "block_type": "text",
+              "data": "40-year-old with headache >24 hours, dull pain, tightness, or pressure across forehead, likely tension headache"
+            },
+            {
+              "block_heading": "Assessment",
+              "block_type": "list",
+              "data": [
+                "Confirm no migraine (one-sided pain, light sensitivity, nausea)",
+                "No sinus headache (pain behind eyes/cheekbones, worse when bending)",
+                "Check for kidney, liver, GIT disease, asthma, hypertension"
+              ]
+            },
+            {
+              "block_heading": "Pharmacological Management",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "NSAIDs",
+                  "children": [
+                    "Ibuprofen (400 mg every 4-6 hours), Diclofenac (50 mg every 8-12 hours)",
+                    "Brands: Brufen, Nurofen, Voltaren",
+                    "Notes: Use selective COX-2 inhibitors (Celebrex, Etoricoxib) if gastric issues; avoid if active gastric disease"
+                  ]
+                },
+                {
+                  "parent": "Paracetamol",
+                  "children": ["Max 2000 mg/day if mild/moderate liver issues", "Brands: Panadol, Tylenol"]
+                }
+              ]
+            },
+            {
+              "block_heading": "Non-Pharmacological Management",
+              "block_type": "list",
+              "data": ["Limit stress", "Apply warm compress or shower", "Exercise regularly", "Stay hydrated", "Limit caffeine"]
+            },
+            {
+              "block_heading": "Supplements",
+              "block_type": "list",
+              "data": ["Co-enzyme Q10", "Vitamin B2", "Magnesium", "Vitamin D"]
+            }
+          ]
+        },
+        {
+          "item_title": "Case 2: Pediatric Earache",
+          "keywords": ["earache", "earcalm", "paracetamol", "dewax", "otosan", "otiblock", "benzocaine"],
+          "blocks": [
+            {
+              "block_heading": "Patient Presentation",
+              "block_type": "text",
+              "data": "4-year-old with earache for 2 days"
+            },
+            {
+              "block_heading": "Assessment",
+              "block_type": "list",
+              "data": ["Check for fluid discharge, fever, or hearing loss (refer if present)", "Confirm if pain due to wax buildup"]
+            },
+            {
+              "block_heading": "Pharmacological Management",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Local Analgesic Drops",
+                  "children": ["Earcalm drops (Benzocaine 1%, Phenazone 5%)"]
+                },
+                {
+                  "parent": "Paracetamol",
+                  "children": [
+                    "Syrup: 10-15 mg/kg/dose every 4-6 hours, max 5 doses daily",
+                    "Suppositories: 10-20 mg/kg/dose every 4-6 hours, max 75 mg/kg/day"
+                  ]
+                },
+                {
+                  "parent": "Wax Softening Drops",
+                  "children": ["Dewax, Otosan, Otiblock"]
+                }
+              ]
+            },
+            {
+              "block_heading": "Non-Pharmacological Management",
+              "block_type": "list",
+              "data": ["Warm cloth/heat pack on ear", "Elevate head during sleep", "Avoid cotton buds or drops if eardrum burst"]
+            }
+          ]
+        },
+        {
+          "item_title": "Case 3: Toothache in Breastfeeding Patient",
+          "keywords": ["toothache", "ibuprofen", "paracetamol", "avocaine", "breastfeeding safety"],
+          "blocks": [
+            {
+              "block_heading": "Patient Presentation",
+              "block_type": "text",
+              "data": "25-year-old breastfeeding female with toothache"
+            },
+            {
+              "block_heading": "Assessment",
+              "block_type": "list",
+              "data": ["Check for unbearable pain, abscess, or fever (refer to dentist if present)"]
+            },
+            {
+              "block_heading": "Pharmacological Management",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "NSAIDs",
+                  "children": ["Ibuprofen (lowest effective dose)", "Note: Preferred NSAID in breastfeeding"]
+                },
+                {
+                  "parent": "Paracetamol",
+                  "children": ["Safe alternative"]
+                },
+                {
+                  "parent": "Local Anesthetic",
+                  "children": ["Avocaine spray (for severe pain)"]
+                }
+              ]
+            },
+            {
+              "block_heading": "Non-Pharmacological Management",
+              "block_type": "list",
+              "data": ["Ice pack for 20 minutes", "Mouth wash (Avohex, Dentu, Meridol)", "Brush teeth twice daily with fluoride toothpaste", "Floss daily"]
+            }
+          ]
+        },
+        {
+          "item_title": "Case 4: Chest Pain",
+          "keywords": ["chest pain", "gerd", "omeprazole", "pantoprazole", "parafon", "javelin", "diclofenac", "ibuprofen", "manuka honey"],
+          "blocks": [
+            {
+              "block_heading": "Patient Presentation",
+              "block_type": "text",
+              "data": "50-year-old with chest pain and discomfort"
+            },
+            {
+              "block_heading": "Assessment",
+              "block_type": "list",
+              "data": [
+                "Check for sudden, sharp pain, heart palpitations, breathing difficulty, or dizziness",
+                "Assess risk factors (smoking, hypertension, diabetes, high cholesterol, CHD history) and refer to ER if present",
+                "Confirm if pain related to GERD (post-meal, regurgitation, bloating) or chest strain (post-injury/exercise, improves with rest)"
+              ]
+            },
+            {
+              "block_heading": "GERD Treatment",
+              "block_type": "list",
+              "data": ["Antacids", "PPIs (Omeprazole, Pantoprazole)", "Brands: Losec, Protonix"]
+            },
+            {
+              "block_heading": "Chest Strain Treatment",
+              "block_type": "list",
+              "data": ["Muscle relaxants (Parafon, Javelin cream)", "Analgesics (Diclofenac gel, Ibuprofen tablets)"]
+            },
+            {
+              "block_heading": "Non-Pharmacological Management",
+              "block_type": "list",
+              "data": ["Avoid large meals", "Weight loss if obese", "Limit caffeine", "Elevate head of bed", "Manuka honey (if not diabetic)", "Rest"]
+            }
+          ]
+        },
+        {
+          "item_title": "Case 5: Lower Back Pain",
+          "keywords": ["lower back pain", "roxonin", "parafon", "javelin", "hollaid", "nexcare", "beurer"],
+          "blocks": [
+            {
+              "block_heading": "Patient Presentation",
+              "block_type": "text",
+              "data": "35-year-old male with lower back pain"
+            },
+            {
+              "block_heading": "Pharmacological Management",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "NSAIDs",
+                  "children": ["Roxonin patch (oral or local)"]
+                },
+                {
+                  "parent": "Muscle Relaxants",
+                  "children": ["Parafon, Javelin cream"]
+                }
+              ]
+            },
+            {
+              "block_heading": "Non-Pharmacological Management",
+              "block_type": "list",
+              "data": ["Hot/cold patches (Hollaid, Nexcare)", "Massager devices (Beurer MG70, MG21)", "Seat massager for prolonged sitting", "Stay active with daily exercises"]
+            }
+          ]
+        },
+        {
+          "item_title": "Case 6: Hemorrhoids",
+          "keywords": ["hemorrhoids", "celebrex", "arcoxia", "hydrocortisone", "neohealer", "daflon", "diosmin", "enterogermina", "prebio-m"],
+          "blocks": [
+            {
+              "block_heading": "Patient Presentation",
+              "block_type": "text",
+              "data": "45-year-old obese patient with hemorrhoids, pain on sitting, small amount of blood during bowel movement, and constipation"
+            },
+            {
+              "block_heading": "Pharmacological Management",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Oral Analgesics",
+                  "children": ["NSAIDs, Selective COX-2 inhibitors (Celebrex, Arcoxia) if stomach issues"]
+                },
+                {
+                  "parent": "Local Hydrocortisone",
+                  "children": ["Relieves itching and inflammation"]
+                },
+                {
+                  "parent": "Topical Herbal Treatments",
+                  "children": ["Neohealer (cream or suppository, every 8 hours for 21 days)"]
+                },
+                {
+                  "parent": "Diosmin",
+                  "children": ["Daflon", "6 tablets daily for 4 days, then 4 tablets daily for 3 days, then 2 tablets daily for 2 months"]
+                }
+              ]
+            },
+            {
+              "block_heading": "Non-Pharmacological Management",
+              "block_type": "list",
+              "data": ["High-fiber diet", "Probiotics (Enterogermina)", "Prebiotics (Prebio-M)", "C-shape seating pillow", "Warm baths (10-15 minutes, 2-3 times daily)"]
+            }
+          ]
+        },
+        {
+          "item_title": "Case 7: Dysmenorrhea",
+          "keywords": ["menstrual cramps", "mefenamic acid", "ponstan forte", "menstruheat", "evening primrose", "vitamin e", "omega 3", "vitamin b1", "vitamin b6", "magnesium"],
+          "blocks": [
+            {
+              "block_heading": "Patient Presentation",
+              "block_type": "text",
+              "data": "23-year-old female with menstrual cramps starting 2 days before period, dull continuous ache radiating to lower back and thigh"
+            },
+            {
+              "block_heading": "Pharmacological Management",
+              "block_type": "list",
+              "data": ["Analgesic NSAIDs: Mefenamic acid (Ponstan Forte, 500 mg 3 times daily)"]
+            },
+            {
+              "block_heading": "Non-Pharmacological Management",
+              "block_type": "list",
+              "data": ["Hot patches (MenstruHeat Patch)", "Hot drinks", "Regular exercise"]
+            },
+            {
+              "block_heading": "Supplements",
+              "block_type": "list",
+              "data": ["Evening primrose capsules", "Vitamin E", "Omega 3", "Vitamin B1", "Vitamin B6", "Magnesium"]
+            }
+          ]
+        },
+        {
+          "item_title": "Case 8: Osteoarthritis",
+          "keywords": ["osteoarthritis", "paracetamol", "rofenac", "hyalubrix", "cortisone", "tens", "omron e4", "omega 3", "collagen type II"],
+          "blocks": [
+            {
+              "block_heading": "Patient Presentation",
+              "block_type": "text",
+              "data": "65-year-old with knee joint pain, stiffness after rest, loss of flexibility, and swelling, likely osteoarthritis"
+            },
+            {
+              "block_heading": "Assessment",
+              "block_type": "list",
+              "data": [
+                "Check for impaired renal function, diuretic use, dehydration, heart failure, liver disease, or asthma (avoid NSAIDs if present)",
+                "Avoid paracetamol in severe hepatic impairment"
+              ]
+            },
+            {
+              "block_heading": "Pharmacological Management",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Paracetamol",
+                  "children": ["325-1000 mg every 6-8 hours, max 4000 mg daily (if no hepatic impairment)"]
+                },
+                {
+                  "parent": "NSAIDs",
+                  "children": ["Rofenac tablets, Local patches, Topical creams"]
+                },
+                {
+                  "parent": "Injections",
+                  "children": ["Hyalubrix (lubrication), Cortisone"]
+                }
+              ]
+            },
+            {
+              "block_heading": "Non-Pharmacological Management",
+              "block_type": "list",
+              "data": ["TENS (Omron E4)"]
+            },
+            {
+              "block_heading": "Supplements",
+              "block_type": "list",
+              "data": ["Omega 3 (1-3 g daily, monitor bleeding risk with aspirin)", "Collagen type II"]
+            }
+          ]
+        },
+        {
+          "item_title": "Case 9: Appendicitis",
+          "keywords": ["appendicitis", "surgical emergency"],
+          "blocks": [
+            {
+              "block_heading": "Patient Presentation",
+              "block_type": "text",
+              "data": "35-year-old with sudden pain around navel shifting to lower right abdomen, worse with walking/coughing, with nausea, bloating, and low-grade fever, likely appendicitis"
+            },
+            {
+              "block_heading": "Management",
+              "block_type": "text",
+              "data": "Emergency referral to ER"
+            },
+            {
+              "block_heading": "Precautions",
+              "block_type": "list",
+              "data": ["Avoid analgesics or antispasmodics to prevent masking symptoms"]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

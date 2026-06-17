@@ -1,0 +1,547 @@
+{
+  "id": "new-items-release-2",
+  "title": "New Items Pharmaceutical Care",
+  "type": "product-guide",
+  "release": "Release #2",
+  "committee": "Eastern 2 Scientific Committee",
+  "sections": [
+    {
+      "section_title": "New Items",
+      "items": [
+        {
+          "item_title": "LIMITLESS ALLZYME",
+          "associated_brands": ["LIMITLESS ALLZYME"],
+          "keywords": ["limitless allzyme", "trypsin", "alpha chymotrypsin", "bromelain", "enzyme therapy", "pain relief", "anti-inflammatory", "post-surgical care", "joint pain", "arthritis treatment"],
+          "blocks": [
+            {
+              "block_heading": "Variant",
+              "block_type": "text",
+              "data": "Original"
+            },
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Helps relieve minor pain, swelling & inflammation"
+            },
+            {
+              "block_heading": "Ingredients",
+              "block_type": "list",
+              "data": [
+                "Trypsin: 30 mg",
+                "Alpha Chymotrypsin: 8.4 mg",
+                "Bromelain: 120 mg"
+              ]
+            },
+            {
+              "block_heading": "Dosage",
+              "block_type": "text",
+              "data": "1 tablet twice a day, regardless of meals for 7 to 14 days"
+            },
+            {
+              "block_heading": "Indications",
+              "block_type": "list",
+              "data": [
+                "Swelling and pain after surgery",
+                "Injuries like bumps, bruises, or swelling",
+                "Sprains, strains, or broken bones",
+                "Joint pain and inflammation from arthritis"
+              ]
+            },
+            {
+              "block_heading": "Warnings",
+              "block_type": "list",
+              "data": ["Do not use if allergic to any ingredient"]
+            }
+          ]
+        },
+        {
+          "item_title": "LIMITLESS FORTALASE",
+          "associated_brands": ["LIMITLESS FORTALASE"],
+          "keywords": ["limitless fortalase", "alpha-amylase", "enzyme supplement", "swelling reduction", "post-surgical recovery", "respiratory support", "fracture healing", "anti-inflammatory", "pediatric dosage"],
+          "blocks": [
+            {
+              "block_heading": "Variant",
+              "block_type": "text",
+              "data": "Original"
+            },
+            {
+              "block_heading": "Ingredients",
+              "block_type": "list",
+              "data": ["Alpha-amylase enzyme"]
+            },
+            {
+              "block_heading": "Dosage",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Infants",
+                  "children": ["5 ml daily (6 months and older)"]
+                },
+                {
+                  "parent": "Children",
+                  "children": ["10 ml daily (3 years and older)"]
+                },
+                {
+                  "parent": "Adults",
+                  "children": ["1 tablespoon, twice daily with meals"]
+                }
+              ]
+            },
+            {
+              "block_heading": "Indications",
+              "block_type": "list",
+              "data": [
+                "Reduces swelling",
+                "Anti-inflammatory",
+                "Supports antibiotic effectiveness"
+              ]
+            },
+            {
+              "block_heading": "Target Customers",
+              "block_type": "list",
+              "data": [
+                "People with swelling",
+                "Patients with antibiotic resistance",
+                "Post-surgery or injury patients",
+                "Individuals with respiratory issues",
+                "People with arthritis or fractures"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "LIMITLESS CHROMAX",
+          "associated_brands": ["LIMITLESS CHROMAX"],
+          "keywords": ["limitless chromax", "glucomannan", "inulin", "chromium supplement", "weight management", "blood sugar control", "metabolic support", "green coffee extract", "green tea extract", "fiber supplement"],
+          "blocks": [
+            {
+              "block_heading": "Ingredients",
+              "block_type": "list",
+              "data": [
+                "Glucomannan: 1000 mg",
+                "Inulin: 3200 mg",
+                "Chromium: 11.6 mcg",
+                "Vitamin C: 27 mg",
+                "Vitamin B3: 5.3 g",
+                "Green Coffee: 50 mg",
+                "Green Tea: 50 mg"
+              ]
+            },
+            {
+              "block_heading": "Usage",
+              "block_type": "text",
+              "data": "Mix 1 sachet in 200 ml cold water and drink. Drink plenty of water afterwards"
+            },
+            {
+              "block_heading": "Benefits",
+              "block_type": "list",
+              "data": [
+                "Aids weight loss by increasing fullness",
+                "Supports digestion with soluble fiber",
+                "Helps regulate blood sugar",
+                "Lowers cholesterol and supports heart health",
+                "Boosts energy levels"
+              ]
+            },
+            {
+              "block_heading": "Target Customers",
+              "block_type": "list",
+              "data": [
+                "Those aiming to lose weight",
+                "Fitness-focused individuals",
+                "People managing blood sugar",
+                "Those needing digestive support",
+                "Anyone interested in heart health"
+              ]
+            },
+            {
+              "block_heading": "Warnings",
+              "block_type": "list",
+              "data": ["Do not use if allergic to any ingredient"]
+            }
+          ]
+        },
+        {
+          "item_title": "STONALI SACHETS",
+          "associated_brands": ["STONALI SACHETS"],
+          "keywords": ["stonali sachets", "phyllanthus", "goldenrod", "parsley extract", "probiotic", "kidney health", "urinary tract support", "mineral supplement", "vitamin complex"],
+          "blocks": [
+            {
+              "block_heading": "Ingredients",
+              "block_type": "key_value",
+              "data": [
+                { "key": "Phyllanthus Dry Extract", "value": "250 mg" },
+                { "key": "Goldenrod Dry Extract", "value": "100 mg" },
+                { "key": "Parsley Dry Extract", "value": "50 mg" },
+                { "key": "Lactobacillus Rhamnosus", "value": "6 MLD" },
+                { "key": "Vitamin C", "value": "50 mg" },
+                { "key": "Vitamin B6", "value": "1.4 mg" },
+                { "key": "Zinc", "value": "10 mg" },
+                { "key": "Potassium", "value": "880 mg" },
+                { "key": "Magnesium", "value": "150 mg" }
+              ]
+            },
+            {
+              "block_heading": "Dosage",
+              "block_type": "text",
+              "data": "Take one sachet daily"
+            },
+            {
+              "block_heading": "Benefits",
+              "block_type": "list",
+              "data": [
+                "UTI prevention",
+                "Kidney/bladder health",
+                "Immune system support",
+                "Reduces kidney stone risk"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "SOFTEN GEL",
+          "associated_brands": ["SOFTEN GEL"],
+          "keywords": ["soften gel", "constipation relief", "plum extract", "tamarind", "stool softener", "pediatric laxative", "pregnancy-safe", "digestive aid"],
+          "blocks": [
+            {
+              "block_heading": "Form",
+              "block_type": "text",
+              "data": "Oral Solution Gel (10 sticks)"
+            },
+            {
+              "block_heading": "Flavor",
+              "block_type": "text",
+              "data": "Natural Strawberry & Vanilla Pears"
+            },
+            {
+              "block_heading": "Ingredients",
+              "block_type": "list",
+              "data": [
+                "Concentrated plum juice",
+                "Tamarind pulp liquid extract",
+                "Sorbitol and Mannitol",
+                "Flavor of Vanilla and Strawberry"
+              ]
+            },
+            {
+              "block_heading": "Mechanism",
+              "block_type": "list",
+              "data": [
+                "Increase water content in large intestine to soften stool",
+                "Stimulate peristalsis to facilitate evacuation"
+              ]
+            },
+            {
+              "block_heading": "Dosage",
+              "block_type": "text",
+              "data": "1 to 2 sachets directly at bedtime then drink cup of water"
+            },
+            {
+              "block_heading": "Safety",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Pregnancy",
+                  "children": ["Safe during all stages of pregnancy and lactation"]
+                },
+                {
+                  "parent": "Children",
+                  "children": ["Safe for kids above one year"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "LINEX BABY SACHETS",
+          "associated_brands": ["LINEX BABY SACHETS"],
+          "keywords": ["linex baby", "probiotic", "bifidobacteria", "pediatric gut health", "antibiotic recovery", "immune support", "digestive balance", "infant nutrition"],
+          "blocks": [
+            {
+              "block_heading": "Ingredients",
+              "block_type": "list",
+              "data": [
+                "Live lyophilized bifidobacteria: 1 × 10⁹ CFU",
+                "Maltodextrin",
+                "Lactic acid bacteria (probiotics)"
+              ]
+            },
+            {
+              "block_heading": "Dosage",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Infants",
+                  "children": ["1 sachet daily (<2 years)"]
+                },
+                {
+                  "parent": "Children",
+                  "children": ["1-2 sachets daily (2-12 years)"]
+                }
+              ]
+            },
+            {
+              "block_heading": "Administration",
+              "block_type": "text",
+              "data": "Mix with water, milk, or juice (not hot) or add to food"
+            },
+            {
+              "block_heading": "Precautions",
+              "block_type": "list",
+              "data": [
+                "Avoid hot beverages",
+                "Take with meal",
+                "Separate 3 hours from antibiotics"
+              ]
+            },
+            {
+              "block_heading": "Benefits",
+              "block_type": "list",
+              "data": [
+                "Maintain normal functioning of digestive enzymes",
+                "Prevent growth of pathogenic bacteria",
+                "Enhance intestinal motility (peristalsis)",
+                "Support immune system and restore intestinal microflora"
+              ]
+            },
+            {
+              "block_heading": "Target Customers",
+              "block_type": "list",
+              "data": [
+                "Infants/children with intestinal issues",
+                "Digestive disturbances (diarrhea, flatulence)",
+                "Post-infection or antibiotic treatments",
+                "Low immunity or malnutrition"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "RONZA ASHWAGANDHA",
+          "associated_brands": ["RONZA ASHWAGANDHA"],
+          "keywords": ["ronza ashwagandha", "adaptogen", "stress relief", "cognitive support", "energy boost", "anxiety relief", "sleep aid", "ayurvedic medicine"],
+          "blocks": [
+            {
+              "block_heading": "Ingredients",
+              "block_type": "key_value",
+              "data": [
+                { "key": "Ashwagandha", "value": "444 mg" },
+                { "key": "Rhodiola Extract", "value": "66.7 mg" },
+                { "key": "Melissa Extract", "value": "66.7 mg" },
+                { "key": "Ginkgo Extract", "value": "40 mg" },
+                { "key": "Eleutherococcus Extract", "value": "33.3 mg" },
+                { "key": "L-Theanine Extract", "value": "16.67 mg" }
+              ]
+            },
+            {
+              "block_heading": "Dosage",
+              "block_type": "text",
+              "data": "1 capsule twice daily"
+            },
+            {
+              "block_heading": "Target Customers",
+              "block_type": "list",
+              "data": [
+                "Adults seeking natural stress relief",
+                "Improved mental functions and sleep",
+                "Boost energy and vitality",
+                "Pre-diabetic and pre/uncontrolled hypertension patients",
+                "Chronic fatigue, anxiety, and cognitive decline",
+                "Men and women's sexual health"
+              ]
+            },
+            {
+              "block_heading": "Side Effects",
+              "block_type": "list",
+              "data": [
+                "Mild digestive upset",
+                "Drowsiness",
+                "Allergic reactions in some individuals"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "MOTHERNEST ASHWAGANDHA",
+          "associated_brands": ["MOTHERNEST ASHWAGANDHA"],
+          "keywords": ["mothernest ashwagandha", "ashwagandha gummies", "stress relief", "sleep support", "immune booster", "adaptogenic herb", "herbal supplement"],
+          "blocks": [
+            {
+              "block_heading": "Form",
+              "block_type": "text",
+              "data": "Gummies"
+            },
+            {
+              "block_heading": "Ingredients",
+              "block_type": "key_value",
+              "data": [
+                { "key": "Ashwagandha", "value": "500 mg per 2 gummies" }
+              ]
+            },
+            {
+              "block_heading": "Dosage",
+              "block_type": "text",
+              "data": "2 gummies per day"
+            },
+            {
+              "block_heading": "Target Customers",
+              "block_type": "list",
+              "data": [
+                "Adults seeking stress reduction",
+                "Improved sleep",
+                "Boosted immunity"
+              ]
+            },
+            {
+              "block_heading": "Side Effects",
+              "block_type": "list",
+              "data": [
+                "Mild digestive upset",
+                "Drowsiness",
+                "Allergic reactions in some individuals"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "DIACEREIN CAPS",
+          "associated_brands": ["DIACEREIN CAPS"],
+          "keywords": ["diacerein", "joint health", "osteoarthritis treatment", "anti-inflammatory", "cartilage protection", "joint pain relief"],
+          "blocks": [
+            {
+              "block_heading": "Ingredients",
+              "block_type": "key_value",
+              "data": [
+                { "key": "Diacerein", "value": "50 mg" }
+              ]
+            },
+            {
+              "block_heading": "Clinical Uses",
+              "block_type": "list",
+              "data": [
+                "Osteoarthritis",
+                "Joints inflammation"
+              ]
+            },
+            {
+              "block_heading": "Dosage",
+              "block_type": "text",
+              "data": "Adult: 50 to 100 mg/day in 1 to 2 divided doses"
+            },
+            {
+              "block_heading": "Safety",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Pregnancy",
+                  "children": ["Limited data, consult doctor before taking"]
+                },
+                {
+                  "parent": "Precautions",
+                  "children": ["Ulcer patients (use with acid blockers)"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "GOLDEN CAVIAR",
+          "associated_brands": ["GOLDEN CAVIAR"],
+          "keywords": ["golden caviar", "male vitality", "testosterone support", "energy supplement", "reproductive health", "ginseng extract", "zinc supplement", "men's health"],
+          "blocks": [
+            {
+              "block_heading": "Form",
+              "block_type": "text",
+              "data": "Chewable Tablets (30 tabs)"
+            },
+            {
+              "block_heading": "Ingredients",
+              "block_type": "key_value",
+              "data": [
+                { "key": "Caviar Protein", "value": "900 mg" },
+                { "key": "Korean Ginseng", "value": "500 mg" },
+                { "key": "Zinc", "value": "15 mg" },
+                { "key": "Selenium", "value": "30 µg" },
+                { "key": "Folic Acid", "value": "400 µg" },
+                { "key": "Vitamin D", "value": "300 IU" }
+              ]
+            },
+            {
+              "block_heading": "Dosage",
+              "block_type": "text",
+              "data": "One chewable tablet daily after eating (Breakfast)"
+            },
+            {
+              "block_heading": "Target Customers",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Ideal For",
+                  "children": [
+                    "Men experiencing fatigue or low energy",
+                    "Those seeking enhanced stamina and vitality",
+                    "Men looking to support reproductive health",
+                    "Men asking for Viagra or medicine to delay ejaculation",
+                    "Men asking for Natural Sexual Tonics"
+                  ]
+                },
+                {
+                  "parent": "Not Suitable For",
+                  "children": [
+                    "Uncontrolled hypertensive patients",
+                    "Children, teenagers and women"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "JP CURAMIN",
+          "associated_brands": ["JP CURAMIN"],
+          "keywords": ["jp curamin", "curcumin", "turmeric extract", "joint support", "anti-inflammatory", "antioxidant", "arthritis relief", "cardiovascular health"],
+          "blocks": [
+            {
+              "block_heading": "Ingredients",
+              "block_type": "key_value",
+              "data": [
+                { "key": "Curcumin extract", "value": "100 mg per capsule" }
+              ]
+            },
+            {
+              "block_heading": "Dosage",
+              "block_type": "text",
+              "data": "1-2 capsules daily with a meal"
+            },
+            {
+              "block_heading": "Benefits",
+              "block_type": "list",
+              "data": [
+                "Supports body's natural antioxidant defenses",
+                "Promotes healthy inflammatory response for joint health",
+                "Enhances overall wellness",
+                "Encourages improved mobility and comfort"
+              ]
+            },
+            {
+              "block_heading": "Target Customers",
+              "block_type": "list",
+              "data": [
+                "Osteoarthritis",
+                "CVDs diseases"
+              ]
+            },
+            {
+              "block_heading": "Contraindications",
+              "block_type": "list",
+              "data": [
+                "Pregnancy & Lactation",
+                "Patients with gallstones or bile duct obstruction"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

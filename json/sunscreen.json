@@ -1,0 +1,597 @@
+{
+  "id": "sun-care",
+  "title": "Sun Care Pharmaceutical Care",
+  "type": "condition-guide",
+  "release": "Release #1",
+  "committee": "WeCare committee",
+  "sections": [
+    {
+      "section_title": "Solar Radiation",
+      "items": [
+        {
+          "item_title": "Overview",
+          "keywords": ["solar radiation", "sun energy", "electromagnetic radiation", "photosynthesis", "UV radiation", "IR radiation"],
+          "blocks": [
+            {
+              "block_heading": "Overview",
+              "block_type": "list",
+              "data": [
+                "Solar radiation is the energy emitted by the sun in the form of electromagnetic radiation. It is a mixture of visible light, ultraviolet (UV) radiation, infrared (IR) radiation, and radio waves.",
+                "Essential for life on Earth as it provides energy for photosynthesis."
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Types of Solar Radiation",
+          "keywords": ["infrared rays", "visible light", "ultraviolet rays", "UVA", "UVB", "UVC", "ozone layer"],
+          "blocks": [
+            {
+              "block_heading": "Infrared Rays (IR)",
+              "block_type": "text",
+              "data": "Longer wavelength than visible light, emit heat"
+            },
+            {
+              "block_heading": "Visible Rays (VI)",
+              "block_type": "text",
+              "data": "Perceived by human eye as colors (red, orange, yellow, green, cyan, blue, violet)"
+            },
+            {
+              "block_heading": "Ultraviolet (UV) Rays",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "General",
+                  "children": ["Invisible to human eye, most serious impact on skin"]
+                },
+                {
+                  "parent": "UVA",
+                  "children": ["Passes through atmosphere easily, reaches surface, causes aging"]
+                },
+                {
+                  "parent": "UVB",
+                  "children": ["Partially blocked by atmosphere, causes sunburn and skin damage"]
+                },
+                {
+                  "parent": "UVC",
+                  "children": ["Completely absorbed by ozone layer"]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Solar Radiation Effects on Skin",
+      "items": [
+        {
+          "item_title": "Short-term Effects",
+          "keywords": ["sunburn", "suntan", "wrinkles", "age spots", "collagen damage", "elastin damage", "short-term sun effects"],
+          "blocks": [
+            {
+              "block_heading": "Short-term Effects",
+              "block_type": "list",
+              "data": [
+                "Sunburn",
+                "Suntan",
+                "Wrinkles (breakdown of collagen and elastin)",
+                "Age spots (solar lentigines)"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Long-term Effects",
+          "keywords": ["skin cancer", "melanoma", "photo-aging", "immunosuppression", "long-term sun effects"],
+          "blocks": [
+            {
+              "block_heading": "Long-term Effects",
+              "block_type": "list",
+              "data": [
+                "Skin cancer",
+                "Melanoma (most serious skin cancer)",
+                "Photo-aging",
+                "Immunosuppression"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "UVR Action Table",
+          "keywords": ["UVR action", "UVB effects", "UVA effects", "erythema", "melanin synthesis", "pigmentation"],
+          "blocks": [
+            {
+              "block_heading": "UVB Effects",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Short-term",
+                  "children": ["Erythema"]
+                },
+                {
+                  "parent": "Long-term",
+                  "children": ["Skin cancers"]
+                }
+              ]
+            },
+            {
+              "block_heading": "UVA Effects",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Short-term",
+                  "children": ["Melanin synthesis, immediate pigmentation"]
+                },
+                {
+                  "parent": "Long-term",
+                  "children": ["Immunosuppression, photo-aging"]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "UVA vs UVB",
+      "items": [
+        {
+          "item_title": "UVA Characteristics",
+          "keywords": ["UVA", "longwave radiation", "natural tan", "photosensitivity", "skin aging", "DNA damage"],
+          "blocks": [
+            {
+              "block_heading": "UVA Characteristics",
+              "block_type": "list",
+              "data": [
+                "Longwave radiation (400-320 nm)",
+                "Weak erythrogenic activity but penetrates dermis",
+                "Responsible for slow natural tan",
+                "Causes most drug-induced photosensitivity reactions",
+                "May augment UVB effects",
+                "Causes skin aging and DNA damage"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "UVB Characteristics",
+          "keywords": ["UVB", "middle wave radiation", "sunburn", "vitamin D synthesis", "skin cancer", "erythrogenic"],
+          "blocks": [
+            {
+              "block_heading": "UVB Characteristics",
+              "block_type": "list",
+              "data": [
+                "Middle wave radiation (320-290 nm)",
+                "Highest erythrogenic activity",
+                "Produces new pigment formation, sunburn, Vitamin D synthesis",
+                "Responsible for inducing skin cancer",
+                "Affects top skin layer",
+                "Causes redness, burns, skin cancer"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Sunscreen Basics",
+      "items": [
+        {
+          "item_title": "Definition",
+          "keywords": ["sunscreen definition", "UV protection", "topical protection"],
+          "blocks": [
+            {
+              "block_heading": "Definition",
+              "block_type": "text",
+              "data": "Topical product that protects skin from harmful UV rays by absorbing, reflecting, or scattering them"
+            }
+          ]
+        },
+        {
+          "item_title": "SPF (Sun Protection Factor)",
+          "keywords": ["SPF", "sun protection factor", "UVB protection", "SPF 15", "SPF 30", "SPF 50"],
+          "blocks": [
+            {
+              "block_heading": "SPF",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Description",
+                  "children": ["Measures protection against UVB rays"]
+                },
+                {
+                  "parent": "Scale",
+                  "children": [
+                    "SPF 15: Blocks 93% of UVB",
+                    "SPF 30: Blocks 97% of UVB",
+                    "SPF 50: Blocks 98% of UVB"
+                  ]
+                },
+                {
+                  "parent": "Note",
+                  "children": ["SPF 30 blocks half the radiation that SPF 15 would let through"]
+                },
+                {
+                  "parent": "Recommendation",
+                  "children": ["Most dermatologists recommend SPF 30 or higher"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Minimum Erythemal Dose (MED)",
+          "keywords": ["minimum erythemal dose", "MED", "skin redness"],
+          "blocks": [
+            {
+              "block_heading": "Definition",
+              "block_type": "text",
+              "data": "Amount of UV energy required to produce first visible redness on skin"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Sunscreen Types",
+      "items": [
+        {
+          "item_title": "Mineral (Physical) Sunscreens",
+          "keywords": ["mineral sunscreen", "physical sunscreen", "titanium dioxide", "zinc oxide", "UV reflection"],
+          "blocks": [
+            {
+              "block_heading": "Ingredients",
+              "block_type": "list",
+              "data": ["Titanium dioxide", "Talc", "Kaolin", "Zinc oxide", "Ferric chloride", "Red petrolatum"]
+            },
+            {
+              "block_heading": "Mechanism",
+              "block_type": "text",
+              "data": "Scatters or reflects UV radiation due to large particle size"
+            }
+          ]
+        },
+        {
+          "item_title": "Chemical Sunscreens",
+          "keywords": ["chemical sunscreen", "PABA", "benzophenones", "cinnamates", "salicylates", "UV absorption"],
+          "blocks": [
+            {
+              "block_heading": "Ingredients",
+              "block_type": "list",
+              "data": [
+                "PABA (Para-aminobenzoic acid)",
+                "PABA esters (Padimate A, Padimate O, Glyceryl PABA)",
+                "Benzophenones (oxybenzone, dioxybenzone, sulisobenone)",
+                "Cinnamates",
+                "Salicylates",
+                "Digalloyl trioleate",
+                "Anthranilates"
+              ]
+            },
+            {
+              "block_heading": "Mechanism",
+              "block_type": "text",
+              "data": "Absorbs UV radiation"
+            }
+          ]
+        },
+        {
+          "item_title": "Organic Sunscreens",
+          "keywords": ["organic sunscreen", "Tinosorb M", "hybrid sunscreen"],
+          "blocks": [
+            {
+              "block_heading": "Example",
+              "block_type": "text",
+              "data": "Tinosorb M"
+            },
+            {
+              "block_heading": "Mechanism",
+              "block_type": "text",
+              "data": "Combination of reflection and absorption"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Sunscreen Ingredients",
+      "items": [
+        {
+          "item_title": "Composition",
+          "keywords": ["sunscreen ingredients", "active ingredients", "avobenzone", "zinc oxide", "formulation stabilizers", "sensory enhancers"],
+          "blocks": [
+            {
+              "block_heading": "Active Ingredients (20%)",
+              "block_type": "text",
+              "data": "Compounds that filter the sun (e.g., avobenzone, zinc oxide)"
+            },
+            {
+              "block_heading": "Formulation Stabilizers (55%)",
+              "block_type": "text",
+              "data": "Solvents, preservatives, thickening agents, emulsifiers"
+            },
+            {
+              "block_heading": "Sensory Enhancers (23%)",
+              "block_type": "text",
+              "data": "Fragrances, moisturizers, emollients"
+            },
+            {
+              "block_heading": "Added Extras (2%)",
+              "block_type": "text",
+              "data": "Aloe, blue-light protectors"
+            }
+          ]
+        },
+        {
+          "item_title": "Application Guidelines",
+          "keywords": ["sunscreen reapplication", "SPF guidelines", "skin types"],
+          "blocks": [
+            {
+              "block_heading": "Application Guidelines",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "SPF 15",
+                  "children": ["Reapply after 1 hour, cream formula for dry skin"]
+                },
+                {
+                  "parent": "SPF 30",
+                  "children": ["Reapply after 2 hours, fluid-gel for oily skin"]
+                },
+                {
+                  "parent": "SPF 50",
+                  "children": ["Reapply after 4 hours, milk formula for body"]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Sunscreens for Sensitive Skin",
+      "items": [
+        {
+          "item_title": "Recommended Ingredients",
+          "keywords": ["sensitive skin sunscreen", "zinc oxide", "titanium dioxide", "mineral sunscreens"],
+          "blocks": [
+            {
+              "block_heading": "Recommended Ingredients",
+              "block_type": "list",
+              "data": ["Zinc oxide", "Titanium dioxide (mineral sunscreens)"]
+            }
+          ]
+        },
+        {
+          "item_title": "Ingredients to Avoid",
+          "keywords": ["sunscreen irritants", "fragrance-free", "alcohol-free", "paraben-free"],
+          "blocks": [
+            {
+              "block_heading": "Ingredients to Avoid",
+              "block_type": "list",
+              "data": ["Fragrance", "Alcohol", "Parabens"]
+            }
+          ]
+        },
+        {
+          "item_title": "Recommended Products",
+          "associated_brands": ["La Roche-Posay Anthelios Mineral 50", "Bioderma Photoderm", "Eucerin Sun Protection", "Isispharma Uvelocc 50+"],
+          "keywords": ["La Roche-Posay Anthelios", "Bioderma Photoderm", "Eucerin Sun Protection", "Isispharma Uvelocc", "sensitive skin products"],
+          "blocks": [
+            {
+              "block_heading": "Recommended Products",
+              "block_type": "list",
+              "data": [
+                "La Roche-Posay Anthelios Mineral 50",
+                "Bioderma Photoderm",
+                "Eucerin Sun Protection",
+                "Isispharma Uvelocc 50+"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Sunscreen for Kids",
+      "items": [
+        {
+          "item_title": "Considerations",
+          "keywords": ["kids sunscreen", "children sun protection", "zinc oxide kids", "water resistant sunscreen"],
+          "blocks": [
+            {
+              "block_heading": "Considerations",
+              "block_type": "list",
+              "data": [
+                "Children under 6 months should avoid sunscreen",
+                "Mineral sunscreens preferred (zinc oxide)",
+                "Water resistance important for swimming/sweating"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Recommended Products",
+          "associated_brands": ["La Roche-Posay Anthelios Dermo-Pediatrics", "Mustela Sun Lotion", "Banana Boat Kids Max Protect"],
+          "keywords": ["La Roche-Posay Anthelios Kids", "Mustela Sun Lotion", "Banana Boat Kids", "pediatric sunscreen"],
+          "blocks": [
+            {
+              "block_heading": "Recommended Products",
+              "block_type": "list",
+              "data": [
+                "La Roche-Posay Anthelios Dermo-Pediatrics",
+                "Mustela Sun Lotion",
+                "Banana Boat Kids Max Protect"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Sun-Sensitizing Drugs",
+      "items": [
+        {
+          "item_title": "Sun-Sensitizing Drug Categories",
+          "keywords": ["photosensitivity", "sun-sensitizing drugs", "antibiotics photosensitivity", "NSAIDs photosensitivity", "diuretics photosensitivity", "statins photosensitivity", "retinoids photosensitivity"],
+          "blocks": [
+            {
+              "block_heading": "Antibiotics",
+              "block_type": "list",
+              "data": ["Tetracyclines", "Fluoroquinolones", "Sulfonamides"]
+            },
+            {
+              "block_heading": "NSAIDs",
+              "block_type": "list",
+              "data": ["Ibuprofen", "Ketoprofen", "Naproxen", "Celecoxib"]
+            },
+            {
+              "block_heading": "Diuretics",
+              "block_type": "list",
+              "data": ["Furosemide", "Bumetanide", "Hydrochlorothiazide"]
+            },
+            {
+              "block_heading": "Hypoglycemics",
+              "block_type": "list",
+              "data": ["Sulfonylureas"]
+            },
+            {
+              "block_heading": "Statins",
+              "block_type": "list",
+              "data": ["Atorvastatin", "Pravastatin", "Simvastatin"]
+            },
+            {
+              "block_heading": "Neuroleptics",
+              "block_type": "list",
+              "data": ["Phenothiazines", "Thioxanthenes"]
+            },
+            {
+              "block_heading": "Antifungals",
+              "block_type": "list",
+              "data": ["Terbinafine", "Itraconazole", "Voriconazole", "Griseofulvin"]
+            },
+            {
+              "block_heading": "Retinoids",
+              "block_type": "list",
+              "data": ["Acitretin", "Isotretinoin"]
+            },
+            {
+              "block_heading": "Others",
+              "block_type": "list",
+              "data": ["5-Fluorouracil", "Paclitaxel", "Amiodarone", "Diltiazem", "Quinidine", "Dapsone", "Oral contraceptives"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Target Customers",
+      "items": [
+        {
+          "item_title": "High-Risk Groups",
+          "keywords": ["sun care target", "high-risk groups", "medication photosensitivity", "children sun protection", "skin cancer risk", "outdoor workers"],
+          "blocks": [
+            {
+              "block_heading": "High-Risk Groups",
+              "block_type": "list",
+              "data": [
+                "People taking sun-sensitizing medications",
+                "People with sensitive skin",
+                "During/after skin whitening treatments",
+                "After skin peeling procedures",
+                "Children (more vulnerable to sun damage)",
+                "Family history of skin cancer",
+                "Outdoor workers, athletes, Hajj pilgrims"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Tanning",
+      "items": [
+        {
+          "item_title": "Tanning Definition",
+          "keywords": ["tanning definition", "UV exposure", "skin darkening"],
+          "blocks": [
+            {
+              "block_heading": "Definition",
+              "block_type": "text",
+              "data": "Exposing skin to UV radiation to darken skin color (sunbathing or artificial sources)"
+            }
+          ]
+        },
+        {
+          "item_title": "Tanning Mechanism",
+          "keywords": ["tanning process", "melanin oxidation", "melanin production"],
+          "blocks": [
+            {
+              "block_heading": "Tanning Mechanism",
+              "block_type": "list",
+              "data": [
+                "UVA oxidizes pre-existing melanin → darkening",
+                "UVA increases melanin production → darkening"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Tanning Products",
+          "keywords": ["tan accelerators", "sunless tanners", "tanning booths", "dihydroxyacetone", "tanning oil"],
+          "blocks": [
+            {
+              "block_heading": "Tan Accelerators",
+              "block_type": "text",
+              "data": "Contain tyrosine (unproven efficacy)"
+            },
+            {
+              "block_heading": "Sunless Tanners",
+              "block_type": "text",
+              "data": "Dihydroxyacetone darkens outer skin layer"
+            },
+            {
+              "block_heading": "Tanning Booths",
+              "block_type": "text",
+              "data": "95% UVA, <5% UVB (increases skin cancer risk)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Sunburn",
+      "items": [
+        {
+          "item_title": "Sunburn Definition",
+          "keywords": ["sunburn definition", "UV overexposure", "skin redness"],
+          "blocks": [
+            {
+              "block_heading": "Definition",
+              "block_type": "text",
+              "data": "Caused by overexposure to UV radiation, resulting in red, hot skin, fatigue, dizziness"
+            }
+          ]
+        },
+        {
+          "item_title": "Sunburn Treatment",
+          "associated_brands": ["Eau Thermale Avene Soothing Radiance Mask"],
+          "keywords": ["sunburn treatment", "Avene soothing mask", "aloe vera", "skin cooling"],
+          "blocks": [
+            {
+              "block_heading": "Treatment",
+              "block_type": "list",
+              "data": [
+                "Eau Thermale Avene Soothing Radiance Mask",
+                "Cool compresses",
+                "Aloe vera",
+                "Hydration"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

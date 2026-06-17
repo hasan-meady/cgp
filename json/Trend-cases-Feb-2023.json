@@ -1,0 +1,466 @@
+{
+  "id": "trend-cases-feb-2023",
+  "title": "Trend Cases February 2023 Health Guide",
+  "type": "health-guide",
+  "release": "Release #1",
+  "committee": "Health Trends Committee",
+  "sections": [
+    {
+      "section_title": "Digestive System Care",
+      "items": [
+        {
+          "item_title": "Overview",
+          "keywords": ["digestive health", "GI system", "digestive system", "nutrient absorption", "detoxification"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "The gastrointestinal (GI) system is responsible for nutrient intake and exit, energy production, blood flow, nerve signaling, hormone control, metabolic reactions, and detoxification."
+            }
+          ]
+        },
+        {
+          "item_title": "Probiotics",
+          "associated_brands": ["Enterogermina"],
+          "keywords": ["probiotics", "gut bacteria", "immune system", "enterogermina", "healthy microbes", "gut health", "immune response"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Stimulate the growth of healthy gut bacteria and enhance immune system response. Contain live bacterial strains that add to the population of healthy microbes in the gut."
+            },
+            {
+              "block_heading": "Products",
+              "block_type": "list",
+              "data": ["Enterogermina"]
+            },
+            {
+              "block_heading": "Dosage",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Adult",
+                  "children": ["2-3 bottles per day"]
+                },
+                {
+                  "parent": "Child",
+                  "children": ["1-2 bottles per day"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Fibers",
+          "keywords": ["fibers", "digestive health", "bowel movements", "gut motility"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Play a major role in digestive health by keeping the digestive tract flowing and maintaining soft, regular bowel movements."
+            }
+          ]
+        },
+        {
+          "item_title": "Digestive Aids",
+          "associated_brands": ["Enzymax"],
+          "keywords": ["digestive aids", "enzymax", "peppermint", "fennel powder", "caraway", "oregano oil", "digestion support", "enzymax"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Include natural ingredients and supplements to support digestion and alleviate digestive issues."
+            },
+            {
+              "block_heading": "Products",
+              "block_type": "list",
+              "data": ["Enzymax", "Peppermint", "Fennel Powder", "Caraway", "Organic Oregano Oil"]
+            },
+            {
+              "block_heading": "Dosage",
+              "block_type": "list",
+              "data": [
+                "1-2 capsules daily",
+                "1 sachet once or twice daily",
+                "1-2 capsules after meal",
+                "1 sachet per day"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Feminine Care",
+      "items": [
+        {
+          "item_title": "Overview",
+          "keywords": ["feminine care", "vaginal microbiome", "feminine hygiene", "vaginal health", "fertility"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Maintaining a healthy vaginal microbiome helps prevent infections, supports fertility, and improves quality of life. Not all feminine hygiene products are beneficial to vaginal flora."
+            }
+          ]
+        },
+        {
+          "item_title": "Feminine Cleanser",
+          "associated_brands": ["Gyn-8 Intimate Hygiene"],
+          "keywords": ["feminine cleanser", "gyn-8", "glyco-gyn", "vaginal flora", "anti-irritation", "ph balance"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Provides anti-irritation effectiveness, maintains natural intimate flora balance, and gently cleanses without dryness. GLYCO-GYN complex ensures gentle cleansing, and Gyn-8 is used for mucous membrane irritation."
+            },
+            {
+              "block_heading": "Products",
+              "block_type": "list",
+              "data": ["Gyn-8 Intimate Hygiene"]
+            },
+            {
+              "block_heading": "Dosage",
+              "block_type": "text",
+              "data": "Once daily (daily care)"
+            }
+          ]
+        },
+        {
+          "item_title": "Vaginal Probiotics",
+          "keywords": ["vaginal probiotics", "vaginal infections", "microflora"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Improve beneficial bacteria in the vaginal area, recommended for recurrent infections, act as a barrier against pathogens, and reduce vaginal infections."
+            },
+            {
+              "block_heading": "Dosage",
+              "block_type": "text",
+              "data": "Once daily at night"
+            }
+          ]
+        },
+        {
+          "item_title": "Daily Pads and Intimate Wipes",
+          "associated_brands": ["Carefree Daily Pads (Unscented)"],
+          "keywords": ["daily pads", "intimate wipes", "carefree", "unscented pads", "vaginal hygiene"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Unscented daily pads and intimate wipes support hygiene without disrupting vaginal flora."
+            },
+            {
+              "block_heading": "Products",
+              "block_type": "list",
+              "data": ["Carefree Daily Pads (Unscented)"]
+            },
+            {
+              "block_heading": "Dosage",
+              "block_type": "text",
+              "data": "Once daily"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Neuropathy Support",
+      "items": [
+        {
+          "item_title": "Vitamin B1, B6, B12",
+          "keywords": ["vitamin B1", "vitamin B6", "vitamin B12", "nerve function", "neuropathy prevention", "red blood cell production"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Support proper nerve function and red blood cell production. Deficiency in B12 may increase the risk of neuropathy and neurological problems."
+            },
+            {
+              "block_heading": "Dosage",
+              "block_type": "text",
+              "data": "Once daily"
+            }
+          ]
+        },
+        {
+          "item_title": "Alpha Lipoic Acid",
+          "keywords": ["alpha lipoic acid", "antioxidant", "diabetic neuropathy", "nerve pain"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "A potent antioxidant that kills free radicals, helping with diabetic peripheral neuropathy symptoms like pain, burning, itching, tingling, and numbness."
+            },
+            {
+              "block_heading": "Dosage",
+              "block_type": "text",
+              "data": "600 mg to 1800 mg daily in divided doses"
+            }
+          ]
+        },
+        {
+          "item_title": "Other Antioxidants",
+          "keywords": ["selenium", "co Q10", "antioxidants", "nerve health"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Antioxidants like selenium and CoQ10 support nerve health."
+            }
+          ]
+        },
+        {
+          "item_title": "Foot Warm Bath",
+          "keywords": ["foot bath", "neuropathy relief", "blood circulation", "pain relief"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Soothes and alleviates pain from neuropathy by increasing blood circulation, reducing numbness-related pain."
+            },
+            {
+              "block_heading": "Dosage",
+              "block_type": "text",
+              "data": "As needed"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Immune System Support",
+      "items": [
+        {
+          "item_title": "Overview",
+          "keywords": ["immune system", "infection prevention", "disease protection"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "The immune system protects the body from infection and disease, requiring support through supplements and natural products."
+            }
+          ]
+        },
+        {
+          "item_title": "Manuka Honey",
+          "keywords": ["manuka honey", "antimicrobial", "MGO", "immune support"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Has antimicrobial effects based on MGO concentration."
+            },
+            {
+              "block_heading": "Dosage",
+              "block_type": "text",
+              "data": "1 bottle (10ml)"
+            }
+          ]
+        },
+        {
+          "item_title": "Echinacea",
+          "keywords": ["echinacea", "immunity booster", "antioxidant"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "An immunity booster with potent antioxidant effects."
+            },
+            {
+              "block_heading": "Dosage",
+              "block_type": "text",
+              "data": "2-3 capsules daily"
+            }
+          ]
+        },
+        {
+          "item_title": "Garlic",
+          "keywords": ["garlic", "antibiotic", "antifungal", "prebiotic", "antioxidant"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Has antibiotic and antifungal effects, acts as a prebiotic to maintain body flora, and provides antioxidant benefits."
+            },
+            {
+              "block_heading": "Dosage",
+              "block_type": "text",
+              "data": "1 capsule daily"
+            }
+          ]
+        },
+        {
+          "item_title": "Propolis",
+          "keywords": ["propolis", "flavonoids", "interferon", "interleukin", "phagocytosis"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Contains flavonoids and liposome with ovalbumin, enhancing immunity by increasing interferon (antiviral) and interleukin release for phagocytosis."
+            },
+            {
+              "block_heading": "Dosage",
+              "block_type": "text",
+              "data": "2 capsules daily"
+            }
+          ]
+        },
+        {
+          "item_title": "Mixed and Potent Products",
+          "associated_brands": ["Sambune"],
+          "keywords": ["sambune", "elderberry", "ginger", "zinc", "ascorbic acid", "immune support"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Combination products like Sambune include elderberry juice, aqueous ginger, zinc, and ascorbic acid for immune support."
+            },
+            {
+              "block_heading": "Products",
+              "block_type": "list",
+              "data": ["Sambune"]
+            },
+            {
+              "block_heading": "Dosage",
+              "block_type": "list",
+              "data": ["2 capsules daily", "3 times daily", "1 day before breakfast"]
+            }
+          ]
+        },
+        {
+          "item_title": "Omega 3",
+          "keywords": ["omega 3", "immunity response", "anti-inflammatory"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Stimulates immunity response and provides anti-inflammatory effects."
+            },
+            {
+              "block_heading": "Dosage",
+              "block_type": "text",
+              "data": "1 softgel daily"
+            }
+          ]
+        },
+        {
+          "item_title": "Colostrum Lactoferrin",
+          "keywords": ["colostrum", "lactoferrin", "IgG", "IgM", "IgA", "immune activation"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Contains IgG, IgM, and IgA, which activate the immune system."
+            },
+            {
+              "block_heading": "Dosage",
+              "block_type": "text",
+              "data": "From 1 year"
+            }
+          ]
+        },
+        {
+          "item_title": "Probiotics (Immune)",
+          "keywords": ["probiotics", "gut flora", "immune boost"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Maintain gut and bacterial flora while boosting the immune system."
+            },
+            {
+              "block_heading": "Dosage",
+              "block_type": "text",
+              "data": "From 1 year"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Oral Care",
+      "items": [
+        {
+          "item_title": "Overview",
+          "keywords": ["oral hygiene", "dental health", "gum disease prevention"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Good oral and dental hygiene prevents bad breath, tooth decay, and gum disease, helping maintain healthy teeth over time."
+            }
+          ]
+        },
+        {
+          "item_title": "Toothpaste",
+          "associated_brands": ["OHWHITE TP"],
+          "keywords": ["toothpaste", "ohwhite tp", "natural whitening", "gum health"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Ideal toothpaste with natural ingredients resists oral infections, reduces bleeding and gum infections, and provides natural whitening with no abrasion power."
+            },
+            {
+              "block_heading": "Products",
+              "block_type": "list",
+              "data": ["OHWHITE TP"]
+            }
+          ]
+        },
+        {
+          "item_title": "Mouth Wash",
+          "keywords": ["mouth wash", "chlorhexidine", "gum problems", "oral antiseptic"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Chlorhexidine antiseptic mouthwash treats gum problems like bleeding, irritation, and mouth ulcers. Natural mouthwashes purify and protect gums."
+            },
+            {
+              "block_heading": "Dosage",
+              "block_type": "text",
+              "data": "Up to 2 weeks"
+            }
+          ]
+        },
+        {
+          "item_title": "Dental Floss and Toothbrush",
+          "keywords": ["dental floss", "toothbrush", "electric toothbrush", "oral hygiene"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Dental floss cleans tight spaces between teeth, and electric toothbrushes are recommended for effectiveness, changed every month."
+            }
+          ]
+        },
+        {
+          "item_title": "Antioxidants",
+          "keywords": ["coQ10", "vitamin C", "antioxidants", "oral health"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "CoQ10 and Vitamin C act as antioxidants to support oral health."
+            }
+          ]
+        },
+        {
+          "item_title": "Amlodipine Side Effect",
+          "keywords": ["amlodipine", "gingival hypertrophy", "calcium channel blocker", "oral care side effects"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Amlodipine, a second-generation dihydropyridine calcium channel blocker, can cause gingival hypertrophy, requiring special oral care for affected patients."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

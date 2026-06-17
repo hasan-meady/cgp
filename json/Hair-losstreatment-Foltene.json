@@ -1,0 +1,641 @@
+{
+  "id": "foltene-hair-loss",
+  "title": "Foltene Hair Loss Treatment",
+  "type": "product-guide",
+  "release": "Release #1",
+  "committee": "Medical Affairs and Training Department - DMSCO Ltd.",
+  "sections": [
+    {
+      "section_title": "Women Ampoules",
+      "items": [
+        {
+          "item_title": "Women Ampoules",
+          "associated_brands": ["Foltene"],
+          "keywords": [
+            "foltene women ampoules", "TRICALGOXYL", "biomineral complex", "hair growth treatment",
+            "anti-hair loss", "algae extract", "collagen production", "keratin production",
+            "scalp circulation", "postpartum hair loss", "stress-related hair loss", "nutritional hair loss"
+          ],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Hair & Scalp Treatment for hair loss"
+            },
+            {
+              "block_heading": "Benefits",
+              "block_type": "list",
+              "data": [
+                "Treats or reduces female hair loss",
+                "Increases hair in Anagen phase by 10.3%",
+                "Decreases hair in Telogen phase by 10.2%"
+              ]
+            },
+            {
+              "block_heading": "TRICALGOXYL",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Description",
+                  "children": ["Patented active ingredient that strengthens hair"]
+                },
+                {
+                  "parent": "Source",
+                  "children": ["Extracted from brown algae (Fucus Vesiculosus & Ascophyllum Nodosum)"]
+                },
+                {
+                  "parent": "Benefits",
+                  "children": [
+                    "Improves micro-circulation at scalp level",
+                    "Increases collagen & keratin production",
+                    "Normalizes hair life cycle",
+                    "Stimulates hair papilla",
+                    "Antioxidant (anti-aging)",
+                    "Revitalizes weak thinning hair"
+                  ]
+                }
+              ]
+            },
+            {
+              "block_heading": "Nourishing Biomineral Complex",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Description",
+                  "children": ["Extracted from algae rich in essential mineral salts"]
+                },
+                {
+                  "parent": "Components",
+                  "children": ["Calcium", "Potassium", "Magnesium", "Iron", "Zinc"]
+                }
+              ]
+            },
+            {
+              "block_heading": "Usage",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Attack Phase",
+                  "children": ["3 times/week for 2 months"]
+                },
+                {
+                  "parent": "Maintenance Phase",
+                  "children": ["2 times/week for 1 month"]
+                },
+                {
+                  "parent": "Frequency",
+                  "children": ["Repeat twice annually"]
+                }
+              ]
+            },
+            {
+              "block_heading": "Indications",
+              "block_type": "list",
+              "data": [
+                "Hair loss due to pregnancy, breastfeeding, work stress",
+                "Physical/psychological stress and sleep disorders",
+                "Poor nutrition or absorption",
+                "Early stage hereditary hair loss in women"
+              ]
+            },
+            {
+              "block_heading": "Advantages",
+              "block_type": "list",
+              "data": [
+                "High stability formula",
+                "Water-based for quick absorption without stains",
+                "Natural source (salmon) with high safety",
+                "Doesn't cause scalp irritation"
+              ]
+            },
+            {
+              "block_heading": "How To Use",
+              "block_type": "list",
+              "data": [
+                "Use ampoule every other day for 2 months, then twice weekly for 1 month",
+                "Use with Foltene anti-hair loss shampoo for better results",
+                "Open capsule and mix active ingredient with solution before use"
+              ]
+            },
+            {
+              "block_heading": "Price",
+              "block_type": "text",
+              "data": "8ml ampoule for 339 SAR"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Men Ampoules",
+      "items": [
+        {
+          "item_title": "Men Ampoules",
+          "associated_brands": ["Foltene"],
+          "keywords": [
+            "foltene men ampoules", "TRICOSACCARIDE", "ZANTHIN", "DHT blocker", "male pattern baldness",
+            "hair regrowth", "5-alpha reductase inhibitor", "scalp health", "hair vitamins", "amino acids",
+            "androgenetic alopecia", "hair cycle normalization"
+          ],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Hair & Scalp Treatment for hair loss"
+            },
+            {
+              "block_heading": "Benefits",
+              "block_type": "list",
+              "data": [
+                "Treats or reduces male hair loss",
+                "Increases hair in Anagen phase by 12.6%",
+                "Decreases hair in Telogen phase by 29.2%"
+              ]
+            },
+            {
+              "block_heading": "TRICOSACCARIDE",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Description",
+                  "children": ["Patented mixture of 6 mucopolysaccharides (Condroitin sulfate)"]
+                },
+                {
+                  "parent": "Benefits",
+                  "children": [
+                    "Improves micro-circulation",
+                    "Increases collagen & keratin production",
+                    "Normalizes hair life cycle",
+                    "Stimulates hair papilla",
+                    "Antioxidant (anti-aging)",
+                    "Inhibits 5-alpha reductase (prevents DHT conversion)",
+                    "Revitalizes weak thinning hair"
+                  ]
+                }
+              ]
+            },
+            {
+              "block_heading": "ZANTHIN",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Description",
+                  "children": ["Powerful natural antioxidant"]
+                },
+                {
+                  "parent": "Benefits",
+                  "children": [
+                    "500x more effective than vitamin E",
+                    "Anti-inflammatory",
+                    "Reduces scalp irritation",
+                    "Prevents hair bulb aging"
+                  ]
+                }
+              ]
+            },
+            {
+              "block_heading": "Revitalizing Complex",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Description",
+                  "children": ["Mixture of amino acids and vitamins"]
+                },
+                {
+                  "parent": "Components",
+                  "children": [
+                    "Vitamin A (improves hair elasticity)",
+                    "Vitamin B5/Panthenol (hydration)",
+                    "Biotin",
+                    "Vitamin C (antioxidant)",
+                    "Vitamin E (antioxidant)",
+                    "Vitamin PP (improves circulation)",
+                    "Amino acids (keratinization)",
+                    "Ethyl Nicotinate (vasodilator)"
+                  ]
+                }
+              ]
+            },
+            {
+              "block_heading": "Usage",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Attack Phase",
+                  "children": ["3 times/week for 2 months"]
+                },
+                {
+                  "parent": "Maintenance Phase",
+                  "children": ["2 times/week for 1 month"]
+                },
+                {
+                  "parent": "Frequency",
+                  "children": ["Repeat twice annually"]
+                }
+              ]
+            },
+            {
+              "block_heading": "Treatment Cycle",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Stimulation Phase",
+                  "children": ["1st week - Clears dead and damaged hair"]
+                },
+                {
+                  "parent": "Reaction Phase",
+                  "children": ["2nd-4th week - Decreased hair loss, new cycle starts"]
+                },
+                {
+                  "parent": "Peak Phase",
+                  "children": ["5th-6th week - Increased hair growth"]
+                },
+                {
+                  "parent": "Maintenance Phase",
+                  "children": ["Beyond 6 weeks"]
+                }
+              ]
+            },
+            {
+              "block_heading": "Indications",
+              "block_type": "list",
+              "data": [
+                "Early stage male hair loss",
+                "Hormonal hair loss",
+                "Widening part line in women or receding hairline"
+              ]
+            },
+            {
+              "block_heading": "Advantages",
+              "block_type": "list",
+              "data": [
+                "High stability formula",
+                "Water-based for quick absorption without stains",
+                "Natural source (algae) with high safety",
+                "Doesn't cause scalp irritation"
+              ]
+            },
+            {
+              "block_heading": "How To Use",
+              "block_type": "list",
+              "data": [
+                "Use ampoule every other day for 2 months, then twice weekly for 1 month",
+                "Use with Foltene anti-hair loss shampoo for better results",
+                "Open capsule and mix active ingredient with solution before use"
+              ]
+            },
+            {
+              "block_heading": "Price",
+              "block_type": "text",
+              "data": "8ml ampoule (12 ampoules) for 339 SAR"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Women Anti-Hair Loss Shampoo",
+      "items": [
+        {
+          "item_title": "Women Anti-Hair Loss Shampoo",
+          "associated_brands": ["Foltene"],
+          "keywords": [
+            "foltene women shampoo", "TRICALGOXYL", "ginseng extract", "SLES-free", "paraben-free",
+            "thinning hair", "scalp stimulation", "hair density", "keratin-safe", "natural hair care"
+          ],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Thinning Hair Shampoo - Booster for fine, fragile hair"
+            },
+            {
+              "block_heading": "Active Ingredients",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "TRICALGOXYL",
+                  "children": ["Patented active ingredient that strengthens hair"]
+                },
+                {
+                  "parent": "Panax Ginseng Extract",
+                  "children": ["Provides energy, body and shine to hair"]
+                }
+              ]
+            },
+            {
+              "block_heading": "Free From",
+              "block_type": "list",
+              "data": [
+                "Sodium Laureth Sulfate (SLES)",
+                "Parabens",
+                "Mineral oil",
+                "Silicones",
+                "Paraffin wax"
+              ]
+            },
+            {
+              "block_heading": "Benefits",
+              "block_type": "list",
+              "data": [
+                "Increases hair density and thickness",
+                "Activates scalp and stimulates growth centers",
+                "Prepares scalp for treatment absorption"
+              ]
+            },
+            {
+              "block_heading": "Indications",
+              "block_type": "list",
+              "data": [
+                "Use with ampoules for enhanced results",
+                "Daily shampoo for scalp protection and increased density"
+              ]
+            },
+            {
+              "block_heading": "Advantages",
+              "block_type": "list",
+              "data": [
+                "Safe for keratin/protein-treated hair",
+                "Natural source (salmon) with high safety"
+              ]
+            },
+            {
+              "block_heading": "How To Use",
+              "block_type": "text",
+              "data": "Apply to wet hair, massage well, then rinse with water"
+            },
+            {
+              "block_heading": "Price",
+              "block_type": "text",
+              "data": "200ml for 98 SAR"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Men Anti-Hair Loss Shampoo",
+      "items": [
+        {
+          "item_title": "Men Anti-Hair Loss Shampoo",
+          "associated_brands": ["Foltene"],
+          "keywords": [
+            "foltene men shampoo", "TRICOSACCARIDE", "capsicum extract", "SLES-free", "paraben-free",
+            "thinning hair", "scalp circulation", "hair density", "keratin-safe", "natural hair care"
+          ],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Thinning Hair Shampoo - Booster for fine, fragile hair"
+            },
+            {
+              "block_heading": "Active Ingredients",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "TRICOSACCARIDE",
+                  "children": ["Patented active ingredient that strengthens hair"]
+                },
+                {
+                  "parent": "Capsicum Extract",
+                  "children": ["Improves blood circulation and enhances growth"]
+                }
+              ]
+            },
+            {
+              "block_heading": "Free From",
+              "block_type": "list",
+              "data": [
+                "Sodium Laureth Sulfate (SLES)",
+                "Parabens",
+                "Mineral oil",
+                "Silicones",
+                "Paraffin wax"
+              ]
+            },
+            {
+              "block_heading": "Benefits",
+              "block_type": "list",
+              "data": [
+                "Increases hair density and thickness",
+                "Activates scalp and stimulates growth centers",
+                "Prepares scalp for treatment absorption"
+              ]
+            },
+            {
+              "block_heading": "Indications",
+              "block_type": "list",
+              "data": [
+                "Use with ampoules for enhanced results",
+                "Daily shampoo for scalp protection and increased density"
+              ]
+            },
+            {
+              "block_heading": "Advantages",
+              "block_type": "list",
+              "data": [
+                "Safe for keratin/protein-treated hair",
+                "Natural source (algae) with high safety"
+              ]
+            },
+            {
+              "block_heading": "How To Use",
+              "block_type": "text",
+              "data": "Apply to wet hair, massage well, then rinse with water"
+            },
+            {
+              "block_heading": "Price",
+              "block_type": "text",
+              "data": "200ml for 98 SAR"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Women Hair Loss Foam",
+      "items": [
+        {
+          "item_title": "Women Hair Loss Foam",
+          "associated_brands": ["Foltene"],
+          "keywords": [
+            "foltene women foam", "TRICALGOXYL", "biomineral complex", "hair anti-aging",
+            "gray hair treatment", "hair nourishment", "DHT control", "hair density",
+            "easy application", "salmon extract"
+          ],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Hair anti-aging & nourishment treatment"
+            },
+            {
+              "block_heading": "Active Ingredients",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "TRICALGOXYL",
+                  "children": ["Patented hair growth active"]
+                },
+                {
+                  "parent": "Nourishing Biomineral Complex",
+                  "children": [
+                    "Magnesium (controls enzymatic reactions)",
+                    "Copper (promotes keratin synthesis)",
+                    "Iron (essential for hair life)",
+                    "Zinc (stimulates protein synthesis, controls DHT production)"
+                  ]
+                }
+              ]
+            },
+            {
+              "block_heading": "Benefits",
+              "block_type": "list",
+              "data": [
+                "Stops hair loss",
+                "Increases hair density",
+                "Protects against age-related changes (density loss, graying)"
+              ]
+            },
+            {
+              "block_heading": "Indications",
+              "block_type": "list",
+              "data": [
+                "Temporary and chronic hair loss in women",
+                "Graying hair (hair aging)",
+                "Rest periods between ampoule treatments",
+                "Economical alternative to ampoules"
+              ]
+            },
+            {
+              "block_heading": "Advantages",
+              "block_type": "list",
+              "data": [
+                "Unique formula with no direct competitors",
+                "Easy to use",
+                "Natural source (salmon) with high safety"
+              ]
+            },
+            {
+              "block_heading": "How To Use",
+              "block_type": "text",
+              "data": "Spray daily on thinning areas and gray hair"
+            },
+            {
+              "block_heading": "Price",
+              "block_type": "text",
+              "data": "70ml spray for 184 SAR"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Men Hair Loss Foam",
+      "items": [
+        {
+          "item_title": "Men Hair Loss Foam",
+          "associated_brands": ["Foltene"],
+          "keywords": [
+            "foltene men foam", "TRICOSACCARIDE", "vitamin complex", "hair anti-aging",
+            "gray hair treatment", "hair nourishment", "DHT control", "hair density",
+            "easy application", "algae extract"
+          ],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Hair anti-aging & nourishment treatment"
+            },
+            {
+              "block_heading": "Active Ingredients",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "TRICOSACCARIDE",
+                  "children": ["Patented hair growth active"]
+                },
+                {
+                  "parent": "Poly-Vitamin Complex",
+                  "children": [
+                    "Vitamin B1 (nourishes follicles)",
+                    "Vitamin B5/Panthenol (hydration)",
+                    "Vitamin H (regulates sebum)",
+                    "Vitamin E (antioxidant)",
+                    "Vitamin PP (improves circulation)",
+                    "Vitamin B6 (promotes keratin synthesis)"
+                  ]
+                }
+              ]
+            },
+            {
+              "block_heading": "Benefits",
+              "block_type": "list",
+              "data": [
+                "Stops hair loss",
+                "Increases hair density",
+                "Protects against age-related changes (density loss, graying)"
+              ]
+            },
+            {
+              "block_heading": "Indications",
+              "block_type": "list",
+              "data": [
+                "Temporary and chronic hair loss in men",
+                "Graying hair (hair aging)",
+                "Rest periods between ampoule treatments",
+                "Economical alternative to ampoules"
+              ]
+            },
+            {
+              "block_heading": "Advantages",
+              "block_type": "list",
+              "data": [
+                "Unique formula with no direct competitors",
+                "Easy to use",
+                "Natural source (algae) with high safety"
+              ]
+            },
+            {
+              "block_heading": "How To Use",
+              "block_type": "text",
+              "data": "Spray daily on thinning areas and gray hair"
+            },
+            {
+              "block_heading": "Price",
+              "block_type": "text",
+              "data": "70ml spray for 184 SAR"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Treatment Regimen",
+      "items": [
+        {
+          "item_title": "Treatment Regimen",
+          "associated_brands": ["Foltene"],
+          "keywords": ["foltene regimen", "hair loss treatment plan", "ampoule schedule", "shampoo routine", "foam application", "hair care system"],
+          "blocks": [
+            {
+              "block_heading": "Daily",
+              "block_type": "list",
+              "data": [
+                "Foltene Shampoo (Men/Women)",
+                "Conditioner",
+                "Foam"
+              ]
+            },
+            {
+              "block_heading": "Weekly",
+              "block_type": "list",
+              "data": ["Ampoules 3 times per week"]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

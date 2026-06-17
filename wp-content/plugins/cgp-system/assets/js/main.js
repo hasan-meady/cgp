@@ -32,6 +32,13 @@ document.addEventListener('DOMContentLoaded', () => {
         if (term.length >= 2) startSearching(term);
       }
     });
+
+    searchInput.addEventListener("paste", function (e) {
+      setTimeout(() => {
+        const term = this.value.trim();
+        if (term.length >= 2) startSearching(term);
+      }, 50); // wait for pasted text to populate the input
+    });
   }
 
 

@@ -1,0 +1,449 @@
+{
+  "id": "hypertension",
+  "title": "Hypertension Pharmaceutical Care",
+  "type": "condition-guide",
+  "release": "Release #3",
+  "committee": "Eastern 2 Scientific Committee",
+  "sections": [
+    {
+      "section_title": "Hypertension Classification",
+      "items": [
+        {
+          "item_title": "Classification",
+          "keywords": ["hypertension classification", "blood pressure ranges"],
+          "blocks": [
+            {
+              "block_heading": "Blood Pressure Categories",
+              "block_type": "list",
+              "data": [
+                "Normotensive: <120/80",
+                "Elevated: 120–129/<80",
+                "Stage I: 130–139/80–89",
+                "Stage II: ≥140/90",
+                "Stage determined by worse value",
+                "BP goal: <130/80 for all patients"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Risk Factors",
+      "items": [
+        {
+          "item_title": "Risk Factors",
+          "keywords": ["hypertension risks", "cardiovascular risk factors"],
+          "blocks": [
+            {
+              "block_heading": "Risk Factors",
+              "block_type": "list",
+              "data": [
+                "Obesity, diabetes mellitus, dyslipidemia, alcohol intake, smoking, family history of hypertension or chronic coronary disease",
+                "Sodium intake >1.5 g/day",
+                "Age >60 years",
+                "Low fruit and vegetable intake",
+                "Aerobic exercise <3 times/week",
+                "Metabolic syndrome, sleep apnea"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Lifestyle Modifications",
+      "items": [
+        {
+          "item_title": "Weight Management",
+          "keywords": ["weight management", "hypertension prevention"],
+          "blocks": [
+            {
+              "block_heading": "Weight Management",
+              "block_type": "text",
+              "data": "Achieve BMI ~25, waist circumference <102 cm (men) or <88 cm (women)"
+            }
+          ]
+        },
+        {
+          "item_title": "Dietary Recommendations",
+          "keywords": ["dietary recommendations", "hypertension prevention", "nutrition"],
+          "blocks": [
+            {
+              "block_heading": "Dietary Recommendations",
+              "block_type": "list",
+              "data": [
+                "Follow a healthy diet rich in fruits, vegetables, and low-fat dairy",
+                "Reduce sodium to <1500 mg/day",
+                "Increase potassium to 3500–5000 mg/day"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Physical Activity",
+          "keywords": ["physical activity", "hypertension prevention", "exercise"],
+          "blocks": [
+            {
+              "block_heading": "Physical Activity",
+              "block_type": "text",
+              "data": "Engage in 30 minutes of moderate-intensity physical activity"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Follow Up and Patient Adherence",
+      "items": [
+        {
+          "item_title": "Adherence Strategies",
+          "keywords": ["patient follow-up", "medication adherence"],
+          "blocks": [
+            {
+              "block_heading": "Adherence Strategies",
+              "block_type": "list",
+              "data": [
+                "Simplify medication regimens with less frequent dosing or combinations",
+                "Foster a blame-free environment to encourage adherence"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Blood Pressure Measurement",
+      "items": [
+        {
+          "item_title": "Measurement Guidelines",
+          "keywords": ["blood pressure monitoring", "diagnostic procedures"],
+          "blocks": [
+            {
+              "block_heading": "Measurement Guidelines",
+              "block_type": "list",
+              "data": [
+                "Use a calibrated device with suitable cuff size",
+                "Avoid smoking, caffeine, stress, or exercise 30 minutes prior",
+                "Sit quietly for 5 minutes with arm at heart level and empty bladder",
+                "Take three readings 1–2 minutes apart and average them",
+                "Confirm diagnosis with measurements on three separate occasions"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Anti-Hypertensive Medications",
+      "items": [
+        {
+          "item_title": "Diuretics",
+          "keywords": ["diuretics", "hypokalemia", "hyperuricemia", "electrolyte monitoring", "blood sugar", "side effects of diuretics"],
+          "blocks": [
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "Administer low doses to minimize side effects",
+                "Second dose should not be taken later than 4 P.M. to avoid nighttime urination"
+              ]
+            },
+            {
+              "block_heading": "Dietary Considerations",
+              "block_type": "list",
+              "data": [
+                "Monitor electrolytes and blood sugar regularly",
+                "May raise blood sugar; monitor more frequently"
+              ]
+            },
+            {
+              "block_heading": "Side Effects",
+              "block_type": "list",
+              "data": [
+                "May cause hypokalemia (requires potassium supplements to ensure enough potassium for heart)",
+                "May cause hyperuricemia (may worsen gout)",
+                "Increased urination (patient may urinate more throughout the day)",
+                "Dizziness when standing"
+              ]
+            },
+            {
+              "block_heading": "Management",
+              "block_type": "text",
+              "data": "Advise patient to get up slowly and let feet hang over the bed for a few minutes before getting up to avoid dizziness"
+            }
+          ]
+        },
+        {
+          "item_title": "ACE Inhibitors (ACEIs)",
+          "associated_brands": ["coversyl", "tenoryl", "vasotec", "zestril", "accupril"],
+          "keywords": ["ACEIs", "hypertension treatment", "cardiovascular drugs", "lisinopril", "ramipril", "enalapril", "perindopril", "quinapril", "coversyl", "tenoryl", "vasotec", "zestril", "accupril", "side effects of ACE inhibitors"],
+          "blocks": [
+            {
+              "block_heading": "Examples",
+              "block_type": "list",
+              "data": ["lisinopril, ramipril, enalapril, perindopril, quinapril"]
+            },
+            {
+              "block_heading": "Brand Names",
+              "block_type": "list",
+              "data": ["coversyl, tenoryl, vasotec, zestril, accupril"]
+            },
+            {
+              "block_heading": "Administration",
+              "block_type": "text",
+              "data": "Once daily at the same time each day"
+            },
+            {
+              "block_heading": "Indications",
+              "block_type": "text",
+              "data": "Effective for diabetes and heart failure (especially good for these conditions)"
+            },
+            {
+              "block_heading": "Side Effects",
+              "block_type": "list",
+              "data": [
+                "May cause dry cough (switch to ARB if it occurs)",
+                "Elevated potassium",
+                "Allergic reactions (hives, swelling, breathing difficulty)"
+              ]
+            },
+            {
+              "block_heading": "Emergency",
+              "block_type": "text",
+              "data": "Get emergency medical help if allergic reaction: hives, difficulty breathing, or swelling of face, lips, tongue, and/or throat"
+            },
+            {
+              "block_heading": "Contraindications",
+              "block_type": "text",
+              "data": "Contraindicated in pregnancy due to birth defects"
+            },
+            {
+              "block_heading": "Monitoring",
+              "block_type": "text",
+              "data": "Monitor potassium levels frequently"
+            }
+          ]
+        },
+        {
+          "item_title": "Angiotensin Receptor Blockers (ARBs)",
+          "associated_brands": ["diovan", "lotevan", "cozaar", "atacand"],
+          "keywords": ["ARBs", "hypertension medication", "angiotensin blockers", "losartan", "valsartan", "irbesartan", "candesartan", "olmesartan", "cozaar", "diovan", "avapro", "atacand", "benicar", "side effects of ARBs"],
+          "blocks": [
+            {
+              "block_heading": "Examples",
+              "block_type": "list",
+              "data": ["losartan, valsartan, irbesartan, candesartan, olmesartan"]
+            },
+            {
+              "block_heading": "Brand Names",
+              "block_type": "list",
+              "data": ["diovan, lotevan, cozaar, atacand"]
+            },
+            {
+              "block_heading": "Administration",
+              "block_type": "text",
+              "data": "Once daily at the same time each day"
+            },
+            {
+              "block_heading": "Side Effects",
+              "block_type": "list",
+              "data": [
+                "May increase potassium levels",
+                "Allergic reactions (hives, swelling, breathing difficulty)"
+              ]
+            },
+            {
+              "block_heading": "Emergency",
+              "block_type": "text",
+              "data": "Get emergency medical help if allergic reaction: hives, difficulty breathing, or swelling of face, lips, tongue, and/or throat"
+            },
+            {
+              "block_heading": "Contraindications",
+              "block_type": "text",
+              "data": "Contraindicated in pregnancy due to birth defects"
+            },
+            {
+              "block_heading": "Monitoring",
+              "block_type": "text",
+              "data": "Monitor potassium levels frequently"
+            }
+          ]
+        },
+        {
+          "item_title": "Calcium Channel Blockers (CCBs) - Dihydropyridines",
+          "associated_brands": ["amlor", "amvasc", "amlopine", "norvasc"],
+          "keywords": ["calcium channel blockers", "hypertension treatment", "cardiovascular drugs", "amlodipine", "amlor", "vascodipine", "amvasc", "lotense", "lodipam", "side effects of calcium channel blockers"],
+          "blocks": [
+            {
+              "block_heading": "Examples",
+              "block_type": "list",
+              "data": ["amlodipine"]
+            },
+            {
+              "block_heading": "Brand Names",
+              "block_type": "list",
+              "data": ["amlor, amvasc, amlopine"]
+            },
+            {
+              "block_heading": "Indications",
+              "block_type": "text",
+              "data": "Preferred for hypertension"
+            },
+            {
+              "block_heading": "Administration",
+              "block_type": "text",
+              "data": "Once daily at the same time each day"
+            },
+            {
+              "block_heading": "Side Effects",
+              "block_type": "list",
+              "data": [
+                "Ankle swelling",
+                "Tiredness",
+                "Dizziness",
+                "Headache",
+                "Facial warmth",
+                "Palpitations"
+              ]
+            },
+            {
+              "block_heading": "Management",
+              "block_type": "text",
+              "data": "Elevate legs to manage ankle swelling"
+            }
+          ]
+        },
+        {
+          "item_title": "Calcium Channel Blockers (CCBs) - Non-Dihydropyridines",
+          "keywords": ["calcium channel blockers", "hypertension treatment", "cardiovascular drugs", "diltiazem", "verapamil", "side effects of calcium channel blockers"],
+          "blocks": [
+            {
+              "block_heading": "Examples",
+              "block_type": "list",
+              "data": ["verapamil, diltiazem"]
+            },
+            {
+              "block_heading": "Indications",
+              "block_type": "text",
+              "data": "Affect heart rate"
+            },
+            {
+              "block_heading": "Precautions",
+              "block_type": "text",
+              "data": "Use cautiously with heart conditions"
+            }
+          ]
+        },
+        {
+          "item_title": "Beta-Blockers",
+          "associated_brands": ["concor", "cardicor", "normoten", "tenormin", "ravildo", "monocor", "coreg", "lopresor", "nebilet"],
+          "keywords": ["Concor", "beta-blockers", "hypertension medication", "cardiovascular drugs", "atenolol", "bisoprolol", "carvedilol", "metoprolol", "nebivolol", "tenormin", "ravildo", "monocor", "coreg", "lopresor", "nebilet", "side effects of beta-blockers"],
+          "blocks": [
+            {
+              "block_heading": "Examples",
+              "block_type": "list",
+              "data": ["atenolol, bisoprolol, carvedilol, metoprolol, nebivolol"]
+            },
+            {
+              "block_heading": "Brand Names",
+              "block_type": "list",
+              "data": ["concor, cardicor, normoten, tenormin, ravildo, monocor, coreg, lopresor, nebilet"]
+            },
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "Once daily at the same time each day",
+                "Carvedilol and metoprolol should be taken with or immediately after meals"
+              ]
+            },
+            {
+              "block_heading": "Precautions",
+              "block_type": "list",
+              "data": [
+                "Avoid sudden discontinuation to prevent rebound hypertension",
+                "Use cautiously in asthma/COPD (prefer selective types like atenolol, nebivolol, bisoprolol; avoid non-selective)",
+                "For diabetic patients: β-blockers can mask symptoms of hypoglycemia"
+              ]
+            },
+            {
+              "block_heading": "Side Effects",
+              "block_type": "list",
+              "data": [
+                "May mask hypoglycemia symptoms in diabetics",
+                "May cause erectile dysfunction (nebivolol as alternative)",
+                "Dizziness",
+                "Fatigue"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "General Points",
+      "items": [
+        {
+          "item_title": "General Considerations",
+          "keywords": [
+            "pregnancy-safe drugs", "methyldopa", "aldomet", "hydralazine", "labetalol", "trandate",
+            "atenolol", "tenormin", "nebivolol", "bivoneb", "bisoprolol", "concor",
+            "spironolactone", "aldactone", "lisinopril", "amlodipine", "amlor", "vascodipine",
+            "pseudoephedrine", "tenoryl", "coversyl", "beta-blockers", "ACE inhibitors",
+            "CCBs", "NSAIDs", "decongestants", "side effects of ACE inhibitors",
+            "side effects of beta-blockers", "side effects of calcium channel blockers",
+            "side effects of spironolactone", "amvasc", "lotense", "lodipam",
+            "side effects of hydralazine", "side effects of labetalol", "side effects of methyldopa",
+            "side effects of atenolol", "side effects of bisoprolol", "side effects of nebivolol",
+            "side effects of carvedilol", "side effects of metoprolol", "side effects of propranolol"
+          ],
+          "blocks": [
+            {
+              "block_heading": "General Considerations",
+              "block_type": "list",
+              "data": [
+                "Pregnancy-safe medications include Methyldopa (Aldomet), Hydralazine, Labetalol (Trandate)",
+                "Selective β-blockers (Atenolol [Tenormin], Nebivolol [Nebilet], Bisoprolol [Concor]) used cautiously in asthma/COPD, non-selective to be avoided",
+                "β-blockers (concor) may cause erectile dysfunction (Nebivolol [Nebilet] as alternative)",
+                "ACEIs (e.g., Lisinopril [Zestril], Enalapril [Enapren]) and Spironolactone [Aldactone] increase potassium",
+                "ACEIs (coversyl, tenoryl) cause dry cough and angioedema",
+                "CCBs (e.g., Amlodipine [Amlor, vascodipine, Norvasc], Nifedipine [Adalat]) may cause foot edema",
+                "NSAIDs (e.g., Ibuprofen [Brufen]) reduce the effect of hypertension drugs",
+                "Decongestants like pseudoephedrine [flutab, panadol cold & flu] raise BP",
+                "β-blockers (e.g., Propranolol [Inderal]) mask hypoglycemia symptoms"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Nutraceuticals for Hypertension",
+      "items": [
+        {
+          "item_title": "Nutraceuticals",
+          "associated_brands": ["RONGARLIC Capsules", "Jamieson Potassium 50 mg", "Ronzavi"],
+          "keywords": ["Nutraceuticals for Hypertension", "garlic", "omega-3", "potassium", "coenzyme Q10"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Nutraceuticals may help lower blood pressure"
+            },
+            {
+              "block_heading": "Items",
+              "block_type": "list",
+              "data": ["Garlic", "Omega-3", "Potassium supplements", "Coenzyme Q10"]
+            },
+            {
+              "block_heading": "Product Examples",
+              "block_type": "list",
+              "data": ["RONGARLIC Capsules", "Jamieson Potassium 50 mg", "Ronzavi"]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

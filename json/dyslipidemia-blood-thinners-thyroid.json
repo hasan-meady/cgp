@@ -1,0 +1,466 @@
+{
+  "id": "dyslipidemia-blood-thinners-thyroid",
+  "title": "Dyslipidemia, Blood Thinners, and Thyroid Disorders Pharmaceutical Care",
+  "type": "condition-guide",
+  "release": "Release #4",
+  "committee": "Eastern 2 Scientific Committee",
+  "sections": [
+    {
+      "section_title": "Dyslipidemia Overview",
+      "items": [
+        {
+          "item_title": "Dyslipidemia Normal Values",
+          "keywords": ["dyslipidemia", "cholesterol", "LDL", "HDL", "triglycerides", "TG", "lipoproteins"],
+          "blocks": [
+            {
+              "block_heading": "Normal Values",
+              "block_type": "list",
+              "data": [
+                "Abnormal lipoprotein levels are called dyslipidemia",
+                "Lipoproteins are Cholesterol carriers",
+                "Cholesterol <200 mg/dL (under 240 may be accepted)",
+                "LDL <130 mg/dL (higher values increase heart disease risk)",
+                "HDL >60 mg/dL (higher values benefit heart health)",
+                "TG <150 mg/dL (under 200 may be accepted)"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Dyslipidemia Risk Factors",
+          "keywords": ["risk factors of dyslipidemia", "hypothyroidism", "diabetes", "smoking", "glucocorticoids", "olanzapine", "diuretics", "beta blockers", "tamoxifen"],
+          "blocks": [
+            {
+              "block_heading": "Medical Conditions",
+              "block_type": "list",
+              "data": [
+                "Hypothyroidism",
+                "Obesity",
+                "Pregnancy",
+                "Nephrotic syndrome",
+                "Poorly controlled Diabetes Mellitus"
+              ]
+            },
+            {
+              "block_heading": "Lifestyle Factors",
+              "block_type": "list",
+              "data": ["Smoking"]
+            },
+            {
+              "block_heading": "Medications That Increase LDL or TG",
+              "block_type": "list",
+              "data": [
+                "Glucocorticoids",
+                "Olanzapine",
+                "Diuretics/Beta Blockers (concor)",
+                "Tamoxifen"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Dyslipidemia Lifestyle Modifications",
+          "keywords": ["lifestyle modifications for dyslipidemia", "diet", "exercise", "weight management", "nutrition", "fruits", "vegetables", "fish", "omega-3"],
+          "blocks": [
+            {
+              "block_heading": "Weight Management",
+              "block_type": "list",
+              "data": ["Weight reduction"]
+            },
+            {
+              "block_heading": "Physical Activity",
+              "block_type": "list",
+              "data": ["Aerobic physical activity 3-4 times per week"]
+            },
+            {
+              "block_heading": "Dietary Recommendations",
+              "block_type": "list",
+              "data": [
+                "Increase vegetables, fruits, whole grains and high-fiber foods",
+                "Consume ≥5 portions of fruits and vegetables per day",
+                "Consume ≥2 portions of fish per week (including oily fish)",
+                "Pregnant women: limit oily fish to 2 portions/week, avoid marlin/shark/swordfish",
+                "Consume ≥4-5 portions of unsalted nuts, seeds and legumes per week"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Medications for Dyslipidemia",
+      "items": [
+        {
+          "item_title": "Statins",
+          "associated_brands": ["crestor", "lipitor"],
+          "keywords": ["statins", "atorvastatin", "simvastatin", "rosuvastatin", "pravastatin", "crestor", "lipitor", "myopathy side effects", "CoQ10", "statin side effects", "side effects of statins"],
+          "blocks": [
+            {
+              "block_heading": "Role",
+              "block_type": "list",
+              "data": ["First-line treatment for dyslipidemia"]
+            },
+            {
+              "block_heading": "Benefits",
+              "block_type": "list",
+              "data": ["Lowers LDL cholesterol and reduces cardiovascular risk"]
+            },
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "Take in evening (cholesterol production peaks at night)",
+                "Antacids must be taken 2 hours after rosuvastatin dose"
+              ]
+            },
+            {
+              "block_heading": "Monitoring",
+              "block_type": "list",
+              "data": ["Regular liver function tests recommended"]
+            },
+            {
+              "block_heading": "Side Effects",
+              "block_type": "list",
+              "data": ["Myopathy (main side effect) - may be overcome by using CoQ10"]
+            },
+            {
+              "block_heading": "Risk Factors for Myopathy",
+              "block_type": "list",
+              "data": ["Age ≥65 years"]
+            },
+            {
+              "block_heading": "Management",
+              "block_type": "list",
+              "data": ["CoQ10 (q10) supplementation may help with myopathy"]
+            },
+            {
+              "block_heading": "Enzyme Inhibitors Interactions",
+              "block_type": "list",
+              "data": ["Azole antifungals, Macrolides (erythromycin, clarithromycin - azithromycin can be used) increase statin levels, causing toxicity"]
+            },
+            {
+              "block_heading": "Enzyme Inducers Interactions",
+              "block_type": "list",
+              "data": ["Rifampin, Phenytoin, Carbamazepine (Tegretol), St. John's Wort lower statin efficacy"]
+            },
+            {
+              "block_heading": "Other Cholesterol Drugs Interactions",
+              "block_type": "list",
+              "data": ["Fibrates (lipofibrate, lipanthyl), Niacin (vitamin b3) increase risk of myopathy"]
+            },
+            {
+              "block_heading": "Anticoagulants Interactions",
+              "block_type": "list",
+              "data": ["Warfarin enhanced anticoagulant effects, increased bleeding risk"]
+            },
+            {
+              "block_heading": "Notes",
+              "block_type": "list",
+              "data": ["Pravastatin (lipostat) and Rosuvastatin (ivarin, crestor, resova) have the least drug-drug interactions"]
+            },
+            {
+              "block_heading": "Special Considerations",
+              "block_type": "list",
+              "data": [
+                "Avoid antacids within 2 hours of Rosuvastatin (reduces absorption)",
+                "Rosuvastatin requires dose adjustment in renal impairment",
+                "If dose missed by >12 hours: skip and wait for next scheduled dose"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Ezetimibe",
+          "associated_brands": ["ezetrol", "ezechol", "zetex"],
+          "keywords": ["ezetimibe", "ezetrol", "ezechol", "zetex", "cholesterol absorption inhibitor", "ezetimibe brand names"],
+          "blocks": [
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": ["Once daily, with or without food"]
+            }
+          ]
+        },
+        {
+          "item_title": "Fibrates",
+          "associated_brands": ["lipanthyl", "lipofibrate"],
+          "keywords": ["fibrates", "fenofibrate", "lipanthyl", "lipofibrate", "triglycerides", "gallstones side effects", "fibrates brand names"],
+          "blocks": [
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": ["Avoid with fatty meals (increases gallstone risk)"]
+            },
+            {
+              "block_heading": "Monitoring",
+              "block_type": "list",
+              "data": ["Watch for signs of gallbladder or pancreas inflammation"]
+            }
+          ]
+        },
+        {
+          "item_title": "Niacin",
+          "keywords": ["niacin", "vitamin B3", "flushing side effects", "cholesterol", "triglycerides", "side effects of niacin"],
+          "blocks": [
+            {
+              "block_heading": "Side Effects",
+              "block_type": "list",
+              "data": ["Flushing (tingling of skin)"]
+            },
+            {
+              "block_heading": "Management",
+              "block_type": "list",
+              "data": ["Ibuprofen 30-60 minutes before dose can help"]
+            },
+            {
+              "block_heading": "Monitoring",
+              "block_type": "list",
+              "data": ["May cause mild increase in blood sugar"]
+            }
+          ]
+        },
+        {
+          "item_title": "Bile Acid Sequestrants",
+          "associated_brands": ["questran"],
+          "keywords": ["bile acid sequestrants", "cholestyramine", "colestipol", "questran", "constipation side effects", "cholesterol", "side effects of bile acid sequestrants"],
+          "blocks": [
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": ["Take with meals and plenty of water"]
+            },
+            {
+              "block_heading": "Side Effects",
+              "block_type": "list",
+              "data": ["Constipation"]
+            },
+            {
+              "block_heading": "Management",
+              "block_type": "list",
+              "data": ["Senna recommended for constipation"]
+            },
+            {
+              "block_heading": "Interactions",
+              "block_type": "list",
+              "data": ["Separate from multivitamins"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Nutraceuticals",
+      "items": [
+        {
+          "item_title": "Fish Oil",
+          "associated_brands": ["Omega-3 Fatty Acids", "omegat"],
+          "keywords": ["fish oil", "omega-3", "omegat", "triglycerides", "LDL", "fish oil brand names"],
+          "blocks": [
+            {
+              "block_heading": "Benefits",
+              "block_type": "list",
+              "data": ["Lowers triglycerides and slightly reduces LDL"]
+            }
+          ]
+        },
+        {
+          "item_title": "Garlic",
+          "associated_brands": ["RONGARLIC"],
+          "keywords": ["garlic", "rongarlic", "cholesterol", "natural remedies", "garlic brand names"],
+          "blocks": [
+            {
+              "block_heading": "Benefits",
+              "block_type": "list",
+              "data": ["Helps manage dyslipidemia"]
+            }
+          ]
+        },
+        {
+          "item_title": "Coenzyme Q10",
+          "associated_brands": ["CoQ10", "Ronzavi"],
+          "keywords": ["coenzyme Q10", "CoQ10", "statin side effects", "myopathy", "CoQ10 brand names"],
+          "blocks": [
+            {
+              "block_heading": "Benefits",
+              "block_type": "list",
+              "data": ["Helps with statin-induced myopathy"]
+            }
+          ]
+        },
+        {
+          "item_title": "Potassium Supplements",
+          "associated_brands": ["Jamieson Potassium 50 mg"],
+          "keywords": ["potassium", "supplements", "electrolytes"],
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "section_title": "Blood Thinners Medications",
+      "items": [
+        {
+          "item_title": "Rivaroxaban",
+          "associated_brands": ["xarelto"],
+          "keywords": ["rivaroxaban", "xarelto", "blood thinner", "anticoagulant", "DOAC", "rivaroxaban brand names"],
+          "blocks": [
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": ["Doses ≥15 mg must be taken with food; doses ≤10 mg can be taken without regard to meals"]
+            }
+          ]
+        },
+        {
+          "item_title": "Enoxaparin",
+          "associated_brands": ["clexane"],
+          "keywords": ["enoxaparin", "clexane", "LMWH", "heparin", "injection", "pregnancy", "enoxaparin brand names"],
+          "blocks": [
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": ["Subcutaneous injection, single use only"]
+            },
+            {
+              "block_heading": "Instructions",
+              "block_type": "list",
+              "data": [
+                "Do not rub injection site after administration to minimize bruising",
+                "Do not expel air bubble from prefilled syringes (30 mg and 40 mg doses)",
+                "Safe during pregnancy"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Warfarin",
+          "associated_brands": ["coumadin"],
+          "keywords": ["warfarin", "coumadin", "blood thinner", "vitamin K", "INR", "anticoagulant", "bleeding risk", "side effects of warfarin"],
+          "blocks": [
+            {
+              "block_heading": "Drugs That Increase Effect",
+              "block_type": "list",
+              "data": ["Antibiotics: Metronidazole, TMP/SMX, Quinolones, Cephalosporins, Amoxicillin, Doxycycline", "Antifungals, Amiodarone increase bleeding risk"]
+            },
+            {
+              "block_heading": "Drugs That Decrease Effect",
+              "block_type": "list",
+              "data": ["Rifampin, Phenytoin reduce effectiveness"]
+            },
+            {
+              "block_heading": "Dietary Interactions",
+              "block_type": "list",
+              "data": ["Foods high in vitamin K decrease effectiveness"]
+            },
+            {
+              "block_heading": "Herbals Supplements Interactions",
+              "block_type": "list",
+              "data": ["St. John's Wort reduces effect", "Garlic and cranberry increase bleeding risk (may lead to bruising/bleeding)"]
+            },
+            {
+              "block_heading": "Foods to Avoid (High in Vitamin K)",
+              "block_type": "list",
+              "data": [
+                "spinach [السبانخ]",
+                "broccoli [البروكلي]",
+                "kale [الكرنب الأجعد]",
+                "brussels sprouts [كرنب بروكسل]",
+                "green tea [الشاي الأخضر]",
+                "parsley [البقدونس]",
+                "cabbage [الملفوف]"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Aspirin",
+          "keywords": ["aspirin", "antiplatelet", "bleeding risk", "GI effects", "heart protection", "side effects of aspirin"],
+          "blocks": [
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": ["Best taken at night with food or water to avoid GI effects", "Main job is working against heart attack and stroke"]
+            },
+            {
+              "block_heading": "Increased Bleeding Risk Interactions",
+              "block_type": "list",
+              "data": ["Warfarin, Other anticoagulants"]
+            },
+            {
+              "block_heading": "Reduced Efficacy Interactions",
+              "block_type": "list",
+              "data": ["ACE inhibitors, ARBs, Diuretics, Sulfonylureas decrease antihypertensive effect and increase hypoglycemia risk with sulfonylureas"]
+            }
+          ]
+        },
+        {
+          "item_title": "Blood Thinners General Points",
+          "keywords": ["bleeding risk", "drug interactions", "SSRIs", "SNRIs", "OTC", "NSAIDs", "PPIs", "clopidogrel"],
+          "blocks": [
+            {
+              "block_heading": "General Points",
+              "block_type": "list",
+              "data": [
+                "SSRIs (fluoxetine) or SNRIs (venlafaxine) increase bleeding risks when combined with antiplatelets/anticoagulants",
+                "Check OTC medications (e.g., ibuprofen, naproxen) as they increase bleeding risks",
+                "Garlic and ginger can enhance bleeding risks with antiplatelet/anticoagulant drugs",
+                "Vitamin K-rich foods reduce warfarin effectiveness",
+                "Cranberry may increase anticoagulant effect leading to bruising/bleeding",
+                "PPI Interaction: Omeprazole and Esomeprazole may interact with Clopidogrel by reducing plasma level of activated Clopidogrel. Alternatives: Pantoprazole, Lansoprazole or Rabeprazole"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Thyroid Disorders Medications",
+      "items": [
+        {
+          "item_title": "Levothyroxine",
+          "associated_brands": ["euthyrox"],
+          "keywords": ["levothyroxine", "euthyrox", "thyroid", "hypothyroidism", "T4", "thyroid hormone", "side effects of levothyroxine", "levothyroxine brand names"],
+          "blocks": [
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": [
+                "Morning: on empty stomach, 30-60 minutes before food",
+                "Night: 3-4 hours after last meal"
+              ]
+            },
+            {
+              "block_heading": "Combinations with Folic Acid",
+              "block_type": "list",
+              "data": ["Mitigates cardiovascular risks from elevated homocysteine"]
+            },
+            {
+              "block_heading": "Combinations with Coenzyme Q10",
+              "block_type": "list",
+              "data": ["Improves energy levels and alleviates fatigue/muscle weakness"]
+            },
+            {
+              "block_heading": "Absorption Reducers Interactions",
+              "block_type": "list",
+              "data": ["PPIs, Sucralfate, Antacids cause hypochlorhydria reduces levothyroxine absorption"]
+            },
+            {
+              "block_heading": "Protein Binding Displacers Interactions",
+              "block_type": "list",
+              "data": ["Carbamazepine (Tegretol), Furosemide, Heparin, Hydantoins, NSAIDs, Fenamates"]
+            },
+            {
+              "block_heading": "Reduces Bioavailability",
+              "block_type": "list",
+              "data": ["Grapefruit juice reduces levothyroxine bioavailability"]
+            },
+            {
+              "block_heading": "Special Considerations",
+              "block_type": "list",
+              "data": ["Addition of levothyroxine in diabetics may worsen glycemic control and require increased antidiabetic medication"]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

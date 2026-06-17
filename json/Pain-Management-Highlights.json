@@ -1,0 +1,409 @@
+{
+  "id": "pain-management",
+  "title": "Pain Management Pharmaceutical Care",
+  "type": "condition-guide",
+  "release": "Release #1",
+  "committee": "Eastern 2 Scientific Committee",
+  "sections": [
+    {
+      "section_title": "Pain Management Highlights",
+      "items": [
+        {
+          "item_title": "Paracetamol",
+          "keywords": ["paracetamol", "carbamazepine", "liver damage", "hepatic impairment", "renal impairment"],
+          "blocks": [
+            {
+              "block_heading": "Key Points",
+              "block_type": "list",
+              "data": [
+                "No dose adjustment for renal impairment",
+                "In cases of mild hepatic impairment, the maximum dose is 2000 mg/day",
+                "With carbamazepine: reduces the effect of paracetamol and increases liver damage risk"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "NSAIDs",
+          "associated_brands": ["Brufen"],
+          "keywords": ["cox-2 inhibitors", "naproxen", "nsaids", "ibuprofen", "brufen", "aspirin", "pregnancy", "breastfeeding", "cardiovascular risk"],
+          "blocks": [
+            {
+              "block_heading": "Key Points",
+              "block_type": "list",
+              "data": [
+                "Selective COX-2 inhibitors: lower GI ulceration but high cardiovascular risk",
+                "Naproxen has least cardiovascular risk (max 1000 mg chronic, 1500 mg acute)",
+                "Contraindicated during the third trimester of pregnancy",
+                "Ibuprofen (Brufen) preferred in breastfeeding - minimal milk secretion",
+                "Ibuprofen should be administered two hours after aspirin or at least eight hours before"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Supplements and Warnings",
+          "keywords": ["vitamin b2", "magnesium", "vitamin d", "coq10", "curcumin", "headache", "migraine", "abdominal pain", "appendicitis", "osteoarthritis", "statin-induced myalgia", "hyperoxaluria"],
+          "blocks": [
+            {
+              "block_heading": "Key Points",
+              "block_type": "list",
+              "data": [
+                "Vitamin B2, magnesium, vitamin D, CoQ10 may help headaches/migraines",
+                "Turmeric (curcumin) aids osteoarthritis",
+                "CoQ10 eases statin-induced myalgia"
+              ]
+            },
+            {
+              "block_heading": "Warnings",
+              "block_type": "list",
+              "data": [
+                "Avoid analgesics in lower right abdominal pain unless appendicitis excluded",
+                "Large doses of vitamin C may cause hyperoxaluria"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Common Analgesics",
+      "items": [
+        {
+          "item_title": "Paracetamol",
+          "keywords": ["paracetamol", "pain relief", "analgesic"],
+          "blocks": [
+            {
+              "block_heading": "Adult Dosage",
+              "block_type": "list",
+              "data": ["325-1000 mg every 6-8 hrs, max 4000 mg/day"]
+            },
+            {
+              "block_heading": "Pediatric Dosage",
+              "block_type": "list",
+              "data": ["10-15 mg/kg every 4-6 hrs, max 5 doses/day"]
+            },
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": ["No food requirements"]
+            }
+          ]
+        },
+        {
+          "item_title": "Ibuprofen",
+          "associated_brands": ["Brufen", "Nurofen"],
+          "keywords": ["ibuprofen", "brufen", "nsaid", "nurofen"],
+          "blocks": [
+            {
+              "block_heading": "Adult Dosage",
+              "block_type": "list",
+              "data": ["400 mg every 8 hrs or 600 mg every 12 hrs, max 1200 mg/day OTC, 3200 mg/day prescribed"]
+            },
+            {
+              "block_heading": "Pediatric Dosage",
+              "block_type": "list",
+              "data": ["20 mg/kg body weight/day in divided doses"]
+            },
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": ["Take with food"]
+            }
+          ]
+        },
+        {
+          "item_title": "Diclofenac",
+          "associated_brands": ["Rofenac", "Rapidus"],
+          "keywords": ["diclofenac", "nsaid", "rofenac", "rapidus"],
+          "blocks": [
+            {
+              "block_heading": "Adult Dosage",
+              "block_type": "list",
+              "data": ["50 mg every 8-12 hrs, max 150 mg/day"]
+            },
+            {
+              "block_heading": "Pediatric Dosage",
+              "block_type": "list",
+              "data": ["1-2 mg/kg body weight per day divided into 2 or 3 doses"]
+            },
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": ["Take after food"]
+            },
+            {
+              "block_heading": "Warnings",
+              "block_type": "list",
+              "data": ["Avoid in asthma"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Supplements and Support",
+      "items": [
+        {
+          "item_title": "Omega-3",
+          "keywords": ["omega-3", "immune support", "anti-inflammatory"],
+          "blocks": [
+            {
+              "block_heading": "Benefits",
+              "block_type": "list",
+              "data": [
+                "Stimulates immune response",
+                "Enhances absorption of fat-soluble vitamins (K, E, D, A)"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Probiotics",
+          "keywords": ["probiotics", "gut health", "immune support"],
+          "blocks": [
+            {
+              "block_heading": "Usage",
+              "block_type": "list",
+              "data": ["With broad-spectrum antibiotics to prevent antibiotic-associated diarrhea"]
+            },
+            {
+              "block_heading": "Duration",
+              "block_type": "list",
+              "data": ["Taken concurrently and for one week after"]
+            }
+          ]
+        },
+        {
+          "item_title": "Vitamin C",
+          "keywords": ["vitamin c", "immune support", "antioxidant", "hyperoxaluria"],
+          "blocks": [
+            {
+              "block_heading": "Benefits",
+              "block_type": "list",
+              "data": [
+                "Boosts immunity",
+                "Reduces oxidative stress"
+              ]
+            },
+            {
+              "block_heading": "Dosage",
+              "block_type": "list",
+              "data": ["1-2 g daily for 1-2 weeks to avoid hyperoxaluria"]
+            },
+            {
+              "block_heading": "Warnings",
+              "block_type": "list",
+              "data": ["Large doses may cause hyperoxaluria"]
+            }
+          ]
+        },
+        {
+          "item_title": "Vitamin D",
+          "keywords": ["vitamin d", "immune support", "bone health"],
+          "blocks": [
+            {
+              "block_heading": "Dosage",
+              "block_type": "list",
+              "data": ["600-800 IU/day"]
+            },
+            {
+              "block_heading": "Administration",
+              "block_type": "list",
+              "data": ["Taken with meals for better absorption (fat-soluble)"]
+            }
+          ]
+        },
+        {
+          "item_title": "Zinc",
+          "keywords": ["zinc", "immune support", "antiviral"],
+          "blocks": [
+            {
+              "block_heading": "Adult Dosage",
+              "block_type": "list",
+              "data": ["Total daily intake not exceeding 75-100 mg, high doses limited to 1-2 weeks"]
+            },
+            {
+              "block_heading": "Pediatric Dosage",
+              "block_type": "list",
+              "data": ["10-20 mg/day for 10-14 days per WHO (for diarrhea)"]
+            }
+          ]
+        },
+        {
+          "item_title": "Colostrum",
+          "keywords": ["lactoferrin", "colostrum", "immune support", "antiviral"],
+          "blocks": [
+            {
+              "block_heading": "Active Compound",
+              "block_type": "list",
+              "data": ["Lactoferrin (commonly consumed as a supplement in doses of 100-400 mg/day)"]
+            },
+            {
+              "block_heading": "Dosage",
+              "block_type": "list",
+              "data": ["100-400 mg/day"]
+            },
+            {
+              "block_heading": "Benefits",
+              "block_type": "list",
+              "data": ["Potential antiviral activity, including against coronaviruses"]
+            }
+          ]
+        },
+        {
+          "item_title": "Garlic",
+          "keywords": ["garlic", "allicin", "immune support", "antibiotic"],
+          "blocks": [
+            {
+              "block_heading": "Active Compound",
+              "block_type": "list",
+              "data": ["Allicin"]
+            },
+            {
+              "block_heading": "Benefits",
+              "block_type": "list",
+              "data": [
+                "Antibiotic and antifungal",
+                "Acts as prebiotic"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Propolis",
+          "keywords": ["propolis", "immune support", "wound healing"],
+          "blocks": [
+            {
+              "block_heading": "Uses",
+              "block_type": "list",
+              "data": ["Topical for wound healing, acne"]
+            },
+            {
+              "block_heading": "Warnings",
+              "block_type": "list",
+              "data": ["Avoid in pregnancy/lactation unless approved"]
+            }
+          ]
+        },
+        {
+          "item_title": "Immune Boosting Strategies",
+          "keywords": ["immune system", "vaccination", "healthy diet", "stress management", "hydration", "sleep", "exercise", "smoking cessation"],
+          "blocks": [
+            {
+              "block_heading": "Recommendations",
+              "block_type": "list",
+              "data": [
+                "Vaccination",
+                "Maintain a healthy diet",
+                "Minimize stress",
+                "Keep body hydrated",
+                "Get plenty of sleep",
+                "Exercise regularly",
+                "Quit smoking"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Cough Management",
+      "items": [
+        {
+          "item_title": "Cough Management",
+          "keywords": ["vitamin c", "ivyzac", "ivy leaves extract", "manuka honey", "acid blockers", "cough management", "gerd"],
+          "blocks": [
+            {
+              "block_heading": "Recommendations",
+              "block_type": "list",
+              "data": [
+                "Use nebulizer, Vitamin C, avoid irritants (smoke, perfumes, dust)",
+                "After Ivyzac (Ivy Leaves Ext.), drink water to thin mucus",
+                "Manuka honey boosts immunity (avoid for children <1 year)",
+                "For GERD-induced cough: use acid blockers"
+              ]
+            },
+            {
+              "block_heading": "Warnings",
+              "block_type": "list",
+              "data": ["Avoid honey for children less than 1 year"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Asthma Management",
+      "items": [
+        {
+          "item_title": "Asthma Management",
+          "keywords": ["beta blockers", "arbs", "nsaids", "paracetamol", "montelukast", "corticosteroids", "bromhexine", "ambroxol", "ivy leaves syrup", "potassium supplements", "hypokalemia"],
+          "blocks": [
+            {
+              "block_heading": "Recommendations",
+              "block_type": "list",
+              "data": [
+                "Beta blockers may limit airflow - prefer ARBs",
+                "NSAIDs can exacerbate asthma - use paracetamol",
+                "Montelukast granules: administer directly or with soft food (use within 15 min of opening sachets)",
+                "Corticosteroid spray users: rinse mouth or use nebulizer to prevent oral infection",
+                "Bromhexine not recommended for gastric ulcer patients - use Ambroxol or Ivy Leaves syrup",
+                "Corticosteroids may cause hypokalemia - consider potassium supplements or potassium-rich foods (avocados, apples, oranges, bananas)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Allergic Rhinitis",
+      "items": [
+        {
+          "item_title": "Allergic Rhinitis",
+          "associated_brands": ["Budinid", "Claritine", "Zyrtic", "Artiz"],
+          "keywords": ["budesonide", "budinid", "loratadine", "claritine", "cetirizine", "zyrtic", "artiz", "antihistamines"],
+          "blocks": [
+            {
+              "block_heading": "Recommendations",
+              "block_type": "list",
+              "data": [
+                "Budesonide (Budinid spray): only intranasal corticosteroid approved for pregnancy",
+                "Loratadine (Claritine): safe in pregnancy",
+                "Cetirizine (Zyrtic, Artiz): safe during lactation",
+                "Second-generation oral antihistamines preferred - treat most symptoms except nasal congestion",
+                "Intranasal corticosteroids treat all symptoms, safe for chronic use"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Moisturizers & Eczema",
+      "items": [
+        {
+          "item_title": "Eczema Care",
+          "keywords": ["eczema", "moisturizers", "tacrolimus", "pimecrolimus", "clobetasol propionate", "trigger foods", "skin care", "skin thinning"],
+          "blocks": [
+            {
+              "block_heading": "Recommendations",
+              "block_type": "list",
+              "data": [
+                "Moisturize for patients on diuretics, antihistamines, isotretinoin, or menopausal women",
+                "Use gentle cleansers, lukewarm water, sunscreen, fragrance-free moisturizers",
+                "Stay hydrated, avoid excess caffeine, soaps, hot water, alcohol-based products, sun/wind",
+                "Oral omega-3, hyaluronic acid, collagen for dryness",
+                "Scratching worsens eczema; manage by moisturizing, using anti-itch creams, corticosteroids and cold compress",
+                "Avoid trigger foods (dairy, eggs, nuts, soy, spices, chocolate, gluten)",
+                "Apply Tacrolimus, Pimecrolimus twice daily - continue 7 days post-symptoms",
+                "Clobetasol propionate: Do not exceed 2 weeks to avoid skin thinning",
+                "Eczema routine: Clean, Moisturize, Treat, Avoid, Hydrate"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

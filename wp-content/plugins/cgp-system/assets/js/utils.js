@@ -19,15 +19,6 @@ function formatContent(content, searchTerm = '') {
      `;
   }
 
-  // Render Keywords
-  if (content.keywords && Array.isArray(content.keywords) && content.keywords.length > 0) {
-     const keywordsString = content.keywords.map(kw => `<span class="keyword-badge">${kw}</span>`).join(' ');
-     html += `
-       <div class="keywords-wrapper mb-3 keywords-items keywords-wrapper-spacing">
-         ${highlightSearchTerm(keywordsString, searchTerm)}
-       </div>
-     `;
-  }
 
   // Render Blocks
   if (content.blocks && Array.isArray(content.blocks)) {
@@ -89,6 +80,16 @@ function formatContent(content, searchTerm = '') {
       `;
     });
     html += '</ul>';
+  }
+
+  // Render Keywords
+  if (content.keywords && Array.isArray(content.keywords) && content.keywords.length > 0) {
+     const keywordsString = content.keywords.map(kw => `<span class="keyword-badge">${kw}</span>`).join(' ');
+     html += `
+       <div class="keywords-wrapper mb-3 keywords-items keywords-wrapper-spacing">
+         ${highlightSearchTerm(keywordsString, searchTerm)}
+       </div>
+     `;
   }
 
   return html;

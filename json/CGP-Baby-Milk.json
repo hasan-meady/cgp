@@ -1,0 +1,943 @@
+{
+  "id": "baby-milk-formula",
+  "title": "Baby Milk Formula Pharmaceutical Care",
+  "type": "condition-guide",
+  "release": "Release #1",
+  "committee": "We Care committee",
+  "sections": [
+    {
+      "section_title": "Breast Feeding",
+      "items": [
+        {
+          "item_title": "Benefits of Breastfeeding",
+          "keywords": ["baby milk formula", "breastfeeding benefits", "colostrum", "lactation stages", "immune support", "whey casein ratio", "infant nutrition", "antibodies"],
+          "blocks": [
+            {
+              "block_heading": "Benefits",
+              "block_type": "list",
+              "data": [
+                "Easily digestible and absorbable",
+                "Immune supportive components",
+                "Composition varies by stage of lactation to match infant needs",
+                "Whey to casein ratio changes from 80:20 in early lactation to 50:50 in late lactation"
+              ]
+            },
+            {
+              "block_heading": "Colostrum",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Description",
+                  "children": ["First milk secreted for first 3 days after birth"]
+                },
+                {
+                  "parent": "Characteristics",
+                  "children": [
+                    "Higher protein and mineral content than mature milk",
+                    "Rich source of antibodies for infection protection"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Breastfeeding Instructions",
+          "keywords": ["baby milk formula", "breastfeeding positions", "feeding techniques", "burping baby", "infant feeding"],
+          "blocks": [
+            {
+              "block_heading": "Instructions",
+              "block_type": "list",
+              "data": [
+                "Feed baby in semi-upright position",
+                "Support head for comfortable breathing/swallowing",
+                "Allow breaks during feeding",
+                "Burp baby every few minutes"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Mother & Baby Care",
+          "associated_brands": ["Mustella", "Avalon", "Palmers", "Vitalink", "Vidrop"],
+          "keywords": ["baby milk formula", "breast care", "lactation aids", "vitamin D", "fenugreek", "lactofer", "mustella", "avalon", "palmers", "vitalink", "vidrop", "breast pumps", "infant supplementation"],
+          "blocks": [
+            {
+              "block_heading": "Products",
+              "block_type": "list",
+              "data": [
+                "Breast pads, artificial nipples, nipple care products (Mustella, Avalon, Palmers)",
+                "Milk reservation bags",
+                "For low milk secretion: lactagogues (Fenugreek, Lactofer) or breast pump"
+              ]
+            },
+            {
+              "block_heading": "Vitamin D Supplement",
+              "block_type": "list",
+              "data": [
+                "400 IU/day",
+                "2 drops Vitalink or 4 drops Vidrop"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Regular Formula",
+      "items": [
+        {
+          "item_title": "Characteristics",
+          "keywords": ["baby milk formula", "formula composition", "DHA", "ARA", "prebiotics", "probiotics", "infant nutrition", "digestive health", "brain development"],
+          "blocks": [
+            {
+              "block_heading": "Characteristics",
+              "block_type": "list",
+              "data": [
+                "Contains essential macro-nutrients (proteins, fats, carbohydrates)",
+                "Contains essential micro-nutrients (vitamins & minerals)",
+                "Should be easy to digest with adequate calories",
+                "Recommended components:",
+                "DHA and ARA for brain/eye development",
+                "Prebiotics and probiotics for digestive health",
+                "Optimal protein content to prevent unhealthy weight gain"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Feeding Instructions",
+          "keywords": ["baby milk formula", "formula preparation", "sterilization", "feeding guidelines", "formula storage", "infant feeding"],
+          "blocks": [
+            {
+              "block_heading": "Instructions",
+              "block_type": "list",
+              "data": [
+                "Wash hands before preparation",
+                "Sterilize all feeding equipment",
+                "Prepare formula according to label instructions",
+                "Feed in semi-upright position",
+                "Burp baby frequently",
+                "Use prepared formula within 2 hours or refrigerate for up to 24 hours"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Recommendations",
+          "keywords": ["baby milk formula", "bottle care", "anti-colic bottles", "bottle warmers", "infant feeding equipment"],
+          "blocks": [
+            {
+              "block_heading": "Recommendations",
+              "block_type": "list",
+              "data": [
+                "Replace bottles/nipples every 3 months",
+                "Use bottle sterilizers and anti-colic bottles",
+                "Use fast bottle warmers (use milk within 1 hour of preparation)"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Average Consumption",
+          "keywords": ["baby milk formula", "formula quantities", "feeding frequency", "formula packaging", "infant feeding schedule"],
+          "blocks": [
+            {
+              "block_heading": "Consumption Guidelines",
+              "block_type": "list",
+              "data": [
+                "400g pack lasts 3-4 days (8 packs/month)",
+                "800-900g pack lasts 6-8 days (4 packs/month)",
+                "1600-1700g pack lasts 12-15 days (2 packs/month)",
+                "Average serving: 4.5g, 6-8 bottles/day (20-30 servings)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Formula Types Comparison",
+      "items": [
+        {
+          "item_title": "Regular Cow's Milk vs Formula",
+          "keywords": ["baby milk formula", "cow milk vs formula", "infant nutrition", "DHA", "ARA", "prebiotics", "probiotics", "digestive health"],
+          "blocks": [
+            {
+              "block_heading": "Comparison",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "AAP Recommendation",
+                  "children": ["AAP recommends formula (not cow's milk) for children under 2"]
+                },
+                {
+                  "parent": "Cow's Milk Issues",
+                  "children": [
+                    "Improper nutrient balance",
+                    "Harder to digest",
+                    "May interfere with iron absorption",
+                    "Possible link to type-1 diabetes in at-risk infants"
+                  ]
+                },
+                {
+                  "parent": "Formula Advantages",
+                  "children": [
+                    "Easier digestion",
+                    "Balanced nutrition",
+                    "Fortified with DHA, ARA, prebiotics/probiotics"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Organic Milk",
+          "associated_brands": ["Arla"],
+          "keywords": ["baby milk formula", "organic formula", "arla", "chemical-free formula", "infant nutrition"],
+          "blocks": [
+            {
+              "block_heading": "Organic Milk Features",
+              "block_type": "list",
+              "data": [
+                "No artificial sweeteners, colors, or preservatives",
+                "Free from antibiotics and hormones",
+                "Cows fed 100% organic diet"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Illuma Milk Formula",
+          "associated_brands": ["Illuma"],
+          "keywords": ["baby milk formula", "illuma", "HMOs", "sn-2 palmitate", "alphalactalbumin", "immune support", "digestive health", "bone health"],
+          "blocks": [
+            {
+              "block_heading": "Innovative Macro-nutrient Composition",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Carbohydrate",
+                  "children": ["Human milk oligosaccharides (HMOs) for immunity"]
+                },
+                {
+                  "parent": "Fat",
+                  "children": ["Sn-2 palmitate for softer stools and bone health"]
+                },
+                {
+                  "parent": "Protein",
+                  "children": ["Alphalactalbumin for better digestion and growth"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Goat Milk Formula",
+          "keywords": ["baby milk formula", "goat milk formula", "prebiotics", "fatty acids", "digestibility", "milk alternatives", "infant nutrition"],
+          "blocks": [
+            {
+              "block_heading": "Features",
+              "block_type": "list",
+              "data": [
+                "Higher protein levels than cow milk",
+                "More digestible than cow milk",
+                "Rich in beneficial fatty acids",
+                "More prebiotic oligosaccharides than cow milk",
+                "Superior mineral bioavailability",
+                "Not suitable for cow milk protein allergy"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Special Formulas for Medical Conditions",
+      "items": [
+        {
+          "item_title": "Preterm/Low Birth Weight Formula",
+          "associated_brands": ["Ronalac", "Blemill plus", "Pre-NAN", "Similac Neosure", "S26 pdf"],
+          "keywords": ["baby milk formula", "preterm formula", "low birth weight", "ronalac premature", "blemill plus", "pre-nan", "similac neosure", "s26 pdf", "DHA", "ARA", "prebiotics", "calcium", "phosphorus", "infant nutrition"],
+          "blocks": [
+            {
+              "block_heading": "Characteristics",
+              "block_type": "list",
+              "data": [
+                "Higher protein, fats, carbohydrates, vitamins than regular formula",
+                "Extra calcium and phosphorus",
+                "Immunoboosters and prebiotics"
+              ]
+            },
+            {
+              "block_heading": "Ronalac (Premature)",
+              "block_type": "list",
+              "data": [
+                "Protein, Ca, Fe",
+                "Vitamins D3, A, B complex",
+                "B-Carotene, L-Carnitine, Inositol",
+                "Zinc, Selenium, Copper",
+                "Linoleic/Linolenic acids, DHA, ARA",
+                "Nucleotides"
+              ]
+            },
+            {
+              "block_heading": "Blemill plus (Preterm)",
+              "block_type": "text",
+              "data": "Highly digestible with high nutritional value"
+            },
+            {
+              "block_heading": "Pre-NAN",
+              "block_type": "text",
+              "data": "High concentration of nutrients"
+            },
+            {
+              "block_heading": "Similac Neosure",
+              "block_type": "list",
+              "data": [
+                "Corn syrup lactose",
+                "Whey protein concentrate",
+                "Soy, high oleic safflower, coconut, MCT fats",
+                "Extra Ca and phosphorus"
+              ]
+            },
+            {
+              "block_heading": "S26 pdf",
+              "block_type": "text",
+              "data": "High concentration of nutrients"
+            }
+          ]
+        },
+        {
+          "item_title": "Regurgitation (Reflux) Formula",
+          "associated_brands": ["Humana AR", "Nan AR", "Primalac AR", "Novalac AR", "Novalac AR Plus", "Ronalac AR", "Hero AR", "S26 AR", "Pedialyte", "Babylite"],
+          "keywords": ["baby milk formula", "reflux", "regurgitation", "AR formula", "humana ar", "nan ar", "primalac ar", "novalac ar", "ronalac ar", "hero ar", "s26 ar", "pedialyte", "babylite", "corn starch", "infant reflux"],
+          "blocks": [
+            {
+              "block_heading": "Causes",
+              "block_type": "list",
+              "data": [
+                "Immature lower esophageal sphincter",
+                "Lying flat most of time",
+                "Liquid diet",
+                "Prematurity"
+              ]
+            },
+            {
+              "block_heading": "Referral Indicators",
+              "block_type": "list",
+              "data": [
+                "Not gaining weight",
+                "Projectile vomiting",
+                "Green/yellow fluid or blood in vomit",
+                "Blood in stool",
+                "Food refusal",
+                "Difficulty breathing/chronic cough",
+                "Symptoms starting after 6 months"
+              ]
+            },
+            {
+              "block_heading": "Treatment",
+              "block_type": "list",
+              "data": [
+                "Feed in upright position",
+                "Smaller, more frequent feedings",
+                "Back sleeping position",
+                "Thick AR formula with corn starch",
+                "Avoid overfeeding"
+              ]
+            },
+            {
+              "block_heading": "Recommended Products",
+              "block_type": "list",
+              "data": [
+                "Oral rehydration solutions (Pedialyte, Babylite)",
+                "Milk catcher bibs",
+                "AR formulas: Humana AR, Nan AR, Primalac AR, Novalac AR (mild-moderate), Novalac AR Plus (severe), Ronalac AR, Hero AR, S26 AR"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Diarrhea Formula",
+          "associated_brands": ["Humana special", "Novalac diarinova", "Nan LF", "S26 LF", "Blemil LF plus", "Ronalac LF", "Primalac LF", "Nuralac LF", "Pedialyte", "Babylite"],
+          "keywords": ["baby milk formula", "diarrhea", "lactose intolerance", "oral rehydration", "humana special", "novalac diarinova", "nan lf", "s26 lf", "blemil lf plus", "ronalac lf", "primalac lf", "nuralac lf", "probiotics", "pectin", "lactose-free formula", "infant diarrhea"],
+          "blocks": [
+            {
+              "block_heading": "Causes",
+              "block_type": "list",
+              "data": [
+                "Lactase enzyme deficiency",
+                "Decreased intestinal flora"
+              ]
+            },
+            {
+              "block_heading": "Symptoms",
+              "block_type": "list",
+              "data": [
+                "Osmotic diarrhea",
+                "Dehydration",
+                "Gas, bloating, spasms"
+              ]
+            },
+            {
+              "block_heading": "Recommendations",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Products",
+                  "children": [
+                    "Oral rehydration solutions (Pedialyte, Babylite)",
+                    "Probiotics",
+                    "Blevit AD"
+                  ]
+                },
+                {
+                  "parent": "Diaper Rash Management",
+                  "children": [
+                    "Breathable diapers",
+                    "Fragrance/paraben/alcohol-free wipes",
+                    "Cleansing gel/water",
+                    "Napkin rash cream/spray/powder"
+                  ]
+                }
+              ]
+            },
+            {
+              "block_heading": "Formula Options",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Humana Special",
+                  "children": [
+                    "Banana fibers for electrolyte balance",
+                    "Pectin to reduce water influx",
+                    "Prebiotics",
+                    "Reduced fat/lactose"
+                  ]
+                },
+                {
+                  "parent": "Novalac Diarinova",
+                  "children": [
+                    "Banana/apple pectin",
+                    "High electrolytes",
+                    "Rapidly absorbed sugars",
+                    "Lactose-free"
+                  ]
+                },
+                {
+                  "parent": "Nan LF",
+                  "children": ["Lactose-free with L.reuteri probiotics"]
+                },
+                {
+                  "parent": "S26 LF",
+                  "children": ["Lactose-free"]
+                },
+                {
+                  "parent": "Blemil LF plus",
+                  "children": ["Lactose-free", "Dextrinomaltose carbs", "Prebiotics"]
+                },
+                {
+                  "parent": "Ronalac LF",
+                  "children": ["Lactose-free with dextrinomaltose"]
+                },
+                {
+                  "parent": "Primalac LF",
+                  "children": ["Lactose-free", "Prebiotics", "Antioxidants/nucleotides"]
+                },
+                {
+                  "parent": "Nuralac LF",
+                  "children": ["Partially hydrolyzed protein, lactose-free"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Constipation Formula",
+          "associated_brands": ["Humana PLUS", "Novalac Novabean", "Blemil Extra", "Ronalac AC"],
+          "keywords": ["baby milk formula", "constipation", "infant constipation", "humana plus", "novalac novabean", "blemil extra", "ronalac ac", "beta palmitate", "magnesium", "prebiotics", "probiotics", "constipation relief"],
+          "blocks": [
+            {
+              "block_heading": "Definition",
+              "block_type": "text",
+              "data": "Defecation <3 times/week, difficult/painful, larger stools"
+            },
+            {
+              "block_heading": "Causes",
+              "block_type": "list",
+              "data": [
+                "Hard-to-digest proteins",
+                "Lack of normal flora",
+                "Whey/casein ratio imbalance"
+              ]
+            },
+            {
+              "block_heading": "Solutions",
+              "block_type": "list",
+              "data": [
+                "Formulas with beta palmitate",
+                "Prebiotics",
+                "Acidifiers for protein digestion",
+                "Magnesium content"
+              ]
+            },
+            {
+              "block_heading": "Recommendations",
+              "block_type": "list",
+              "data": ["Probiotics", "Laxatives", "Anti-colic measures"]
+            },
+            {
+              "block_heading": "Formula Options",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Humana PLUS",
+                  "children": [
+                    "Hydrolyzed protein",
+                    "Beta palmitate",
+                    "Prebiotics",
+                    "Reduced lactose"
+                  ]
+                },
+                {
+                  "parent": "Novalac Novabean",
+                  "children": [
+                    "High Mg content",
+                    "Locust bean gum fibers",
+                    "Adapted whey/casein ratio"
+                  ]
+                },
+                {
+                  "parent": "Blemil Extra",
+                  "children": ["Beta palmitate, Mg content"]
+                },
+                {
+                  "parent": "Ronalac AC",
+                  "children": ["Beta palmitate, prebiotics"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Colic and Gases Formula",
+          "associated_brands": ["Novalac collinova", "Ronalac gentle", "Nan duo", "Blemil Comfort", "Aptamil omneo", "Nuralac H8", "Primalac Pro", "Similac Sensitive", "Fabimilk Allevia"],
+          "keywords": ["baby milk formula", "colic", "gas relief", "novalac collinova", "ronalac gentle", "nan duo", "blemil comfort", "aptamil omneo", "nuralac h8", "primalac pro", "similac sensitive", "fabimilk allevia", "low lactose", "beta palmitate", "prebiotics", "probiotics", "comfort formula"],
+          "blocks": [
+            {
+              "block_heading": "Symptoms",
+              "block_type": "list",
+              "data": [
+                "Loud crying 15+ minutes after feeding",
+                "Legs pulled to chest",
+                "Excessive gas",
+                "Difficulty comforting, red face"
+              ]
+            },
+            {
+              "block_heading": "Causes",
+              "block_type": "list",
+              "data": [
+                "Whey/casein ratio imbalance",
+                "Lactose content",
+                "Possible cow milk allergy"
+              ]
+            },
+            {
+              "block_heading": "Solutions",
+              "block_type": "list",
+              "data": [
+                "High whey concentration",
+                "Low lactose formulas"
+              ]
+            },
+            {
+              "block_heading": "Recommendations",
+              "block_type": "list",
+              "data": [
+                "Probiotics",
+                "Anti-colic products",
+                "Anti-colic feeding bottles"
+              ]
+            },
+            {
+              "block_heading": "Formula Options",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Novalac Collinova",
+                  "children": ["Low lactose"]
+                },
+                {
+                  "parent": "Ronalac Gentle",
+                  "children": [
+                    "Easily digestible proteins",
+                    "Monosaccharides to reduce gas"
+                  ]
+                },
+                {
+                  "parent": "Nan Duo (Comfort)",
+                  "children": ["Whey:casein 60:40, low lactose"]
+                },
+                {
+                  "parent": "Blemil Comfort (Max)",
+                  "children": [
+                    "Low lactose",
+                    "Corn starch for digestibility"
+                  ]
+                },
+                {
+                  "parent": "Aptamil Omneo (Comfort)",
+                  "children": [
+                    "Partially hydrolyzed whey",
+                    "Reduced lactose",
+                    "Oligosaccharides prebiotics",
+                    "Beta palmitate"
+                  ]
+                },
+                {
+                  "parent": "Nuralac H8 (Comfort)",
+                  "children": [
+                    "Hydrolyzed protein",
+                    "Easily digested",
+                    "Low lactose"
+                  ]
+                },
+                {
+                  "parent": "Primalac Pro",
+                  "children": ["Low lactose (50%), prebiotics"]
+                },
+                {
+                  "parent": "Similac Sensitive",
+                  "children": [
+                    "Low lactose",
+                    "Palm oil-free",
+                    "Prebiotics",
+                    "Partially hydrolyzed whey"
+                  ]
+                },
+                {
+                  "parent": "Fabimilk Allevia",
+                  "children": [
+                    "OPO beta palmitate fat",
+                    "HMO prebiotics",
+                    "Alphalactalbumin amino acids"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Cow Milk Allergy (CMPA) Formula",
+          "associated_brands": ["Aptamil HA", "Nan Supreme", "Ronalac Hypolait", "S26-Ultima", "Similac Pro-S", "Primalac W.H", "Blemil Plus HR", "Blemil Plus FH", "Novalac Allernova", "Hero Baby FEH", "Frisolac Gold HydroPro Plus", "Primalac CMA", "Novalac Aminova", "Neocate Syeo", "Neocate", "Avene Trixera", "Fenistil"],
+          "keywords": ["baby milk formula", "milk allergy", "CMPA", "aptamil ha", "nan supreme", "ronalac hypolait", "s26-ultima", "similac pro-s", "primalac w.h", "blemil plus hr", "blemil plus fh", "novalac allernova", "hero baby feh", "frisolac gold hydropro plus", "primalac cma", "novalac aminova", "neocate syeo", "neocate", "hypoallergenic formula", "hydrolyzed formula", "amino acid formula", "avene trixera", "fenistil"],
+          "blocks": [
+            {
+              "block_heading": "Introduction",
+              "block_type": "list",
+              "data": [
+                "Peaks in first year (2-3% prevalence)",
+                "85% develop tolerance by age 3",
+                "Higher risk with family allergy history"
+              ]
+            },
+            {
+              "block_heading": "Symptoms",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Cutaneous",
+                  "children": ["Atopic dermatitis", "Erythema", "Angioedema"]
+                },
+                {
+                  "parent": "Respiratory",
+                  "children": ["Wheezing", "Bronchospasm", "Rhinitis", "Cough"]
+                },
+                {
+                  "parent": "Gastrointestinal",
+                  "children": ["Vomiting", "Diarrhea", "Colic", "Constipation", "Reflux"]
+                }
+              ]
+            },
+            {
+              "block_heading": "Treatment",
+              "block_type": "list",
+              "data": [
+                "Complete elimination of cow milk protein",
+                "Hypoallergenic formula replacement"
+              ]
+            },
+            {
+              "block_heading": "Management",
+              "block_type": "list",
+              "data": [
+                "Diaper rash care",
+                "Skin rash: Avene Trixera, Fenistil drops",
+                "Allergic rhinitis: sea water drops/spray, antihistamines"
+              ]
+            },
+            {
+              "block_heading": "Partially Hydrolyzed Formula",
+              "block_type": "list",
+              "data": [
+                "Aptamil HA",
+                "Nan Supreme",
+                "Ronalac Hypolait",
+                "S26-Ultima",
+                "Similac Pro-S",
+                "Primalac W.H",
+                "Blemil Plus HR (rice proteins)"
+              ]
+            },
+            {
+              "block_heading": "Extensively Hydrolyzed Formula",
+              "block_type": "list",
+              "data": [
+                "Blemil Plus FH",
+                "Novalac Allernova",
+                "Hero Baby FEH",
+                "Frisolac Gold HydroPro Plus",
+                "Primalac CMA"
+              ]
+            },
+            {
+              "block_heading": "Amino Acid-Based Formula",
+              "block_type": "list",
+              "data": [
+                "Novalac Aminova",
+                "Neocate Syeo 0-12M",
+                "Neocate +6M Supplement"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Case Studies",
+      "items": [
+        {
+          "item_title": "Preterm Baby Case",
+          "associated_brands": ["Enterogermina", "Protexin Restore", "Vidrop", "Vitalink", "Avent", "Tomme", "Chico", "Otimo"],
+          "keywords": ["baby milk formula", "preterm case", "low birth weight", "enterogermina", "protexin restore", "vidrop", "vitalink", "prebiotics", "probiotics", "vitamin D", "avent", "tomme", "chico", "otimo", "preterm feeding", "immune support"],
+          "blocks": [
+            {
+              "block_heading": "Assessment",
+              "block_type": "list",
+              "data": [
+                "Determine age and birth weight",
+                "Compare current vs ideal weight",
+                "Assess feeding frequency/quantity",
+                "Check for teething delay or immunity issues"
+              ]
+            },
+            {
+              "block_heading": "Recommendations",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "General",
+                  "children": [
+                    "Explain preterm GIT/immune immaturity",
+                    "Hypercaloric diet until mature weight",
+                    "Medical feeding bottles (Avent, Tomme, Chico, Otimo)"
+                  ]
+                },
+                {
+                  "parent": "Prebiotics/Probiotics",
+                  "children": [
+                    "Enterogermina vials (1 daily)",
+                    "Protexin restore sachets (1 daily)"
+                  ]
+                },
+                {
+                  "parent": "Vitamin D",
+                  "children": [
+                    "Vidrop (4 drops daily)",
+                    "Vitalink (2 drops daily)"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Regurgitation (Reflux) Case",
+          "keywords": ["baby milk formula", "reflux case", "regurgitation management", "AR formula", "prebiotics", "probiotics", "oral rehydration", "infant reflux", "feeding techniques"],
+          "blocks": [
+            {
+              "block_heading": "Assessment Questions",
+              "block_type": "list",
+              "data": [
+                "When reflux appears?",
+                "Weight gain status?",
+                "Blood/coffee-ground fluid in spit-up?",
+                "Blood in stool?",
+                "Frequency per day?",
+                "Green/yellow fluid?",
+                "Feeding refusal?",
+                "Breathing difficulty/cough?"
+              ]
+            },
+            {
+              "block_heading": "Management",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Feeding Environment Changes",
+                  "children": [
+                    "Upright position",
+                    "Small frequent feedings",
+                    "Back sleeping",
+                    "Avoid overfeeding"
+                  ]
+                },
+                {
+                  "parent": "Products",
+                  "children": [
+                    "Thick AR formula",
+                    "Medical feeding bottles",
+                    "Prebiotics/probiotics",
+                    "Oral rehydration (200-600ml daily)"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Diarrhea Case",
+          "keywords": ["baby milk formula", "diarrhea case", "lactose-free formula", "oral rehydration", "probiotics", "diaper rash cream", "infant diarrhea", "dehydration management"],
+          "blocks": [
+            {
+              "block_heading": "Case Presentation",
+              "block_type": "text",
+              "data": "1-month-old with watery diarrhea >4x/day, gas/bloating"
+            },
+            {
+              "block_heading": "Non-Pharmacological",
+              "block_type": "list",
+              "data": [
+                "Frequent diaper changes",
+                "Prefer breast milk",
+                "Monitor weight/dehydration"
+              ]
+            },
+            {
+              "block_heading": "Pharmacological",
+              "block_type": "list",
+              "data": [
+                "Lactose-free formula if no breastfeeding",
+                "Oral rehydration",
+                "Probiotics",
+                "Diaper rash cream"
+              ]
+            },
+            {
+              "block_heading": "Rehydration Protocol",
+              "block_type": "list",
+              "data": [
+                "Mild: 50 mL/kg over 4 hours",
+                "Moderate: 100 mL/kg over 4 hours",
+                "+10 mL/kg per diarrheal stool (max 240mL)",
+                "Reassess after 4 hours"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Constipation Case",
+          "keywords": ["baby milk formula", "constipation case", "infant constipation", "beta palmitate", "magnesium", "prebiotics", "laxatives", "constipation relief", "dietary fibers"],
+          "blocks": [
+            {
+              "block_heading": "Case Presentation",
+              "block_type": "text",
+              "data": "7-month-old with difficult/painful stools, smelly gas, reduced hunger"
+            },
+            {
+              "block_heading": "Non-Pharmacological",
+              "block_type": "list",
+              "data": [
+                "Warm bath",
+                "Massage/leg exercises",
+                "Hydration",
+                "Dietary fibers (whole grains, peaches, oranges)"
+              ]
+            },
+            {
+              "block_heading": "Pharmacological",
+              "block_type": "list",
+              "data": [
+                "Constipation formula (Mg, beta palmitate, reduced lactose)",
+                "Laxatives",
+                "Prebiotics"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Colic Case",
+          "associated_brands": ["Deflat", "Dentinox", "Spasmiona"],
+          "keywords": ["baby milk formula", "colic case", "low lactose formula", "deflat", "dentinox", "spasmiona", "probiotics", "saline nasal drops", "anti-colic bottles", "colic management", "gas relief"],
+          "blocks": [
+            {
+              "block_heading": "Case Presentation",
+              "block_type": "text",
+              "data": "6-month-old with post-feeding crying, leg pulling, gas, redness"
+            },
+            {
+              "block_heading": "Non-Pharmacological",
+              "block_type": "list",
+              "data": [
+                "Anti-colic bottles",
+                "Gentle massage",
+                "Frequent burping",
+                "Upright feeding position"
+              ]
+            },
+            {
+              "block_heading": "Pharmacological",
+              "block_type": "list",
+              "data": [
+                "Low-lactose/high-whey formula",
+                "Anti-flatulence drops (Deflat, Dentinox, Spasmiona)",
+                "Probiotics",
+                "Saline nasal drops"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Growth Charts",
+      "items": [
+        {
+          "item_title": "Girls Growth Chart",
+          "keywords": ["baby milk formula", "growth chart", "girls growth", "infant development", "growth tracking"],
+          "blocks": [
+            {
+              "block_heading": "Reference Chart",
+              "block_type": "text",
+              "data": "Reference chart for tracking development"
+            }
+          ]
+        },
+        {
+          "item_title": "Boys Growth Chart",
+          "keywords": ["baby milk formula", "growth chart", "boys growth", "infant development", "growth tracking"],
+          "blocks": [
+            {
+              "block_heading": "Reference Chart",
+              "block_type": "text",
+              "data": "Reference chart for tracking development"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

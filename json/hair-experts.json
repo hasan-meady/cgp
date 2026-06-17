@@ -1,0 +1,782 @@
+{
+  "id": "hair-experts",
+  "title": "Hair Physiology and Colored Hair Care",
+  "type": "condition-guide",
+  "release": "Release #1",
+  "committee": "WeCare Hair Experts",
+  "sections": [
+    {
+      "section_title": "Hair Structure",
+      "items": [
+        {
+          "item_title": "Hair Structure",
+          "keywords": ["hair structure", "keratin", "hair shaft", "medulla", "cortex", "cuticle", "dermal papilla", "sebaceous glands"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Hair is made from strong structural protein named as Keratin. The nail and outer skin layer comprised of the same protein."
+            },
+            {
+              "block_heading": "Hair Shaft Layers",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Medulla",
+                  "children": ["Innermost layer, only present in large thick hairs."]
+                },
+                {
+                  "parent": "Cortex",
+                  "children": ["Middle layer that gives hair its strength, texture & color."]
+                },
+                {
+                  "parent": "Cuticle",
+                  "children": ["Outermost thin and colorless layer that prevents damage and controls water content."]
+                }
+              ]
+            },
+            {
+              "block_heading": "Dermal Papilla",
+              "block_type": "text",
+              "data": "Contains blood supply and nerves that produce nutrients for hair growth."
+            },
+            {
+              "block_heading": "Sebaceous Glands",
+              "block_type": "text",
+              "data": "Secretes sebum, an oily substance that lubricates the hair."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Hair Growth Cycle",
+      "items": [
+        {
+          "item_title": "Hair Growth Cycle",
+          "keywords": ["hair growth cycle", "hair phases", "anagen", "catagen", "telogen", "exogen", "stages of hair growth"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "The hair growth cycle consists of distinct phases that regulate hair growth and shedding."
+            },
+            {
+              "block_heading": "Anagen",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Duration",
+                  "children": ["2-8 years"]
+                },
+                {
+                  "parent": "Description",
+                  "children": ["Active growth phase where about 1 cm of hair grows every 28 days. 90% of hairs are in this phase."]
+                }
+              ]
+            },
+            {
+              "block_heading": "Catagen",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Duration",
+                  "children": ["4-6 weeks"]
+                },
+                {
+                  "parent": "Description",
+                  "children": ["Transition phase where hair growth stops."]
+                }
+              ]
+            },
+            {
+              "block_heading": "Telogen",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Duration",
+                  "children": ["2-3 months"]
+                },
+                {
+                  "parent": "Description",
+                  "children": ["Resting phase where hairs don't grow but don't usually fall out."]
+                }
+              ]
+            },
+            {
+              "block_heading": "Exogen",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Description",
+                  "children": ["Shedding phase where up to 100 hairs per day may be lost normally."]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Nutrients for Healthy Hair",
+      "items": [
+        {
+          "item_title": "Nutrients for Healthy Hair",
+          "keywords": [
+            "nutrients for hair", "hair vitamins", "essential nutrients for hair", "hair protein", "keratin production",
+            "protein for hair growth", "biotin", "vitamin B7", "hair growth", "biotin benefits for hair",
+            "iron", "ferritin", "hair oxygen", "iron deficiency hair loss",
+            "omega 3", "hair hydration", "scalp health", "omega 3 benefits for hair",
+            "water", "hair moisture", "hydration for hair",
+            "B vitamins", "B6", "B12", "folate", "B vitamins for hair",
+            "vitamin C", "collagen", "iron absorption", "vitamin C for hair",
+            "zinc", "hair strength", "oil glands", "zinc deficiency hair loss",
+            "L-cystine", "amino acids", "hair bonds", "cystine benefits for hair"
+          ],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Essential nutrients support healthy hair growth and maintenance."
+            },
+            {
+              "block_heading": "Protein",
+              "block_type": "text",
+              "data": "Forms keratin, the structural protein of hair. Low intake slows growth and weakens hair."
+            },
+            {
+              "block_heading": "Biotin",
+              "block_type": "text",
+              "data": "Promotes hair growth by helping produce amino acids that form proteins."
+            },
+            {
+              "block_heading": "Iron",
+              "block_type": "text",
+              "data": "Provides oxygen to hair follicles via red blood cells. Low ferritin can affect hair."
+            },
+            {
+              "block_heading": "Omega-3 Fatty Acids",
+              "block_type": "text",
+              "data": "Prevents inflammation, promotes circulation, and maintains scalp/hair hydration."
+            },
+            {
+              "block_heading": "Water",
+              "block_type": "text",
+              "data": "Maintains moisture to prevent dryness and breakage."
+            },
+            {
+              "block_heading": "B Vitamins",
+              "block_type": "text",
+              "data": "Help create red blood cells that carry nutrients to scalp and follicles."
+            },
+            {
+              "block_heading": "Vitamin C",
+              "block_type": "text",
+              "data": "Helps absorb iron and forms collagen needed for hair follicles."
+            },
+            {
+              "block_heading": "Zinc",
+              "block_type": "text",
+              "data": "Strengthens follicles, prevents loss, and maintains oil gland function."
+            },
+            {
+              "block_heading": "L-Cystine",
+              "block_type": "text",
+              "data": "Forms disulfide bonds that maintain hair texture, thickness and moisture."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Hair Coloring Dyes",
+      "items": [
+        {
+          "item_title": "Permanent Hair Dye",
+          "keywords": ["hair dye types", "types of hair coloring", "hair coloring options", "permanent dye"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Stays forever, works by oxidation. Contains PPD, hydrogen peroxide (6%), ammonia, and couplers."
+            },
+            {
+              "block_heading": "Process",
+              "block_type": "list",
+              "data": [
+                "Removes natural color",
+                "Applies new color"
+              ]
+            },
+            {
+              "block_heading": "Duration",
+              "block_type": "text",
+              "data": "6-8 weeks"
+            },
+            {
+              "block_heading": "Risks",
+              "block_type": "list",
+              "data": [
+                "PPD can cause allergic reactions",
+                "Damages hair structure"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Demi-permanent Hair Dye",
+          "keywords": ["hair dye types", "types of hair coloring", "demi-permanent"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Milder, ammonia-free with 2% hydrogen peroxide. Deposits color on cuticle and penetrates cortex but can't bleach."
+            },
+            {
+              "block_heading": "Duration",
+              "block_type": "text",
+              "data": "12-24 shampoos"
+            },
+            {
+              "block_heading": "Benefits",
+              "block_type": "list",
+              "data": [
+                "Gentler",
+                "Less damaging",
+                "Good for fragile hair covering grays"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Semi-permanent Hair Dye",
+          "keywords": ["hair dye types", "types of hair coloring", "semi-permanent"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "No ammonia or peroxide. Deposits color only on cuticle. Can be synthetic or natural."
+            },
+            {
+              "block_heading": "Coverage",
+              "block_type": "text",
+              "data": "Blends up to 30% grays"
+            },
+            {
+              "block_heading": "Duration",
+              "block_type": "text",
+              "data": "4-8 shampoos"
+            },
+            {
+              "block_heading": "Benefits",
+              "block_type": "list",
+              "data": [
+                "No PPD",
+                "Rarely causes allergies",
+                "No patch test needed"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Gradual Hair Dye",
+          "keywords": ["hair dye types", "types of hair coloring", "gradual dye"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Metallic solutions that darken hair gradually over repeated applications."
+            },
+            {
+              "block_heading": "Characteristics",
+              "block_type": "list",
+              "data": [
+                "Fades with shampooing",
+                "No perming/straightening after use",
+                "No PPD",
+                "No patch test needed"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Temporary Hair Dye",
+          "keywords": ["hair dye types", "types of hair coloring", "temporary dye"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Large molecules that sit on hair surface without penetrating."
+            },
+            {
+              "block_heading": "Duration",
+              "block_type": "text",
+              "data": "1 shampoo (may last longer on porous hair)"
+            },
+            {
+              "block_heading": "Uses",
+              "block_type": "list",
+              "data": [
+                "Brightens original shade",
+                "Adds tint to dyed hair"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Side Effects of Hair Dyes",
+      "items": [
+        {
+          "item_title": "Side Effects of Hair Dyes",
+          "keywords": ["side effects of hair dyes", "hair damage from dye", "dye allergies", "scalp irritation from dye", "risks of hair coloring"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Hair dyes can cause various adverse effects on hair and scalp."
+            },
+            {
+              "block_heading": "Effects",
+              "block_type": "list",
+              "data": [
+                "Loss of hair strength",
+                "Reduced heat styling tolerance",
+                "Decreased hair thickness",
+                "Follicle damage leading to hair loss",
+                "Excessive dryness",
+                "Permanently enlarged pores",
+                "Skin irritation"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Ammonia in Hair Color",
+      "items": [
+        {
+          "item_title": "Ammonia in Hair Color",
+          "keywords": ["ammonia in hair dye", "risks of ammonia in dye", "ammonia-free alternatives", "side effects of ammonia in hair color"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Ammonia is used in hair dyes to facilitate color deposition but has potential risks."
+            },
+            {
+              "block_heading": "Function",
+              "block_type": "text",
+              "data": "Alkali that opens cuticles to allow dye deposition on cortex."
+            },
+            {
+              "block_heading": "Risks",
+              "block_type": "list",
+              "data": [
+                "Forms irritating ammonium hydroxide",
+                "Damages cuticle leading to dry, brittle hair",
+                "Vapors can cause lung/sinus/throat/eye issues",
+                "Destroys tyrosine (melanin regulator)",
+                "Pungent odor from quick evaporation"
+              ]
+            },
+            {
+              "block_heading": "Solution",
+              "block_type": "text",
+              "data": "Ammonia-free dyes (modern formulas are equally effective but less damaging)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Colored Hair Care Protocol",
+      "items": [
+        {
+          "item_title": "Colored Hair Care Protocol",
+          "keywords": [
+            "colored hair care routine", "dyed hair maintenance", "protocol for colored hair care",
+            "colored hair shampoo", "sulfate-free shampoo", "moisturizing shampoo for colored hair",
+            "hair conditioner for colored hair", "hair mask for colored hair", "hydrating treatment for dyed hair",
+            "hair serum for colored hair", "frizz control serum", "heat protection for dyed hair",
+            "benefits of hair serum", "supplements for colored hair", "hair growth supplements",
+            "nutrition for dyed hair"
+          ],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "A structured regimen to maintain andbility and health of colored hair."
+            },
+            {
+              "block_heading": "Shampoo",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Requirements",
+                  "children": ["Moisturizing, sulfate-free, alcohol-free, formaldehyde-free, no artificial colors/fragrances"]
+                }
+              ]
+            },
+            {
+              "block_heading": "Conditioner/Mask",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Requirements",
+                  "children": ["Hydrating, reparative formulas for colored hair"]
+                }
+              ]
+            },
+            {
+              "block_heading": "Hair Serum",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Benefits",
+                  "children": [
+                    "Strengthens hair",
+                    "Controls frizz",
+                    "Adds shine",
+                    "Heat protection",
+                    "Prevents color fading",
+                    "Moisturizes",
+                    "Increases elasticity"
+                  ]
+                }
+              ]
+            },
+            {
+              "block_heading": "Food Supplements",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Examples",
+                  "children": ["Omega-3 Fatty Acids, Zinc, L-cysteine, Biotin, Collagen, Wheat Germ Oil & Millet Extract, Silica"]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Recommended Products",
+      "items": [
+        {
+          "item_title": "Suzballe Colour Shield Shampoo",
+          "associated_brands": ["Suzballe"],
+          "keywords": ["Suzballe Colour Shield", "color shield shampoo", "UV protection shampoo", "Tquiona Extract", "Orchid extract", "Grape seed extract"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Shampoo with UV protection and moisturizing ingredients for colored hair."
+            },
+            {
+              "block_heading": "Ingredients",
+              "block_type": "list",
+              "data": [
+                "Tquiona Extract (film-forming moisturizer)",
+                "Orchid (moisturizing)",
+                "Grape seed (regenerates damaged hair)",
+                "UVA-UVB filters"
+              ]
+            },
+            {
+              "block_heading": "Benefits",
+              "block_type": "list",
+              "data": ["Protects color", "Moisturizes hair", "Regenerates damaged hair"]
+            }
+          ]
+        },
+        {
+          "item_title": "Dr. Org Pomegranate Shampoo",
+          "associated_brands": ["Dr. Org"],
+          "keywords": ["Dr. Org Pomegranate Shampoo", "antioxidant shampoo", "pomegranate shampoo"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Antioxidant-rich shampoo for strengthening hair follicles."
+            },
+            {
+              "block_heading": "Benefits",
+              "block_type": "list",
+              "data": ["Antioxidant-rich", "Strengthens follicles", "Improves circulation"]
+            }
+          ]
+        },
+        {
+          "item_title": "Ducray Nutricerat Shampoo",
+          "associated_brands": ["Ducray"],
+          "keywords": ["Ducray Nutricerat Shampoo", "gentle shampoo", "nourishing shampoo"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Gentle cleansing shampoo with nourishing substances for colored hair."
+            },
+            {
+              "block_heading": "Benefits",
+              "block_type": "list",
+              "data": ["Gentle cleansing", "Nourishes hair", "Restores softness and shine"]
+            }
+          ]
+        },
+        {
+          "item_title": "Foltene Shampoo Dermoprotective",
+          "associated_brands": ["Foltene"],
+          "keywords": ["Foltene Shampoo Dermoprotective", "dermoprotective shampoo", "Tilia Extract", "Cedar Oil"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Shampoo with restorative ingredients for dye-damaged hair."
+            },
+            {
+              "block_heading": "Ingredients",
+              "block_type": "list",
+              "data": [
+                "Tilia Extract (restores protective layer)",
+                "Cedar Oil (vitamin-rich nourishment)"
+              ]
+            },
+            {
+              "block_heading": "Benefits",
+              "block_type": "list",
+              "data": ["Repairs dye-damaged hair", "Restores protective layer", "Nourishes hair"]
+            }
+          ]
+        },
+        {
+          "item_title": "Lee Stafford Bleach Blondes Shampoo",
+          "associated_brands": ["Lee Stafford"],
+          "keywords": ["Lee Stafford Bleach Blondes Shampoo", "violet shampoo", "Shea butter", "Linseed oil"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Violet toner shampoo for blonde colored hair with UV protection."
+            },
+            {
+              "block_heading": "Features",
+              "block_type": "list",
+              "data": ["Violet toner", "Neutralizes orange/yellow tones", "UV protection", "Shea butter", "Linseed oil"]
+            },
+            {
+              "block_heading": "Benefits",
+              "block_type": "list",
+              "data": ["Tones blonde hair", "Protects from UV", "Nourishes hair"]
+            }
+          ]
+        },
+        {
+          "item_title": "Anivagene Shampoos",
+          "associated_brands": ["Anivagene"],
+          "keywords": ["Anivagene Shampoos", "men shampoo", "women shampoo", "Capixyl", "Panthenol", "Kapilarine"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Shampoos for men and women with hydrating ingredients."
+            },
+            {
+              "block_heading": "Variants",
+              "block_type": "list",
+              "data": ["Men: Capixyl + Panthenol (hydration)", "Women: Kapilarine + Panthenol (hydration)"]
+            },
+            {
+              "block_heading": "Benefits",
+              "block_type": "list",
+              "data": ["Hydrates hair", "Strengthens hair", "Gender-specific formulas"]
+            }
+          ]
+        },
+        {
+          "item_title": "OGX Keratin Oil Shampoo",
+          "associated_brands": ["OGX"],
+          "keywords": ["OGX Keratin Oil Shampoo", "sulfate-free shampoo", "Keratin proteins", "Argan oil"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Sulfate-free shampoo with keratin and argan oil for colored hair."
+            },
+            {
+              "block_heading": "Features",
+              "block_type": "list",
+              "data": ["Sulfate-free", "Keratin proteins", "Argan oil", "pH balanced"]
+            },
+            {
+              "block_heading": "Benefits",
+              "block_type": "list",
+              "data": ["Strengthens hair", "Nourishes hair", "Maintains color"]
+            }
+          ]
+        },
+        {
+          "item_title": "Ducray Nutricerat Mask",
+          "associated_brands": ["Ducray"],
+          "keywords": ["Ducray Nutricerat Mask", "hair mask", "restructuring mask"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Hair mask for restructuring and softening colored hair."
+            },
+            {
+              "block_heading": "Benefits",
+              "block_type": "list",
+              "data": ["Restructures hair", "Restores softness", "Adds shine"]
+            }
+          ]
+        },
+        {
+          "item_title": "Anivagene Conditioner",
+          "associated_brands": ["Anivagene"],
+          "keywords": ["Anivagene Conditioner", "Jojoba oil conditioner", "Panthenol", "Jojoba oil", "Ceramides"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Conditioner with hydrating ingredients to prevent split ends."
+            },
+            {
+              "block_heading": "Ingredients",
+              "block_type": "list",
+              "data": ["Panthenol", "Jojoba oil", "Ceramides"]
+            },
+            {
+              "block_heading": "Benefits",
+              "block_type": "list",
+              "data": ["Prevents split ends", "Adds strength", "Increases shine and volume"]
+            }
+          ]
+        },
+        {
+          "item_title": "Anivagene Hair Mask",
+          "associated_brands": ["Anivagene"],
+          "keywords": ["Anivagene Hair Mask", "Argan oil mask", "Keratin mask", "Argan oil", "Hydrolyzed keratin", "Panthenol"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Nutrient-rich hair mask for repairing chemical damage."
+            },
+            {
+              "block_heading": "Ingredients",
+              "block_type": "list",
+              "data": ["Argan oil", "Hydrolyzed keratin", "Panthenol"]
+            },
+            {
+              "block_heading": "Benefits",
+              "block_type": "list",
+              "data": ["Repairs chemical damage", "Nourishes hair", "Restores strength"]
+            }
+          ]
+        },
+        {
+          "item_title": "Brazil Protein Blond Vegan Conditioner",
+          "associated_brands": ["Brazil Protein"],
+          "keywords": ["Brazil Protein Blond Vegan Conditioner", "vegan conditioner", "Acai oil", "Buriti oil"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Vegan conditioner for bleached hair with nourishing oils."
+            },
+            {
+              "block_heading": "Features",
+              "block_type": "list",
+              "data": ["Acai oil", "Buriti oil"]
+            },
+            {
+              "block_heading": "Benefits",
+              "block_type": "list",
+              "data": ["Nourishes bleached hair", "Restores moisture", "Vegan formula"]
+            }
+          ]
+        },
+        {
+          "item_title": "OGX Keratin Oil Conditioner",
+          "associated_brands": ["OGX"],
+          "keywords": ["OGX Keratin Oil Conditioner", "sulfate-free conditioner", "Keratin conditioner"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Sulfate-free conditioner for strengthening colored hair."
+            },
+            {
+              "block_heading": "Features",
+              "block_type": "list",
+              "data": ["Sulfate-free", "Strengthens against breakage"]
+            },
+            {
+              "block_heading": "Benefits",
+              "block_type": "list",
+              "data": ["Strengthens hair", "Prevents breakage", "Nourishes hair"]
+            }
+          ]
+        },
+        {
+          "item_title": "Lisse Design Keratin Therapy",
+          "associated_brands": ["Lisse Design"],
+          "keywords": ["Lisse Design Keratin Therapy", "keratin treatment", "frizz reduction"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Keratin-based treatment to restore vitality and reduce frizz."
+            },
+            {
+              "block_heading": "Benefits",
+              "block_type": "list",
+              "data": ["Restores vitality", "Reduces frizz", "Nourishes with natural oils"]
+            }
+          ]
+        },
+        {
+          "item_title": "Hair Protector",
+          "keywords": ["Hair Protector", "thermal protection", "Vitamin E", "Olive leaf", "Cactus flower"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Protective treatment with thermal and nourishing ingredients."
+            },
+            {
+              "block_heading": "Features",
+              "block_type": "list",
+              "data": ["Vitamin E", "Thermal protection polymer", "Olive leaf", "Cactus flower"]
+            },
+            {
+              "block_heading": "Benefits",
+              "block_type": "list",
+              "data": ["Protects from heat", "Nourishes hair", "Strengthens hair"]
+            }
+          ]
+        },
+        {
+          "item_title": "Hair Mist",
+          "keywords": ["Hair Mist", "protective spray", "hair styling mist"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Lightweight protective spray for colored hair."
+            },
+            {
+              "block_heading": "Benefits",
+              "block_type": "list",
+              "data": ["Protects hair", "Adds shine", "Lightweight formula"]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

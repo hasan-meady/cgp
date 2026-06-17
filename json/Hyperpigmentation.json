@@ -1,0 +1,994 @@
+{
+  "id": "wecare-hyperpigmentation",
+  "title": "WeCare - Healthy Skin Hyperpigmentation Guide",
+  "type": "skin-care-guide",
+  "release": "Release #1",
+  "committee": "Dermatological Care Committee",
+  "sections": [
+    {
+      "section_title": "Introduction to Hyperpigmentation",
+      "items": [
+        {
+          "item_title": "What is Hyperpigmentation?",
+          "keywords": ["hyperpigmentation", "skin care", "melanin", "skin lightening", "dermatology", "sun protection", "dark patches", "melanin excess", "skin discoloration"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Hyperpigmentation occurs when patches of skin become darker than surrounding areas due to excess melanin production."
+            },
+            {
+              "block_heading": "Characteristics",
+              "block_type": "list",
+              "data": [
+                "Affects all skin types",
+                "Caused by excess melanin",
+                "Appears as dark patches or spots"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Causes of Hyperpigmentation",
+          "keywords": ["hyperpigmentation causes", "sun exposure", "hormonal changes", "medication effects", "sunspots", "age spots", "UV exposure", "melasma", "hormonal hyperpigmentation", "pregnancy skin changes", "post-inflammatory hyperpigmentation", "acne scars", "skin injury", "drug-induced hyperpigmentation", "photosensitivity", "medication side effects"],
+          "blocks": [
+            {
+              "block_heading": "Sun Exposure",
+              "block_type": "text",
+              "data": "Prolonged sun exposure triggers melanin production, causing age spots or sunspots."
+            },
+            {
+              "block_heading": "Hormonal Factors",
+              "block_type": "text",
+              "data": "Hormonal changes during pregnancy or contraceptive use can cause darker skin patches."
+            },
+            {
+              "block_heading": "Physical Factors",
+              "block_type": "text",
+              "data": "Post-inflammatory hyperpigmentation occurs after skin injuries like cuts, burns, acne, or eczema."
+            },
+            {
+              "block_heading": "Chemical Factors",
+              "block_type": "text",
+              "data": "Certain medications (e.g., antimalarials, retinoic acid, sulfonamides) cause drug-induced hyperpigmentation via photosensitive reactions."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Skin Pigmentation Stages and Types",
+      "items": [
+        {
+          "item_title": "Mechanism of Pigmentation",
+          "keywords": ["melanin synthesis", "tyrosinase", "melanocytes", "keratinocytes"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "A complex process starting with melanin synthesis in melanocytes, involving tyrosinase, and transfer of melanosomes to keratinocytes."
+            }
+          ]
+        },
+        {
+          "item_title": "Melasma",
+          "keywords": ["melasma", "pregnancy hyperpigmentation", "facial dark patches"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Common in pregnant women or those on birth control, appearing on the forehead, face, and stomach."
+            }
+          ]
+        },
+        {
+          "item_title": "Post-Inflammatory Hyperpigmentation",
+          "keywords": ["post-inflammatory hyperpigmentation", "acne scars", "dark spots"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Dark spots or patches after inflammatory conditions like acne, eczema, burns, or surgeries."
+            }
+          ]
+        },
+        {
+          "item_title": "Sunspots",
+          "keywords": ["sunspots", "age spots", "solar lentigines"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Brown, tan, or black spots on sun-exposed areas, common in older adults or those with extended sun exposure."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Healthcare Provider Approach",
+      "items": [
+        {
+          "item_title": "Provider Actions",
+          "keywords": ["skin assessment", "personalized skin treatment", "dermatology consultation"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Healthcare providers assess medical history, sun exposure, lifestyle, and skin care routines to create personalized treatment plans."
+            },
+            {
+              "block_heading": "Actions",
+              "block_type": "list",
+              "data": [
+                "Ask about medical history",
+                "Inquire about sun exposure and lifestyle habits",
+                "Review skin care routine"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Treatment Guidelines",
+      "items": [
+        {
+          "item_title": "General Guidelines",
+          "keywords": ["sunscreen", "skin protection", "lightening cream risks"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Strategies to reduce hyperpigmentation risk and manage existing conditions."
+            },
+            {
+              "block_heading": "Recommendations",
+              "block_type": "list",
+              "data": [
+                "Use SPF 30+ sunscreen and protective clothing",
+                "Avoid picking at skin injuries or acne",
+                "Seek professional advice before using lightening creams",
+                "Avoid non-medicated lightening combinations like Kligman trio"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Kligman Trio Formula",
+          "keywords": ["Kligman trio", "hydroquinone side effects", "ochronosis", "corticosteroid risks"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "A combination of hydroquinone, topical corticosteroids, and tretinoin used for skin lightening."
+            },
+            {
+              "block_heading": "Hydroquinone Side Effects",
+              "block_type": "list",
+              "data": [
+                "Dry skin",
+                "Skin irritation",
+                "Redness",
+                "Post-inflammatory hyperpigmentation",
+                "US FDA pregnancy category C",
+                "Ochronosis (long-term use)"
+              ]
+            },
+            {
+              "block_heading": "Topical Corticosteroids Side Effects",
+              "block_type": "list",
+              "data": [
+                "Stinging and burning",
+                "Irritation, dryness, and redness",
+                "Skin thinning, discoloration, and stretch marks"
+              ]
+            },
+            {
+              "block_heading": "Tretinoin Side Effects",
+              "block_type": "list",
+              "data": ["Skin irritation"]
+            }
+          ]
+        },
+        {
+          "item_title": "Induction Strategy",
+          "keywords": ["SPF protection", "wound care", "acne treatment"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Treat or prevent main causes using SPF or early wound/acne treatment."
+            }
+          ]
+        },
+        {
+          "item_title": "Tyrosinase Inhibition",
+          "keywords": ["tyrosinase inhibitors", "melanin reduction", "skin lightening agents"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Inhibit tyrosinase action to reduce melanin production."
+            },
+            {
+              "block_heading": "Agents",
+              "block_type": "list",
+              "data": [
+                "Algowhite (Uriage)",
+                "C2-ceramide",
+                "Resorcinol",
+                "Kojic acid",
+                "Arbutin (Whyte)",
+                "Azelaic acid (Skinorin)",
+                "Linoleic & linolenic acid",
+                "Glabridin (Whyte)"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Distribution Inhibition",
+          "keywords": ["melanin transfer inhibition", "niacinamide", "skin brightening"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Prevent melanin transfer to keratinocytes."
+            },
+            {
+              "block_heading": "Agents",
+              "block_type": "list",
+              "data": [
+                "Niacinamide",
+                "Soya extract",
+                "Serine protease inhibitor"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Exfoliation",
+          "keywords": ["exfoliation", "AHA", "BHA", "dark spot removal"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Treat existing dark spots through exfoliation."
+            },
+            {
+              "block_heading": "Agents",
+              "block_type": "list",
+              "data": [
+                "Alpha hydroxy acid (AHA) (e.g., glycolic acid, lactic acid)",
+                "Beta hydroxy acid (BHA) (e.g., salicylic acid, LHA)",
+                "Retinols",
+                "Liquiritin",
+                "Linoleic acid"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Treatment Protocols",
+      "items": [
+        {
+          "item_title": "Facial Wash",
+          "associated_brands": ["Uriage Depiderm Face", "Bioderma Pigmentabio Foaming Cream"],
+          "keywords": ["whitening face wash", "skin cleansing", "epidermal renewal", "Uriage Depiderm", "Bioderma Pigmentabio", "skin lightening", "foaming cream", "skin brightening"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Use whitening face wash twice daily to cleanse, exfoliate, and eliminate dark spots."
+            },
+            {
+              "block_heading": "Benefits",
+              "block_type": "list",
+              "data": [
+                "Gently cleanses skin",
+                "Accelerates epidermal renewal",
+                "Exfoliates without irritation",
+                "Leaves skin comfortable"
+              ]
+            },
+            {
+              "block_heading": "Uriage Depiderm Face",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Ingredients",
+                  "children": [
+                    "Uriage Thermal Water",
+                    "ACTIWHITE",
+                    "Stabilized Vitamin C",
+                    "Vitamin E"
+                  ]
+                },
+                {
+                  "parent": "Benefits",
+                  "children": ["Provides lightening effect"]
+                }
+              ]
+            },
+            {
+              "block_heading": "Bioderma Pigmentabio Foaming Cream",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Ingredients",
+                  "children": [
+                    "Citric Acid",
+                    "Benzoic Acid",
+                    "Andrographis Paniculata Leaf Extract",
+                    "Lysine",
+                    "Azelaic Acid"
+                  ]
+                },
+                {
+                  "parent": "Benefits",
+                  "children": ["Brightens and cleanses skin"]
+                }
+              ]
+            },
+            {
+              "block_heading": "Facial Care Brush",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Benefits",
+                  "children": [
+                    "Gentle brushing",
+                    "4-6 times better cleaning than hand washing",
+                    "Protects against aging symptoms"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Toner",
+          "associated_brands": ["Eucerin Dermopurifier Toner", "Caudalie Moisturizing Toner", "DCL Alpha Gel Toner"],
+          "keywords": ["skin toner", "moisturizing toner", "skin type toner"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Apply toner twice daily based on skin type."
+            },
+            {
+              "block_heading": "Products",
+              "block_type": "list",
+              "data": ["Eucerin Dermopurifier Toner", "Caudalie Moisturizing Toner", "DCL Alpha Gel Toner"]
+            }
+          ]
+        },
+        {
+          "item_title": "Exfoliation",
+          "associated_brands": ["Isis Glyco-A", "Glycolix"],
+          "keywords": ["exfoliation routine", "dead cell removal", "skin radiance", "Isis Glyco-A", "glycolic acid exfoliant", "cell renewal", "Glycolix", "antioxidant exfoliant", "skin protection"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Exfoliate 2-3 times weekly to remove dead cells and boost radiance."
+            },
+            {
+              "block_heading": "Isis Glyco-A",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Ingredients",
+                  "children": [
+                    "Glycolic Acid",
+                    "Paraffinum Liquidum (Mineral Oil)",
+                    "Palmitic Acid",
+                    "Stearic Acid"
+                  ]
+                },
+                {
+                  "parent": "Benefits",
+                  "children": ["Penetrates epidermis for deep exfoliation"]
+                }
+              ]
+            },
+            {
+              "block_heading": "Glycolix 10% and 15%",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Ingredients",
+                  "children": [
+                    "Glycolic Acid 10%",
+                    "Green Tea Extract",
+                    "Tocopheryl Acetate",
+                    "Retinyl Palmitate",
+                    "Vitamins A, C, and E"
+                  ]
+                },
+                {
+                  "parent": "Benefits",
+                  "children": ["Exfoliates and protects skin"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Whitening Cream or Serum",
+          "associated_brands": ["Uriage Depiderm", "Bioderma Pigmentbio"],
+          "keywords": ["whitening cream", "skin brightening serum", "dark spot reduction", "Uriage Depiderm", "Bioderma Pigmentbio", "anti-aging cream", "skin radiance"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Use morning and/or night for brightening and spot reduction."
+            },
+            {
+              "block_heading": "Uriage Depiderm Day Cream and Serum",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Ingredients",
+                  "children": [
+                    "Pea extract and sucrose",
+                    "Vitamin C",
+                    "Uriage Thermal Water",
+                    "Vitamins E & PP",
+                    "Illuminating pearly particles",
+                    "Niacinamide"
+                  ]
+                },
+                {
+                  "parent": "Benefits",
+                  "children": [
+                    "Whitening and brightening",
+                    "Moisturizes and hydrates",
+                    "Reduces age and dark spots",
+                    "Promotes cell renewal",
+                    "Evens skin tone",
+                    "Anti-aging"
+                  ]
+                }
+              ]
+            },
+            {
+              "block_heading": "Bioderma Pigmentbio Cream (Day and Night)",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Ingredients",
+                  "children": [
+                    "BHA",
+                    "Vitamins C, E, and B3",
+                    "Lysine Azelate",
+                    "Rhamnose",
+                    "Andrographis Extract",
+                    "Licorice Extract",
+                    "Laminaria Extract"
+                  ]
+                },
+                {
+                  "parent": "Benefits",
+                  "children": [
+                    "Prevents new pigmentation spots",
+                    "Boosts cellular renewal",
+                    "Reduces existing dark spots",
+                    "Protects from sun damage",
+                    "Enhances skin radiance"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Moisturizing",
+          "associated_brands": ["Bioderma Hydra", "Isis Hyda", "Avene Hydrance Light"],
+          "keywords": ["skin moisturizer", "oily skin care", "dry skin care"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Apply moisturizer based on skin type (oily, combination, normal, or dry)."
+            },
+            {
+              "block_heading": "Products",
+              "block_type": "list",
+              "data": ["Bioderma Hydra", "Isis Hyda", "Avene Hydrance Light"]
+            }
+          ]
+        },
+        {
+          "item_title": "Maintenance and Protection",
+          "associated_brands": ["Bioderma", "Avene", "Eucerin", "Vichy", "La Roche Posay"],
+          "keywords": ["SPF protection", "sunscreen", "skin type SPF"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Use SPF products for sun protection, varying by body part and skin type."
+            },
+            {
+              "block_heading": "Body (Except Face)",
+              "block_type": "list",
+              "data": ["Bioderma Milk +50", "Avene Lotion", "Avene Spray"]
+            },
+            {
+              "block_heading": "Face (Oily or Combination Skin)",
+              "block_type": "list",
+              "data": ["Avene SPF Fluid", "Bioderma Photoderm Aquafluid", "Eucerin SPF Gel", "Vichy Ideal Soleil Dry Touch"]
+            },
+            {
+              "block_heading": "Face (Normal or Dry Skin)",
+              "block_type": "list",
+              "data": ["Bioderma Photoderm Cream", "Avene SPF Cream", "La Roche Posay Anthelios Cream"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Eye Dark Circles",
+      "items": [
+        {
+          "item_title": "Definition",
+          "keywords": ["eye dark circles", "periorbital hyperpigmentation"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Dark blue or black discoloration around the eyes."
+            }
+          ]
+        },
+        {
+          "item_title": "Causes",
+          "blocks": [
+            {
+              "block_heading": "Causes",
+              "block_type": "list",
+              "data": [
+                "Genetic factors",
+                "Aging",
+                "Excess sun exposure",
+                "Caffeine or alcohol consumption",
+                "Sleep disturbances or oversleeping",
+                "Iron deficiency",
+                "Stress and crying",
+                "Fluid retention or dehydration"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Non-Pharmacological Treatment",
+          "blocks": [
+            {
+              "block_heading": "Non-Pharmacological Treatment",
+              "block_type": "list",
+              "data": [
+                "Cold compress",
+                "Elevate head during sleep",
+                "Avoid excess sun exposure",
+                "Reduce stress",
+                "Stay hydrated"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Pharmacological Treatment",
+          "blocks": [
+            {
+              "block_heading": "Pharmacological Treatment",
+              "block_type": "list",
+              "data": ["Sunscreen", "Skin lightening products", "Skin moisturizers"]
+            }
+          ]
+        },
+        {
+          "item_title": "Treatment Protocol",
+          "associated_brands": ["Isis Neotone", "La Roche Posay Pigmentclar", "Uriage Depiderm"],
+          "keywords": ["eye care protocol", "dark circle reduction", "eye moisturizing", "Isis Neotone", "eye contour cream", "dark circle treatment", "La Roche Posay", "Pigmentclar eye", "eye brightening", "Uriage Depiderm", "eye contour care", "anti-puffiness"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Start with a suitable facial wash, followed by targeted eye contour products."
+            },
+            {
+              "block_heading": "Isis Neotone Eyes",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Ingredients",
+                  "children": [
+                    "Pure licorice extract",
+                    "Chlorella vulgaris extract",
+                    "Tetrapeptide",
+                    "Bisabolol",
+                    "Hyaluronic acid"
+                  ]
+                },
+                {
+                  "parent": "Benefits",
+                  "children": [
+                    "Lightens dark circles",
+                    "Reduces puffiness",
+                    "Soothes and moisturizes",
+                    "Anti-wrinkle action"
+                  ]
+                }
+              ]
+            },
+            {
+              "block_heading": "La Roche Posay Pigmentclar Eye",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Ingredients",
+                  "children": [
+                    "Ferulic Acid",
+                    "Caffeine",
+                    "Phe-Resorcinol",
+                    "Niacinamide"
+                  ]
+                },
+                {
+                  "parent": "Benefits",
+                  "children": [
+                    "Antioxidant protection",
+                    "Boosts microcirculation",
+                    "Inhibits tyrosinase",
+                    "Reduces inflammation"
+                  ]
+                }
+              ]
+            },
+            {
+              "block_heading": "Uriage Depiderm Eye Contour",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Ingredients",
+                  "children": [
+                    "Vitamin C",
+                    "Uriage Thermal Water",
+                    "Vitamins E & PP",
+                    "Illuminating pearly particles",
+                    "Sulfate of dextran"
+                  ]
+                },
+                {
+                  "parent": "Benefits",
+                  "children": [
+                    "Evens eye contour tone",
+                    "Brightens eyes",
+                    "Reduces puffiness and wrinkles"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Sensitive Area Care",
+      "items": [
+        {
+          "item_title": "Healthcare Provider Advice",
+          "keywords": ["intimate hygiene", "sensitive Area care", "hair removal"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Guidelines for maintaining hygiene and preventing irritation in sensitive areas."
+            },
+            {
+              "block_heading": "Recommendations",
+              "block_type": "list",
+              "data": [
+                "Handle sensitive areas gently, especially during hair removal",
+                "Maintain daily hygiene to prevent unpleasant discharges",
+                "Remove hair regularly (every two weeks) using laser, IPL, or epilators",
+                "Use lukewarm water for washing to prevent sagging",
+                "Consult a gynecologist for any health issues",
+                "Maintain hygiene during menstruation",
+                "Change underwear frequently"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Treatment Protocol",
+          "associated_brands": ["Bioderma Pigmentabio", "Isis Neotone"],
+          "keywords": ["intimate wash", "depigmenting cream", "sensitive area hygiene", "Bioderma Pigmentabio", "sensitive area cream", "skin brightening", "Isis Neotone", "body depigmentation", "shea butter"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Use suitable intimate wash followed by depigmenting creams."
+            },
+            {
+              "block_heading": "Bioderma Pigmentabio Sensitive Area Cream",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Ingredients",
+                  "children": [
+                    "Glycyrrhiza Glabra (Licorice) Root Extract",
+                    "Rhamnose",
+                    "Salicylic Acid",
+                    "Azelaic Acid"
+                  ]
+                },
+                {
+                  "parent": "Benefits",
+                  "children": [
+                    "Unifies and brightens skin tone",
+                    "Regulates pigmentation mechanisms",
+                    "Suitable for delicate areas"
+                  ]
+                }
+              ]
+            },
+            {
+              "block_heading": "Isis Neotone Body",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Ingredients",
+                  "children": [
+                    "Diacetyl boldine",
+                    "Pure licorice extract",
+                    "Niacinamide",
+                    "Glycolic Acid",
+                    "Shea Butter"
+                  ]
+                },
+                {
+                  "parent": "Benefits",
+                  "children": [
+                    "Lightens skin",
+                    "Reduces dark spots",
+                    "Softens and heals skin"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Elbow and Knee Hyperpigmentation",
+      "items": [
+        {
+          "item_title": "Definition",
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Darker patches on elbows and knees due to friction, pressure, or melanin production."
+            }
+          ]
+        },
+        {
+          "item_title": "Causes",
+          "blocks": [
+            {
+              "block_heading": "Causes",
+              "block_type": "list",
+              "data": [
+                "Constant rubbing or pressure",
+                "Build-up of dead skin cells or dirt",
+                "Sun exposure",
+                "Hormonal changes",
+                "Physical injuries",
+                "Medication-induced"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Prevention",
+          "blocks": [
+            {
+              "block_heading": "Prevention",
+              "block_type": "list",
+              "data": [
+                "Apply high SPF sunscreen",
+                "Avoid prolonged pressure on joints",
+                "Treat wounds carefully"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Treatment",
+          "associated_brands": ["Glycolix", "Isis Neotone", "Isis Glyco-A"],
+          "keywords": ["Glycolix body lotion", "exfoliating lotion", "antioxidant lotion", "Isis Neotone", "body exfoliant", "depigmentation", "Isis Glyco-A", "AHA exfoliant", "skin hydration"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Exfoliation and antioxidant supplementation to reduce darkening."
+            },
+            {
+              "block_heading": "Glycolix 15% Body Lotion",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Ingredients",
+                  "children": [
+                    "Glycolic Acid",
+                    "Coenzyme Q-10",
+                    "Vitamin C"
+                  ]
+                },
+                {
+                  "parent": "Benefits",
+                  "children": [
+                    "Exfoliates dead skin",
+                    "Reduces UV damage",
+                    "Protects against free radicals"
+                  ]
+                }
+              ]
+            },
+            {
+              "block_heading": "Isis Neotone Body",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Ingredients",
+                  "children": [
+                    "Diacetyl boldine",
+                    "Pure licorice extract",
+                    "Niacinamide",
+                    "Glycolic Acid",
+                    "Shea Butter"
+                  ]
+                },
+                {
+                  "parent": "Benefits",
+                  "children": [
+                    "Lightens skin",
+                    "Reduces dark spots",
+                    "Softens and heals skin"
+                  ]
+                }
+              ]
+            },
+            {
+              "block_heading": "Isis Glyco-A",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Ingredients",
+                  "children": [
+                    "Glycolic Acid 10%",
+                    "Lactic Acid",
+                    "Shea Butter"
+                  ]
+                },
+                {
+                  "parent": "Benefits",
+                  "children": [
+                    "Exfoliates skin",
+                    "Restores hydration",
+                    "Softens skin"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Nutrition For Healthy Skin",
+      "items": [
+        {
+          "item_title": "Antioxidants",
+          "associated_brands": ["Ronzavit Co Q 10", "Ron Co Q 10", "E-Vit Capsule", "Vitane Vit E", "Ronzavit Vit E", "C-Ronz Eff", "C-Ronz Rosa Capsule"],
+          "keywords": ["antioxidants", "Co Q 10", "vitamin C", "vitamin E"],
+          "blocks": [
+            {
+              "block_heading": "Products",
+              "block_type": "list",
+              "data": [
+                "Ronzavit Co Q 10",
+                "Ron Co Q 10",
+                "E-Vit Capsule",
+                "Vitane Vit E",
+                "Ronzavit Vit E",
+                "C-Ronz Eff",
+                "C-Ronz Rosa Capsule"
+              ]
+            },
+            {
+              "block_heading": "Benefits",
+              "block_type": "list",
+              "data": [
+                "Protects against free radical damage",
+                "Unifies skin tone",
+                "Supports anti-aging"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Resveratrol",
+          "associated_brands": ["JP Veratol Capsules"],
+          "keywords": ["resveratrol", "anti-aging supplement", "collagen synthesis"],
+          "blocks": [
+            {
+              "block_heading": "Products",
+              "block_type": "list",
+              "data": ["JP Veratol Capsules"]
+            },
+            {
+              "block_heading": "Benefits",
+              "block_type": "list",
+              "data": [
+                "Neutralizes free radicals",
+                "Slows aging",
+                "Improves skin healing and elasticity",
+                "Induces collagen synthesis"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Glutathione",
+          "associated_brands": ["Ronzavit Glutathione", "Gluta 500"],
+          "keywords": ["glutathione", "skin detox", "collagen booster"],
+          "blocks": [
+            {
+              "block_heading": "Products",
+              "block_type": "list",
+              "data": ["Ronzavit Glutathione", "Gluta 500"]
+            },
+            {
+              "block_heading": "Benefits",
+              "block_type": "list",
+              "data": [
+                "Eliminates toxins",
+                "Stimulates collagen production",
+                "Enhances skin clarity",
+                "Reduces dark spots"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Collagen",
+          "associated_brands": ["Marvelous S Collagen", "Ron-S Collagen"],
+          "keywords": ["collagen supplement", "skin elasticity", "anti-wrinkle"],
+          "blocks": [
+            {
+              "block_heading": "Products",
+              "block_type": "list",
+              "data": ["Marvelous S Collagen", "Ron-S Collagen"]
+            },
+            {
+              "block_heading": "Benefits",
+              "block_type": "list",
+              "data": [
+                "Improves skin elasticity",
+                "Reduces fine lines and wrinkles",
+                "Enhances youthful appearance"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,956 @@
+{
+  "id": "cgp-respiratory-health",
+  "title": "CGP Respiratory Health Guide",
+  "type": "respiratory-health-guide",
+  "release": "Release #1",
+  "committee": "Respiratory Release Team",
+  "sections": [
+    {
+      "section_title": "Common Cold",
+      "items": [
+        {
+          "item_title": "Common Cold",
+          "keywords": ["Common Cold", "supportive care", "decongestants", "vitamin C", "zinc", "Echinacea", "pelargonium", "acetaminophen", "NSAIDs"],
+          "blocks": [
+            {
+              "block_heading": "Definition",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Description",
+                  "children": ["Common cold is an acute, generally viral infection of the upper respiratory tract, also known as acute nasopharyngitis, rhinosinusitis, or rhinopharyngitis."]
+                },
+                {
+                  "parent": "Symptoms",
+                  "children": ["Headache", "Sore throat", "Nasal congestion", "Runny nose", "Sneezing", "Cough"]
+                },
+                {
+                  "parent": "Causes",
+                  "children": ["Rhinoviruses (majority)", "Adenoviruses", "Coronaviruses", "Other viruses"]
+                },
+                {
+                  "parent": "Seasonal Peaks",
+                  "children": ["Rhinoviruses: Summer or fall", "Coronaviruses and influenza: Winter"]
+                }
+              ]
+            },
+            {
+              "block_heading": "Red Flags",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Description",
+                  "children": ["Signals indicating a more significant problem requiring medical attention."]
+                },
+                {
+                  "parent": "Signals",
+                  "children": [
+                    "Fever after initial days (double-worsening)",
+                    "Altered mental status (e.g., loss of appetite, decreased consciousness)",
+                    "Sore throat for more than 5 days",
+                    "Headache or stiff neck (possible meningitis)",
+                    "Sinus pain lasting more than 10-14 days after URI symptoms (possible bacterial sinus infection)"
+                  ]
+                }
+              ]
+            },
+            {
+              "block_heading": "Risk Factors",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Description",
+                  "children": ["Factors increasing susceptibility to the common cold."]
+                },
+                {
+                  "parent": "Factors",
+                  "children": [
+                    "Exposure to someone with a cold",
+                    "Smoking",
+                    "Psychosocial stress",
+                    "Insufficient sleep (<6 hours nightly)",
+                    "International airline travel (20-30% report URI within 72 hours)"
+                  ]
+                }
+              ]
+            },
+            {
+              "block_heading": "Management",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Description",
+                  "children": ["Supportive care and symptomatic relief for the common cold."]
+                },
+                {
+                  "parent": "Pharmacologic",
+                  "children": [
+                    "Antipyretics (e.g., NSAIDs, acetaminophen)",
+                    "Nasal saline irrigation",
+                    "Nasal or oral decongestants",
+                    "Herbal medications (e.g., pelargonium)"
+                  ]
+                },
+                {
+                  "parent": "Non-Pharmacologic",
+                  "children": [
+                    "Rest and hydration",
+                    "Vitamin C and Echinacea for immunity",
+                    "Oral zinc acetate or lozenges to shorten symptom duration",
+                    "Stress reduction",
+                    "Adequate sleep"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Influenza",
+      "items": [
+        {
+          "item_title": "Influenza",
+          "keywords": ["influenza prevention", "vaccination", "INFLUAC TETRA"],
+          "blocks": [
+            {
+              "block_heading": "Definition",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Description",
+                  "children": ["Influenza is a viral infection caused by single-stranded, segmented RNA viruses, primarily types A and B, leading to seasonal epidemics."]
+                },
+                {
+                  "parent": "Virus Types",
+                  "children": ["Influenza A (H3N2, H1N1)", "Influenza B", "Influenza C (mild, non-epidemic)"]
+                },
+                {
+                  "parent": "Symptoms",
+                  "children": [
+                    "Fever",
+                    "Tiredness",
+                    "Muscle aches",
+                    "Runny nose",
+                    "Sore throat",
+                    "Vomiting",
+                    "Diarrhea",
+                    "Watery red eyes",
+                    "Dry cough",
+                    "Chills",
+                    "Headache"
+                  ]
+                },
+                {
+                  "parent": "Transmission",
+                  "children": ["Respiratory droplet"]
+                },
+                {
+                  "parent": "Incubation Period",
+                  "children": ["1-4 days"]
+                }
+              ]
+            },
+            {
+              "block_heading": "Risk Factors",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Description",
+                  "children": ["Groups at higher risk for complicated or severe influenza."]
+                },
+                {
+                  "parent": "Groups",
+                  "children": [
+                    "Persons >50 years old",
+                    "Chronic pulmonary conditions (e.g., asthma)",
+                    "Cardiovascular disorders",
+                    "Metabolic disorders (e.g., diabetes mellitus)",
+                    "Immunosuppression (e.g., HIV)",
+                    "Pregnant women during influenza season",
+                    "Obesity (BMI >40 kg/m²)"
+                  ]
+                }
+              ]
+            },
+            {
+              "block_heading": "Complications",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Description",
+                  "children": ["Major complications associated with influenza."]
+                },
+                {
+                  "parent": "Complications",
+                  "children": ["Primary influenza pneumonia", "Secondary bacterial pneumonia"]
+                }
+              ]
+            },
+            {
+              "block_heading": "Management",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Supportive Care",
+                  "children": ["Rest, hydration, and OTC medications for symptom relief"]
+                },
+                {
+                  "parent": "Oseltamivir",
+                  "children": ["Dosage: 75 mg orally twice daily for 5 days", "Use: High-risk patients"]
+                },
+                {
+                  "parent": "Zanamivir",
+                  "children": ["Dosage: 10 mg (2 inhalations of 5 mg) twice daily for 5 days", "Use: High-risk patients"]
+                },
+                {
+                  "parent": "Note",
+                  "children": ["Adamantanes (Amantadine, Rimantadine) are not used due to resistance."]
+                }
+              ]
+            },
+            {
+              "block_heading": "Prevention",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Description",
+                  "children": ["Strategies to prevent influenza."]
+                },
+                {
+                  "parent": "Methods",
+                  "children": [
+                    "Annual immunization for individuals ≥6 months without contraindications",
+                    "Antiviral Prophylaxis: Oseltamivir or Zanamivir (same as therapy but once daily)"
+                  ]
+                },
+                {
+                  "parent": "Products",
+                  "children": ["INFLUAC TETRA: Influenza vaccine for prevention"]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Sinusitis",
+      "items": [
+        {
+          "item_title": "Sinusitis",
+          "keywords": ["sinusitis management", "nasal decongestant", "intranasal corticosteroids", "vitamin C", "zinc", "Echinacea", "propolis"],
+          "blocks": [
+            {
+              "block_heading": "Definition",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Description",
+                  "children": ["Acute rhinosinusitis or sinusitis refers to inflammation of the paranasal sinuses lasting 4 weeks or less."]
+                },
+                {
+                  "parent": "Bacterial Causes",
+                  "children": ["Most commonly Streptococcus pneumoniae (>50%)"]
+                },
+                {
+                  "parent": "Viral Causes",
+                  "children": ["Associated with upper respiratory infections"]
+                },
+                {
+                  "parent": "Fungal Causes",
+                  "children": ["Rare, life-threatening with high mortality"]
+                },
+                {
+                  "parent": "Duration",
+                  "children": ["Acute: ≤4 weeks", "Subacute: 4-12 weeks", "Chronic: ≥12 weeks", "Recurrent: ≥4 episodes/year"]
+                }
+              ]
+            },
+            {
+              "block_heading": "Risk Factors",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Description",
+                  "children": ["Factors contributing to sinusitis."]
+                },
+                {
+                  "parent": "Factors",
+                  "children": ["Smoking", "Allergic rhinitis", "Anatomic abnormalities impairing drainage"]
+                }
+              ]
+            },
+            {
+              "block_heading": "Symptoms (PODS)",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Description",
+                  "children": ["Key symptoms of sinusitis."]
+                },
+                {
+                  "parent": "Symptoms",
+                  "children": [
+                    "Facial pain, pressure, or fullness",
+                    "Nasal obstruction",
+                    "Nasal purulence or discolored discharge (frontal or postnasal)",
+                    "Smell disorders"
+                  ]
+                }
+              ]
+            },
+            {
+              "block_heading": "Management",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Description",
+                  "children": ["Treatment options for sinusitis."]
+                },
+                {
+                  "parent": "Pharmacologic",
+                  "children": [
+                    "Topical decongestants (3-5 days to prevent rebound congestion)",
+                    "Intranasal corticosteroids",
+                    "Intranasal saline irrigation",
+                    "Antihistamines (if allergic component present)"
+                  ]
+                },
+                {
+                  "parent": "Non-Pharmacologic",
+                  "children": ["Smoking cessation", "Decongestants or nasal steroids for acute rhinosinusitis"]
+                },
+                {
+                  "parent": "Prevention",
+                  "children": [
+                    "Hand washing",
+                    "Influenza and pneumococcal vaccinations",
+                    "Avoiding smoke",
+                    "Reduction of environmental allergens",
+                    "Masks",
+                    "Immune-boosting supplements (e.g., Vitamin C, Zinc, Echinacea, Propolis)"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Snoring & Sleep Apnea",
+      "items": [
+        {
+          "item_title": "Snoring & Sleep Apnea",
+          "keywords": ["sleep apnea treatment", "Asonor Spray", "weight loss", "Philips Cpap Dorma 200", "Germany Hospital Equipments Cpap Ea", "Philips Dreamstation Cpap Auto A-Flex", "Hoffrichter Point 2 Auto-Cpap 5Cpi10", "Philips Respironics Cpap Auto", "Philips System One Epap Pro", "Philips System One Epap Auto", "St-20 Hospital Equipments Bipap"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Management options for snoring and sleep apnea."
+            },
+            {
+              "block_heading": "Asonor Spray",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Description",
+                  "children": ["Lubricates and softens throat mucous membranes, tightens musculature to ease breathing."]
+                },
+                {
+                  "parent": "Instructions",
+                  "children": ["4-6 puffs in each nostril nightly for 2-4 weeks until solution is felt in throat."]
+                }
+              ]
+            },
+            {
+              "block_heading": "Non-Pharmacologic",
+              "block_type": "list",
+              "data": ["Weight loss", "Smoking cessation", "Sleeping in lateral position"]
+            },
+            {
+              "block_heading": "Referral Criteria",
+              "block_type": "list",
+              "data": [
+                "No improvement with non-pharmacological or OTC treatments",
+                "Symptoms of sleep apnea: excessive daytime sleepiness, observed stopped breathing, gasping/choking at night, dry mouth/sore throat in morning, morning headaches, trouble focusing, mood changes, high blood pressure"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Asthma",
+      "items": [
+        {
+          "item_title": "Asthma",
+          "keywords": ["asthma triggers", "salbutamol", "exercise", "asthma management", "ipratropium", "Seretide Diskus", "Spiriva HandiHaler", "Spiriva Respimat", "Atrovent HFA", "tiotropium", "ipratropium bromide"],
+          "blocks": [
+            {
+              "block_heading": "Management",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Description",
+                  "children": ["Management of asthma exacerbations."]
+                },
+                {
+                  "parent": "SABA (Short-acting β2-agonists)",
+                  "children": ["Example: Salbutamol", "Use: Quick relief for asthma attacks"]
+                },
+                {
+                  "parent": "Systematic Corticosteroid",
+                  "children": ["Use: Short-term for acute exacerbations and severe asthma"]
+                },
+                {
+                  "parent": "SAMA (Short-acting muscarinic antagonist)",
+                  "children": ["Example: Ipratropium", "Use: Quick relief for asthma attacks"]
+                },
+                {
+                  "parent": "Seretide Diskus",
+                  "children": ["Description: Maintenance therapy for asthma", "Instructions: Rinse mouth after use to prevent candida infection"]
+                },
+                {
+                  "parent": "Spiriva",
+                  "children": ["Description: Long-acting muscarinic antagonist for maintenance therapy in asthma", "Instructions: Use once daily via HandiHaler or Respimat"]
+                },
+                {
+                  "parent": "Non-Pharmacologic",
+                  "children": [
+                    "Stop trigger medications (e.g., NSAIDs)",
+                    "Refer to physician for therapy evaluation",
+                    "Ensure proper inhaler technique"
+                  ]
+                }
+              ]
+            },
+            {
+              "block_heading": "Non-Pharmacologic Advice",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Description",
+                  "children": ["Lifestyle and environmental adjustments to manage asthma."]
+                },
+                {
+                  "parent": "Trigger Avoidance",
+                  "children": [
+                    "Respiratory infections",
+                    "Indoor/outdoor allergens",
+                    "Medications (e.g., beta-blockers, aspirin, NSAIDs)",
+                    "Irritants (e.g., smoke, perfumes)"
+                  ]
+                },
+                {
+                  "parent": "Physical Activity",
+                  "children": [
+                    "Use salbutamol inhaler 5 minutes before exercise",
+                    "Start exercise gradually",
+                    "Warm up",
+                    "Avoid outdoor exercise in extreme cold, cover mouth/nose with scarf"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Bronchitis",
+      "items": [
+        {
+          "item_title": "Bronchitis",
+          "keywords": ["bronchitis management", "Ivyzac", "Ventolin", "povidone iodine", "paracetamol", "ibuprofen"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Often viral, involves inflammation of the bronchial tubes, typically presenting with productive cough."
+            },
+            {
+              "block_heading": "Note",
+              "block_type": "text",
+              "data": "Must exclude pneumonia symptoms requiring referral."
+            },
+            {
+              "block_heading": "Pneumonia Symptoms",
+              "block_type": "list",
+              "data": ["Rapid, shallow breathing", "Confusion", "Muscle aches", "Nausea/vomiting", "Loss of appetite"]
+            },
+            {
+              "block_heading": "Pharmacologic",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Expectorant Cough Syrup",
+                  "children": ["Example: Ivyzac (ivy leaves dried extracts)", "Use: Soften mucus and ease elimination"]
+                },
+                {
+                  "parent": "Antipyretics & Painkillers",
+                  "children": ["Examples: Paracetamol, Ibuprofen", "Use: Relieve fever and pain"]
+                },
+                {
+                  "parent": "Bronchodilator Inhalation",
+                  "children": ["Example: Ventolin (via nebulizer)", "Use: Relieve breathing difficulty"]
+                },
+                {
+                  "parent": "Antiseptic Mouthwash/Gargle",
+                  "children": ["Example: Avalon Povidone Iodine", "Use: Reduce throat irritation"]
+                }
+              ]
+            },
+            {
+              "block_heading": "Supportive Care",
+              "block_type": "list",
+              "data": ["Use of humidifier", "Immune-boosting supplements"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Cough",
+      "items": [
+        {
+          "item_title": "Cough",
+          "keywords": ["productive cough", "Kafosed", "bromhexine", "guaifenesin", "ivy leaves"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Treatment for productive cough, particularly post-bronchitis."
+            },
+            {
+              "block_heading": "Note",
+              "block_type": "text",
+              "data": "Dextromethorphan (Kafosed) is unsuitable for productive cough as it treats dry cough."
+            },
+            {
+              "block_heading": "Pharmacologic",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Expectorants & Mucolytics",
+                  "children": ["Examples: Bromhexine, Guaifenesin, Ivy leaves", "Use: Break down and soften mucus for elimination"]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Patient Education Using Inhalers",
+      "items": [
+        {
+          "item_title": "Patient Education Using Inhalers",
+          "keywords": ["inhalers", "Turbuhaler", "Diskus", "HandiHaler", "Evohaler", "Easyhaler"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Common inhalers for respiratory conditions."
+            },
+            {
+              "block_heading": "Types",
+              "block_type": "list",
+              "data": ["Turbuhaler", "Diskus", "HandiHaler", "Evohaler", "Easyhaler"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Respiratory Medical Devices",
+      "items": [
+        {
+          "item_title": "Nebulizer",
+          "keywords": ["Omron U100", "Beurer IH50", "Omron CompAIR C28P", "Omron Duobaby", "Beurer IH40", "Beurer IH25/1", "mesh nebulizer", "compressor nebulizer", "ultrasonic nebulizer"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Turns liquid medicine into a fine mist for inhalation via a face mask or mouthpiece, useful for respiratory tract infections."
+            },
+            {
+              "block_heading": "Session Duration",
+              "block_type": "text",
+              "data": "10-15 minutes"
+            },
+            {
+              "block_heading": "Omron U100",
+              "block_type": "text",
+              "data": "Mesh nebulizer with 360° operation, particle size 4.5 µm, >0.25 ml/min."
+            },
+            {
+              "block_heading": "Beurer IH50",
+              "block_type": "text",
+              "data": "Mesh nebulizer, flexible 45° rotation, particle size 6 µm, >0.25 ml/min."
+            },
+            {
+              "block_heading": "Omron CompAIR C28P",
+              "block_type": "text",
+              "data": "Compressor nebulizer with adaptive valve, particle size 3.5 µm, 0.5 ml/min."
+            },
+            {
+              "block_heading": "Omron Duobaby",
+              "block_type": "text",
+              "data": "Compressor nebulizer with nasal aspirator, green (9 µm, 0.4 ml/min) for upper airway, blue (4 µm, 0.2 ml/min) for lower airway."
+            },
+            {
+              "block_heading": "Beurer IH40",
+              "block_type": "text",
+              "data": "Ultrasonic compressor nebulizer, silent, particle size ~5 µm, >0.4 ml/min."
+            },
+            {
+              "block_heading": "Beurer IH25/1",
+              "block_type": "text",
+              "data": "Compressor nebulizer, short inhalation time, particle size 3 µm, 0.3 ml/min."
+            }
+          ]
+        },
+        {
+          "item_title": "Medical Oximeter",
+          "keywords": ["oximeter", "oxygen saturation", "COPD", "COVID-19", "asthma"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Measures arterial oxygen saturation (SpO2) and heart rate, useful for conditions affecting blood oxygen levels."
+            },
+            {
+              "block_heading": "Conditions",
+              "block_type": "list",
+              "data": ["Pulmonary diseases (e.g., asthma, COPD, pneumonia, COVID-19)", "Heart diseases (e.g., heart attacks, heart failure)", "Anemia"]
+            }
+          ]
+        },
+        {
+          "item_title": "Spacer",
+          "keywords": ["spacer", "metered dose inhaler"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Clear plastic cylinder for metered dose inhalers, reduces medication deposition in mouth/throat, minimizing side effects like sore throat, hoarse voice, and oral thrush."
+            }
+          ]
+        },
+        {
+          "item_title": "Devices for Sleep Apnea",
+          "keywords": ["Philips Cpap Dorma 200", "Germany Hospital Equipments Cpap Ea", "Philips Dreamstation Cpap Auto A-Flex", "Hoffrichter Point 2 Auto-Cpap 5Cpi10", "Philips Respironics Cpap Auto", "Philips System One Epap Pro", "Philips System One Epap Auto", "St-20 Hospital Equipments Bipap", "CPAP", "EPAP", "BiPAP"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Devices for managing sleep apnea, often covered by insurance."
+            },
+            {
+              "block_heading": "Philips Cpap Dorma 200",
+              "block_type": "text",
+              "data": "CPAP device, 1 kit. Price: 3,250.00 SAR"
+            },
+            {
+              "block_heading": "Germany Hospital Equipments Cpap Ea",
+              "block_type": "text",
+              "data": "CPAP device, 1 device. Price: 3,900.00 SAR"
+            },
+            {
+              "block_heading": "Philips Dreamstation Cpap Auto A-Flex",
+              "block_type": "text",
+              "data": "Travel-designed CPAP device, 1 device. Price: 7,280.00 SAR"
+            },
+            {
+              "block_heading": "Hoffrichter Point 2 Auto-Cpap 5Cpi10",
+              "block_type": "text",
+              "data": "Auto-CPAP device, 1 device. Price: 6,949.00 SAR"
+            },
+            {
+              "block_heading": "Philips Respironics Cpap Auto",
+              "block_type": "text",
+              "data": "CPAP device, 1 device. Price: 6,370.00 SAR"
+            },
+            {
+              "block_heading": "Philips System One Epap Pro",
+              "block_type": "text",
+              "data": "EPAP device, 1 device. Price: 6,900.00 SAR or 9,100.00 SAR"
+            },
+            {
+              "block_heading": "Philips System One Epap Auto",
+              "block_type": "text",
+              "data": "EPAP device, 1 device. Price: 11,180.00 SAR"
+            },
+            {
+              "block_heading": "St-20 Hospital Equipments Bipap",
+              "block_type": "text",
+              "data": "BiPAP device, 1 device. Price: 11,500.00 SAR"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Case Studies",
+      "items": [
+        {
+          "item_title": "Case 1 - Viral Tonsillitis",
+          "keywords": ["viral tonsillitis", "ibuprofen", "paracetamol", "vitamin C", "zinc", "Manuka Honey", "Echinacea", "Sambune"],
+          "blocks": [
+            {
+              "block_heading": "Patient Presentation",
+              "block_type": "text",
+              "data": "6-year-old child with fever (37.8°C), painful swallowing, sore throat, and runny nose, likely viral tonsillitis."
+            },
+            {
+              "block_heading": "Assessment Questions",
+              "block_type": "list",
+              "data": [
+                "Severe difficulty swallowing or white pus-filled patches on tonsils? (Exclude bacterial tonsillitis)",
+                "Recurrent symptoms or severe tonsillar hypertrophy causing sleep apnea? (Refer for tonsillectomy)"
+              ]
+            },
+            {
+              "block_heading": "Supportive Treatment",
+              "block_type": "list",
+              "data": ["OTC painkillers (ibuprofen, paracetamol)", "Rest and fluids", "Warm saltwater gargles", "OTC throat lozenges and sprays"]
+            },
+            {
+              "block_heading": "Supplements",
+              "block_type": "list",
+              "data": ["Vitamin C", "Zinc", "Manuka Honey", "Echinacea", "Elderberry (Sambune)"]
+            }
+          ]
+        },
+        {
+          "item_title": "Case 2 - Common Cold",
+          "keywords": ["common cold", "decongestants", "vitamin C", "Echinacea", "zinc", "pelargonium", "acetaminophen", "NSAIDs"],
+          "blocks": [
+            {
+              "block_heading": "Patient Presentation",
+              "block_type": "text",
+              "data": "55-year-old male with runny nose, nasal congestion, sore throat, and headache post-flight, likely common cold."
+            },
+            {
+              "block_heading": "Assessment Questions",
+              "block_type": "list",
+              "data": ["Neck stiffness, fever after initial days, or altered mental status? (Refer for significant issues)"]
+            },
+            {
+              "block_heading": "Pharmacologic Management",
+              "block_type": "list",
+              "data": ["Antipyretics (NSAIDs, acetaminophen)", "Nasal saline irrigation", "Nasal/oral decongestants", "Herbal medications (pelargonium)"]
+            },
+            {
+              "block_heading": "Non-Pharmacologic Management",
+              "block_type": "list",
+              "data": ["Rest and hydration", "Vitamin C and Echinacea", "Oral zinc acetate or lozenges", "Stress reduction", "Adequate sleep"]
+            }
+          ]
+        },
+        {
+          "item_title": "Case 3 - Influenza",
+          "keywords": ["influenza", "oseltamivir", "zanamivir", "INFLUAC TETRA"],
+          "blocks": [
+            {
+              "block_heading": "Patient Presentation",
+              "block_type": "text",
+              "data": "35-year-old with fever, chills, tiredness, headache, runny nose, watery eyes, dry cough, and muscle ache, likely influenza."
+            },
+            {
+              "block_heading": "Assessment Questions",
+              "block_type": "list",
+              "data": ["Asthma, obesity, cardiovascular, or metabolic disorders? (Refer high-risk patients)"]
+            },
+            {
+              "block_heading": "Oseltamivir",
+              "block_type": "text",
+              "data": "Dosage: 75 mg BID for 5 days"
+            },
+            {
+              "block_heading": "Zanamivir",
+              "block_type": "text",
+              "data": "Dosage: 10 mg inhalation BID for 5 days"
+            },
+            {
+              "block_heading": "Supportive Care",
+              "block_type": "text",
+              "data": "Rest, hydration, OTC medications, immune supplements"
+            },
+            {
+              "block_heading": "Prevention",
+              "block_type": "text",
+              "data": "INFLUAC TETRA: Influenza vaccine"
+            }
+          ]
+        },
+        {
+          "item_title": "Case 4 - Sinusitis",
+          "keywords": ["sinusitis", "intranasal corticosteroids", "vitamin C", "zinc", "Echinacea", "propolis"],
+          "blocks": [
+            {
+              "block_heading": "Patient Presentation",
+              "block_type": "text",
+              "data": "40-year-old smoker with facial pain, pressure behind eyes, headache, nasal obstruction, and discharge, likely sinusitis."
+            },
+            {
+              "block_heading": "Assessment Questions",
+              "block_type": "list",
+              "data": ["Fever, symptom onset, or worsening? (Exclude bacterial sinusitis)"]
+            },
+            {
+              "block_heading": "Pharmacologic Management",
+              "block_type": "list",
+              "data": ["Intranasal corticosteroids", "Intranasal saline irrigation", "Nasal decongestant (3-5 days)", "Refer for antibiotics if bacterial"]
+            },
+            {
+              "block_heading": "Prevention",
+              "block_type": "list",
+              "data": ["Hand washing", "Influenza and pneumococcal vaccinations", "Avoiding smoke", "Reducing allergens", "Masks", "Supplements (Vitamin C, Zinc, Echinacea, Propolis)"]
+            }
+          ]
+        },
+        {
+          "item_title": "Case 5 - Asthma Exacerbation",
+          "keywords": ["asthma exacerbation", "salbutamol", "ipratropium", "Seretide Diskus", "Rapidus", "Spiriva HandiHaler", "Spiriva Respimat", "Atrovent HFA", "tiotropium", "ipratropium bromide"],
+          "blocks": [
+            {
+              "block_heading": "Patient Presentation",
+              "block_type": "text",
+              "data": "55-year-old asthmatic female with breathlessness, cough, and chest tightness after taking Rapidus 50 mg, likely asthma exacerbation."
+            },
+            {
+              "block_heading": "Pharmacologic Management",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "SABA",
+                  "children": ["Example: Salbutamol"]
+                },
+                {
+                  "parent": "Systematic Corticosteroid",
+                  "children": ["Use: Short-term for exacerbations"]
+                },
+                {
+                  "parent": "SAMA",
+                  "children": ["Example: Ipratropium"]
+                },
+                {
+                  "parent": "Seretide Diskus",
+                  "children": ["Instructions: Rinse mouth after use"]
+                },
+                {
+                  "parent": "Spiriva",
+                  "children": ["Description: Long-acting muscarinic antagonist for maintenance"]
+                }
+              ]
+            },
+            {
+              "block_heading": "Non-Pharmacologic Management",
+              "block_type": "list",
+              "data": ["Stop NSAIDs (Rapidus)", "Refer to physician", "Ensure proper inhaler technique"]
+            }
+          ]
+        },
+        {
+          "item_title": "Case 6 - Bronchitis",
+          "keywords": ["bronchitis", "Ivyzac", "Ventolin", "povidone iodine", "paracetamol", "ibuprofen"],
+          "blocks": [
+            {
+              "block_heading": "Patient Presentation",
+              "block_type": "text",
+              "data": "35-year-old with productive cough for 2 weeks, fever, chills, breathing difficulty, and chest tightness, likely viral bronchitis."
+            },
+            {
+              "block_heading": "Differential Diagnosis",
+              "block_type": "list",
+              "data": ["Rapid, shallow breathing", "Confusion", "Muscle aches", "Nausea/vomiting", "Loss of appetite (refer for pneumonia)"]
+            },
+            {
+              "block_heading": "Pharmacologic Management",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Ivyzac",
+                  "children": ["Description: Expectorant cough syrup (ivy leaves)"]
+                },
+                {
+                  "parent": "Paracetamol/Ibuprofen",
+                  "children": ["Use: Antipyretic and pain relief"]
+                },
+                {
+                  "parent": "Ventolin",
+                  "children": ["Use: Bronchodilator via nebulizer"]
+                },
+                {
+                  "parent": "Avalon Povidone Iodine",
+                  "children": ["Use: Antiseptic mouthwash/gargle"]
+                }
+              ]
+            },
+            {
+              "block_heading": "Supportive Care",
+              "block_type": "list",
+              "data": ["Humidifier use", "Immune-boosting supplements"]
+            }
+          ]
+        },
+        {
+          "item_title": "Case 7 - Obstructive Sleep Apnea",
+          "keywords": ["obstructive sleep apnea", "Asonor Spray", "Philips Cpap Dorma 200", "Germany Hospital Equipments Cpap Ea", "Philips Dreamstation Cpap Auto A-Flex", "Hoffrichter Point 2 Auto-Cpap 5Cpi10", "Philips Respironics Cpap Auto", "Philips System One Epap Pro", "Philips System One Epap Auto", "St-20 Hospital Equipments Bipap"],
+          "blocks": [
+            {
+              "block_heading": "Patient Presentation",
+              "block_type": "text",
+              "data": "40-year-old obese smoker with snoring, excessive daytime sleepiness, stopped breathing episodes, morning headaches, and hypertension, likely obstructive sleep apnea."
+            },
+            {
+              "block_heading": "Referral",
+              "block_type": "text",
+              "data": "Refer to physician for sleep apnea evaluation"
+            },
+            {
+              "block_heading": "Non-Pharmacologic Management",
+              "block_type": "list",
+              "data": ["Weight loss", "Smoking cessation", "Sleeping in lateral position"]
+            },
+            {
+              "block_heading": "Pharmacologic Management",
+              "block_type": "text",
+              "data": "Asonor Spray: 4-6 puffs in each nostril nightly for 2-4 weeks"
+            }
+          ]
+        },
+        {
+          "item_title": "Case 8 - Productive Cough Post-Bronchitis",
+          "keywords": ["productive cough", "Kafosed", "bromhexine", "guaifenesin", "ivy leaves"],
+          "blocks": [
+            {
+              "block_heading": "Patient Presentation",
+              "block_type": "text",
+              "data": "30-year-old with productive cough and thick phlegm post-bronchitis, requesting Kafosed syrup."
+            },
+            {
+              "block_heading": "Note",
+              "block_type": "text",
+              "data": "Kafosed (Dextromethorphan) unsuitable for productive cough."
+            },
+            {
+              "block_heading": "Pharmacologic Management",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Expectorants & Mucolytics",
+                  "children": ["Examples: Bromhexine, Guaifenesin, Ivy leaves"]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

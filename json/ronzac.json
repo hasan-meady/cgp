@@ -1,0 +1,1493 @@
+{
+  "id": "ronzac_extracted_products",
+  "title": "RÖNZAC Final Combined Products Catalog",
+  "type": "product-catalog",
+  "release": "Final Combined Release",
+  "sections": [
+    {
+      "section_title": "Sexual Health",
+      "items": [
+        {
+          "item_title": "Maca Plus Capsules",
+          "keywords": ["maca plus capsules", "maca root extract", "pumpkin seed extract", "pomegranate fruit extract", "libido", "sexual health"],
+          "blocks": [
+            {
+              "block_heading": "Active Ingredients",
+              "block_type": "list",
+              "data": ["Maca Root Extract: 400 mg", "Pumpkin Seed Extract: 150 mg", "Pomegranate Fruit Extract: 150 mg"]
+            },
+            {
+              "block_heading": "Indication",
+              "block_type": "list",
+              "data": ["The natural solution to increase libido", "Enhances sexual desire and libido in men with safe and natural ingredients"]
+            },
+            {
+              "block_heading": "Recommended Dose",
+              "block_type": "text",
+              "data": "2 capsules daily during main meal"
+            },
+            {
+              "block_heading": "Pack Size",
+              "block_type": "text",
+              "data": "30 capsules"
+            },
+            {
+              "block_heading": "Price",
+              "block_type": "text",
+              "data": "125 SAR"
+            }
+          ]
+        },
+        {
+          "item_title": "Ginkowell",
+          "keywords": ["ginkowell", "royal jelly", "ginkgo biloba", "turine", "phosphatidylcholine", "sexual health", "men's health"],
+          "blocks": [
+            {
+              "block_heading": "Active Ingredients",
+              "block_type": "list",
+              "data": ["Royal jelly (Lyophilized): 200 mg", "Ginkgo biloba powder concentrate: 100 mg", "Turine: 100 mg", "Phosphatidylcholine: 50 mg"]
+            },
+            {
+              "block_heading": "Indication",
+              "block_type": "list",
+              "data": ["Acts as a sexual tonic for men", "Helps increase sexual desire and performance"]
+            },
+            {
+              "block_heading": "Recommended Dose",
+              "block_type": "text",
+              "data": "Take 1-3 capsules a day before meals or as prescribed by the physician"
+            },
+            {
+              "block_heading": "Pack Size",
+              "block_type": "text",
+              "data": "60 capsules"
+            },
+            {
+              "block_heading": "Price",
+              "block_type": "text",
+              "data": "149 SAR"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Kidney Health",
+      "items": [
+        {
+          "item_title": "Nephrozac",
+          "keywords": ["nephrozac", "rosemary oil", "fennel oil", "kidney health", "calcium oxalate stones"],
+          "blocks": [
+            {
+              "block_heading": "Active Ingredients",
+              "block_type": "list",
+              "data": ["Rosemary oil: 10 mg", "Fennel oil: 10 mg"]
+            },
+            {
+              "block_heading": "Indication",
+              "block_type": "list",
+              "data": [
+                "Protects against chronic aggregation of renal tissue",
+                "Inhibition of renal calcium oxalate stone formation",
+                "Any male or female over 18 who suffer from chronic calcium oxalate stones"
+              ]
+            },
+            {
+              "block_heading": "Unique Selling Points",
+              "block_type": "list",
+              "data": ["High quality made in Spain", "Natural with excellent safety profile", "Made from organic ingredients"]
+            },
+            {
+              "block_heading": "Competitive Advantages",
+              "block_type": "list",
+              "data": ["Natural product with luxury design", "Different pack size for customers' needs", "High quality with affordable price"]
+            },
+            {
+              "block_heading": "Pricing",
+              "block_type": "list",
+              "data": ["3 capsules daily: 35 SAR", "30 capsules: 95 SAR", "100 capsules: 316 SAR"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Children's Health",
+      "items": [
+        {
+          "item_title": "Genius Syrup",
+          "keywords": ["genius syrup", "colostrum", "purified propolis", "children's health", "immune support"],
+          "blocks": [
+            {
+              "block_heading": "Active Ingredients",
+              "block_type": "list",
+              "data": ["Colostrum: 500 mg", "Purified propolis: 100 mg"]
+            },
+            {
+              "block_heading": "Indication",
+              "block_type": "list",
+              "data": ["Enhances general immunity"]
+            },
+            {
+              "block_heading": "Recommended Dose",
+              "block_type": "list",
+              "data": ["3 to 6 years: 7.5 ml daily", "6 to 12 years: 15 ml daily", "12 to 18 years: 15 ml twice daily"]
+            },
+            {
+              "block_heading": "Pack Size",
+              "block_type": "text",
+              "data": "250 ml"
+            },
+            {
+              "block_heading": "Price",
+              "block_type": "text",
+              "data": "79.01 SAR"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Omega Supplements",
+      "items": [
+        {
+          "item_title": "Omegat Syrup",
+          "keywords": ["omegat syrup", "fish oil", "omega fatty acids", "children's health", "adhd", "stammering"],
+          "blocks": [
+            {
+              "block_heading": "Active Ingredients",
+              "block_type": "list",
+              "data": ["Fish oil: 16 g/100 ml"]
+            },
+            {
+              "block_heading": "Indication",
+              "block_type": "list",
+              "data": [
+                "Providing essential omega fatty acids and triglycerides",
+                "May help with child movement and growth",
+                "May help decrease symptoms of ADHD",
+                "May help increase attention in children",
+                "May help decrease symptoms of stammering"
+              ]
+            },
+            {
+              "block_heading": "Recommended Dose",
+              "block_type": "text",
+              "data": "Take 5 ml daily"
+            },
+            {
+              "block_heading": "Pack Size",
+              "block_type": "text",
+              "data": "200 ml"
+            },
+            {
+              "block_heading": "Price",
+              "block_type": "text",
+              "data": "175 SAR"
+            }
+          ]
+        },
+        {
+          "item_title": "Rönzavit Omega 7 Capsules",
+          "keywords": ["ronzavit omega 7 capsules", "omega 7 sea buckthorn oil", "eye health", "skin health", "blood pressure", "lipid profile"],
+          "blocks": [
+            {
+              "block_heading": "Active Ingredients",
+              "block_type": "list",
+              "data": ["Omega 7 Sea Buckthorn Oil: 1000 mg"]
+            },
+            {
+              "block_heading": "Indication",
+              "block_type": "list",
+              "data": [
+                "Maintains the normal functions of the eye",
+                "Maintains healthy skin",
+                "Helps in normalization of blood pressure",
+                "Improves lipid profile"
+              ]
+            },
+            {
+              "block_heading": "Recommended Dose",
+              "block_type": "text",
+              "data": "1 capsule daily"
+            },
+            {
+              "block_heading": "Pack Size",
+              "block_type": "text",
+              "data": "30 capsules"
+            },
+            {
+              "block_heading": "Price",
+              "block_type": "text",
+              "data": "95 SAR"
+            }
+          ]
+        },
+        {
+          "item_title": "Rönzavit Omega 3 Capsules",
+          "keywords": ["ronzavit omega 3 capsules", "omega 3 fish oil", "eye health", "heart health", "lipid profile", "cognitive functions"],
+          "blocks": [
+            {
+              "block_heading": "Active Ingredients",
+              "block_type": "list",
+              "data": ["Omega 3 Fish Oil: 1000 mg"]
+            },
+            {
+              "block_heading": "Indication",
+              "block_type": "list",
+              "data": [
+                "Maintains the normal functions of the eye",
+                "Maintains the normal functions of the heart",
+                "Improves blood lipid profile",
+                "Enhances cognitive functions",
+                "Improves heart health"
+              ]
+            },
+            {
+              "block_heading": "Recommended Dose",
+              "block_type": "text",
+              "data": "1-2 capsules daily"
+            },
+            {
+              "block_heading": "Pack Sizes and Prices",
+              "block_type": "list",
+              "data": ["60 capsules: 160 SAR", "30 capsules: 95 SAR"]
+            }
+          ]
+        },
+        {
+          "item_title": "Omegat Capsules",
+          "keywords": ["omegat capsules", "omega 3", "epa", "dha", "heart health"],
+          "blocks": [
+            {
+              "block_heading": "Active Ingredients",
+              "block_type": "list",
+              "data": ["Omega-3 1000mg (providing EPA 300mg & DHA 200mg)"]
+            },
+            {
+              "block_heading": "Indication",
+              "block_type": "list",
+              "data": ["Maintains normal eye function", "Maintains normal heart function", "Improves blood lipid profile"]
+            },
+            {
+              "block_heading": "Recommended Dose",
+              "block_type": "text",
+              "data": "1-2 capsules once daily"
+            },
+            {
+              "block_heading": "Pack Sizes and Prices",
+              "block_type": "list",
+              "data": ["30 capsules: 145 SAR", "60 capsules: 210 SAR"]
+            }
+          ]
+        },
+        {
+          "item_title": "Triomegate",
+          "keywords": ["Triomegate", "fish oil", "flaxseed oil", "skin health", "heart health"],
+          "blocks": [
+            {
+              "block_heading": "Active Ingredients",
+              "block_type": "list",
+              "data": ["Fish oils: 600mg", "Flaxseed oil: 400mg"]
+            },
+            {
+              "block_heading": "Indication",
+              "block_type": "list",
+              "data": ["Supports skin & hair health", "Improves intestinal function", "Cardio-protective agent", "Improves physical performance and muscle strength"]
+            },
+            {
+              "block_heading": "Recommended Dose",
+              "block_type": "text",
+              "data": "2 capsules per day"
+            },
+            {
+              "block_heading": "Pack Size",
+              "block_type": "text",
+              "data": "60 capsules"
+            },
+            {
+              "block_heading": "Price",
+              "block_type": "text",
+              "data": "280 SAR"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Hemorrhoid Relief",
+      "items": [
+        {
+          "item_title": "Rohelar Suppositories",
+          "keywords": ["rohelar", "hamamelis leaf extract", "hemorrhoids", "suppositories"],
+          "blocks": [
+            {
+              "block_heading": "Active Ingredients",
+              "block_type": "list",
+              "data": ["Hamamelis leaf extract: 300 mg"]
+            },
+            {
+              "block_heading": "Indication",
+              "block_type": "list",
+              "data": [
+                "Relieves all symptoms associated with hemorrhoids",
+                "Painless bleeding",
+                "Itching or irritation in the anal area",
+                "Discomfort, pain, or soreness in the same area",
+                "Lumps and swelling in the anal region",
+                "Leaking feces"
+              ]
+            },
+            {
+              "block_heading": "Recommended Dose",
+              "block_type": "text",
+              "data": "1 suppository twice daily"
+            },
+            {
+              "block_heading": "Pack Size",
+              "block_type": "text",
+              "data": "10 suppositories"
+            },
+            {
+              "block_heading": "Price",
+              "block_type": "text",
+              "data": "59 SAR"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Collagen Supplements",
+      "items": [
+        {
+          "item_title": "Ron-J Collagen",
+          "keywords": ["ron j collagen", "hydrolyzed bovine collagen", "vitamin c", "vitamin e", "zinc", "copper", "selenium", "vitamin d3", "joint health", "osteoarthritis"],
+          "blocks": [
+            {
+              "block_heading": "Active Ingredients",
+              "block_type": "list",
+              "data": [
+                "Hydrolyzed Bovine Collagen: 10,000 mg",
+                "Vitamin C: 60 mg",
+                "Vitamin E: 10 mg",
+                "Zinc: 5 mg",
+                "Copper: 2 mg",
+                "Selenium: 20 µg",
+                "Vitamin D3: 5 µg"
+              ]
+            },
+            {
+              "block_heading": "Indication",
+              "block_type": "list",
+              "data": ["Improves joint health and provides optimal support for osteoarthritis"]
+            },
+            {
+              "block_heading": "Recommended Dose",
+              "block_type": "text",
+              "data": "One vial orally, per day, before or after breakfast. Shake well before use"
+            },
+            {
+              "block_heading": "Pack Sizes and Prices",
+              "block_type": "list",
+              "data": ["30 vials: 437 SR", "20 vials: 316 SR"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Vitamin Supplements",
+      "items": [
+        {
+          "item_title": "Rönzavit Folic Acid",
+          "keywords": ["ronzavit folic acid", "folic acid", "dietary supplement", "prenatal vitamins"],
+          "blocks": [
+            {
+              "block_heading": "Active Ingredients",
+              "block_type": "list",
+              "data": ["Folic Acid: 400 mcg per capsule"]
+            },
+            {
+              "block_heading": "Indication",
+              "block_type": "list",
+              "data": ["Dietary supplement", "Folic acid supplementation"]
+            },
+            {
+              "block_heading": "Recommended Dose",
+              "block_type": "text",
+              "data": "1 capsule daily"
+            },
+            {
+              "block_heading": "Pack Size",
+              "block_type": "text",
+              "data": "60 capsules"
+            },
+            {
+              "block_heading": "Price",
+              "block_type": "text",
+              "data": "14.95 SAR"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Skin Health",
+      "items": [
+        {
+          "item_title": "Ron-S Collagen",
+          "keywords": ["ron s collagen", "hydrolyzed bovine collagen", "vitamin c", "vitamin e", "zinc", "copper", "pantothenic acid", "beta carotene", "vitamin b6", "biotin", "skin health", "anti-aging"],
+          "blocks": [
+            {
+              "block_heading": "Active Ingredients",
+              "block_type": "list",
+              "data": [
+                "Hydrolyzed Bovine Collagen: 10,000 mg",
+                "Vitamin C: 60 mg",
+                "Vitamin E: 10 mg",
+                "Zinc: 5 mg",
+                "Copper: 2 mg",
+                "Pantothenic acid: 3 mg",
+                "Beta carotene: 1 mg",
+                "Vitamin B6: 1 mg",
+                "Biotin: 150 µg"
+              ]
+            },
+            {
+              "block_heading": "Indication",
+              "block_type": "list",
+              "data": ["Improves skin health", "Replenishes the loss of collagen", "Acts as anti-aging product"]
+            },
+            {
+              "block_heading": "Recommended Dose",
+              "block_type": "text",
+              "data": "One vial orally, per day, before or after breakfast. Shake well before use"
+            },
+            {
+              "block_heading": "Pack Sizes and Prices",
+              "block_type": "list",
+              "data": ["30 vials: 437 SAR", "20 vials: 316 SAR"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Hair Health",
+      "items": [
+        {
+          "item_title": "Rönzavit Cystine Plus B6 Capsules",
+          "keywords": ["ronzavit cystine plus b6", "l-cystine", "zinc", "l-arginine", "vitamin b6", "hair growth", "hair health"],
+          "blocks": [
+            {
+              "block_heading": "Active Ingredients",
+              "block_type": "list",
+              "data": ["L-Cystine: 666.67 mg", "Zinc (as Zinc oxide): 3.95 mg", "L-Arginine: 2.5 mg", "Vitamin B6: 0.67 mg"]
+            },
+            {
+              "block_heading": "Indication",
+              "block_type": "list",
+              "data": ["Support hair growth", "Support hair health"]
+            },
+            {
+              "block_heading": "Target Customers",
+              "block_type": "list",
+              "data": ["Any female suffer from hair loss", "Any female want to enhance her hair health"]
+            },
+            {
+              "block_heading": "Differential Advantages",
+              "block_type": "list",
+              "data": ["Proven efficacy", "Trusted manufacturer (Martinez Spain)", "Excellent quality", "Affordable cost", "Highest cystine concentration in the market"]
+            },
+            {
+              "block_heading": "Recommended Dose",
+              "block_type": "text",
+              "data": "Take one capsule three times daily"
+            },
+            {
+              "block_heading": "Pack Size",
+              "block_type": "text",
+              "data": "120 capsules"
+            },
+            {
+              "block_heading": "Price",
+              "block_type": "text",
+              "data": "115 SAR"
+            }
+          ]
+        },
+        {
+          "item_title": "Capillorin Plus Capsules",
+          "keywords": ["capillorin", "millet", "hyaluronic acid", "hair growth", "hair strength"],
+          "blocks": [
+            {
+              "block_heading": "Active Ingredients",
+              "block_type": "list",
+              "data": ["Millet powder concentrate: 250mg", "Omega 3 powder: 150mg", "Hyaluronic acid: 10mg", "L-Cystine: 2mg"]
+            },
+            {
+              "block_heading": "Indication",
+              "block_type": "list",
+              "data": ["Strengthens hair", "Promotes hair growth"]
+            },
+            {
+              "block_heading": "Recommended Dose",
+              "block_type": "text",
+              "data": "2 capsules with main meal"
+            },
+            {
+              "block_heading": "Pack Sizes and Prices",
+              "block_type": "list",
+              "data": ["30 capsules: 135 SAR", "60 capsules: 200 SAR"]
+            }
+          ]
+        },
+        {
+          "item_title": "Ron-H Collagen Vital",
+          "keywords": ["ron h collagen vital", "hydrolyzed bovine collagen", "vitamin c", "vitamin e", "zinc", "pantothenic acid", "vitamin b6", "copper", "iron", "vitamin b2", "folic acid", "biotin", "vitamin b12", "hair growth", "hair health"],
+          "blocks": [
+            {
+              "block_heading": "Active Ingredients",
+              "block_type": "list",
+              "data": [
+                "Hydrolyzed Bovine Collagen: 10,000 mg",
+                "Vitamin C: 60 mg",
+                "Vitamin E: 10 mg",
+                "Zinc: 5 mg",
+                "Pantothenic Acid: 5 mg",
+                "Vitamin B6: 3 mg",
+                "Copper: 1 mg",
+                "Iron: 2 mg",
+                "Vitamin B2: 1 mg",
+                "Folic Acid: 100 µg",
+                "Biotin: 100 µg",
+                "Vitamin B12: 1 µg"
+              ]
+            },
+            {
+              "block_heading": "Indication",
+              "block_type": "list",
+              "data": ["To improve hair growth and restore its health"]
+            },
+            {
+              "block_heading": "Recommended Dose",
+              "block_type": "text",
+              "data": "Drink 1 vial daily"
+            },
+            {
+              "block_heading": "Pack Sizes and Prices",
+              "block_type": "list",
+              "data": ["30 vials: 437 SAR", "20 vials: 316 SAR"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Sleep Support",
+      "items": [
+        {
+          "item_title": "Pax Night Film Coated Tablets",
+          "keywords": ["pax night", "valerian root extract", "melissa leaf extract", "sleep disorders"],
+          "blocks": [
+            {
+              "block_heading": "Active Ingredients",
+              "block_type": "list",
+              "data": ["Valerian root extract: 320 mg", "Melissa leaf extract: 160 mg"]
+            },
+            {
+              "block_heading": "Indication",
+              "block_type": "list",
+              "data": ["Used in sleep disorders"]
+            },
+            {
+              "block_heading": "Recommended Dose",
+              "block_type": "text",
+              "data": "Take one to two tablets one hour before sleep. Can be taken with plenty of water or can be directed by your healthcare professional"
+            },
+            {
+              "block_heading": "Pack Size",
+              "block_type": "text",
+              "data": "30 film coated tablets"
+            },
+            {
+              "block_heading": "Price",
+              "block_type": "text",
+              "data": "150 SAR"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Sleep and Mood Support",
+      "items": [
+        {
+          "item_title": "Calmtonin",
+          "keywords": ["Calmtonin", "melissa", "melatonin", "sleep aid", "anxiety relief"],
+          "blocks": [
+            {
+              "block_heading": "Active Ingredients",
+              "block_type": "list",
+              "data": ["Melissa: 250mg", "Melatonin: 1mg"]
+            },
+            {
+              "block_heading": "Indication",
+              "block_type": "list",
+              "data": ["Helps in falling asleep", "Anxiolytic", "Improves mood and cognition"]
+            },
+            {
+              "block_heading": "Recommended Dose",
+              "block_type": "text",
+              "data": "1 capsule daily before sleep"
+            },
+            {
+              "block_heading": "Pack Size",
+              "block_type": "text",
+              "data": "60 capsules"
+            },
+            {
+              "block_heading": "Price",
+              "block_type": "text",
+              "data": "148 SAR"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Blood Sugar Control",
+      "items": [
+        {
+          "item_title": "Alzucare Capsules",
+          "keywords": ["alzucare capsules", "cinnamon extract", "diabetes care", "blood glucose"],
+          "blocks": [
+            {
+              "block_heading": "Active Ingredients",
+              "block_type": "list",
+              "data": ["Cinnamon extract: 400 mg (equivalent to 4000 mg of crude cinnamon)"]
+            },
+            {
+              "block_heading": "Indication",
+              "block_type": "list",
+              "data": ["Diabetes care", "Maintains normal blood glucose level"]
+            },
+            {
+              "block_heading": "Recommended Dose",
+              "block_type": "text",
+              "data": "One capsule daily"
+            },
+            {
+              "block_heading": "Pack Size",
+              "block_type": "text",
+              "data": "60 capsules"
+            },
+            {
+              "block_heading": "Price",
+              "block_type": "text",
+              "data": "45 SAR"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Immune Support",
+      "items": [
+        {
+          "item_title": "C-Ronz Effervescent Tablets",
+          "keywords": ["c ronz effervescent tablets", "vitamin c", "immune support", "antioxidant"],
+          "blocks": [
+            {
+              "block_heading": "Active Ingredients",
+              "block_type": "list",
+              "data": ["Vitamin C: 2000 mg"]
+            },
+            {
+              "block_heading": "Indication",
+              "block_type": "list",
+              "data": ["Immune booster"]
+            },
+            {
+              "block_heading": "Target Customers",
+              "block_type": "list",
+              "data": ["For any patient over 18", "For common cold", "For any patient seeking immune support", "For anyone suffering from oxidative stress"]
+            },
+            {
+              "block_heading": "Unique Selling Points",
+              "block_type": "list",
+              "data": ["The highest vitamin C in the market", "Rich in orange taste", "Potent antioxidant", "Proven formulation with Zn"]
+            },
+            {
+              "block_heading": "Competitive Advantages",
+              "block_type": "list",
+              "data": ["New product with highest vitamin C (2000 mg) in the market", "High quality product", "Made in Germany"]
+            },
+            {
+              "block_heading": "Recommended Dose",
+              "block_type": "text",
+              "data": "1 effervescent tablet daily"
+            },
+            {
+              "block_heading": "Pack Size",
+              "block_type": "text",
+              "data": "20 effervescent tablets"
+            },
+            {
+              "block_heading": "Price",
+              "block_type": "text",
+              "data": "25 SAR"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Iron Supplements",
+      "items": [
+        {
+          "item_title": "Rönzavit Iron Capsules",
+          "keywords": ["ronzavit iron capsules", "iron bisglycinate", "vitamin c", "iron deficiency", "pregnancy"],
+          "blocks": [
+            {
+              "block_heading": "Active Ingredients",
+              "block_type": "list",
+              "data": ["Iron Bisglycinate: 225 mg", "Vitamin C: 100 mg"]
+            },
+            {
+              "block_heading": "Indication",
+              "block_type": "list",
+              "data": ["For iron deficiency", "For pregnant women", "Does not cause constipation"]
+            },
+            {
+              "block_heading": "Recommended Dose",
+              "block_type": "text",
+              "data": "1 capsule daily"
+            },
+            {
+              "block_heading": "Pack Size",
+              "block_type": "text",
+              "data": "60 capsules"
+            },
+            {
+              "block_heading": "Price",
+              "block_type": "text",
+              "data": "33 SAR"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Vitamin D Supplements",
+      "items": [
+        {
+          "item_title": "Rönzavit Vitamin D Capsules",
+          "keywords": ["ronzavit vitamin d capsules", "vitamin d", "bone health", "osteoporosis"],
+          "blocks": [
+            {
+              "block_heading": "Active Ingredients",
+              "block_type": "list",
+              "data": ["Vitamin D: 1000 IU"]
+            },
+            {
+              "block_heading": "Indication",
+              "block_type": "list",
+              "data": ["Maintains normal Vitamin D levels", "Helps to keep healthy bones and teeth", "Essential in the protocol of osteoporosis management (considered as a guideline not an indication)"]
+            },
+            {
+              "block_heading": "Recommended Dose",
+              "block_type": "text",
+              "data": "1 capsule daily"
+            },
+            {
+              "block_heading": "Pack Size",
+              "block_type": "text",
+              "data": "120 capsules"
+            },
+            {
+              "block_heading": "Price",
+              "block_type": "text",
+              "data": "66 SAR"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Nasal Health",
+      "items": [
+        {
+          "item_title": "Ronose Nasal Spray",
+          "keywords": ["ronose nasal spray", "isotonic seawater", "hypertonic seawater", "aloe vera", "mint", "nasal hygiene", "nasopharyngitis", "rhinitis", "sinusitis"],
+          "blocks": [
+            {
+              "block_heading": "Formulations",
+              "block_type": "table",
+              "data": {
+                "columns": ["Type", "Age", "Volume", "Price"],
+                "rows": [
+                  { "Type": "Isotonic Seawater", "Age": "From birth", "Volume": "120 ml", "Price": "39.95 SAR" },
+                  { "Type": "Isotonic Seawater", "Age": "From 2 years", "Volume": "90 ml", "Price": "58 SAR" },
+                  { "Type": "Hypertonic Seawater", "Age": "From 2 years", "Volume": "90 ml", "Price": "58 SAR" },
+                  { "Type": "Hypertonic Seawater", "Age": "From 6 years", "Volume": "30 ml", "Price": "39.95 SAR" },
+                  { "Type": "Hypertonic Seawater with Aloe vera and Mint", "Age": "For adults", "Volume": "30 ml", "Price": "39.95 SAR" }
+                ]
+              }
+            },
+            {
+              "block_heading": "Indication",
+              "block_type": "list",
+              "data": [
+                "Daily nasal hygiene of babies, children, and adults",
+                "Therapeutic aid in some basic indications such as: Nasopharyngitis, Obstructive rhinitis and sinusitis, Dry nose, Hoarseness due to dry mucous membranes"
+              ]
+            },
+            {
+              "block_heading": "Recommended Dose",
+              "block_type": "text",
+              "data": "Multiple formulations can be used as needed"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Vitamin B Supplements",
+      "items": [
+        {
+          "item_title": "Rönzavit Vit B Complex Capsules",
+          "keywords": ["ronzavit vit b complex capsules", "vitamin b2", "vitamin b6", "vitamin b3", "vitamin b12", "brain health", "nerve health", "eye health", "red blood cells"],
+          "blocks": [
+            {
+              "block_heading": "Active Ingredients",
+              "block_type": "list",
+              "data": ["Vitamin B2: 50 mg", "Vitamin B6: 20 mg", "Vitamin B3: 20 mg", "Vitamin B12: 500 mcg"]
+            },
+            {
+              "block_heading": "Indication",
+              "block_type": "list",
+              "data": [
+                "Source of Vitamin B complex which may help in: Maintaining brain functions",
+                "Maintaining the health of nerve functions",
+                "Maintaining the health of the eye",
+                "Improving general well-being",
+                "Production of red blood cells",
+                "Decreasing homocysteine"
+              ]
+            },
+            {
+              "block_heading": "Recommended Dose",
+              "block_type": "text",
+              "data": "1 capsule daily"
+            },
+            {
+              "block_heading": "Pack Size",
+              "block_type": "text",
+              "data": "100 capsules"
+            },
+            {
+              "block_heading": "Price",
+              "block_type": "text",
+              "data": "50 SAR"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Weight Management",
+      "items": [
+        {
+          "item_title": "Rondiet",
+          "keywords": ["rondiet", "green tea extract", "horsetail", "pu erh tea extract", "weight loss", "carbohydrate metabolism"],
+          "blocks": [
+            {
+              "block_heading": "Active Ingredients",
+              "block_type": "list",
+              "data": ["Green Tea Extract: 150 mg", "Horsetail: 150 mg", "Red Tea Extract (150 mg)"]
+            },
+            {
+              "block_heading": "Indication",
+              "block_type": "list",
+              "data": ["Slimming supplement that helps in: Balancing carbohydrate metabolism and weight loss"]
+            },
+            {
+              "block_heading": "Recommended Dose",
+              "block_type": "text",
+              "data": "One capsule per day before a meal"
+            },
+            {
+              "block_heading": "Pack Size",
+              "block_type": "text",
+              "data": "60 capsules"
+            },
+            {
+              "block_heading": "Price",
+              "block_type": "text",
+              "data": "250 SAR"
+            }
+          ]
+        },
+        {
+          "item_title": "Ronfit Capsule",
+          "keywords": ["ronfit capsule", "white kidney bean", "raspberry ketone", "green tea", "garcinia cambogia", "gymnema", "weight loss", "healthy body weight"],
+          "blocks": [
+            {
+              "block_heading": "Active Ingredients",
+              "block_type": "list",
+              "data": [
+                "White kidney bean powder concentrate: 60 mg",
+                "Raspberry ketone powder concentrate: 50 mg",
+                "Green tea powder concentrate: 50 mg",
+                "Garcinia cambogia powder concentrate: 50 mg",
+                "Gymnema powder concentrate: 50 mg"
+              ]
+            },
+            {
+              "block_heading": "Indication",
+              "block_type": "list",
+              "data": ["May help in weight loss", "May help in maintaining healthy body weight"]
+            },
+            {
+              "block_heading": "Recommended Dose",
+              "block_type": "text",
+              "data": "Adults, two capsules per day before the main meal or as prescribed by the physician"
+            },
+            {
+              "block_heading": "Pack Size",
+              "block_type": "text",
+              "data": "30 capsules"
+            },
+            {
+              "block_heading": "Price",
+              "block_type": "text",
+              "data": "90 SR"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Muscle Health and Fertility",
+      "items": [
+        {
+          "item_title": "Rönzavit Co Q10 Capsules",
+          "keywords": ["ronzavit co q10 capsules", "q10", "co-enzyme q10", "muscle spasm", "male infertility", "sperm motility", "oxidative stress", "muscle recovery"],
+          "blocks": [
+            {
+              "block_heading": "Active Ingredients",
+              "block_type": "list",
+              "data": ["Co-enzyme Q10: 100 mg or 200 mg"]
+            },
+            {
+              "block_heading": "Indication",
+              "block_type": "list",
+              "data": [
+                "Relief muscle spasm due to using statins",
+                "Used as supportive treatment for male infertility in case of decreased sperm motility (Asthenozoospermia)",
+                "Help in relieving oxidative stress",
+                "Speed muscle recovery"
+              ]
+            },
+            {
+              "block_heading": "Recommended Dose",
+              "block_type": "text",
+              "data": "1-2 capsules daily"
+            },
+            {
+              "block_heading": "Pack Sizes and Prices",
+              "block_type": "list",
+              "data": [
+                "100 mg, 30 capsules: 95 SAR",
+                "100 mg, 60 capsules: 165 SAR",
+                "200 mg, 30 capsules: 150 SAR",
+                "200 mg, 60 capsules: 270 SAR"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Digestive Health",
+      "items": [
+        {
+          "item_title": "Rönzalax Capsules",
+          "keywords": ["ronzalax capsules", "senna leaf concentrate", "laxative", "constipation"],
+          "blocks": [
+            {
+              "block_heading": "Active Ingredients",
+              "block_type": "list",
+              "data": ["Senna Leaf Concentrate: 450 mg"]
+            },
+            {
+              "block_heading": "Indication",
+              "block_type": "list",
+              "data": ["Laxative to be used in acute and chronic constipation"]
+            },
+            {
+              "block_heading": "Recommended Dose",
+              "block_type": "text",
+              "data": "1 capsule daily"
+            },
+            {
+              "block_heading": "Pack Size",
+              "block_type": "text",
+              "data": "60 capsules"
+            },
+            {
+              "block_heading": "Price",
+              "block_type": "text",
+              "data": "55 SAR"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Joint and Bone Health",
+      "items": [
+        {
+          "item_title": "Arthor",
+          "keywords": ["arthor", "msm", "hyaluronic acid", "turmeric", "osteoarthritis", "joint pain"],
+          "blocks": [
+            {
+              "block_heading": "Active Ingredients",
+              "block_type": "list",
+              "data": ["MSM: 400mg", "Hyaluronic acid: 25mg", "Turmeric powder: 2mg"]
+            },
+            {
+              "block_heading": "Indication",
+              "block_type": "list",
+              "data": ["Natural solution for reducing symptoms associated with osteoarthritis", "Helps decrease pain", "Reduces muscle fatigue"]
+            },
+            {
+              "block_heading": "Recommended Dose",
+              "block_type": "text",
+              "data": "2-4 capsules daily (1-2 before lunch and 1-2 before dinner)"
+            },
+            {
+              "block_heading": "Pack Size",
+              "block_type": "text",
+              "data": "60 capsules"
+            },
+            {
+              "block_heading": "Price",
+              "block_type": "text",
+              "data": "150 SAR"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Respiratory Health",
+      "items": [
+        {
+          "item_title": "Brethiona Syrup",
+          "keywords": ["Brethiona", "pelargonium", "althea", "thyme", "cough syrup", "bronchitis"],
+          "blocks": [
+            {
+              "block_heading": "Active Ingredients",
+              "block_type": "list",
+              "data": ["Pelargonium root dried extract: 500mg", "Althea fruit dried extract: 800mg", "Thyme herb dried extract: 700mg"]
+            },
+            {
+              "block_heading": "Indication",
+              "block_type": "list",
+              "data": ["Reduces symptoms of respiratory tract infections (common cold, bronchitis, laryngitis, tonsillitis)", "Reduces symptoms of acute bronchitis with coughing", "Acts as expectorant for wet cough"]
+            },
+            {
+              "block_heading": "Recommended Dose",
+              "block_type": "text",
+              "data": "5ml twice daily"
+            },
+            {
+              "block_heading": "Pack Size",
+              "block_type": "text",
+              "data": "100ml syrup bottle"
+            },
+            {
+              "block_heading": "Price",
+              "block_type": "text",
+              "data": "55 SAR"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Wound and Burn Care",
+      "items": [
+        {
+          "item_title": "Betika Ointment",
+          "keywords": ["betika", "olive oil", "sesame oil", "calendula", "allantoin", "wound healing"],
+          "blocks": [
+            {
+              "block_heading": "Active Ingredients",
+              "block_type": "list",
+              "data": ["Olive oil: 2%", "Sesame oil: 1%", "Calendula officinalis flower extract: 1%", "Allantoin: 1%"]
+            },
+            {
+              "block_heading": "Indication",
+              "block_type": "list",
+              "data": ["Improves burn and wound healing"]
+            },
+            {
+              "block_heading": "Recommended Dose",
+              "block_type": "text",
+              "data": "Apply 3-4 times daily to affected area"
+            },
+            {
+              "block_heading": "Pack Sizes and Prices",
+              "block_type": "list",
+              "data": ["30g: 39.8 SAR", "60g: 69 SAR", "90g: 126 SAR"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Women's Health",
+      "items": [
+        {
+          "item_title": "Diva-life",
+          "keywords": ["diva-life", "marine collagen", "hyaluronic acid", "women's health", "anti-aging"],
+          "blocks": [
+            {
+              "block_heading": "Active Ingredients",
+              "block_type": "list",
+              "data": ["Hydrolyzed marine collagen: 100mg", "L-lysine: 80mg", "Rose hip powder concentrate: 40mg", "Hyaluronic acid: 2.5mg"]
+            },
+            {
+              "block_heading": "Indication",
+              "block_type": "list",
+              "data": ["General tonic for women", "Healthier hair and nails", "Reduces oxidative stress", "Improves crow's-feet wrinkles"]
+            },
+            {
+              "block_heading": "Recommended Dose",
+              "block_type": "text",
+              "data": "3 capsules daily"
+            },
+            {
+              "block_heading": "Pack Size",
+              "block_type": "text",
+              "data": "60 capsules"
+            },
+            {
+              "block_heading": "Price",
+              "block_type": "text",
+              "data": "65 SAR"
+            }
+          ]
+        },
+        {
+          "item_title": "Vigor-F Capsules",
+          "keywords": ["vigor-f", "VIGOR F", "VIGOR-F", "maca", "dong quai", "evening primrose", "menopause", "hormonal balance"],
+          "blocks": [
+            {
+              "block_heading": "Active Ingredients",
+              "block_type": "list",
+              "data": ["Maca powder concentrate: 250mg", "Dong quai powder concentrate: 300mg", "Evening primrose oil: 500mg"]
+            },
+            {
+              "block_heading": "Indication",
+              "block_type": "list",
+              "data": ["Relieves premenopausal syndrome", "Promotes hormonal balance", "Improves female libido", "General tonic for females"]
+            },
+            {
+              "block_heading": "Recommended Dose",
+              "block_type": "text",
+              "data": "2 capsules with main meal"
+            },
+            {
+              "block_heading": "Pack Size",
+              "block_type": "text",
+              "data": "30 capsules"
+            },
+            {
+              "block_heading": "Price",
+              "block_type": "text",
+              "data": "60 SAR"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Energy and Performance",
+      "items": [
+        {
+          "item_title": "Carnitova",
+          "keywords": ["carnitova", "l-carnitine", "energy", "athletic performance", "muscle recovery"],
+          "blocks": [
+            {
+              "block_heading": "Active Ingredients",
+              "block_type": "list",
+              "data": ["Acetyl L-Carnitine: 2.5gm"]
+            },
+            {
+              "block_heading": "Indication",
+              "block_type": "list",
+              "data": ["Chronic fatigue syndrome", "Increases athletic performance", "Improves muscle recovery", "Increases ATP production"]
+            },
+            {
+              "block_heading": "Recommended Dose",
+              "block_type": "list",
+              "data": ["Adults: 1 vial daily", "Athletes: 1 vial daily before exercise"]
+            },
+            {
+              "block_heading": "Pack Size",
+              "block_type": "text",
+              "data": "20 vials"
+            },
+            {
+              "block_heading": "Price",
+              "block_type": "text",
+              "data": "270 SAR"
+            }
+          ]
+        },
+        {
+          "item_title": "TRI-G Capsule",
+          "keywords": ["tri-g", "guarana", "ginseng", "ginkgo", "men's health", "sexual health"],
+          "blocks": [
+            {
+              "block_heading": "Active Ingredients",
+              "block_type": "list",
+              "data": ["Guarana seed powder concentrate: 150mg", "Ginseng: 50mg", "Ginkgo powder concentrate: 50mg"]
+            },
+            {
+              "block_heading": "Indication",
+              "block_type": "list",
+              "data": ["General tonic for men", "Enhances sexual desire and performance"]
+            },
+            {
+              "block_heading": "Recommended Dose",
+              "block_type": "text",
+              "data": "1 capsule daily before main meal"
+            },
+            {
+              "block_heading": "Pack Size",
+              "block_type": "text",
+              "data": "30 capsules"
+            },
+            {
+              "block_heading": "Price",
+              "block_type": "text",
+              "data": "45 SAR"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Brain and Circulation",
+      "items": [
+        {
+          "item_title": "Ginkozac",
+          "keywords": ["ginkozac", "ginkgo biloba", "omega 3", "brain health", "circulation"],
+          "blocks": [
+            {
+              "block_heading": "Active Ingredients",
+              "block_type": "list",
+              "data": ["Omega 3: 500mg", "Ginkgo biloba: 60mg", "Rosemary: 15mg"]
+            },
+            {
+              "block_heading": "Indication",
+              "block_type": "list",
+              "data": ["Improves cardiac and blood circulation", "Supports brain health"]
+            },
+            {
+              "block_heading": "Recommended Dose",
+              "block_type": "text",
+              "data": "2 capsules with meal"
+            },
+            {
+              "block_heading": "Pack Size",
+              "block_type": "text",
+              "data": "30 capsules"
+            },
+            {
+              "block_heading": "Price",
+              "block_type": "text",
+              "data": "150 SAR"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Men's Health",
+      "items": [
+        {
+          "item_title": "Reproste Capsules",
+          "keywords": ["reproste", "saw palmetto", "nettle root", "prostate health", "bph"],
+          "blocks": [
+            {
+              "block_heading": "Active Ingredients",
+              "block_type": "list",
+              "data": ["Saw Palmetto Fruit Extract: 160mg", "Nettle Root Extract: 120mg"]
+            },
+            {
+              "block_heading": "Indication",
+              "block_type": "list",
+              "data": ["Maintains prostate health", "Relieves urinary retention due to BPH", "Reduces prostate inflammation", "Lowers BPH symptoms"]
+            },
+            {
+              "block_heading": "Recommended Dose",
+              "block_type": "text",
+              "data": "1 softgel twice daily with water"
+            },
+            {
+              "block_heading": "Pack Size",
+              "block_type": "text",
+              "data": "30 softgels"
+            },
+            {
+              "block_heading": "Price",
+              "block_type": "text",
+              "data": "125 SAR"
+            }
+          ]
+        },
+        {
+          "item_title": "Rönzavit L-Arginine Capsules",
+          "keywords": ["ronzavit ARGININ", "l ARGININ", "larginin", "men's health", "sexual performance"],
+          "blocks": [
+            {
+              "block_heading": "Indication",
+              "block_type": "list",
+              "data": ["Enhances men's sexual performance"]
+            },
+            {
+              "block_heading": "Recommended Dose",
+              "block_type": "text",
+              "data": "1-2 capsules daily"
+            },
+            {
+              "block_heading": "Pack Size",
+              "block_type": "text",
+              "data": "60 capsules"
+            },
+            {
+              "block_heading": "Price",
+              "block_type": "text",
+              "data": "125 SAR"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Garlic Supplement",
+      "items": [
+        {
+          "item_title": "Rongarlic Capsules",
+          "keywords": ["rongarlic", "garlic extract", "omega 3", "antioxidant", "immunity"],
+          "blocks": [
+            {
+              "block_heading": "Active Ingredients",
+              "block_type": "list",
+              "data": ["Garlic extract: 250mg", "Omega 3: 150mg"]
+            },
+            {
+              "block_heading": "Indication",
+              "block_type": "list",
+              "data": ["Acts as antioxidant", "Improves lipid profile", "Boosts immunity"]
+            },
+            {
+              "block_heading": "Recommended Dose",
+              "block_type": "text",
+              "data": "2-4 capsules daily before meals"
+            },
+            {
+              "block_heading": "Pack Size",
+              "block_type": "text",
+              "data": "60 capsules"
+            },
+            {
+              "block_heading": "Price",
+              "block_type": "text",
+              "data": "150 SAR"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Liver Health",
+      "items": [
+        {
+          "item_title": "Rönzavit L-Glutathione Capsules",
+          "keywords": ["ronzavit GLUTATHIONE", "glutathione", "liver health", "fatty liver"],
+          "blocks": [
+            {
+              "block_heading": "Active Ingredients",
+              "block_type": "list",
+              "data": ["L-Glutathione: 550mg"]
+            },
+            {
+              "block_heading": "Indication",
+              "block_type": "list",
+              "data": ["Improves protein, enzyme, and filtration levels in blood for individuals with alcoholic and nonalcoholic chronic fatty liver disease"]
+            },
+            {
+              "block_heading": "Recommended Dose",
+              "block_type": "text",
+              "data": "1 capsule daily"
+            },
+            {
+              "block_heading": "Pack Size",
+              "block_type": "text",
+              "data": "60 capsules"
+            },
+            {
+              "block_heading": "Price",
+              "block_type": "text",
+              "data": "193 SAR"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Energy and Muscle",
+      "items": [
+        {
+          "item_title": "Rönzavit L-Carnitine Capsules",
+          "keywords": ["ronzavit l-carnitine", "l-carnitine", "l carnitine", "energy", "muscle recovery", "atp"],
+          "blocks": [
+            {
+              "block_heading": "Active Ingredients",
+              "block_type": "list",
+              "data": ["L-Carnitine: 750mg"]
+            },
+            {
+              "block_heading": "Indication",
+              "block_type": "list",
+              "data": ["Chronic fatigue syndrome", "Increased muscle recovery", "Enhanced ATP production"]
+            },
+            {
+              "block_heading": "Recommended Dose",
+              "block_type": "text",
+              "data": "1-2 capsules daily"
+            },
+            {
+              "block_heading": "Pack Size",
+              "block_type": "text",
+              "data": "60 capsules"
+            },
+            {
+              "block_heading": "Price",
+              "block_type": "text",
+              "data": "180 SAR"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

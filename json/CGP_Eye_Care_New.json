@@ -1,0 +1,1076 @@
+{
+  "id": "eye-care-disorders-management",
+  "title": "Eye Care Disorders Management",
+  "type": "condition-guide",
+  "release": "2025 Edition",
+  "committee": "Care Givers Professionals",
+  "sections": [
+    {
+      "section_title": "Eye Anatomy & Physiology",
+      "items": [
+        {
+          "item_title": "Anatomy of the Eye",
+          "keywords": ["eye anatomy", "sclera", "cornea", "conjunctiva", "iris", "pupil", "lens", "retina", "optic nerve", "eye physiology"],
+          "blocks": [
+            {
+              "block_heading": "Anatomical Structures",
+              "block_type": "key_value",
+              "data": [
+                { "key": "Sclera", "value": "The tough, white outer layer that protects the eye." },
+                { "key": "Cornea", "value": "Transparent front part that bends light to focus it into the eye." },
+                { "key": "Conjunctiva", "value": "A thin, clear membrane that covers the white part of the eye (sclera) and the inner surface of the eyelids." },
+                { "key": "Iris", "value": "Colored part of the eye; controls light entering by adjusting the pupil size." },
+                { "key": "Pupil", "value": "The black opening in the iris that lets light in." },
+                { "key": "Lens", "value": "Transparent structure behind the iris; focuses light onto the retina." },
+                { "key": "Retina", "value": "Light-sensitive layer at the back of the eye; contains photoreceptors." },
+                { "key": "Optic Nerve", "value": "Transmits visual information from the retina to the brain." }
+              ]
+            },
+            {
+              "block_heading": "Additional Structures",
+              "block_type": "key_value",
+              "data": [
+                { "key": "Muscles", "value": ["Conjunctiva", "Cornea", "Lens", "Vitreous"] },
+                { "key": "Retina", "value": ["Macula", "Optic nerve"] }
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Physiology of the Eye",
+          "keywords": ["eye physiology", "light refraction", "aqueous humor", "photoreceptors", "rods", "cones", "vision process"],
+          "blocks": [
+            {
+              "block_heading": "Visual Process",
+              "block_type": "list",
+              "data": [
+                "Light enters through the cornea, which bends it to help focus.",
+                "It passes through the aqueous humor and then through the pupil, which is controlled by the iris to adjust light intake.",
+                "The lens changes shape to focus the light onto the retina.",
+                "The retina has two types of photoreceptors: rods (for dim light) and cones (for color) that turn light into signals.",
+                "The optic nerve sends these signals to the brain, which creates the images we see."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Dry Eye Disease (Keratoconjunctivitis Sicca)",
+      "items": [
+        {
+          "item_title": "Definition",
+          "keywords": ["dry eye disease", "keratoconjunctivitis sicca", "tear film instability"],
+          "blocks": [
+            {
+              "block_heading": "Definition",
+              "block_type": "text",
+              "data": "A multifactorial ocular surface disease caused by tear film instability that leads to a loss of homeostasis of the tear film, leading to eye irritation."
+            }
+          ]
+        },
+        {
+          "item_title": "Clinical Features",
+          "keywords": ["dry eye symptoms", "eye irritation", "burning sensation", "gritty eyes", "tear production", "blurred vision"],
+          "blocks": [
+            {
+              "block_heading": "Features",
+              "block_type": "list",
+              "data": [
+                "Usually affects both eyes.",
+                "Decreased tear production.",
+                "Symptoms include eyes burning sensation, feel tired, itchy, irritated, or gritty.",
+                "Symptoms worsening throughout the day.",
+                "The conjunctiva is not red.",
+                "Symptoms are worsened by dry air, wind, dust, and smoke.",
+                "Sandy or gritty sensation.",
+                "Stinging or burning.",
+                "Redness.",
+                "Episodes of blurred vision.",
+                "Excessive tearing."
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Causes",
+          "keywords": ["dry eye causes", "environmental factors", "medication side effects", "Sjogren's syndrome", "blepharitis", "nocturnal lagophthalmos", "diuretics", "isotretinoin", "antihistamines", "antidepressants", "beta blockers"],
+          "blocks": [
+            {
+              "block_heading": "Causes",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Environmental",
+                  "children": ["Dry climates, wind, dust, smoke and air conditioners."]
+                },
+                {
+                  "parent": "Patient related",
+                  "children": ["Aging, spending long periods in front of screens, no adequate hydration (Fasting), vitamin A deficiency."]
+                },
+                {
+                  "parent": "Medication",
+                  "children": ["Diuretics, Isotretinoin, Antihistamines, Antidepressants, birth control (Hormone replacement therapy), Cardiac arrhythmic drugs, beta blockers, Androgen antagonists."]
+                },
+                {
+                  "parent": "Eye diseases",
+                  "children": ["Sjogren's syndrome, Blepharitis, Nocturnal lagophthalmos."]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Treatment",
+          "keywords": ["dry eye treatment", "non-pharmacological management", "eye drops", "eye gels", "eye ointments", "hypromellose", "carmellose", "dexpanthenol", "sodium hyaluronate", "cyclosporine", "Restasis", "Recugel", "Optifresh", "Cationorm", "Artelac", "Hylo", "Systane", "omega-3", "omega-7", "punctal occlusion", "ophthalmic preservatives", "benzalkonium chloride"],
+          "blocks": [
+            {
+              "block_heading": "Non-Pharmacological Management",
+              "block_type": "list",
+              "data": [
+                "Avoiding triggers as possible: Spending long periods in front of screens, long time use of antihistamines, inadequate hydration, smoking, hand rubbing.",
+                "Eye closing regularly for few seconds while working on screens for long time.",
+                "Follow the 20-20-20 Rule: Every 20 minutes, look at something 20 feet away for 20 seconds to rest eyes and encourage blinking.",
+                "Using air humidifiers.",
+                "Taking breaks from contact lenses.",
+                "Using of sunglasses.",
+                "Stay Hydrated: Drink plenty of water (8-10 glasses daily) to support overall tear production.",
+                "Avoid Rubbing Eyes: Rubbing can worsen irritation and disrupt the tear film, advise patients to resist the urge."
+              ]
+            },
+            {
+              "block_heading": "Pharmacological Treatment",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Topical",
+                  "children": ["Eye drops, Eye gels, Eye ointments."]
+                },
+                {
+                  "parent": "Main ingredients",
+                  "children": ["Hypromellose (Hydroxypropyl methylcellulose) & Carmellose (carboxymethylcellulose), Dexpanthenol (Recugel), Polyvinyl alcohol (Optifresh), Mineral oils (Cationorm), Sodium hyaluronate (Artelac, Hylo), Propylene glycol & Polyethylene glycol (Systane), Cyclosporine drops (Restasis)."]
+                },
+                {
+                  "parent": "Guidelines",
+                  "children": ["Advise patients to use preservatives-free products to avoid ocular surface irritation. Consider trailing treatment strategies for about 1-3 months. If symptoms do not subside after 72 hours of treatment, the patient should be referred to an eye care specialist."]
+                }
+              ]
+            },
+            {
+              "block_heading": "Supplements",
+              "block_type": "list",
+              "data": [
+                "Oral fatty acid supplements (Omega 7 & Omega 3).",
+                "Complementary and alternative therapies, such as Manuka honey."
+              ]
+            },
+            {
+              "block_heading": "Surgical",
+              "block_type": "list",
+              "data": ["Permanent Punctal Occlusion."]
+            },
+            {
+              "block_heading": "Ophthalmic Preservatives",
+              "block_type": "list",
+              "data": ["Benzalkonium chloride (BAK), benzethonium chloride, mercury derivatives, methylparaben, propylparaben, EDTA, cetylpyridinium chloride, phenylethyl alcohol, sodium propionate, sorbic acid."]
+            }
+          ]
+        },
+        {
+          "item_title": "Eye Drop Comparisons",
+          "keywords": ["Systane", "Hylo", "Refresh", "Lubricant", "hyaluronic acid", "CMC", "HP-Guar"],
+          "blocks": [
+            {
+              "block_heading": "Comparison Table",
+              "block_type": "table",
+              "data": {
+                "columns": ["Eye Drop", "Key Features", "Main Benefits"],
+                "rows": [
+                  { "Eye Drop": "SYSTANE COMPLETE PF 10 ML", "Key Features": "Preservative-free, Nano-droplet technology", "Main Benefits": "Covers all layers of the tear film" },
+                  { "Eye Drop": "SYSTANE GEL DROPS 10ML", "Key Features": "Gel-based formula, Long retention time", "Main Benefits": "Soothes severe dryness, Suitable for nighttime use" },
+                  { "Eye Drop": "LUBRICANT ED 30 VIAL SYSTANE HYDRATION", "Key Features": "Dual polymer system (HA + HP-Guar)", "Main Benefits": "Convenient, Sterile single-use, Enhances hydration and epithelial healing" },
+                  { "Eye Drop": "HYLO-VISION 0.3% GEL 10 ML", "Key Features": "High viscosity, 0.3% hyaluronic acid", "Main Benefits": "Intensive moisture, Suitable for severe dryness" },
+                  { "Eye Drop": "HYLO COMOD 10ML", "Key Features": "Patented COMOD airless system, 0.1% HA", "Main Benefits": "Safe, Preservative-free, Long use after opening" },
+                  { "Eye Drop": "REFRESH LIQUIGEL 15ML", "Key Features": "Gel-like consistency with CMC", "Main Benefits": "Longer-lasting moisture for moderate dryness" }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Conjunctivitis",
+      "items": [
+        {
+          "item_title": "Overview",
+          "keywords": ["conjunctivitis", "pink eye", "red eye", "eye inflammation", "eye infection"],
+          "blocks": [
+            {
+              "block_heading": "Overview",
+              "block_type": "list",
+              "data": [
+                "Commonly known as pink eye or red eye.",
+                "Is the inflammation or infection of the conjunctiva (the thin, transparent membrane that covers the white part of the eye sclera and lines the inner eyelids).",
+                "It's characterized by redness, irritation, and often discharge, and can be caused by viruses, bacteria, allergens, or irritants."
+              ]
+            },
+            {
+              "block_heading": "Visual Descriptions",
+              "block_type": "list",
+              "data": ["Healthy eye", "Conjunctivitis (red, irritated eye)"]
+            }
+          ]
+        },
+        {
+          "item_title": "Types",
+          "keywords": ["bacterial conjunctivitis", "viral conjunctivitis", "allergic conjunctivitis"],
+          "blocks": [
+            {
+              "block_heading": "Types",
+              "block_type": "list",
+              "data": ["Infective (Bacterial - Viral).", "Allergic."]
+            },
+            {
+              "block_heading": "Bacterial Conjunctivitis",
+              "block_type": "text",
+              "data": "A red eye with a sticky yellow or yellow/green discharge. Eyelids may be stuck together upon waking. Usually spread by direct contact only."
+            },
+            {
+              "block_heading": "Viral Conjunctivitis",
+              "block_type": "text",
+              "data": "The type of conjunctivitis most commonly associated with the term 'pink eye'. Appearance: red, itchy, watery eye. Highly contagious."
+            },
+            {
+              "block_heading": "Allergic Conjunctivitis",
+              "block_type": "text",
+              "data": "Very similar in appearance to viral conjunctivitis, but accompanied by nasal congestion, sneezing, eyelid swelling, and sensitivity to light. Not contagious."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Infective Conjunctivitis (Bacterial – Viral)",
+      "items": [
+        {
+          "item_title": "Symptoms - Bacterial Conjunctivitis",
+          "keywords": ["bacterial conjunctivitis symptoms", "eye discharge", "red eyes"],
+          "blocks": [
+            {
+              "block_heading": "Bacterial Conjunctivitis Symptoms",
+              "block_type": "list",
+              "data": [
+                "Redness and discharge, typically in one eye but can become bilateral.",
+                "Eyes often stuck shut in the morning.",
+                "Discharge is purulent, thick, and globular; it may be yellow, white, or green.",
+                "The discharge can generally be seen at the lid margins and at the corner of the eye.",
+                "Discharge continues throughout the day and accumulates rapidly even after wiping it away.",
+                "No significant itching (itching is more indicative of allergic conjunctivitis)."
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Symptoms - Viral Conjunctivitis",
+          "keywords": ["viral conjunctivitis symptoms", "eye discharge", "eye irritation"],
+          "blocks": [
+            {
+              "block_heading": "Viral Conjunctivitis Symptoms",
+              "block_type": "list",
+              "data": [
+                "Typically presents with conjunctival redness, watery or mucoserous discharge, and a burning, sandy, or gritty sensation in the eye.",
+                "Eyes may have morning crusting, but discharge during the day is mostly watery, with scant mucus rather than pus.",
+                "Often begins unilaterally, with the second eye involved within 24–48 hours.",
+                "Frequently accompanied by systemic symptoms such as fever, sore throat, and upper respiratory tract infection.",
+                "Symptoms typically worsen over the first 3–5 days, with gradual improvement over 1–2 weeks.",
+                "Limited or No significant itching (itching is more indicative of allergic conjunctivitis)."
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Risk Factors - Bacterial Conjunctivitis",
+          "keywords": ["bacterial conjunctivitis risk factors", "eye infection transmission"],
+          "blocks": [
+            {
+              "block_heading": "Bacterial Conjunctivitis Risk Factors",
+              "block_type": "list",
+              "data": [
+                "More common in children and elderly compared to adults.",
+                "Direct contact with infected individuals or their secretions or Contaminated objects and surfaces.",
+                "Specific environments where outbreaks are common, such as College campuses or Military training facilities.",
+                "People with weak immune system such as those with diabetes."
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Risk Factors - Viral Conjunctivitis",
+          "keywords": ["viral conjunctivitis risk factors", "contagious eye conditions"],
+          "blocks": [
+            {
+              "block_heading": "Viral Conjunctivitis Risk Factors",
+              "block_type": "list",
+              "data": [
+                "Common in both adults and children but typically more common in adults.",
+                "Direct contact with infected individuals or contaminated surfaces.",
+                "Frequently associated with systemic viral illness (upper respiratory tract infections, pharyngitis, fever)."
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Treatment - Bacterial Conjunctivitis",
+          "keywords": ["bacterial conjunctivitis treatment", "topical antibiotics", "eye hygiene"],
+          "blocks": [
+            {
+              "block_heading": "Bacterial Conjunctivitis Treatment",
+              "block_type": "list",
+              "data": [
+                "Usually self-limiting without complications (normally get better on its own, without any medical treatment, in 1-2 weeks).",
+                "Bathing and cleaning the eyelids with sterile pads/cotton wool and clean water (Boil the water and then let it cool).",
+                "Topical antibiotics (drops or ointments) may shorten the clinical course if started within the first few days.",
+                "Avoid ophthalmic corticosteroids or steroid/antibiotic combinations unless prescribed by an ophthalmologist due to the risk of ocular complications."
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Treatment - Viral Conjunctivitis",
+          "keywords": ["viral conjunctivitis treatment", "artificial tears", "naphazoline", "pheniramine", "ketotifen", "olopatadine"],
+          "blocks": [
+            {
+              "block_heading": "Viral Conjunctivitis Treatment",
+              "block_type": "list",
+              "data": [
+                "There is no specific topical or systemic antiviral agents for the treatment of viral conjunctivitis.",
+                "Antibiotic drops or ointment will not help with viral conjunctivitis.",
+                "Systemic antibiotic and antiviral therapies play no role.",
+                "Topical antihistamine/decongestants, (naphazoline-pheniramine) or antihistamine/mast cell stabilizers (ketotifen, olopatadine) may be used for symptomatic relief.",
+                "Warm or cool compresses are recommended for symptomatic relief.",
+                "Lubricating agents and artificial tears make the eyes feel more comfortable."
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Patient Counseling",
+          "keywords": ["conjunctivitis prevention", "eye hygiene", "patient education", "contagious eye conditions"],
+          "blocks": [
+            {
+              "block_heading": "Don'ts",
+              "block_type": "list",
+              "data": [
+                "Don't share flannels, towels or pillows with anyone else. (Bacterial and viral conjunctivitis are both highly contagious and spread by direct contact with secretions or contact with contaminated objects).",
+                "Don't share your eye drops with anyone else.",
+                "Don't attend work whilst you have red, watery or sticky eyes if you work with children, elderly people or patients, or if you handle food in your job.",
+                "Don't wear your contact lenses until your eyes are better and after 24 hours after the dose of ointment/drops (if they were required).",
+                "Don't rub your eyes.",
+                "Don't wear eye make up."
+              ]
+            },
+            {
+              "block_heading": "Do's",
+              "block_type": "list",
+              "data": [
+                "Wash hands regularly with warm soapy water.",
+                "Wash pillows and face cloths in hot water and detergent.",
+                "Use disposable paper tissues to wipe your eyes. Use one tissue per eye to prevent cross-infection and throw them straight into the bin after."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Allergic Conjunctivitis",
+      "items": [
+        {
+          "item_title": "Overview",
+          "keywords": ["allergic conjunctivitis", "eye allergy", "conjunctival inflammation"],
+          "blocks": [
+            {
+              "block_heading": "Overview",
+              "block_type": "text",
+              "data": "Allergic conjunctivitis is an inflammation of the conjunctiva (the thin, clear membrane covering the white part of the eye and inner eyelids) caused by an allergic reaction."
+            }
+          ]
+        },
+        {
+          "item_title": "Symptoms",
+          "keywords": ["allergic conjunctivitis symptoms", "itchy eyes", "watery eyes", "eye redness", "photophobia"],
+          "blocks": [
+            {
+              "block_heading": "Symptoms",
+              "block_type": "list",
+              "data": [
+                "Itching: Often the most prominent symptom.",
+                "Redness: In one or both eyes but usually bilateral.",
+                "Watery or stringy discharge.",
+                "Swollen eyelids.",
+                "Blurred vision (sometimes).",
+                "Burning sensation.",
+                "Photophobia (light sensitivity)."
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Treatment",
+          "keywords": ["allergic conjunctivitis treatment", "antihistamines", "corticosteroids", "eye drops", "allergen avoidance", "Refresh", "Systane", "Cetirizine", "Loratadine", "Fexofenadine", "Pred forte", "FML", "naphazoline", "pheniramine", "Olopat", "Olopatadine", "Fluca", "Cromoglycate", "Fluorometholone"],
+          "blocks": [
+            {
+              "block_heading": "Treatment",
+              "block_type": "list",
+              "data": [
+                "Avoiding Allergens.",
+                "Medications: Artificial tears (Refresh, Systane), Oral antihistamines (Cetirizine, Loratadine, Fexofenadine).",
+                "Topical corticosteroids: For severe cases, short-term use only (Pred forte, FML).",
+                "Topical antihistamine / decongestants (naphazoline, pheniramine).",
+                "Dual-action medications: Olopat (Olopatadine), Fluca (Cromoglycate + Fluorometholone)."
+              ]
+            },
+            {
+              "block_heading": "Patient Counseling Tips",
+              "block_type": "list",
+              "data": [
+                "Proper use of eye drops/oral medications.",
+                "Handwashing, avoid eye rubbing.",
+                "Trigger Hygiene: avoidance.",
+                "Contact lens care: Avoid if possible."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Ocular Hyperemia (Conjunctival Hyperemia)",
+      "items": [
+        {
+          "item_title": "Ocular Hyperemia Treatment",
+          "keywords": ["ocular hyperemia", "eye redness", "Lumify", "brimonidine", "OTC eye drops", "Brimo", "Alphagan"],
+          "blocks": [
+            {
+              "block_heading": "Lumify (Brimonidine tartrate 0.025%)",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Description",
+                  "children": ["FDA approved as OTC drops for relief of eye redness (ocular hyperemia) caused by minor eye irritations, such as allergies, dryness, fatigue, digital eye strain, or exposure to environmental factors like smoke and dust."]
+                },
+                {
+                  "parent": "Mechanism",
+                  "children": ["Lumify selectively constricts veins in the eye, which helps to reduce redness while maintaining oxygen availability to the surrounding tissue."]
+                },
+                {
+                  "parent": "Dose",
+                  "children": ["For adults and children 5 years and older, instill 1 drop in the affected eye(s) every 6–8 hours; No more than 4 times daily."]
+                },
+                {
+                  "parent": "Onset and Duration",
+                  "children": ["Starts working in 1 minute and lasts up to 8 hours."]
+                },
+                {
+                  "parent": "Use by",
+                  "children": ["Use within 121 days (approximately 4 months) after opening the bottle."]
+                }
+              ]
+            },
+            {
+              "block_heading": "Comparison",
+              "block_type": "text",
+              "data": "Lumify vs. Brimonidine 0.1–0.2% (Brimo/Alphagan): Lumify is for short-term redness relief with minimal systemic or ocular side effects, while higher-dose brimonidine (Primo/Alphagan) is for chronic management of glaucoma and ocular hypertension, with a different safety and side effect profile."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Eyelid Disorders",
+      "items": [
+        {
+          "item_title": "Overview",
+          "keywords": ["eyelid disorders", "blepharitis", "stye", "chalazion", "xanthelasma"],
+          "blocks": [
+            {
+              "block_heading": "Common Eyelid Disorders",
+              "block_type": "list",
+              "data": ["Blepharitis", "Stye", "Chalazion", "Xanthelasma"]
+            },
+            {
+              "block_heading": "Visual Descriptions",
+              "block_type": "list",
+              "data": ["Blepharitis (crusting at the base of the eyelashes)", "Stye (internal and external)", "Chalazion", "Xanthelasma"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Blepharitis",
+      "items": [
+        {
+          "item_title": "Definition",
+          "keywords": ["blepharitis", "eyelid inflammation", "chronic eye condition", "rosacea", "seborrhoeic dermatitis"],
+          "blocks": [
+            {
+              "block_heading": "Definition",
+              "block_type": "list",
+              "data": [
+                "It is an inflammation of the eyelids (Usually Chronic) in which they become red, irritated and itchy with dandruff-like scales that form on the eyelashes.",
+                "In some patients, there is an association with acne, rosacea or seborrhoeic dermatitis."
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Types",
+          "keywords": ["posterior blepharitis", "anterior blepharitis", "meibomian gland dysfunction", "staphylococcal blepharitis", "seborrhoeic blepharitis"],
+          "blocks": [
+            {
+              "block_heading": "Types",
+              "block_type": "list",
+              "data": [
+                "Posterior blepharitis: Inflammation of the inner edge of eyelid due to dysfunction of oil-producing glands that lubricate the eyelids (meibomian glands).",
+                "Anterior blepharitis: Inflammation of the outer front part of the eyelid (lash line). Commonly caused by bacteria (staphylococcal blepharitis) or dandruff of the scalp and eyebrows (seborrhoeic blepharitis)."
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Symptoms",
+          "keywords": ["blepharitis symptoms", "eyelid crusting", "eye irritation", "madarosis", "trichiasis", "photophobia"],
+          "blocks": [
+            {
+              "block_heading": "Symptoms",
+              "block_type": "list",
+              "data": [
+                "Tear deficiency.",
+                "Crusting of the eyelids.",
+                "Feelings of eye irritation, burning, or itching.",
+                "Increased frequency of blinking.",
+                "Madarosis (loss of eyelashes or eyebrows).",
+                "Red eyes (conjunctival hyperemia).",
+                "Sensation of a foreign body.",
+                "Trichiasis (misdirection of eyelashes).",
+                "Visual symptoms, including blurred or fluctuating vision and photophobia.",
+                "A gritty, burning or stinging sensation in the eyes.",
+                "Watery eyes.",
+                "Red, swollen eyelids.",
+                "Itchy eyelids.",
+                "Flaking of the skin around the eyes.",
+                "Eyelids that appear greasy."
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Treatment",
+          "keywords": ["blepharitis treatment", "eyelid hygiene", "warm compress", "artificial tears", "omega-3", "Topical Ophthalmic Cyclosporine", "Systane wipes"],
+          "blocks": [
+            {
+              "block_heading": "Treatment",
+              "block_type": "list",
+              "data": [
+                "Eyelid hygiene: the initial management for blepharitis and may provide relief from symptoms for both anterior and posterior blepharitis with meibomian gland dysfunction.",
+                "Apply warm compress (5 – 10 min twice daily). Replace each compress every 2 minutes to maintain the recommended temperature.",
+                "Perform a brief, gentle massage of the eyelid to help relief of meibomian gland clogging.",
+                "Clean eyelid by gently rubbing the base of the eyelashes using either diluted baby shampoo or eyelid cleaning wipes (e.g., Systane wipes).",
+                "Artificial tears: Treat associated dry eye with either artificial tears or Topical Ophthalmic Cyclosporine.",
+                "Topical Ophthalmic Antibiotics: Used alone or in combination with a corticosteroid.",
+                "Consider Omega 3 fatty acids: Omega-3 supplementation may benefit some patients with blepharitis."
+              ]
+            },
+            {
+              "block_heading": "Prevention",
+              "block_type": "list",
+              "data": [
+                "Continue on eyelid hygiene even if symptoms disappear.",
+                "Maintaining clean hands and face.",
+                "Resist the urge to touch the itchy eyes or face.",
+                "Avoid wearing contact lenses during symptoms.",
+                "Replace eye makeup, whether it is eyeliner, eye shadow or mascara, as bacteria may be lurking inside the old tools and causing re-infection after recovery.",
+                "Wipe away excess tears with a clean tissue."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Stye (Hordeolum)",
+      "items": [
+        {
+          "item_title": "Definition",
+          "keywords": ["stye", "hordeolum", "eyelid infection", "staphylococcus aureus"],
+          "blocks": [
+            {
+              "block_heading": "Definition",
+              "block_type": "list",
+              "data": [
+                "Is a tender red bump that forms on the edge of the eyelid due to a bacterial infection of an oil gland (often by Staphylococcus aureus).",
+                "It typically appears suddenly (within one day) as a small, painful lump that may resemble a boil or pimple and is often filled with pus.",
+                "Can occur on the outside of the eyelid (external hordeolum) or inside the eyelid (internal hordeolum)."
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Symptoms",
+          "keywords": ["stye symptoms", "eyelid swelling", "eye pain", "sensitivity to light"],
+          "blocks": [
+            {
+              "block_heading": "Symptoms",
+              "block_type": "list",
+              "data": [
+                "Eyelid swelling, redness, and pain.",
+                "A sensation of something in the eye.",
+                "Sensitivity to bright light.",
+                "Eye tearing and crusting.",
+                "Localized tenderness and discomfort while blinking."
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Risk Factors",
+          "keywords": ["stye risk factors", "contact lenses", "eye makeup", "eye hygiene", "rosacea", "seborrheic dermatitis", "diabetes"],
+          "blocks": [
+            {
+              "block_heading": "Risk Factors",
+              "block_type": "list",
+              "data": [
+                "Wearing contact lenses.",
+                "Using old or contaminated eye makeup.",
+                "Poor eye hygiene.",
+                "Having other eye conditions like blepharitis.",
+                "Medical conditions such as rosacea, seborrheic dermatitis, or diabetes."
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Treatment",
+          "keywords": ["stye treatment", "topical antibiotics", "pain relief", "artificial tears", "ibuprofen", "paracetamol"],
+          "blocks": [
+            {
+              "block_heading": "Treatment",
+              "block_type": "list",
+              "data": [
+                "Self-limiting: Most styes resolve on their own with proper care in 5-7 days or up to 1-2 weeks.",
+                "Topical antibiotics drops every 2h for 48h then 4x/day max 5 days or ointment 3-4x/day without steroids may be prescribed.",
+                "Systemic antibiotics rarely prescribed (only if cellulitis).",
+                "Pain relief: ibuprofen or paracetamol can help manage discomfort.",
+                "Artificial tears: help relieve associated dry eye symptoms and flush out irritants."
+              ]
+            },
+            {
+              "block_heading": "Non-Pharmacological Management",
+              "block_type": "list",
+              "data": [
+                "Use warm compresses 4 times a day for 5-10 minutes, then gently massage the eyelid to help promote drainage of the stye.",
+                "Do not squeeze: Avoid attempting to pop or squeeze the stye, as this can spread the infection.",
+                "Eyelid hygiene: Clean the eyelids daily with mild soap and warm water or use eyelid cleansers.",
+                "Avoid makeup until the stye has healed to prevent further irritation.",
+                "Wash hands: avoid sharing towels/makeup."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Chalazion",
+      "items": [
+        {
+          "item_title": "Definition",
+          "keywords": ["chalazion", "eyelid swelling", "meibomian gland blockage"],
+          "blocks": [
+            {
+              "block_heading": "Definition",
+              "block_type": "list",
+              "data": [
+                "A painless, non-infectious localized eyelid swelling caused by a blockage of Zeis or meibomian glands, which produces oil for the tear film.",
+                "It typically develops gradually over weeks and months and can occur in both the upper and lower eyelids."
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Symptoms",
+          "keywords": ["chalazion symptoms", "eyelid lump", "blurred vision"],
+          "blocks": [
+            {
+              "block_heading": "Symptoms",
+              "block_type": "list",
+              "data": [
+                "A small, painless, localized lump on the eyelid that Gradually increase in size over weeks and months.",
+                "Mild irritation, particularly when it first appears.",
+                "Possible blurred vision if the lump is large enough to press on the cornea.",
+                "A feeling of heaviness in the affected eyelid."
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Management",
+          "keywords": ["chalazion treatment", "warm compress", "lid hygiene", "glucocorticoid injection"],
+          "blocks": [
+            {
+              "block_heading": "Management",
+              "block_type": "list",
+              "data": [
+                "Resolves in weeks to months (>50% clear in 6 months.).",
+                "Warm compresses (5-10 min, 4x/day).",
+                "Lid hygiene (e.g., baby shampoo wash or eyelid cleansers).",
+                "No antibiotics.",
+                "Persistent (1-2 months), recurrent, or vision-affecting lesions are treated by incision/curettage or glucocorticoid injection."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Xanthelasma",
+      "items": [
+        {
+          "item_title": "Definition",
+          "keywords": ["xanthelasma", "eyelid plaques", "high cholesterol", "lipid disorders"],
+          "blocks": [
+            {
+              "block_heading": "Definition",
+              "block_type": "list",
+              "data": [
+                "Soft, yellow plaques that usually appear symmetrically on the medial aspects of the eyelids.",
+                "Occur most often in middle-aged and older adults.",
+                "Usually painless and build gradually over time.",
+                "Larger xanthelasma may cause discomfort.",
+                "Often linked to high cholesterol (50% of cases) or lipid disorders."
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Treatment",
+          "keywords": ["xanthelasma treatment", "lipid profile", "statins", "cosmetic removal", "CO2 laser", "TCA"],
+          "blocks": [
+            {
+              "block_heading": "Treatment",
+              "block_type": "list",
+              "data": [
+                "Lipid profile test recommended.",
+                "Statins may help but do not always reduce lesions.",
+                "Cosmetic removal options: Surgery, CO2 laser, chemical peeling (TCA)."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Algorithm From Symptoms to Diagnosis",
+      "items": [
+        {
+          "item_title": "Referral Guidelines",
+          "keywords": ["eye referral", "urgent eye conditions", "routine eye referral", "glaucoma", "uveitis", "keratitis", "corneal abrasion", "Sjögren's Syndrome"],
+          "blocks": [
+            {
+              "block_heading": "Urgent Referral Indications",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Severe eye pain (deep, throbbing pain, not just irritation)",
+                  "children": ["Risk of Uveitis, Keratitis, Scleritis, Acute Glaucoma."]
+                },
+                {
+                  "parent": "Significant vision changes or sudden vision loss (Blurred vision, halos around lights)",
+                  "children": ["Risk of Glaucoma, Keratitis, Uveitis."]
+                },
+                {
+                  "parent": "True Photophobia (painful sensitivity to normal room light)",
+                  "children": ["Risk of Uveitis, Keratitis."]
+                },
+                {
+                  "parent": "Limbal flush (redness concentrated at cornea-scleral border)",
+                  "children": ["Urgent referral needed."]
+                },
+                {
+                  "parent": "Irregular-shaped pupil, cloudy cornea, pupil fixed (not responsive)",
+                  "children": ["Risk of Acute Closed-angle Glaucoma."]
+                },
+                {
+                  "parent": "Corneal opacity or cloudiness",
+                  "children": ["Risk of Keratitis."]
+                },
+                {
+                  "parent": "Visible blood or pus in anterior chamber (Hyphema/Hypopyon)",
+                  "children": ["Risk of Trauma, Infection, Uveitis."]
+                },
+                {
+                  "parent": "History of trauma or foreign body",
+                  "children": ["Risk of Corneal abrasion / infection."]
+                },
+                {
+                  "parent": "Significant soft-tissue swelling around the eye",
+                  "children": ["Risk of Orbital / Presental cellulitis."]
+                },
+                {
+                  "parent": "Recent contact lens use + severe pain or sudden redness",
+                  "children": ["Risk of Bacterial or Fungal keratitis."]
+                },
+                {
+                  "parent": "History of eye trauma or chemical exposure",
+                  "children": ["Risk of Serious corneal damage."]
+                }
+              ]
+            },
+            {
+              "block_heading": "Routine Referral Indications",
+              "block_type": "list",
+              "data": [
+                "Symptoms persist or worsen despite OTC treatment (≥48-72 hours).",
+                "Pain or redness that getting worse over time.",
+                "Blepharitis unresponsive after 2 weeks of consistent hygiene measures.",
+                "Chalazion persisting beyond 2 months.",
+                "Xanthelasma (yellowish plaques on eyelids; lipid profile assessment needed).",
+                "Suspected autoimmune disease, Ex: (Dry eyes + Dry mouth + Joint pain → Sjögren's Syndrome).",
+                "Suspected recurrent viral conjunctivitis (persisting ≥ 2 weeks).",
+                "Blurred vision or visual disturbances due to conjunctivitis or large chalazion pressing on cornea."
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Visual Flowchart",
+          "blocks": [
+            {
+              "block_heading": "Decision Tree",
+              "block_type": "text",
+              "data": "Decision tree for diagnosing eye conditions based on symptoms (e.g., redness, dryness, eyelid swelling)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Applying Eye Drops",
+      "items": [
+        {
+          "item_title": "Instructions",
+          "keywords": ["eye drops", "how to apply eye drops", "punctal occlusion", "eye drop storage"],
+          "blocks": [
+            {
+              "block_heading": "Step-by-Step Instructions",
+              "block_type": "list",
+              "data": [
+                "Wash your hands thoroughly with soap and water. Dry your hands before instilling the eye drops.",
+                "Shake or roll the bottle gently to mix the contents well. Remove the cap from the bottle and place it on a clean piece of tissue paper. Hold the bottle as if you are holding a pen.",
+                "Tilt your head slightly backwards and look up. You can choose to either sit or lie down. Using the index finger of your free hand, gently pull down your lower eyelid to form a pocket.",
+                "Squeeze the bottle to instil one drop into the inner surface of the patient's lower eyelid.",
+                "Ask the patient to close his eyes gently and wipe away excess eye drops from his cheeks with a clean piece of tissue paper. Remind him not to squeeze his eye.",
+                "Perform punctal occlusion. Close the eyes and press down gently on the inner corner of the eye for 1 to 2 minutes. This allows the medicine to be absorbed and prevent it from being drained into the back of the throat.",
+                "Wait 5-10 minutes between drops if using more than one type of eye drop.",
+                "Close the bottle tightly after use and store it as instructed (in the fridge or at room temperature).",
+                "Do not share your eye drops with others to prevent infection.",
+                "Dispose of the drops after the expiration date or after the specified period following opening (usually one month for multi-use drops)."
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Examples - Eye Drops That Need to Be Shaken",
+          "keywords": ["eye drop types", "shaking eye drops", "corticosteroid eye drops", "antibiotic eye drops", "Pred Forte", "Prednisolone", "Tobradex", "Maxitrol"],
+          "blocks": [
+            {
+              "block_heading": "Eye Drops That Need to Be Shaken",
+              "block_type": "list",
+              "data": [
+                "Eye Drops Containing Suspended Corticosteroids(Steroids) EX. Pred Forte (Prednisolone).",
+                "Eye Drops Containing a Combination of Corticosteroids and Antibiotics EX.Tobradex - Maxitrol."
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Examples - Eye Drops That Do Not Need to Be Shaken",
+          "keywords": ["Xalatan", "Latanoprost", "Travatan", "Travoprost", "Timolol", "Olopat", "Olopatadine", "Zaditen", "Ketotifen", "Tobrex", "Tobramycin", "Vigamox", "Moxifloxacin", "Refresh Tears", "Systane Ultra"],
+          "blocks": [
+            {
+              "block_heading": "Eye Drops That Do Not Need to Be Shaken",
+              "block_type": "list",
+              "data": [
+                "EX. Xalatan (Latanoprost) – Travatan (Travoprost) – Timolol – Olopat (Olopatadine) – Zaditen (Ketotifen) – Tobrex(Tobramycin) – Vigamox (Moxifloxacin) – Refresh Tears – Systane Ultra."
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Examples - Notes",
+          "keywords": ["Hylo gel", "Hylo Vision", "Biosoft", "Lumify"],
+          "blocks": [
+            {
+              "block_heading": "Notes",
+              "block_type": "list",
+              "data": [
+                "Hylo gel – Hylo Vision Drop: Can be used for 6 months after opening the package for the first time.",
+                "Systane gel Drop – Hylo COMOD Drop – Biosoft Drop: are used for no more 3 months after first opening.",
+                "Lumify Drop: use only OTC product - Works in 1 minute, last up to 8 hours after opening can be used for 121 days."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Eye Drops Storage Temperature",
+      "items": [
+        {
+          "item_title": "Storage Guidelines",
+          "keywords": ["eye drop storage", "refrigerated eye drops", "single-use eye drops", "multi-use eye drops", "Latanoprost", "Xalatan", "Sodium Hyaluronate", "Tears Naturale Free", "Systane Ultra", "Artelac Advanced", "Gatifloxacin", "Tymer", "Tobramycin", "Tobrex", "Nepafenac", "Nevanac", "Fluorometholone", "FML", "Olopatadine", "Olopat"],
+          "blocks": [
+            {
+              "block_heading": "Refrigerated Eye Drops",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Temperature",
+                  "children": ["2 - 8°C."]
+                },
+                {
+                  "parent": "Storage",
+                  "children": ["Store in the refrigerator."]
+                },
+                {
+                  "parent": "Notes",
+                  "children": ["Allow to reach room temperature before use if needed.", "Do not leave outside the fridge for long periods."]
+                },
+                {
+                  "parent": "Examples",
+                  "children": ["Latanoprost (Xalatan)."]
+                }
+              ]
+            },
+            {
+              "block_heading": "Single-Use Eye Drops",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Temperature",
+                  "children": ["Depends on the active ingredient, usually room temperature."]
+                },
+                {
+                  "parent": "Storage",
+                  "children": ["Use once and discard immediately."]
+                },
+                {
+                  "parent": "Notes",
+                  "children": ["Do not contain preservatives.", "Do not reuse even if some solution remains in the vial."]
+                },
+                {
+                  "parent": "Examples",
+                  "children": ["Sodium Hyaluronate, Tears Naturale Free, Systane Ultra, Artelac Advanced."]
+                }
+              ]
+            },
+            {
+              "block_heading": "Room Temperature Eye Drops",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Temperature",
+                  "children": ["15 - 25°C."]
+                },
+                {
+                  "parent": "Storage",
+                  "children": ["Keep away from direct heat and humidity."]
+                },
+                {
+                  "parent": "Notes",
+                  "children": ["Close tightly after each use."]
+                },
+                {
+                  "parent": "Examples",
+                  "children": ["Gatifloxacin (Tymer), Tobramycin (Tobrex)."]
+                }
+              ]
+            },
+            {
+              "block_heading": "Multi-Use Eye Drops",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Temperature",
+                  "children": ["Depends on the active ingredient, usually room temperature."]
+                },
+                {
+                  "parent": "Storage",
+                  "children": ["Contain preservatives to prevent bacterial growth."]
+                },
+                {
+                  "parent": "Notes",
+                  "children": ["Must be tightly closed after each use.", "Should be used within a specified period after opening (usually one month)."]
+                },
+                {
+                  "parent": "Examples",
+                  "children": ["Nepafenac (Nevanac), Fluorometholone (FML), Olopatadine (Olopat)."]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Applying Eye Ointment",
+      "items": [
+        {
+          "item_title": "Instructions",
+          "keywords": ["eye ointment", "how to apply eye ointment", "eye medication", "blurred vision"],
+          "blocks": [
+            {
+              "block_heading": "Step-by-Step Instructions",
+              "block_type": "list",
+              "data": [
+                "Wash your hands first.",
+                "Use soap and water to clean your hands thoroughly before applying the ointment.",
+                "Remove the cap and avoid touching the tip to prevent contamination.",
+                "Tilt your head back slightly or lie down for easier application.",
+                "Pull Down the Lower Eyelid.",
+                "Use your index finger to gently pull down the lower eyelid to create a small pocket.",
+                "Hold the tube close to your eye but do not touch the eye with the tip.",
+                "Squeeze a small strip (usually about 1/4 to 1/2 inch) of ointment into the pocket.",
+                "Close your eye slowly and blink a few times to help spread the ointment.",
+                "You can also gently roll your eyeball with closed eyes to distribute the medication.",
+                "Wipe away any excess ointment from the eyelids and lashes using a clean tissue.",
+                "After using ointment, your vision may be blurred but will soon be cleared by blinking."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Resources",
+      "items": [
+        {
+          "item_title": "References",
+          "blocks": [
+            {
+              "block_heading": "References",
+              "block_type": "list",
+              "data": [
+                "Wolters Kluwer",
+                "UpToDate (www.uptodate.com)",
+                "UpToDate LexidrugTM (www.online.lexi.com)",
+                "DynaMedex (www.dynamedex.com)"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

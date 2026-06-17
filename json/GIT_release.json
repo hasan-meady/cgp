@@ -1,0 +1,1227 @@
+{
+  "id": "cgp-git-disorders",
+  "title": "CGP GIT Disorders Guide",
+  "type": "git-disorders-guide",
+  "release": "Release #1",
+  "committee": "Data Collection & Revision Team",
+  "sections": [
+    {
+      "section_title": "Gastroesophageal Reflux Disease (GERD)",
+      "items": [
+        {
+          "item_title": "GERD",
+          "keywords": ["GERD", "heartburn", "regurgitation", "hiatal hernia"],
+          "blocks": [
+            {
+              "block_heading": "Definition",
+              "block_type": "text",
+              "data": "GERD is the retrograde flow of stomach contents into the esophagus, which may be erosive or non-erosive."
+            },
+            {
+              "block_heading": "Common Symptoms",
+              "block_type": "list",
+              "data": ["Heartburn", "Bad breath", "Dry cough", "Regurgitation"]
+            },
+            {
+              "block_heading": "Alarm Symptoms",
+              "block_type": "list",
+              "data": ["Dysphagia", "Odynophagia", "Weight loss", "Chest pain", "Bleeding"]
+            },
+            {
+              "block_heading": "Causes and Risk Factors",
+              "block_type": "text",
+              "data": "A key cause is hiatal hernia, where the upper stomach bulges through the diaphragm."
+            },
+            {
+              "block_heading": "Non-Pharmacological Treatment",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Recommendations",
+                  "children": [
+                    "Minimize caffeine intake",
+                    "Quit smoking",
+                    "Lose weight",
+                    "Wear loose clothing",
+                    "Avoid lying down after meals",
+                    "Sleep with head and shoulders propped up",
+                    "Avoid fatty, fried foods, hot sauce, garlic, and onion"
+                  ]
+                },
+                {
+                  "parent": "Supplements",
+                  "children": ["Manuka honey", "Probiotics (e.g., Enterogermina)"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Proton Pump Inhibitors (PPIs)",
+          "associated_brands": ["Omiz", "Gasec", "Hyposec", "Gastrazole", "Nexium", "Esomep", "Esopole", "Peptazole", "Lanzor", "Pantazol", "Pantoloc", "Pantomax", "Toprazole", "Dexilant", "Pariet"],
+          "keywords": ["PPI", "proton pump inhibitors", "acid suppression", "Omiz", "Gasec", "Hyposec", "Gastrazole", "Nexium", "Esomep", "Esopole", "Peptazole", "Lanzor", "Pantazol", "Pantoloc", "Pantomax", "Toprazole", "Dexilant", "Pariet"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "First-line treatment, blocks proton pump to inhibit H+/K+-ATPase enzyme."
+            },
+            {
+              "block_heading": "Dosing",
+              "block_type": "text",
+              "data": "One or two times daily, 30 minutes before meals (4 weeks for non-erosive, 8 weeks for erosive)."
+            },
+            {
+              "block_heading": "Products",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Omeprazole",
+                  "children": ["Brands: Omiz, Gasec, Hyposec, Gastrazole", "Notes: Category C in pregnancy, contraindicated with Clopidogrel"]
+                },
+                {
+                  "parent": "Esomeprazole",
+                  "children": ["Brands: Nexium, Esomep, Esopole"]
+                },
+                {
+                  "parent": "Lansoprazole",
+                  "children": ["Brands: Peptazole, Lanzor"]
+                },
+                {
+                  "parent": "Pantoprazole",
+                  "children": ["Brands: Pantazol, Pantoloc, Pantomax, Toprazole", "Notes: Less interaction with Clopidogrel"]
+                },
+                {
+                  "parent": "Dexlansoprazole",
+                  "children": ["Brands: Dexilant", "Notes: Can be taken with or without food"]
+                },
+                {
+                  "parent": "Rabeprazole",
+                  "children": ["Brands: Pariet"]
+                }
+              ]
+            },
+            {
+              "block_heading": "Side Effects",
+              "block_type": "list",
+              "data": ["Calcium and magnesium deficiency", "Vitamin B12 deficiency", "Iron malabsorption"]
+            },
+            {
+              "block_heading": "Precautions",
+              "block_type": "list",
+              "data": [
+                "Advise calcium, magnesium, B12, and iron supplements for long-term use",
+                "Avoid with antiviral drugs to prevent loss of virologic control",
+                "Replace with H2 blockers when used with IV methotrexate"
+              ]
+            },
+            {
+              "block_heading": "Pregnancy",
+              "block_type": "text",
+              "data": "Category B (except Omeprazole, Category C), safe under physician advice"
+            }
+          ]
+        },
+        {
+          "item_title": "H2 Blockers",
+          "associated_brands": ["Fixit 150", "Famoclar", "Famodar 20"],
+          "keywords": ["H2 blockers", "Fixit", "acid secretion inhibition", "Famoclar", "Famodar"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Second-line or add-on therapy, less effective than PPIs."
+            },
+            {
+              "block_heading": "Products",
+              "block_type": "list",
+              "data": ["Nizatidine (Fixit 150)", "Famotidine (Famoclar, Famodar 20)"]
+            },
+            {
+              "block_heading": "Dosing",
+              "block_type": "text",
+              "data": "Usually twice daily, not concomitant with PPIs or antacids."
+            }
+          ]
+        },
+        {
+          "item_title": "Antacids",
+          "associated_brands": ["Tums", "Gaviscon"],
+          "keywords": ["antacids", "heartburn relief", "Tums", "Gaviscon"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Neutralize gastric acid for heartburn relief."
+            },
+            {
+              "block_heading": "Products",
+              "block_type": "list",
+              "data": ["Calcium carbonate (e.g., Tums)", "Aluminum hydroxide/magnesium carbonate (e.g., Gaviscon)"]
+            },
+            {
+              "block_heading": "Dosing",
+              "block_type": "text",
+              "data": "After meals and before bed."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Nausea and Vomiting",
+      "items": [
+        {
+          "item_title": "Definition",
+          "keywords": ["nausea causes", "vomiting symptoms"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Nausea and vomiting are symptoms of conditions like food poisoning, motion sickness, pregnancy, or migraines."
+            }
+          ]
+        },
+        {
+          "item_title": "Non-Pharmacological Treatment",
+          "keywords": ["dietary adjustments", "hydration"],
+          "blocks": [
+            {
+              "block_heading": "Recommendations",
+              "block_type": "list",
+              "data": [
+                "Drink clear or ice-cold drinks",
+                "Eat light, bland foods (e.g., saltine crackers, plain bread)",
+                "Avoid fried, greasy, or sweet foods",
+                "Eat slowly, in smaller, frequent meals",
+                "Avoid mixing hot and cold foods",
+                "Drink beverages slowly",
+                "Avoid activity after eating"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Oral Electrolytes",
+          "associated_brands": ["Bablyte", "Electrorush"],
+          "keywords": ["oral rehydration", "electrolytes", "Bablyte", "Electrorush"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Prevent dehydration due to vomiting."
+            },
+            {
+              "block_heading": "Products",
+              "block_type": "list",
+              "data": ["Bablyte", "Electrorush", "ORS sachets"]
+            }
+          ]
+        },
+        {
+          "item_title": "Ondansetron",
+          "associated_brands": ["Kromafina", "Zoron", "Zofran"],
+          "keywords": ["ondansetron", "anti-emetic", "Kromafina", "Zoron", "Zofran"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Selective 5-HT3 serotonin-receptor antagonist."
+            },
+            {
+              "block_heading": "Dosing",
+              "block_type": "text",
+              "data": "Adults: 4-8 mg 2-4 times daily; Pediatrics: 0.1-0.2 mg/kg/dose 3-4 times"
+            },
+            {
+              "block_heading": "Side Effects",
+              "block_type": "list",
+              "data": ["Headache", "Constipation", "QT prolongation"]
+            },
+            {
+              "block_heading": "Precautions",
+              "block_type": "text",
+              "data": "Use cautiously in hepatic impairment or with QT prolongation risk."
+            },
+            {
+              "block_heading": "Pregnancy",
+              "block_type": "text",
+              "data": "Considered for severe vomiting in pregnancy if other agents fail."
+            }
+          ]
+        },
+        {
+          "item_title": "Metoclopramide",
+          "associated_brands": ["Primperan"],
+          "keywords": ["metoclopramide", "gastric motility", "Primperan"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Antagonizes D2 receptors to improve gastric emptying."
+            },
+            {
+              "block_heading": "Dosing",
+              "block_type": "text",
+              "data": "10-15 mg orally 4 times daily, 30 minutes before meals/bed."
+            },
+            {
+              "block_heading": "Side Effects",
+              "block_type": "list",
+              "data": ["Restlessness", "Dystonia", "Fatigue", "Hyperprolactinemia", "Tardive dyskinesia (rare)"]
+            },
+            {
+              "block_heading": "Precautions",
+              "block_type": "text",
+              "data": "Use lowest dose for shortest duration due to tardive dyskinesia risk."
+            },
+            {
+              "block_heading": "Pregnancy",
+              "block_type": "text",
+              "data": "Generally safe at lowest dose."
+            }
+          ]
+        },
+        {
+          "item_title": "Domperidone",
+          "associated_brands": ["Dompy", "Motilium"],
+          "keywords": ["domperidone", "nausea treatment", "Dompy", "Motilium"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Peripheral dopamine-2 receptor antagonist, enhances gastric motility."
+            },
+            {
+              "block_heading": "Dosing",
+              "block_type": "text",
+              "data": "10 mg orally 3-4 times daily, 30 minutes before meals/bed."
+            },
+            {
+              "block_heading": "Side Effects",
+              "block_type": "list",
+              "data": ["Headache", "Abdominal cramps", "Diarrhea"]
+            },
+            {
+              "block_heading": "Precautions",
+              "block_type": "text",
+              "data": "Caution in severe cardiac disease or with CYP3A4 inhibitors."
+            },
+            {
+              "block_heading": "Pregnancy",
+              "block_type": "text",
+              "data": "Use with caution due to insufficient data."
+            }
+          ]
+        },
+        {
+          "item_title": "Referral Criteria",
+          "keywords": ["emergency referral", "dehydration signs"],
+          "blocks": [
+            {
+              "block_heading": "Symptoms Requiring Referral",
+              "block_type": "list",
+              "data": [
+                "Vomiting blood (coffee grounds appearance)",
+                "Severe headache or stiff neck",
+                "Severe abdominal pain",
+                "Fever over 38.3°C",
+                "Vomiting with diarrhea",
+                "Rapid breathing or pulse",
+                "Lethargy, confusion, or decreased alertness",
+                "Signs of dehydration (extreme thirst, dizziness, fatigue, palpitations)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Peptic Ulcer",
+      "items": [
+        {
+          "item_title": "Definition",
+          "keywords": ["peptic ulcer types", "stomach sores"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Peptic ulcers are open sores on the stomach lining (gastric ulcers) or upper small intestine (duodenal ulcers)."
+            }
+          ]
+        },
+        {
+          "item_title": "Symptoms",
+          "keywords": ["ulcer symptoms", "melena"],
+          "blocks": [
+            {
+              "block_heading": "Duodenal Ulcers",
+              "block_type": "list",
+              "data": ["Pain relieved by meals", "Occurs 2-3 hours after meals", "Most common type", "Dark, tarry stools (melena)"]
+            },
+            {
+              "block_heading": "Gastric Ulcers",
+              "block_type": "list",
+              "data": ["Pain increased by meals", "Occurs 30 minutes to 1 hour after meals", "Less common", "Vomiting"]
+            }
+          ]
+        },
+        {
+          "item_title": "Causes",
+          "keywords": ["H. pylori", "NSAIDs"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Primarily caused by Helicobacter pylori infection or long-term NSAID use. Stress and spicy foods worsen symptoms but do not cause ulcers."
+            }
+          ]
+        },
+        {
+          "item_title": "Referral Criteria",
+          "keywords": ["ulcer complications", "emergency referral"],
+          "blocks": [
+            {
+              "block_heading": "Symptoms Requiring Referral",
+              "block_type": "list",
+              "data": [
+                "Vomiting or vomiting blood",
+                "Dark blood in stools or black/tarry stools",
+                "Trouble breathing",
+                "Feeling faint",
+                "Nausea or vomiting",
+                "Unexplained weight loss",
+                "Appetite changes"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Complications",
+          "keywords": ["ulcer complications", "gastric cancer"],
+          "blocks": [
+            {
+              "block_heading": "Complications",
+              "block_type": "list",
+              "data": ["Bleeding", "Perforation", "Obstruction", "Cancer"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Helicobacter Pylori Infection",
+      "items": [
+        {
+          "item_title": "Definition",
+          "keywords": ["H. pylori infection", "chronic infection"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "H. pylori is a common, often chronic bacterial infection of the gastrointestinal tract, with possible hereditary susceptibility."
+            }
+          ]
+        },
+        {
+          "item_title": "Transmission",
+          "keywords": ["H. pylori transmission", "urease enzyme"],
+          "blocks": [
+            {
+              "block_heading": "Transmission Routes",
+              "block_type": "list",
+              "data": ["Vertical (mother to child)", "Horizontal (across individuals or environmental contamination)"]
+            },
+            {
+              "block_heading": "Mechanism",
+              "block_type": "text",
+              "data": "Urease enzyme generates ammonium ions to survive gastric acid."
+            }
+          ]
+        },
+        {
+          "item_title": "Symptoms",
+          "keywords": ["H. pylori symptoms", "gastrointestinal symptoms"],
+          "blocks": [
+            {
+              "block_heading": "Common Symptoms",
+              "block_type": "list",
+              "data": ["Nausea", "Vomiting", "Heartburn", "Burping", "Stomach pain"]
+            },
+            {
+              "block_heading": "Uncommon Symptoms",
+              "block_type": "list",
+              "data": ["Fatigue", "Anemia", "Diarrhea", "Dark stools", "Bad breath", "Loss of appetite", "Unintentional weight loss", "Skin rashes", "Unexplained hives", "Itchy skin"]
+            }
+          ]
+        },
+        {
+          "item_title": "Risk Factors",
+          "blocks": [
+            {
+              "block_heading": "Risk Factors",
+              "block_type": "list",
+              "data": [
+                "Infected family members",
+                "Crowded living conditions",
+                "Poor hygiene",
+                "Poor sanitation",
+                "Having two or more siblings",
+                "Fecal contamination of water supply",
+                "Healthcare professionals"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Complications",
+          "blocks": [
+            {
+              "block_heading": "Complications",
+              "block_type": "list",
+              "data": ["Gastritis", "Peptic ulcers", "Stomach cancer"]
+            }
+          ]
+        },
+        {
+          "item_title": "Prevention",
+          "blocks": [
+            {
+              "block_heading": "Prevention",
+              "block_type": "list",
+              "data": ["Good hygiene", "Hand washing", "Healthy nutrition", "Vaccine (preclinical)"]
+            }
+          ]
+        },
+        {
+          "item_title": "Pharmacological Treatment",
+          "keywords": ["H pylori treatment", "triple therapy", "bismuth quadruple"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Treatment depends on macrolide resistance and bismuth availability."
+            },
+            {
+              "block_heading": "Macrolide Resistance <15%",
+              "block_type": "list",
+              "data": [
+                "Clarithromycin-based triple therapy",
+                "Bismuth quadruple therapy",
+                "Sitafloxacin & vonoprazan-based triple therapy",
+                "Rifabutin-based triple therapy"
+              ]
+            },
+            {
+              "block_heading": "Macrolide Resistance >15%",
+              "block_type": "list",
+              "data": [
+                "Bismuth quadruple therapy",
+                "Levofloxacin-based triple therapy",
+                "Rifabutin-based triple therapy",
+                "Susceptibility-guided therapy"
+              ]
+            },
+            {
+              "block_heading": "Bismuth-Unavailable Region",
+              "block_type": "list",
+              "data": [
+                "Clarithromycin-based triple therapy",
+                "Levofloxacin-based triple therapy",
+                "Rifabutin-based triple therapy",
+                "Susceptibility-guided therapy"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Indications for Testing",
+          "keywords": ["H. pylori testing", "iron deficiency"],
+          "blocks": [
+            {
+              "block_heading": "Conditions for Testing",
+              "block_type": "list",
+              "data": [
+                "Unexplained iron deficiency",
+                "Unexplained skin rashes",
+                "Immune Thrombocytopenic Purpura (ITP)",
+                "Chronic NSAID use with symptoms"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Irritable Bowel Syndrome (IBS)",
+      "items": [
+        {
+          "item_title": "Definition",
+          "keywords": ["IBS definition", "functional disorder"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "IBS is a functional gastrointestinal disorder characterized by abdominal pain, constipation, and/or diarrhea."
+            }
+          ]
+        },
+        {
+          "item_title": "Symptoms",
+          "keywords": ["IBS symptoms", "abdominal discomfort"],
+          "blocks": [
+            {
+              "block_heading": "Symptoms",
+              "block_type": "list",
+              "data": ["Abdominal pain (2-3 times/week)", "Constipation", "Small-volume loose stools (diarrhea)"]
+            }
+          ]
+        },
+        {
+          "item_title": "Mebeverine",
+          "keywords": ["mebeverine", "antispasmodic"],
+          "blocks": [
+            {
+              "block_heading": "Dosing",
+              "block_type": "text",
+              "data": "135-200 mg orally 2-3 times daily, 30 minutes before meals"
+            }
+          ]
+        },
+        {
+          "item_title": "Pinaverium",
+          "associated_brands": ["Dicetel"],
+          "keywords": ["pinaverium", "antispasmodic", "Dicetel"],
+          "blocks": [
+            {
+              "block_heading": "Dosing",
+              "block_type": "text",
+              "data": "50-100 mg orally 2-3 times daily, 30 minutes before meals, max 300 mg daily"
+            },
+            {
+              "block_heading": "Precautions",
+              "block_type": "list",
+              "data": ["Do not crush/chew", "Take with water", "Avoid lying down"]
+            },
+            {
+              "block_heading": "Side Effects",
+              "block_type": "list",
+              "data": ["Dry mouth", "Dizziness", "Headache"]
+            }
+          ]
+        },
+        {
+          "item_title": "Peppermint Oil",
+          "associated_brands": ["Spasmiona"],
+          "keywords": ["peppermint oil", "spasm relief", "Spasmiona"],
+          "blocks": [
+            {
+              "block_heading": "Dosing",
+              "block_type": "text",
+              "data": "1-2 capsules after meals"
+            }
+          ]
+        },
+        {
+          "item_title": "Constipation Management",
+          "keywords": ["IBS constipation", "laxatives"],
+          "blocks": [
+            {
+              "block_heading": "Products",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Bulk-forming laxatives (e.g., Hyfiber)",
+                  "children": ["Fiber supplement"]
+                },
+                {
+                  "parent": "Lactulose",
+                  "children": ["Preferred for IBS constipation"]
+                }
+              ]
+            },
+            {
+              "block_heading": "Note",
+              "block_type": "text",
+              "data": "Stimulant laxatives (e.g., senna, bisacodyl) not recommended."
+            }
+          ]
+        },
+        {
+          "item_title": "Diarrhea Management",
+          "keywords": ["IBS diarrhea", "loperamide"],
+          "blocks": [
+            {
+              "block_heading": "Loperamide",
+              "block_type": "text",
+              "data": "4 mg initially, then 2 mg after each loose stool"
+            }
+          ]
+        },
+        {
+          "item_title": "Non-Pharmacological Treatment",
+          "keywords": ["probiotics", "low FODMAP", "stress management", "Enterogermina"],
+          "blocks": [
+            {
+              "block_heading": "Recommendations",
+              "block_type": "list",
+              "data": [
+                "Probiotics (e.g., Enterogermina)",
+                "Decrease stress and avoid caffeine",
+                "Follow a low FODMAP diet",
+                "Increase water and fiber intake"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Referral Criteria",
+          "keywords": ["IBS referral", "red flags"],
+          "blocks": [
+            {
+              "block_heading": "Symptoms Requiring Referral",
+              "block_type": "list",
+              "data": ["Unexplained weight loss", "Rectal bleeding", "Iron deficiency anemia"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Diarrhea",
+      "items": [
+        {
+          "item_title": "Definition",
+          "keywords": ["diarrhea definition", "loose stools"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Diarrhea is characterized by frequent, loose, or watery stools, often leading to dehydration if untreated."
+            }
+          ]
+        },
+        {
+          "item_title": "Diosmectite",
+          "associated_brands": ["Dioclear"],
+          "keywords": ["diosmectite", "mucosal protection", "Dioclear"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Coats and protects gastrointestinal mucosa, adsorbs harmful substances."
+            },
+            {
+              "block_heading": "Dosing",
+              "block_type": "list",
+              "data": [
+                "Adults: 1 sachet 3 times daily",
+                "Children 6-18 years: 1 sachet 2-3 times daily",
+                "Children 2-6 years: 1 sachet 1-2 times daily"
+              ]
+            },
+            {
+              "block_heading": "Administration",
+              "block_type": "text",
+              "data": "Mix with soft food or 50 mL water."
+            },
+            {
+              "block_heading": "Precautions",
+              "block_type": "list",
+              "data": [
+                "Avoid simultaneous administration with other oral medications",
+                "May cause constipation, reduce dose if history of constipation",
+                "Not for children under 2 years"
+              ]
+            },
+            {
+              "block_heading": "Pregnancy",
+              "block_type": "text",
+              "data": "Not recommended"
+            }
+          ]
+        },
+        {
+          "item_title": "Kaolin/Pectin",
+          "associated_brands": ["Kapect"],
+          "keywords": ["kaolin", "anti-diarrheal", "Kapect"],
+          "blocks": [
+            {
+              "block_heading": "Dosing",
+              "block_type": "text",
+              "data": "5 mL 3-6 times daily"
+            }
+          ]
+        },
+        {
+          "item_title": "Oral Rehydration Solution (ORS)",
+          "keywords": ["ORS", "rehydration"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Restores or prevents fluid and electrolyte loss."
+            },
+            {
+              "block_heading": "Dosing",
+              "block_type": "list",
+              "data": [
+                "Mild to moderate dehydration: 50-100 mL/kg over 4 hours",
+                "Maintenance: 10 mL/kg per loose stool, 2 mL/kg per vomiting episode"
+              ]
+            },
+            {
+              "block_heading": "Administration",
+              "block_type": "text",
+              "data": "Small, frequent amounts, continue breastfeeding/formula."
+            }
+          ]
+        },
+        {
+          "item_title": "Non-Pharmacological Treatment",
+          "keywords": ["BRAT diet", "probiotics", "zinc"],
+          "blocks": [
+            {
+              "block_heading": "Recommendations",
+              "block_type": "list",
+              "data": [
+                "Avoid milk, soda, carbonated, or caffeinated drinks",
+                "Take zinc supplements",
+                "Probiotics",
+                "Follow BRAT diet (Bananas, Rice, Apple, Toast, boiled potatoes)"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Referral Criteria",
+          "keywords": ["diarrhea referral", "dehydration signs"],
+          "blocks": [
+            {
+              "block_heading": "Symptoms Requiring Referral",
+              "block_type": "list",
+              "data": [
+                "Fever lasting more than 7 days",
+                "Signs of dehydration (dry lips, rapid pulse, sunken eyes, dark urine, dizziness)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Constipation",
+      "items": [
+        {
+          "item_title": "Definition",
+          "keywords": ["constipation types", "painful defecation"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Constipation involves infrequent, painful defecation with dry, hard stools. Acute if less than 3 weeks, chronic if 3 months or more."
+            }
+          ]
+        },
+        {
+          "item_title": "Stimulant Laxatives",
+          "associated_brands": ["Ronzalax", "Sene", "Dulcolax"],
+          "keywords": ["stimulant laxatives", "acute constipation", "Ronzalax", "Sene", "Dulcolax"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Preferred for acute constipation."
+            },
+            {
+              "block_heading": "Products",
+              "block_type": "list",
+              "data": ["Senna leaves (e.g., Ronzalax, Sene)", "Bisacodyl (e.g., Dulcolax)"]
+            }
+          ]
+        },
+        {
+          "item_title": "Bulk-Forming Laxatives",
+          "associated_brands": ["Agiolax"],
+          "keywords": ["bulk-forming laxatives", "fiber", "Agiolax"],
+          "blocks": [
+            {
+              "block_heading": "Dosing",
+              "block_type": "text",
+              "data": "1-2 teaspoons 2-4 times daily with large amount of water."
+            }
+          ]
+        },
+        {
+          "item_title": "Osmotic Laxatives",
+          "associated_brands": ["Ezilax", "Duphalac", "Movicol"],
+          "keywords": ["osmotic laxatives", "lactulose", "Ezilax", "Duphalac", "Movicol"],
+          "blocks": [
+            {
+              "block_heading": "Products",
+              "block_type": "list",
+              "data": ["Lactulose (e.g., Ezilax, Duphalac)", "Polyethylene glycol (e.g., Movicol sachets)"]
+            }
+          ]
+        },
+        {
+          "item_title": "Enemas",
+          "keywords": ["enemas", "severe constipation"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Used for severe constipation."
+            }
+          ]
+        },
+        {
+          "item_title": "Non-Pharmacological Treatment",
+          "keywords": ["hydration", "fiber intake", "probiotics"],
+          "blocks": [
+            {
+              "block_heading": "Recommendations",
+              "block_type": "list",
+              "data": [
+                "Drink plenty of water",
+                "Regular exercise",
+                "Avoid ignoring urge to pass stool",
+                "Increase fiber intake",
+                "Prebiotics and probiotics"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Referral Criteria",
+          "keywords": ["constipation referral", "red flags"],
+          "blocks": [
+            {
+              "block_heading": "Symptoms Requiring Referral",
+              "block_type": "list",
+              "data": ["Rectal bleeding", "Complete stool blockage"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Hyperacidity Medications",
+      "items": [
+        {
+          "item_title": "Antacids",
+          "associated_brands": ["Tums", "Gaviscon"],
+          "keywords": ["antacids", "gastric acid neutralization", "Tums", "Gaviscon"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Neutralize gastric acid for heartburn relief in mild GERD."
+            },
+            {
+              "block_heading": "Products",
+              "block_type": "list",
+              "data": ["Calcium carbonate (e.g., Tums)", "Aluminum hydroxide/magnesium carbonate (e.g., Gaviscon)"]
+            },
+            {
+              "block_heading": "Administration",
+              "block_type": "text",
+              "data": "After meals and before bed, rapid onset but short duration."
+            },
+            {
+              "block_heading": "Precautions",
+              "block_type": "text",
+              "data": "May affect absorption of drugs like allopurinol, thyroxine, iron, quinolones, tetracycline; separate administration."
+            },
+            {
+              "block_heading": "Pregnancy",
+              "block_type": "text",
+              "data": "Safe if lifestyle/dietary modifications fail."
+            }
+          ]
+        },
+        {
+          "item_title": "H2 Blockers",
+          "associated_brands": ["Fixit 150", "Famoclar", "Famodar 20"],
+          "keywords": ["H2 blockers", "acid suppression", "Fixit", "Famoclar", "Famodar"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Inhibit acid secretion by blocking H2 receptors on parietal cells, used for peptic ulcer, GERD, dyspepsia."
+            },
+            {
+              "block_heading": "Products",
+              "block_type": "list",
+              "data": ["Nizatidine (e.g., Fixit 150)", "Famotidine (e.g., Famoclar, Famodar 20)"]
+            },
+            {
+              "block_heading": "Dosing",
+              "block_type": "text",
+              "data": "Usually twice daily, max efficacy in 1-3 hours."
+            },
+            {
+              "block_heading": "Side Effects",
+              "block_type": "list",
+              "data": ["Diarrhea", "Confusion", "Restlessness", "Somnolence", "Headaches", "Dizziness"]
+            },
+            {
+              "block_heading": "Precautions",
+              "block_type": "text",
+              "data": "Absorption reduced by 10-20% with antacids, unaffected by food."
+            },
+            {
+              "block_heading": "Pregnancy",
+              "block_type": "text",
+              "data": "Safe but second-line if antacids fail."
+            }
+          ]
+        },
+        {
+          "item_title": "Proton Pump Inhibitors (PPIs) - Hyperacidity",
+          "associated_brands": ["Omiz", "Gasec", "Hyposec", "Gastrazole", "Nexium", "Esomep", "Esopole", "Peptazole", "Lanzor", "Pantazol", "Pantoloc", "Pantomax", "Toprazole", "Dexilant", "Pariet"],
+          "keywords": ["PPIs", "acid secretion inhibition", "Omiz", "Gasec", "Nexium", "Esomep", "Peptazole", "Lanzor", "Pantazol", "Pantoloc", "Dexilant", "Pariet"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Block acid secretion by inhibiting H+/K+-ATPase, used for GERD, dyspepsia, ulcers, H. pylori, esophagitis."
+            },
+            {
+              "block_heading": "Products",
+              "block_type": "list",
+              "data": [
+                "Omeprazole (e.g., Omiz, Gasec)",
+                "Esomeprazole (e.g., Nexium, Esomep)",
+                "Lansoprazole (e.g., Peptazole, Lanzor)",
+                "Pantoprazole (e.g., Pantazol, Pantoloc)",
+                "Dexlansoprazole (e.g., Dexilant)",
+                "Rabeprazole (e.g., Pariet)"
+              ]
+            },
+            {
+              "block_heading": "Administration",
+              "block_type": "text",
+              "data": "30-60 minutes before breakfast, second dose before evening meal if needed. Dexilant can be taken with/without food."
+            },
+            {
+              "block_heading": "Side Effects",
+              "block_type": "list",
+              "data": ["Enteric infections (e.g., Clostridioides difficile)", "Malabsorption (magnesium, calcium, iron, vitamin B12)"]
+            },
+            {
+              "block_heading": "Drug Interactions",
+              "block_type": "list",
+              "data": ["Omeprazole/esomeprazole reduce Clopidogrel's antiplatelet effect", "Interact with warfarin, phenytoin, itraconazole"]
+            },
+            {
+              "block_heading": "Precautions",
+              "block_type": "text",
+              "data": "Not concomitant with H2 blockers; H2 blockers can be taken before bedtime."
+            },
+            {
+              "block_heading": "Pregnancy",
+              "block_type": "text",
+              "data": "Safe if antacids/H2 blockers fail; Omeprazole, Lansoprazole, Pantoprazole most studied."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Case Studies",
+      "items": [
+        {
+          "item_title": "Case 1: Acute Constipation",
+          "keywords": ["acute constipation", "laxatives", "fiber", "Ronzalax", "Sene", "Dulcolax", "Agiolax", "Ezilax", "Duphalac", "Movicol"],
+          "blocks": [
+            {
+              "block_heading": "Patient Presentation",
+              "block_type": "text",
+              "data": "45-year-old male with hypertension (Amlor 10 mg) and iron deficiency (Ferose tab) presents with acute constipation (2 weeks), painful defecation, dry/hard stools."
+            },
+            {
+              "block_heading": "Assessment",
+              "block_type": "list",
+              "data": ["Acute constipation (less than 3 weeks)", "Medications (CCBs, iron) may contribute"]
+            },
+            {
+              "block_heading": "Pharmacological Treatment",
+              "block_type": "list",
+              "data": [
+                "Stimulant laxatives: Senna (Ronzalax, Sene), Bisacodyl (Dulcolax)",
+                "Bulk-forming laxative: Agiolax granules (1-2 tsp 2-4 times daily with water)",
+                "Osmotic laxatives: Lactulose (Ezilax, Duphalac), Polyethylene glycol (Movicol)",
+                "Enemas for severe cases"
+              ]
+            },
+            {
+              "block_heading": "Non-Pharmacological Treatment",
+              "block_type": "list",
+              "data": ["Drink plenty of water", "Regular exercise", "Avoid ignoring urge to pass stool", "Increase fiber intake", "Prebiotics/probiotics"]
+            },
+            {
+              "block_heading": "Referral Criteria",
+              "block_type": "list",
+              "data": ["Rectal bleeding", "Complete stool blockage"]
+            }
+          ]
+        },
+        {
+          "item_title": "Case 2: Pediatric Diarrhea",
+          "keywords": ["pediatric diarrhea", "ORS", "BRAT diet", "Dioclear", "Kapect"],
+          "blocks": [
+            {
+              "block_heading": "Patient Presentation",
+              "block_type": "text",
+              "data": "10-year-old child with watery diarrhea for 5 days, seeking medication to stop diarrhea."
+            },
+            {
+              "block_heading": "Assessment",
+              "block_type": "text",
+              "data": "Acute diarrhea (less than 14 days)"
+            },
+            {
+              "block_heading": "Pharmacological Treatment",
+              "block_type": "list",
+              "data": ["Diosmectite (Dioclear): 1 sachet 2-3 times daily", "Kaolin/Pectin (Kapect): 5 mL 3-6 times daily", "ORS to prevent dehydration"]
+            },
+            {
+              "block_heading": "Non-Pharmacological Treatment",
+              "block_type": "list",
+              "data": ["Avoid milk, soda, carbonated/caffeinated drinks", "Zinc supplements", "Probiotics", "BRAT diet (Bananas, Rice, Apple, Toast, boiled potatoes)"]
+            },
+            {
+              "block_heading": "Referral Criteria",
+              "block_type": "list",
+              "data": ["Fever lasting more than 7 days", "Dehydration signs (dry lips, rapid pulse, sunken eyes, dark urine, dizziness)"]
+            }
+          ]
+        },
+        {
+          "item_title": "Case 3: Irritable Bowel Syndrome",
+          "keywords": ["IBS treatment", "antispasmodics", "low FODMAP", "Mebeverine", "Pinaverium", "Spasmiona", "Hyfiber", "Lactulose", "Loperamide", "Enterogermina"],
+          "blocks": [
+            {
+              "block_heading": "Patient Presentation",
+              "block_type": "text",
+              "data": "45-year-old male with occasional lower abdominal pain (2-3 times/week), constipation, and small-volume loose stools, seeking relief."
+            },
+            {
+              "block_heading": "Assessment",
+              "block_type": "text",
+              "data": "Symptoms suggest IBS"
+            },
+            {
+              "block_heading": "Pharmacological Treatment",
+              "block_type": "list",
+              "data": [
+                "Antispasmodics: Mebeverine (135-200 mg 2-3 times daily), Pinaverium (50-100 mg 2-3 times daily)",
+                "Peppermint oil (Spasmiona): 1-2 capsules after meals",
+                "Constipation: Bulk-forming laxatives (Hyfiber), Lactulose",
+                "Diarrhea: Loperamide (4 mg initially, 2 mg per loose stool)"
+              ]
+            },
+            {
+              "block_heading": "Non-Pharmacological Treatment",
+              "block_type": "list",
+              "data": ["Probiotics (Enterogermina)", "Decrease stress, avoid caffeine", "Low FODMAP diet", "Increase water/fiber intake"]
+            },
+            {
+              "block_heading": "Referral Criteria",
+              "block_type": "list",
+              "data": ["Unexplained weight loss", "Rectal bleeding", "Iron deficiency anemia"]
+            }
+          ]
+        },
+        {
+          "item_title": "Case 4: GERD",
+          "keywords": ["GERD management", "PPIs", "lifestyle changes", "Omeprazole", "Esomeprazole", "Pantoprazole", "Nizatidine", "Famotidine", "Tums", "Gaviscon", "Enterogermina"],
+          "blocks": [
+            {
+              "block_heading": "Patient Presentation",
+              "block_type": "text",
+              "data": "50-year-old obese male, smoker, with heartburn, bitter taste, regurgitation, dry cough, and high caffeine intake."
+            },
+            {
+              "block_heading": "Assessment",
+              "block_type": "text",
+              "data": "Symptoms indicate GERD"
+            },
+            {
+              "block_heading": "Pharmacological Treatment",
+              "block_type": "list",
+              "data": [
+                "PPIs (first-line): Omeprazole, Esomeprazole, Pantoprazole (30-60 min before breakfast)",
+                "H2 blockers (second-line): Nizatidine, Famotidine (before bedtime, separate from PPIs)",
+                "Antacids: Calcium carbonate (Tums), Aluminum hydroxide/magnesium carbonate (Gaviscon) after meals"
+              ]
+            },
+            {
+              "block_heading": "Non-Pharmacological Treatment",
+              "block_type": "list",
+              "data": [
+                "Minimize caffeine, quit smoking, lose weight",
+                "Wear loose clothing",
+                "Avoid lying down after meals",
+                "Sleep with head/shoulders propped up",
+                "Avoid fatty, fried foods, hot sauce, garlic, onion",
+                "Supplements: Manuka honey, Probiotics (Enterogermina)"
+              ]
+            },
+            {
+              "block_heading": "Referral Criteria",
+              "block_type": "list",
+              "data": [
+                "Nausea, bloody vomit, black/tarry stools",
+                "Dysphagia, anemia, unexplained weight loss",
+                "Burping, skin rashes, stomach pain without food (test for H. pylori)"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Case 5: Pediatric Vomiting",
+          "keywords": ["pediatric vomiting", "ondansetron", "rehydration", "ORS", "Bablyte", "Kromafina", "Dompy", "Motilium"],
+          "blocks": [
+            {
+              "block_heading": "Patient Presentation",
+              "block_type": "text",
+              "data": "8-year-old child with vomiting 3-4 times daily, no diarrhea or fever, seeking anti-vomiting medication."
+            },
+            {
+              "block_heading": "Assessment",
+              "block_type": "text",
+              "data": "Non-emergency vomiting, check for food poisoning"
+            },
+            {
+              "block_heading": "Pharmacological Treatment",
+              "block_type": "list",
+              "data": [
+                "Oral electrolytes: ORS sachets, Bablyte",
+                "Ondansetron (Kromafina syrup): 0.1-0.2 mg/kg/dose 3-4 times",
+                "Domperidone (Dompy syrup, Motilium syrup): 10 mL 3 times daily, 30 min before meals"
+              ]
+            },
+            {
+              "block_heading": "Non-Pharmacological Treatment",
+              "block_type": "list",
+              "data": [
+                "Drink clear/ice-cold drinks",
+                "Avoid fried, greasy, sweet foods",
+                "Eat light, bland foods (saltine crackers, plain bread)",
+                "Eat slowly, smaller frequent meals",
+                "Avoid activity after eating"
+              ]
+            },
+            {
+              "block_heading": "Referral Criteria",
+              "block_type": "list",
+              "data": ["Bloody vomit, stiff neck, lethargy, confusion", "Rapid breathing, severe abdominal pain, severe headache", "Dehydration signs"]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1025 @@
+{
+  "id": "weight-management",
+  "title": "Weight Management Pharmaceutical Care",
+  "type": "condition-guide",
+  "release": "Release #5",
+  "committee": "Eastern 2 Scientific Committee",
+  "sections": [
+    {
+      "section_title": "Obesity Overview",
+      "items": [
+        {
+          "item_title": "Definition of Obesity",
+          "keywords": ["obesity definition", "body fat accumulation", "body mass index"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "list",
+              "data": ["Excessive accumulation of body fat", "Defined by body mass index"]
+            }
+          ]
+        },
+        {
+          "item_title": "Body Mass Index",
+          "keywords": ["bmi", "obesity assessment"],
+          "blocks": [
+            {
+              "block_heading": "Calculation",
+              "block_type": "text",
+              "data": "Weight(kg)/Height(m²)"
+            },
+            {
+              "block_heading": "Categories",
+              "block_type": "table",
+              "data": {
+                "columns": ["Range", "Classification"],
+                "rows": [
+                  { "Range": "<18.5", "Classification": "Underweight" },
+                  { "Range": "18.5-24.9", "Classification": "Normal" },
+                  { "Range": "25-29.9", "Classification": "Overweight" },
+                  { "Range": "30-34.9", "Classification": "Obese" },
+                  { "Range": ">35", "Classification": "Extremely Obese" }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "item_title": "Waist Circumference",
+          "keywords": ["waist circumference", "obesity assessment"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Increased waist circumference indicates increased risk of obesity-related complications even with normal BMI"
+            },
+            {
+              "block_heading": "Risk Levels",
+              "block_type": "table",
+              "data": {
+                "columns": ["Gender", "Increased Risk", "Greatly Increased Risk"],
+                "rows": [
+                  { "Gender": "Men", "Increased Risk": "94-102 cm", "Greatly Increased Risk": ">102 cm" },
+                  { "Gender": "Women", "Increased Risk": "80-88 cm", "Greatly Increased Risk": ">88 cm" }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "item_title": "Percent Body Fat",
+          "keywords": ["percent body fat", "obesity assessment"],
+          "blocks": [
+            {
+              "block_heading": "Healthy Ranges",
+              "block_type": "table",
+              "data": {
+                "columns": ["Gender", "Range"],
+                "rows": [
+                  { "Gender": "Men", "Range": "10-20%" },
+                  { "Gender": "Women", "Range": "18-28%" }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "item_title": "Complications of Obesity",
+          "keywords": ["obesity complications", "hypertension", "type 2 diabetes", "coronary heart disease", "stroke", "dyslipidemia", "fatty liver", "sleep apnea", "osteoarthritis", "infertility"],
+          "blocks": [
+            {
+              "block_heading": "Complications",
+              "block_type": "list",
+              "data": [
+                "Hypertension",
+                "Type 2 Diabetes Mellitus",
+                "Coronary heart disease",
+                "Stroke",
+                "Dyslipidemia",
+                "Fatty liver",
+                "Obstructive sleep apnea",
+                "Osteoarthritis",
+                "Infertility",
+                "Reduced quality of life"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Obesity Risk Factors",
+          "keywords": ["obesity risk factors", "energy balance", "large portions", "physical inactivity", "screen time", "weight-gaining medications", "sleep duration", "genetics", "stress", "pregnancy", "menopause", "smoking cessation"],
+          "blocks": [
+            {
+              "block_heading": "Risk Factors",
+              "block_type": "list",
+              "data": [
+                "Positive energy balance (increased energy intake and/or decreased energy expenditure)",
+                "Served food in large portions",
+                "Decreasing physical activities",
+                "Increasing screen time",
+                "Increased use of weight-gaining medications",
+                "Sleeping ≤6 hours/night or >10 hours/night",
+                "Genetic",
+                "Predisposition psychological factors such as stress",
+                "Medication adverse effects",
+                "Life stage (such as pregnancy or menopause)",
+                "Life events (such as smoking cessation, new job, or illness)",
+                "Increased light while sleeping associated with increased likelihood of obesity in women"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Childhood Obesity Recommendations",
+      "items": [
+        {
+          "item_title": "Recommendations for Childhood Obesity",
+          "keywords": ["childhood obesity", "balanced diet", "physical activity", "healthy sleep", "comorbidities referral"],
+          "blocks": [
+            {
+              "block_heading": "Recommendations",
+              "block_type": "list",
+              "data": [
+                "Encourage balanced diet, rich in fruits, vegetables, limited or free sugars",
+                "Regular physical activity",
+                "Healthy sleep schedule",
+                "Make a referral if the weight is affecting quality of life, or the child has comorbidities like DM or HTN"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Medicines that Cause Weight Gain",
+      "items": [
+        {
+          "item_title": "Weight-Gaining Medications",
+          "keywords": ["weight-gaining medications", "antipsychotics", "antidepressants", "anti-seizures", "antidiabetics", "antihistamines", "beta-blockers", "alpha-blockers", "contraceptives", "corticosteroids"],
+          "blocks": [
+            {
+              "block_heading": "Antipsychotics",
+              "block_type": "list",
+              "data": ["Clozapine", "Olanzapine", "Quetiapine", "Risperidone"]
+            },
+            {
+              "block_heading": "Antidepressants",
+              "block_type": "list",
+              "data": ["Mirtazapine", "Citalopram", "Paroxetine", "Amitriptyline", "Nortriptyline", "Imipramine"]
+            },
+            {
+              "block_heading": "Anti-seizures",
+              "block_type": "list",
+              "data": ["Carbamazepine", "Gabapentin", "Pregabalin", "Valproate"]
+            },
+            {
+              "block_heading": "Antidiabetics",
+              "block_type": "list",
+              "data": ["Insulin", "Sulfonylureas", "Thiazolidinediones"]
+            },
+            {
+              "block_heading": "Antihistamines",
+              "block_type": "list",
+              "data": ["Cyproheptadine"]
+            },
+            {
+              "block_heading": "Beta-blockers",
+              "block_type": "list",
+              "data": ["Carvedilol", "Metoprolol", "Propranolol"]
+            },
+            {
+              "block_heading": "Alpha-blockers",
+              "block_type": "list",
+              "data": ["Doxazosin"]
+            },
+            {
+              "block_heading": "Contraceptives",
+              "block_type": "list",
+              "data": ["Combined Oral Contraceptives"]
+            },
+            {
+              "block_heading": "Corticosteroids",
+              "block_type": "list",
+              "data": ["Dexamethasone", "Prednisone", "Methylprednisolone"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Recommendation for Achieving Calorie Restriction",
+      "items": [
+        {
+          "item_title": "Calorie Restriction Recommendations",
+          "keywords": ["calorie restriction", "restrictive diet", "moderate-intensity exercise", "weight loss maintenance"],
+          "blocks": [
+            {
+              "block_heading": "Recommendations",
+              "block_type": "list",
+              "data": [
+                "Adherence to restrictive diet (such as low-carbohydrate, low-fat, high-fiber) to create energy deficit through reduced food intake",
+                "Moderate-intensity exercise is recommended for adults with obesity (Strong recommendation)",
+                "More than 150 minutes/week is generally needed to show any weight loss",
+                "Exercise may be even more helpful for maintenance than for induction of weight loss"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Concept of Energy Balance & General Notes",
+      "items": [
+        {
+          "item_title": "Energy Balance",
+          "keywords": ["energy balance", "calorie intake", "calorie expenditure", "weight stability"],
+          "blocks": [
+            {
+              "block_heading": "Principles",
+              "block_type": "list",
+              "data": [
+                "Calories in = Calories out → Stable Body Weight",
+                "Calories in > Calories out → Weight Gain",
+                "Calories in < Calories out → Weight Loss"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "General Notes",
+          "keywords": ["weight loss goals", "complex carbohydrates", "spot reduction", "sustainable lifestyle", "omega-3", "vitamins", "healthy fats", "extreme diets", "body composition", "fluid-only diets"],
+          "blocks": [
+            {
+              "block_heading": "Notes",
+              "block_type": "list",
+              "data": [
+                "For adults with overweight or obesity, achieving a weight loss of 5-10% of their body weight over 3-6 months is recommended for safe, sustainable results and significant health benefits",
+                "Focus on eating complex carbohydrates such as whole grains, fruits, and vegetables, and reduce simple carbs such as sugar, white rice, and pastries",
+                "Patient can't target fat loss to specific areas of body",
+                "There is no magic pill or drink to lose weight. Focus on making sustainable lifestyle changes like healthy diet and regular exercise",
+                "Omega-3 doesn't increase weight, it helps losing weight by stimulating metabolism",
+                "Vitamins don't increase weight, they are important for cells to carry out their functions",
+                "Healthy fats like fatty fish, nuts, and olive oil can help lower cholesterol levels and keep you feeling full",
+                "Extreme diet will make you lose weight, but it can lead to deficiencies in essential vitamins and minerals and affect digestive health",
+                "Stable weight might result from gaining muscle while losing fat, so it's important to assess body composition, not just the number on the scale",
+                "Avoiding food and relying only on fluids is unhealthy and can lead to muscle loss, and weight gain in the future",
+                "Omega-3 stimulates metabolism and aids weight loss (does not cause weight gain)",
+                "Vitamins support cellular functions but do not contribute to weight gain"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Patient Counseling on Diet",
+      "items": [
+        {
+          "item_title": "Diet Counseling",
+          "keywords": ["mediterranean diet", "low-carb diet", "calorie-restricted diet", "diet counseling"],
+          "blocks": [
+            {
+              "block_heading": "Mediterranean Diet",
+              "block_type": "text",
+              "data": "High in healthy fats, low in processed foods"
+            },
+            {
+              "block_heading": "Low-Carb Diets",
+              "block_type": "text",
+              "data": "May benefit insulin-resistant patients"
+            },
+            {
+              "block_heading": "Calorie-Restricted Diets",
+              "block_type": "text",
+              "data": "Tailored to individual needs"
+            },
+            {
+              "block_heading": "Dietary Diagram (Arabic)",
+              "block_type": "list",
+              "data": [
+                "تناول الدهون الصحية (مثل زيت الزيتين الكانولا) عند طهي الطعام وتحضير السلطة، وعلى مادة الطعام، قلل من تناول الزيدة وتجنب الدهون المتحولة.",
+                "كلماً زاد أكل الخضروات و تعددت اصنافها ذادت الفائدة البطاطا أو البطاطا المقليه لا تدخل ضمن الخضروات.",
+                "تناول الكثير من الفواكه بألوانها المتنوعه.",
+                "تناول الماء أو الشاي أو القهوة (مع قليل من السكر أو من دونه) قلل الحليب ومنتجات الألبان (إلى 2 – 1 حصة يومياً) وقلل العصائر (إلى كوب صغير يومياً)، تجنب المشروبات السكرية.",
+                "تناول مجموعة متفرعة من الحبوب الكاملة (مثل خبر القيم الكامل والأوز الأسمر والمحكومة من الحبوب الكاملة) قلل من الحبوب المصفاة (مثل الأوز الأبيض والخبر الأبيض).",
+                "تناول السمك والدجاج واليقول والمكسرات، قلل تناول اللحوم الحمراء الجبن وتجنب تناول شرائح اللحوم الباردة والانواع الأخرى المعالجة صناعياً."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Patient Counseling on Exercise",
+      "items": [
+        {
+          "item_title": "Exercise Counseling",
+          "keywords": ["moderate-intensity exercise", "aerobic activity", "strength training", "lifestyle modifications"],
+          "blocks": [
+            {
+              "block_heading": "Adults",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Requirements",
+                  "children": ["At least 150 minutes of moderate-intensity aerobic activity weekly + strength training twice a week"]
+                },
+                {
+                  "parent": "Duration Note",
+                  "children": ["30 دقيقة يومياً (30 minutes daily for aerobic exercise)"]
+                }
+              ]
+            },
+            {
+              "block_heading": "Exercise Types",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Aerobic",
+                  "children": ["Walking", "Cycling", "Swimming"]
+                },
+                {
+                  "parent": "Strength Training",
+                  "children": ["Resistance bands", "Weight lifting"]
+                },
+                {
+                  "parent": "Lifestyle Modifications",
+                  "children": ["Taking stairs", "Walking short distances"]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Anti-Obesity Agents (Mechanism of Action)",
+      "items": [
+        {
+          "item_title": "Orlistat",
+          "associated_brands": ["Xenical", "Fatlos"],
+          "keywords": ["orlistat", "xenical", "fatlos", "fat absorption inhibitor", "pancreatic lipase inhibitor"],
+          "blocks": [
+            {
+              "block_heading": "Mechanism",
+              "block_type": "text",
+              "data": "Decreases dietary fat absorption by inhibiting pancreatic lipase"
+            },
+            {
+              "block_heading": "Dosing",
+              "block_type": "text",
+              "data": "120 mg three times daily with fat-containing meals"
+            },
+            {
+              "block_heading": "Weight Loss Efficacy",
+              "block_type": "text",
+              "data": "5-10% of body weight over 6-12 months"
+            },
+            {
+              "block_heading": "Common Side Effects",
+              "block_type": "list",
+              "data": ["Steatorrhea", "Flatulence", "Fecal urgency"]
+            },
+            {
+              "block_heading": "Key Contraindications",
+              "block_type": "list",
+              "data": ["Malabsorption syndromes", "Cholestasis"]
+            },
+            {
+              "block_heading": "Ideal Patient",
+              "block_type": "text",
+              "data": "Patients committed to low-fat diet"
+            }
+          ]
+        },
+        {
+          "item_title": "Kelp",
+          "keywords": ["kelp", "iodine supplement", "natural weight loss", "thyroid function"],
+          "blocks": [
+            {
+              "block_heading": "Mechanism",
+              "block_type": "text",
+              "data": "May reduce fat absorption due to iodine content"
+            },
+            {
+              "block_heading": "Weight Loss Efficacy",
+              "block_type": "text",
+              "data": "Limited evidence"
+            },
+            {
+              "block_heading": "Common Side Effects",
+              "block_type": "list",
+              "data": ["Thyroid dysfunction if overused"]
+            },
+            {
+              "block_heading": "Key Contraindications",
+              "block_type": "list",
+              "data": ["Hyperthyroidism"]
+            },
+            {
+              "block_heading": "Ideal Patient",
+              "block_type": "text",
+              "data": "Patients seeking natural supplements"
+            }
+          ]
+        },
+        {
+          "item_title": "Chitosan",
+          "keywords": ["chitosan", "shellfish derivative", "fat binder", "natural supplement"],
+          "blocks": [
+            {
+              "block_heading": "Mechanism",
+              "block_type": "text",
+              "data": "Binds dietary fat in the gut to reduce absorption"
+            },
+            {
+              "block_heading": "Weight Loss Efficacy",
+              "block_type": "text",
+              "data": "Minimal, inconsistent evidence"
+            },
+            {
+              "block_heading": "Common Side Effects",
+              "block_type": "list",
+              "data": ["Gastrointestinal discomfort"]
+            },
+            {
+              "block_heading": "Key Contraindications",
+              "block_type": "list",
+              "data": ["Shellfish allergy"]
+            },
+            {
+              "block_heading": "Ideal Patient",
+              "block_type": "text",
+              "data": "Patients seeking natural supplements"
+            }
+          ]
+        },
+        {
+          "item_title": "Phentermine/Topiramate",
+          "keywords": ["phentermine", "topiramate", "appetite suppressant", "oral weight loss", "combination therapy"],
+          "blocks": [
+            {
+              "block_heading": "Mechanism",
+              "block_type": "text",
+              "data": "Sympathomimetic and anticonvulsant, suppresses appetite"
+            },
+            {
+              "block_heading": "Dosing",
+              "block_type": "text",
+              "data": "Daily oral capsule"
+            },
+            {
+              "block_heading": "Available Doses",
+              "block_type": "list",
+              "data": ["3.75 mg/23 mg", "7.5 mg/46 mg", "11.25 mg/69 mg", "15 mg/92 mg"]
+            },
+            {
+              "block_heading": "Weight Loss Efficacy",
+              "block_type": "text",
+              "data": "5-10% of body weight"
+            },
+            {
+              "block_heading": "Common Side Effects",
+              "block_type": "list",
+              "data": ["Insomnia", "Dry mouth", "Constipation"]
+            },
+            {
+              "block_heading": "Key Contraindications",
+              "block_type": "list",
+              "data": ["Glaucoma", "Hyperthyroidism"]
+            },
+            {
+              "block_heading": "Ideal Patient",
+              "block_type": "text",
+              "data": "Patients without cardiovascular risks"
+            }
+          ]
+        },
+        {
+          "item_title": "Green Tea Extract",
+          "keywords": ["green tea extract", "thermogenesis", "fat oxidation", "natural supplement"],
+          "blocks": [
+            {
+              "block_heading": "Mechanism",
+              "block_type": "text",
+              "data": "Increases thermogenesis and fat oxidation"
+            },
+            {
+              "block_heading": "Weight Loss Efficacy",
+              "block_type": "text",
+              "data": "Modest, 1-2% of body weight"
+            },
+            {
+              "block_heading": "Common Side Effects",
+              "block_type": "list",
+              "data": ["Gastrointestinal upset", "Caffeine-related effects"]
+            },
+            {
+              "block_heading": "Key Contraindications",
+              "block_type": "list",
+              "data": ["Caffeine sensitivity"]
+            },
+            {
+              "block_heading": "Ideal Patient",
+              "block_type": "text",
+              "data": "Patients seeking natural supplements"
+            }
+          ]
+        },
+        {
+          "item_title": "Chromium",
+          "keywords": ["chromium", "insulin sensitivity", "trace mineral", "blood sugar control"],
+          "blocks": [
+            {
+              "block_heading": "Mechanism",
+              "block_type": "text",
+              "data": "May enhance insulin sensitivity and fat metabolism"
+            },
+            {
+              "block_heading": "Weight Loss Efficacy",
+              "block_type": "text",
+              "data": "Minimal, inconsistent evidence"
+            },
+            {
+              "block_heading": "Common Side Effects",
+              "block_type": "list",
+              "data": ["Gastrointestinal irritation"]
+            },
+            {
+              "block_heading": "Key Contraindications",
+              "block_type": "list",
+              "data": ["Kidney disease"]
+            },
+            {
+              "block_heading": "Ideal Patient",
+              "block_type": "text",
+              "data": "Patients with insulin resistance"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Saxenda, Mounjaro, Ozempic, and Rybelsus",
+      "items": [
+        {
+          "item_title": "Saxenda",
+          "associated_brands": ["Saxenda"],
+          "keywords": ["saxenda", "liraglutide", "obesity management", "missed dose protocol", "daily injection", "glp-1 agonist"],
+          "blocks": [
+            {
+              "block_heading": "FDA Approval",
+              "block_type": "text",
+              "data": "Obesity Management"
+            },
+            {
+              "block_heading": "Age Approval",
+              "block_type": "text",
+              "data": "Approved for above 12 years old"
+            },
+            {
+              "block_heading": "Missed Dose Protocol",
+              "block_type": "list",
+              "data": [
+                "Missed dose less than 12 hours: Take it",
+                "Missed dose more than 12 hours: Skip",
+                "Missed dose more than 3 days: Reinitiate from starting dose 0.6 mg"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Ozempic",
+          "associated_brands": ["Ozempic"],
+          "keywords": ["ozempic", "semaglutide", "diabetes management", "off-label obesity", "weekly injection", "glp-1 agonist"],
+          "blocks": [
+            {
+              "block_heading": "FDA Approval",
+              "block_type": "text",
+              "data": "Diabetes Management, off-label use for obesity"
+            },
+            {
+              "block_heading": "Missed Dose Protocol",
+              "block_type": "list",
+              "data": [
+                "Missed dose less than 5 days: Take it",
+                "Missed dose more than 5 days: Skip"
+              ]
+            },
+            {
+              "block_heading": "Storage Instructions",
+              "block_type": "text",
+              "data": "بعد الفتح ممكن تخزينها خارج الثلاثة تحت 30 درجة ولايد من تركيب الغطاء بعيداً عن الضوء (After opening, store below 30°C away from light)"
+            }
+          ]
+        },
+        {
+          "item_title": "Rybelsus",
+          "associated_brands": ["Rybelsus"],
+          "keywords": ["rybelsus", "semaglutide oral", "administration instructions", "daily tablet", "oral glp-1"],
+          "blocks": [
+            {
+              "block_heading": "Administration Instructions",
+              "block_type": "text",
+              "data": "Take on an empty stomach with less than 120 ml water, wait 30 minutes before eating or drinking"
+            }
+          ]
+        },
+        {
+          "item_title": "Mounjaro",
+          "associated_brands": ["Mounjaro"],
+          "keywords": ["mounjaro", "tirzepatide", "dual agonist", "weekly injection", "superior efficacy"],
+          "blocks": [
+            {
+              "block_heading": "Mechanism of Action",
+              "block_type": "text",
+              "data": "Dual GLP-1 and GIP receptor agonist"
+            },
+            {
+              "block_heading": "Dosing",
+              "block_type": "text",
+              "data": "Weekly subcutaneous injection"
+            },
+            {
+              "block_heading": "Available Doses",
+              "block_type": "list",
+              "data": ["2.5 mg", "5 mg", "7.5 mg", "10 mg", "12.5 mg", "15 mg"]
+            },
+            {
+              "block_heading": "Weight Loss Efficacy",
+              "block_type": "text",
+              "data": "Up to 22.5% of body weight (higher doses)"
+            },
+            {
+              "block_heading": "HbA1c Reduction",
+              "block_type": "text",
+              "data": "2.0-2.5% (superior efficacy due to dual action)"
+            },
+            {
+              "block_heading": "Common Side Effects",
+              "block_type": "list",
+              "data": ["Nausea", "Diarrhea", "Vomiting", "Constipation"]
+            },
+            {
+              "block_heading": "Convenience",
+              "block_type": "text",
+              "data": "Weekly injection (simpler for most patients)"
+            },
+            {
+              "block_heading": "Unique Advantages",
+              "block_type": "text",
+              "data": "Superior efficacy in weight loss and blood sugar control"
+            },
+            {
+              "block_heading": "Absorption Variability",
+              "block_type": "text",
+              "data": "Stable due to injection"
+            },
+            {
+              "block_heading": "Key Contraindications",
+              "block_type": "list",
+              "data": ["Thyroid cancer (MTC)", "MEN2"]
+            },
+            {
+              "block_heading": "Ideal Patient",
+              "block_type": "text",
+              "data": "Patients seeking maximal weight loss and HbA1c control"
+            },
+            {
+              "block_heading": "Visual Effects (Mounjaro Face)",
+              "block_type": "text",
+              "data": "Rapid weight loss may cause hollowed appearance, sunken cheeks, and signs of aging (wrinkles, loose skin)"
+            }
+          ]
+        },
+        {
+          "item_title": "Ozempic (Comparison)",
+          "keywords": ["ozempic", "semaglutide", "weekly injection", "proven benefits", "glp-1 agonist"],
+          "blocks": [
+            {
+              "block_heading": "Mechanism of Action",
+              "block_type": "text",
+              "data": "GLP-1 receptor agonist"
+            },
+            {
+              "block_heading": "Dosing",
+              "block_type": "text",
+              "data": "Weekly subcutaneous injection"
+            },
+            {
+              "block_heading": "Available Doses",
+              "block_type": "list",
+              "data": ["0.25 mg", "0.5 mg", "1.0 mg"]
+            },
+            {
+              "block_heading": "Weight Loss Efficacy",
+              "block_type": "text",
+              "data": "6-15% of body weight (depending on dose)"
+            },
+            {
+              "block_heading": "HbA1c Reduction",
+              "block_type": "text",
+              "data": "1.5-2.0%"
+            },
+            {
+              "block_heading": "Common Side Effects",
+              "block_type": "list",
+              "data": ["Nausea", "Diarrhea", "Vomiting", "Constipation"]
+            },
+            {
+              "block_heading": "Convenience",
+              "block_type": "text",
+              "data": "Weekly injection (similar convenience to Mounjaro)"
+            },
+            {
+              "block_heading": "Unique Advantages",
+              "block_type": "text",
+              "data": "Proven cardiovascular benefits; widely prescribed"
+            },
+            {
+              "block_heading": "Absorption Variability",
+              "block_type": "text",
+              "data": "Stable due to injection"
+            },
+            {
+              "block_heading": "Key Contraindications",
+              "block_type": "list",
+              "data": ["Thyroid cancer (MTC)", "MEN2"]
+            },
+            {
+              "block_heading": "Ideal Patient",
+              "block_type": "text",
+              "data": "Patients looking for a proven injectable option"
+            }
+          ]
+        },
+        {
+          "item_title": "Rybelsus (Comparison)",
+          "keywords": ["rybelsus", "semaglutide oral", "daily tablet", "oral administration", "glp-1 agonist"],
+          "blocks": [
+            {
+              "block_heading": "Mechanism of Action",
+              "block_type": "text",
+              "data": "GLP-1 receptor agonist"
+            },
+            {
+              "block_heading": "Dosing",
+              "block_type": "text",
+              "data": "Daily oral tablet, on an empty stomach with less than 120 ml water, wait 30 minutes before eating or drinking"
+            },
+            {
+              "block_heading": "Available Doses",
+              "block_type": "list",
+              "data": ["3 mg (starting dose)", "7 mg", "14 mg"]
+            },
+            {
+              "block_heading": "Weight Loss Efficacy",
+              "block_type": "text",
+              "data": "3-8% of body weight (depending on dose)"
+            },
+            {
+              "block_heading": "HbA1c Reduction",
+              "block_type": "text",
+              "data": "1.0-1.5%"
+            },
+            {
+              "block_heading": "Common Side Effects",
+              "block_type": "list",
+              "data": ["Nausea", "Diarrhea", "Vomiting", "Constipation"]
+            },
+            {
+              "block_heading": "Convenience",
+              "block_type": "text",
+              "data": "Daily oral tablet (preferred by some for avoiding injections)"
+            },
+            {
+              "block_heading": "Unique Advantages",
+              "block_type": "text",
+              "data": "First and only oral GLP-1 agonist"
+            },
+            {
+              "block_heading": "Absorption Variability",
+              "block_type": "text",
+              "data": "Highly variable; affected by food & water intake"
+            },
+            {
+              "block_heading": "Key Contraindications",
+              "block_type": "list",
+              "data": ["Thyroid cancer (MTC)", "MEN2", "Unsuitable for patients with swallowing issues"]
+            },
+            {
+              "block_heading": "Ideal Patient",
+              "block_type": "text",
+              "data": "Patients preferring oral therapy"
+            }
+          ]
+        },
+        {
+          "item_title": "Patient Counseling for GLP-1 Agents",
+          "keywords": ["patient counseling", "injectable storage", "injection sites", "blood glucose monitoring", "dietary advice", "side effect management", "glp-1 administration"],
+          "blocks": [
+            {
+              "block_heading": "Instructions",
+              "block_type": "list",
+              "data": [
+                "For injectable (Mounjaro and Ozempic), ensure proper storage in the refrigerator and avoid freezing",
+                "Rotate injection sites (abdomen, thigh, or upper arm) to avoid irritation",
+                "Monitor blood glucose levels regularly, especially if diabetic",
+                "Avoid high-fat and high-sugar meals, which may worsen gastrointestinal side effects",
+                "Stay hydrated throughout the day, especially if experiencing mild nausea",
+                "Advise gradual dose titration to minimize side effects",
+                "Note: Mounjaro may reduce effectiveness of hormonal birth control pills; recommend non-oral contraceptives (e.g., patch, vaginal ring) or barrier methods (e.g., condoms)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Nutraceuticals with Anti-Obesity Agents",
+      "items": [
+        {
+          "item_title": "Nutraceuticals",
+          "keywords": ["nutraceuticals", "multivitamins", "royal jelly", "l-carnitine", "omega-3", "coq10", "vitamin d", "fibers", "zinc", "vitamin b12"],
+          "blocks": [
+            {
+              "block_heading": "Multivitamins",
+              "block_type": "text",
+              "data": "Help to fill nutrient gaps"
+            },
+            {
+              "block_heading": "Royal jelly and L-carnitine",
+              "block_type": "text",
+              "data": "Boost immunity and increase energy"
+            },
+            {
+              "block_heading": "Omega-3",
+              "block_type": "text",
+              "data": "For heart and brain health"
+            },
+            {
+              "block_heading": "CoQ10",
+              "block_type": "text",
+              "data": "For lethargy and fatigue"
+            },
+            {
+              "block_heading": "Vitamin D",
+              "block_type": "text",
+              "data": "For bone health and immunity"
+            },
+            {
+              "block_heading": "Fibers",
+              "block_type": "text",
+              "data": "For digestive health and feeling of fullness"
+            },
+            {
+              "block_heading": "Zinc",
+              "block_type": "text",
+              "data": "Immune function and wound healing"
+            },
+            {
+              "block_heading": "Vitamin B12",
+              "block_type": "text",
+              "data": "For nerve function, RBCs production"
+            }
+          ]
+        },
+        {
+          "item_title": "Rondiet Capsules",
+          "associated_brands": ["Rondiet"],
+          "keywords": ["rondiet capsules", "horsetail", "green tea extract", "red tea extract", "water retention", "fat metabolism"],
+          "blocks": [
+            {
+              "block_heading": "Ingredients",
+              "block_type": "list",
+              "data": ["Horsetail (150 mg)", "Green Tea Extract (150 mg)", "Red Tea Extract (150 mg)"]
+            },
+            {
+              "block_heading": "Potential Benefits",
+              "block_type": "text",
+              "data": "May aid in reducing water retention and improving fat metabolism"
+            },
+            {
+              "block_heading": "Use Case",
+              "block_type": "text",
+              "data": "Best suited for patients looking for mild weight management support and diuretic effects"
+            }
+          ]
+        },
+        {
+          "item_title": "Ronfit Capsules",
+          "associated_brands": ["Ronfit"],
+          "keywords": ["ronfit capsules", "white kidney bean", "raspberry ketone", "green tea", "garcinia cambogia", "gymnema", "appetite suppressant", "fat metabolism", "carbohydrate blocker", "blood sugar support", "weight management"],
+          "blocks": [
+            {
+              "block_heading": "Ingredients",
+              "block_type": "list",
+              "data": [
+                "White Kidney Bean (60 mg)",
+                "Raspberry Ketone (50 mg)",
+                "Green Tea (50 mg)",
+                "Garcinia Cambogia (50 mg)",
+                "Gymnema (50 mg)"
+              ]
+            },
+            {
+              "block_heading": "Potential Benefits",
+              "block_type": "text",
+              "data": "Targets multiple pathways of weight loss, including appetite suppression, fat metabolism, and carbohydrate blocking. May be beneficial for patients combining weight loss with blood sugar management."
+            },
+            {
+              "block_heading": "Use Case",
+              "block_type": "text",
+              "data": "Ideal for patients seeking comprehensive weight management and metabolic support"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Weight Loss Side Effects",
+      "items": [
+        {
+          "item_title": "Side Effects of Weight Loss",
+          "keywords": ["weight loss side effects", "muscle loss", "gallstones", "hair loss", "cracked nails", "dry skin"],
+          "blocks": [
+            {
+              "block_heading": "Effects",
+              "block_type": "list",
+              "data": [
+                "Rapid weight loss can lead to muscle loss and gallstones",
+                "Hair loss (support with supplements and hair treatment)",
+                "Cracked nails (take supplements)",
+                "Pale and dry skin (use moisturizers, vitamin C, hyaluronic acid)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Switching between GLP-1 Agents",
+      "items": [
+        {
+          "item_title": "Switching Protocols",
+          "keywords": ["glp-1 switching", "daily to weekly", "weekly to daily", "gi side effects"],
+          "blocks": [
+            {
+              "block_heading": "Daily to Weekly",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Steps",
+                  "children": [
+                    "First dose administered the following day after discontinuation",
+                    "If switching prompted by GI side effects, wait for symptoms to resolve",
+                    "Start with the lowest available dose"
+                  ]
+                }
+              ]
+            },
+            {
+              "block_heading": "Weekly to Daily",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Steps",
+                  "children": [
+                    "First dose administered 7 days after discontinuation",
+                    "If switched prompted by GI side effects, start with equivalent or lower dose"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "GLP-1 Notes",
+          "keywords": ["glp-1 interactions", "glp-1 contraindications", "hypoglycemia", "thyroid carcinoma", "multiple endocrine neoplasia"],
+          "blocks": [
+            {
+              "block_heading": "Interactions",
+              "block_type": "list",
+              "data": [
+                "Hypoglycemia, when combined with antidiabetics",
+                "Hypo or hyperglycemia with quinolones",
+                "Hypoglycemia with Aspirin"
+              ]
+            },
+            {
+              "block_heading": "Contraindications",
+              "block_type": "list",
+              "data": [
+                "Personal or family history of thyroid carcinoma",
+                "Multiple endocrine neoplasia type 2",
+                "Pregnancy"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

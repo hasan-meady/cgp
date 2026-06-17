@@ -1,0 +1,1090 @@
+{
+  "id": "cgp-lifestyle-healthy-food",
+  "title": "CGP Lifestyle - Healthy Food Guide",
+  "type": "healthy-food-guide",
+  "release": "Release #1",
+  "committee": "Nutrition and Wellness Committee",
+  "sections": [
+    {
+      "section_title": "Why Healthy Food?",
+      "items": [
+        {
+          "item_title": "Benefits of Healthy Food",
+          "keywords": ["healthy food benefits", "nutrition", "disease prevention", "weight management", "skin health", "muscle growth", "immune support", "bone health", "digestion"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Healthy food supports overall well-being and prevents chronic diseases."
+            },
+            {
+              "block_heading": "Benefits",
+              "block_type": "list",
+              "data": [
+                "Keeps healthy skin",
+                "Promotes healthy muscle growth",
+                "Supports immunity",
+                "Strengthens bones",
+                "Aids digestive system",
+                "Maintains healthy weight",
+                "Lowers risk of chronic diseases"
+              ]
+            },
+            {
+              "block_heading": "Quote",
+              "block_type": "text",
+              "data": "You have to listen to your body. Take care of your inside body like outside."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "What is Healthy Food?",
+      "items": [
+        {
+          "item_title": "Definition of Healthy Food",
+          "keywords": ["healthy food definition", "nutrient-dense", "no added sugar", "lean protein", "minimally processed", "healthy fats", "non-starchy carbs"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Healthy food is minimally processed, nutrient-dense, and supports immunity and energy for good health."
+            },
+            {
+              "block_heading": "Characteristics",
+              "block_type": "list",
+              "data": [
+                "Not processed",
+                "No sugar added",
+                "No salt added",
+                "Contains lean protein",
+                "Includes non-starchy carbohydrates",
+                "Contains healthy fats",
+                "Nutrient-dense"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Understanding Sugar Content in Food",
+      "items": [
+        {
+          "item_title": "Added vs. No Added Sugar",
+          "keywords": ["sugar content", "added sugar", "no added sugar", "food labeling", "natural sugars", "empty calories"],
+          "blocks": [
+            {
+              "block_heading": "Difference Between Added and No Added Sugar",
+              "block_type": "text",
+              "data": "Added sugar refers to sugars and syrups artificially incorporated during processing, providing empty calories. No added sugar means only naturally occurring sugars from fruits, dairy, or grains are present."
+            },
+            {
+              "block_heading": "Health Impact",
+              "block_type": "list",
+              "data": [
+                "Added sugars contribute to obesity, diabetes, and metabolic disorders",
+                "No added sugar products are better but require moderation"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Common Food Labeling Terms",
+          "keywords": ["food labeling", "sugar-free", "natural sweeteners", "low sugar", "artificial sweeteners", "diabetic-friendly"],
+          "blocks": [
+            {
+              "block_heading": "Sugar-Free",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Definition",
+                  "children": ["Contains less than 0.5 g sugar per serving"]
+                },
+                {
+                  "parent": "Health Impact",
+                  "children": ["Suitable for diabetics and weight-conscious individuals"]
+                }
+              ]
+            },
+            {
+              "block_heading": "No Added Sugar",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Definition",
+                  "children": ["No sugar added during processing, but may contain natural sugars"]
+                },
+                {
+                  "parent": "Health Impact",
+                  "children": ["Better than processed sugar but still needs moderation"]
+                }
+              ]
+            },
+            {
+              "block_heading": "Low Sugar",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Definition",
+                  "children": ["Contains less than 5 g of sugar per serving"]
+                },
+                {
+                  "parent": "Health Impact",
+                  "children": ["Good for maintaining stable blood sugar levels"]
+                }
+              ]
+            },
+            {
+              "block_heading": "Artificial Sweeteners",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Definition",
+                  "children": ["Synthetic sugar substitutes like aspartame and sucralose"]
+                },
+                {
+                  "parent": "Health Impact",
+                  "children": ["May have digestive side effects in some individuals"]
+                }
+              ]
+            },
+            {
+              "block_heading": "Natural Sweeteners",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Definition",
+                  "children": ["Derived from natural sources like stevia or monk fruit"]
+                },
+                {
+                  "parent": "Health Impact",
+                  "children": ["Lower glycemic impact, suitable for diabetics"]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Study on Healthy Food Adoption",
+      "items": [
+        {
+          "item_title": "Global Trends",
+          "keywords": ["healthy food trends", "global diets", "cultural perspectives", "Japanese diet", "Mediterranean diet", "Nordic diet", "low-carb diet"],
+          "blocks": [
+            {
+              "block_heading": "Japan",
+              "block_type": "text",
+              "data": "Diet rich in fish, fermented foods, and vegetables, leading to high life expectancy"
+            },
+            {
+              "block_heading": "Mediterranean Countries",
+              "block_type": "text",
+              "data": "Emphasis on olive oil, whole grains, and lean proteins, reducing heart disease risk"
+            },
+            {
+              "block_heading": "Nordic Diet",
+              "block_type": "text",
+              "data": "High in fiber, seafood, and root vegetables, promoting weight management"
+            },
+            {
+              "block_heading": "United States",
+              "block_type": "text",
+              "data": "Increasing awareness of low-carb, organic, and functional foods to combat obesity"
+            }
+          ]
+        },
+        {
+          "item_title": "Saudi Arabia Opportunities",
+          "keywords": ["Saudi healthy eating", "whole foods", "traditional ingredients"],
+          "blocks": [
+            {
+              "block_heading": "Recommendations",
+              "block_type": "list",
+              "data": [
+                "Encourage meal prep with whole foods instead of processed snacks",
+                "Increase availability of protein-rich, low-sugar foods in pharmacies",
+                "Promote traditional Saudi ingredients (dates, camel milk) as healthy alternatives"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "The Importance of Healthy Food",
+      "items": [
+        {
+          "item_title": "Key Benefits",
+          "keywords": ["healthy diet benefits", "disease prevention", "mental health", "gut health", "balanced diet", "immune health", "longevity"],
+          "blocks": [
+            {
+              "block_heading": "Disease Prevention",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Description",
+                  "children": ["A diet rich in fruits, vegetables, lean proteins, whole grains, and healthy fats lowers the risk of chronic diseases like heart disease and stroke."]
+                },
+                {
+                  "parent": "Reference",
+                  "children": ["Willett et al., 1995"]
+                }
+              ]
+            },
+            {
+              "block_heading": "Weight Management",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Description",
+                  "children": ["Healthy food promotes portion control and balanced macronutrient intake, increasing satiety and reducing calorie consumption."]
+                },
+                {
+                  "parent": "Reference",
+                  "children": ["Rolls, 2009"]
+                }
+              ]
+            },
+            {
+              "block_heading": "Mental Health and Cognitive Function",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Description",
+                  "children": ["Nutrients like omega-3 fatty acids, antioxidants, and B vitamins improve brain function and reduce the risk of neurodegenerative diseases."]
+                },
+                {
+                  "parent": "Reference",
+                  "children": ["Jacka et al., 2010"]
+                }
+              ]
+            },
+            {
+              "block_heading": "Gut Health and Digestion",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Description",
+                  "children": ["Fiber-rich foods, probiotics, and prebiotics promote a healthy gut microbiome, essential for digestion and immunity."]
+                },
+                {
+                  "parent": "Reference",
+                  "children": ["Makki et al., 2018"]
+                }
+              ]
+            },
+            {
+              "block_heading": "Longevity and Quality of Life",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Description",
+                  "children": ["Whole, plant-based foods, low sugar intake, and regular physical activity contribute to increased life expectancy."]
+                },
+                {
+                  "parent": "Reference",
+                  "children": ["Buettner, 2005"]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Segmentation of Healthy Food in Saudi Pharmacies",
+      "items": [
+        {
+          "item_title": "Zero-Sugar & Low-Calorie Products",
+          "keywords": ["healthy food categories", "zero-sugar products", "diabetic-friendly", "low-calorie"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Products designed for diabetic patients and weight management."
+            },
+            {
+              "block_heading": "Brands",
+              "block_type": "list",
+              "data": ["Gullon", "Belgian Dark Chocolate", "Stevia Sweeteners"]
+            },
+            {
+              "block_heading": "Products",
+              "block_type": "list",
+              "data": ["Sugar-free chocolate", "Biscuits", "Candies", "Soft drinks"]
+            },
+            {
+              "block_heading": "Best For",
+              "block_type": "list",
+              "data": ["Diabetic patients", "Weight management", "Reducing sugar cravings"]
+            }
+          ]
+        },
+        {
+          "item_title": "High-Protein Products",
+          "keywords": ["healthy food categories", "high-protein products", "muscle growth", "protein shakes"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Products for athletes and those seeking muscle growth or weight loss."
+            },
+            {
+              "block_heading": "Brands",
+              "block_type": "list",
+              "data": ["Grenade", "Quest", "Laperva", "ON Whey"]
+            },
+            {
+              "block_heading": "Products",
+              "block_type": "list",
+              "data": ["Protein bars", "Shakes", "Functional snacks"]
+            },
+            {
+              "block_heading": "Best For",
+              "block_type": "list",
+              "data": ["Athletes", "Muscle growth", "Weight loss"]
+            }
+          ]
+        },
+        {
+          "item_title": "Keto & Low-Carb Options",
+          "keywords": ["healthy food categories", "keto diet", "low-carb", "sugar-free desserts"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Products for ketogenic diet followers and diabetics."
+            },
+            {
+              "block_heading": "Brands",
+              "block_type": "list",
+              "data": ["Laperva Keto Bar", "Atkins", "Quest"]
+            },
+            {
+              "block_heading": "Products",
+              "block_type": "list",
+              "data": ["Keto snacks", "Low-carb protein powders", "Sugar-free desserts"]
+            },
+            {
+              "block_heading": "Best For",
+              "block_type": "list",
+              "data": ["Diabetics", "Ketogenic diet followers", "Weight loss seekers"]
+            }
+          ]
+        },
+        {
+          "item_title": "Gluten-Free and Organic Foods",
+          "keywords": ["healthy food categories", "gluten-free", "organic foods", "plant-based protein"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Products for gluten intolerance and natural food consumers."
+            },
+            {
+              "block_heading": "Brands",
+              "block_type": "list",
+              "data": ["Bob's Red Mill", "Organic Valley"]
+            },
+            {
+              "block_heading": "Products",
+              "block_type": "list",
+              "data": ["Gluten-free flour", "Organic snacks", "Plant-based protein"]
+            },
+            {
+              "block_heading": "Best For",
+              "block_type": "list",
+              "data": ["Gluten intolerance", "Gut health", "Natural food consumers"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Types of Diets",
+      "items": [
+        {
+          "item_title": "Diet Types",
+          "keywords": ["diet types", "keto diet", "Mediterranean diet", "high-protein diet", "intermittent fasting", "plant-based diet"],
+          "blocks": [
+            {
+              "block_heading": "Keto Diet",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Main Principle",
+                  "children": ["High fat, low carb"]
+                },
+                {
+                  "parent": "Who Benefits",
+                  "children": ["Weight loss, diabetics"]
+                }
+              ]
+            },
+            {
+              "block_heading": "Intermittent Fasting",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Main Principle",
+                  "children": ["Time-restricted eating"]
+                },
+                {
+                  "parent": "Who Benefits",
+                  "children": ["Metabolic health, fat burning"]
+                }
+              ]
+            },
+            {
+              "block_heading": "Low-Calorie Diet",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Main Principle",
+                  "children": ["Reducing total calories"]
+                },
+                {
+                  "parent": "Who Benefits",
+                  "children": ["General weight loss"]
+                }
+              ]
+            },
+            {
+              "block_heading": "High-Protein Diet",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Main Principle",
+                  "children": ["Focus on protein intake"]
+                },
+                {
+                  "parent": "Who Benefits",
+                  "children": ["Athletes, muscle gain"]
+                }
+              ]
+            },
+            {
+              "block_heading": "Mediterranean Diet",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Main Principle",
+                  "children": ["Balanced, heart-healthy"]
+                },
+                {
+                  "parent": "Who Benefits",
+                  "children": ["Heart disease prevention"]
+                }
+              ]
+            },
+            {
+              "block_heading": "Plant-Based Diet",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Main Principle",
+                  "children": ["No animal products"]
+                },
+                {
+                  "parent": "Who Benefits",
+                  "children": ["Vegans, environmentalists"]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Study on Consumer Behavior & Market Trends",
+      "items": [
+        {
+          "item_title": "Saudi Market Trends",
+          "keywords": ["consumer behavior", "market trends", "Saudi healthy food market", "healthy food demand", "pharmacy trends"],
+          "blocks": [
+            {
+              "block_heading": "Trends in Saudi Market",
+              "block_type": "list",
+              "data": [
+                "Increase in healthy food awareness due to health initiatives",
+                "Rising demand for protein bars and low-sugar snacks",
+                "Expansion of healthy product categories in pharmacies"
+              ]
+            },
+            {
+              "block_heading": "Future Opportunities",
+              "block_type": "list",
+              "data": [
+                "Increasing local production of high-protein, low-carb snacks",
+                "More collaborations between pharmacies and fitness brands",
+                "Growth in subscription-based healthy snack services"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Diabetes-Friendly Foods",
+      "items": [
+        {
+          "item_title": "Definition",
+          "keywords": ["diabetes-friendly", "diabetes management", "low-carb foods", "high-fiber"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Diabetes-friendly foods are low in sugar and carbohydrates, with a low glycemic index to manage blood glucose levels. They emphasize high fiber, lean proteins, and healthy fats."
+            },
+            {
+              "block_heading": "Goals",
+              "block_type": "list",
+              "data": [
+                "Maintain balanced blood sugar levels",
+                "Prevent diabetes complications"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Glycemic Index Explanation",
+          "keywords": ["glycemic index", "blood sugar spikes", "slow-release carbs"],
+          "blocks": [
+            {
+              "block_heading": "Glycemic Index",
+              "block_type": "text",
+              "data": "Carbohydrates that break down quickly have a high glycemic index (e.g., baked potato), releasing glucose rapidly. Slow-breaking carbs (e.g., oats) have a low glycemic index, releasing glucose gradually."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Zero Sugar & No Added Sugar Products",
+      "items": [
+        {
+          "item_title": "Definitions",
+          "keywords": ["zero sugar", "no added sugar", "sugar-free products", "diabetic-friendly"],
+          "blocks": [
+            {
+              "block_heading": "Sugar-Free",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Description",
+                  "children": ["Contains less than 0.5 grams of sugars per serving, both natural and added."]
+                },
+                {
+                  "parent": "Aliases",
+                  "children": ["Free of sugar", "Sugarless", "No sugar", "Zero sugar", "Trivial source of sugar"]
+                }
+              ]
+            },
+            {
+              "block_heading": "No Added Sugar",
+              "block_type": "nested_list",
+              "data": [
+                {
+                  "parent": "Description",
+                  "children": ["No sugar or sugar-containing ingredients added during processing or packaging."]
+                },
+                {
+                  "parent": "Aliases",
+                  "children": ["Without added sugar", "No sugar added"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Products",
+          "keywords": ["zero sugar products", "no added sugar products", "Canderel", "Digesta", "Gullon", "Werther's", "Valor", "Belgian"],
+          "blocks": [
+            {
+              "block_heading": "Canderel Chocolate",
+              "block_type": "list",
+              "data": ["Chocolate & Sea Salt (1000g)"]
+            },
+            {
+              "block_heading": "Digesta Cookies",
+              "block_type": "list",
+              "data": [
+                "Light Barrie Cookies, 0% Sugar (2000g)",
+                "Light Marie Cookies, 0% Sugar (2000g)",
+                "Light Cookies, 0% Sugar (1500g)"
+              ]
+            },
+            {
+              "block_heading": "Gullon Biscuits",
+              "block_type": "list",
+              "data": [
+                "Zero, No Sugar, Datay with Dark Chocolate (2750g)",
+                "Zero, No Sugar, Sandwich, Chocolate (2500g)",
+                "Zero, No Sugar, Digestive (4000g)",
+                "Zero, No Sugar, Dark Chocolate (1500g)"
+              ]
+            },
+            {
+              "block_heading": "Werther's Candies",
+              "block_type": "list",
+              "data": [
+                "Original, Cream Candies, Classic, Sugar Free (42g)",
+                "Original, Cream Candies, With Chocolate Flavor, Sugar Free (60g)",
+                "Original, Cream Candies, Classic, Sugar Free (70g)"
+              ]
+            },
+            {
+              "block_heading": "Valor Chocolate",
+              "block_type": "list",
+              "data": [
+                "Dark Chocolate 70%, Sugar Free, Gluten Free (100g)",
+                "Creamy Dark Chocolate with Truffle Filling, No Added Sugar, Gluten Free (100g)"
+              ]
+            },
+            {
+              "block_heading": "Belgian Chocolate",
+              "block_type": "list",
+              "data": [
+                "Dark Chocolate, No Sugar & Gluten Free (100g)",
+                "Milk Chocolate with Hazelnuts, No Sugar (100g)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Protein Products",
+      "items": [
+        {
+          "item_title": "Whey Protein Overview",
+          "keywords": ["protein supplements", "whey protein", "complete protein", "muscle recovery"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Whey protein, derived from milk, is a complete protein containing all 9 essential amino acids. It supports muscle growth and recovery."
+            },
+            {
+              "block_heading": "Recommended Intake",
+              "block_type": "list",
+              "data": [
+                "Adults: 0.8 g/kg",
+                "Athletes: 1.2-1.4 g/kg",
+                "Athletes with diet: 1.2-2.4 g/kg",
+                "Body recomposition: 3.6 g/kg",
+                "Elderly: 1-1.2 g/kg"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Whey vs. Casein Protein",
+          "keywords": ["whey vs casein", "fast-digesting protein", "slow-digesting protein"],
+          "blocks": [
+            {
+              "block_heading": "Comparison",
+              "block_type": "text",
+              "data": "Whey protein is fast-digesting, ideal post-workout, while casein is slow-digesting, suitable before bed for sustained protein release."
+            },
+            {
+              "block_heading": "Benefits",
+              "block_type": "list",
+              "data": [
+                "Promotes muscle growth",
+                "Lowers cholesterol",
+                "Reduces hunger",
+                "Enhances antioxidant defenses",
+                "Prevents muscle loss"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Classes of Whey Protein",
+          "keywords": ["whey concentrate", "whey isolate", "hydrolyzed whey"],
+          "blocks": [
+            {
+              "block_heading": "Whey Concentrate",
+              "block_type": "text",
+              "data": "70-80% protein, contains some lactose and fat, best flavor"
+            },
+            {
+              "block_heading": "Whey Isolate",
+              "block_type": "text",
+              "data": "90% protein or higher, less lactose and fat, quick absorption"
+            },
+            {
+              "block_heading": "Hydrolyzed Whey",
+              "block_type": "text",
+              "data": "Pre-digested for faster absorption, high protein concentration"
+            }
+          ]
+        },
+        {
+          "item_title": "Mass Gainer Overview",
+          "keywords": ["mass gainer", "high-calorie", "muscle mass"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "High-calorie supplement with carbohydrates, protein, and fat to increase muscle mass and promote healthy weight gain. May cause insulin spikes."
+            }
+          ]
+        },
+        {
+          "item_title": "Protein Products - ON Gold Standard Whey",
+          "associated_brands": ["ON"],
+          "keywords": ["ON Gold Standard", "whey protein", "muscle building"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Provides 24g whey protein, 5.5g BCAAs, 1g sugar, 4g carbohydrate, 1g fat per serving. Helps build muscle."
+            },
+            {
+              "block_heading": "Usage",
+              "block_type": "text",
+              "data": "Add one scoop to 200-300 ml water or milk, consume within 3 hours"
+            },
+            {
+              "block_heading": "Variant",
+              "block_type": "text",
+              "data": "Double Rich Chocolate (907g)"
+            }
+          ]
+        },
+        {
+          "item_title": "Protein Products - Basix Whey",
+          "associated_brands": ["Basix"],
+          "keywords": ["Basix", "whey protein", "muscle growth"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Provides 25g whey protein blend, 0.8g sugar, 122 kcal, 1.2g carbohydrate, 1.7g fat per serving. Supports muscle growth."
+            },
+            {
+              "block_heading": "Usage",
+              "block_type": "text",
+              "data": "Add one scoop to 200 ml water or milk, 1-3 servings per day"
+            }
+          ]
+        },
+        {
+          "item_title": "Protein Products - Dymatize ISO 100",
+          "associated_brands": ["Dymatize"],
+          "keywords": ["Dymatize", "hydrolyzed whey", "lean muscle"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Provides 25g hydrolyzed whey protein isolate, 1g sugar, 110 kcal, 2g carbohydrate, 1g fat per serving. Ensures lean muscle gain."
+            },
+            {
+              "block_heading": "Usage",
+              "block_type": "text",
+              "data": "Add one scoop to 150-180 ml water, take within 30 minutes of workouts"
+            }
+          ]
+        },
+        {
+          "item_title": "Protein Products - MuscleTech NitroTech",
+          "associated_brands": ["MuscleTech"],
+          "keywords": ["MuscleTech", "whey protein", "creatine"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Provides 30g protein, 6.6g BCAAs, 2g sugar, 4g carbohydrate, 2.5g fat, 160 kcal, 3g creatine per serving. Ideal for muscle growth and recovery."
+            },
+            {
+              "block_heading": "Usage",
+              "block_type": "text",
+              "data": "Add one scoop to 180 ml water, up to 4 scoops daily for 6 weeks"
+            }
+          ]
+        },
+        {
+          "item_title": "Protein Products - ON Serious Mass",
+          "associated_brands": ["ON"],
+          "keywords": ["ON Serious Mass", "mass gainer", "high-calorie"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Provides 1,250 calories, 50g protein, 252g carbohydrates, 25 vitamins & minerals, 1g glutamine, and creatine per serving. Supports weight gain."
+            },
+            {
+              "block_heading": "Usage",
+              "block_type": "text",
+              "data": "Add two heaping scoops to a blender with cold water or milk"
+            }
+          ]
+        },
+        {
+          "item_title": "Protein Products - Basix Total Gain",
+          "associated_brands": ["Basix"],
+          "keywords": ["Basix Total Gain", "mass gainer", "muscle development"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Contains 22.5g protein, 105.4g carbohydrate, 7g sugar, fiber, 2.5g creatine, 567 kcal per serving. Supports muscle growth."
+            },
+            {
+              "block_heading": "Usage",
+              "block_type": "text",
+              "data": "Add 6 scoops to 300-350 ml water, consume immediately"
+            }
+          ]
+        },
+        {
+          "item_title": "Protein Products - Ensure Products",
+          "associated_brands": ["Ensure"],
+          "keywords": ["Ensure", "protein drinks", "nutritional supplement", "meal replacement"],
+          "blocks": [
+            {
+              "block_heading": "Ensure",
+              "block_type": "text",
+              "data": "8g protein, 201 kcal, ideal for extra calories and nutrition without heavy protein"
+            },
+            {
+              "block_heading": "Ensure Plus",
+              "block_type": "text",
+              "data": "12.5g protein, 300 kcal, for energy meal replacement"
+            },
+            {
+              "block_heading": "Ensure Max",
+              "block_type": "text",
+              "data": "30g protein, 150 kcal, ideal as a snack or post-workout supplement"
+            }
+          ]
+        },
+        {
+          "item_title": "Protein Products - Grenade",
+          "associated_brands": ["Grenade"],
+          "keywords": ["Grenade", "protein bar", "low sugar", "protein spread"],
+          "blocks": [
+            {
+              "block_heading": "Protein Bar, Oreo & Oreo Black",
+              "block_type": "text",
+              "data": "21g protein, 1g sugar"
+            },
+            {
+              "block_heading": "Protein Bar, Choco Chip, Cookie Dough",
+              "block_type": "text",
+              "data": "21g protein, 1.5g sugar"
+            },
+            {
+              "block_heading": "Protein Bar, Dark Chocolate Raspberry",
+              "block_type": "text",
+              "data": "20g protein, 0.9g sugar"
+            },
+            {
+              "block_heading": "Protein Spread, Hazel Nutter",
+              "block_type": "text",
+              "data": "20g protein, 3.2g fibers, 5.2g sugar per 100g"
+            }
+          ]
+        },
+        {
+          "item_title": "Protein Products - LGL Complete Cookies",
+          "associated_brands": ["LGL"],
+          "keywords": ["LGL", "protein cookies", "high-fiber"],
+          "blocks": [
+            {
+              "block_heading": "Variants",
+              "block_type": "list",
+              "data": ["Chocolate Chip", "Peanut Butter White", "Chocolate Macadamia"]
+            },
+            {
+              "block_heading": "Nutrition",
+              "block_type": "list",
+              "data": ["16g protein", "10g fibers", "22g sugar", "23mg calcium", "4mg iron", "122mg potassium"]
+            }
+          ]
+        },
+        {
+          "item_title": "Protein Products - Quest",
+          "associated_brands": ["Quest"],
+          "keywords": ["Quest", "protein bars", "low sugar"],
+          "blocks": [
+            {
+              "block_heading": "Variants",
+              "block_type": "list",
+              "data": ["Cookies and Cream", "Chocolate Chip", "Cookie Dough"]
+            },
+            {
+              "block_heading": "Nutrition",
+              "block_type": "list",
+              "data": ["21g protein", "1g sugar", "12g fibers"]
+            }
+          ]
+        },
+        {
+          "item_title": "Protein Products - Laperva",
+          "associated_brands": ["Laperva"],
+          "keywords": ["Laperva", "keto bar", "gluten-free", "protein wafer", "sugar-free"],
+          "blocks": [
+            {
+              "block_heading": "Keto Bar, Milk Chocolate",
+              "block_type": "text",
+              "data": "8.4g protein, 8.1g fibers, 3.3g sugar, gluten-free"
+            },
+            {
+              "block_heading": "Protein Wafer",
+              "block_type": "list",
+              "data": ["5.4g protein, sugar-free, gluten-free", "Flavors: Hazelnut & Nougat, White Chocolate & Almond, Cookies & Cream"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Miscellaneous Products",
+      "items": [
+        {
+          "item_title": "Yumearth Gummy Bears",
+          "associated_brands": ["Yumearth"],
+          "keywords": ["Yumearth", "gluten-free", "gummy bears"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Gluten-free gummy bears (50g)"
+            }
+          ]
+        },
+        {
+          "item_title": "Steviana Sweetener",
+          "associated_brands": ["Steviana"],
+          "keywords": ["Steviana", "stevia", "zero-calorie sweetener"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Natural sweetener from stevia leaves, available in 100, 50, or 25 sachets. Zero calories, aids weight loss, and does not raise blood sugar."
+            },
+            {
+              "block_heading": "Benefits",
+              "block_type": "list",
+              "data": [
+                "Supports weight management",
+                "No glycemic impact",
+                "Health-promoting qualities"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Mister Free'D Tortilla Chips",
+          "associated_brands": ["Mister Free'D"],
+          "keywords": ["Mister Free'D", "tortilla chips", "gluten-free"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Tortilla chips with blue maize flavor (135g)"
+            }
+          ]
+        },
+        {
+          "item_title": "Hotlinz Kernel Nuts",
+          "associated_brands": ["Hotlinz"],
+          "keywords": ["Hotlinz", "cholesterol-free", "nuts"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Cholesterol-free kernel nuts (450g)"
+            }
+          ]
+        },
+        {
+          "item_title": "Celsius Sparkling Drink",
+          "associated_brands": ["Celsius"],
+          "keywords": ["Celsius", "sugar-free drink", "functional drink"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Sugar-free sparkling drink with apple and pear flavor (355ml). Made with premium ingredients."
+            }
+          ]
+        },
+        {
+          "item_title": "Oshee Isotonic Drink",
+          "associated_brands": ["Oshee"],
+          "keywords": ["Oshee", "isotonic drink", "electrolytes"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Rich in magnesium and vitamin B6, lemon and orange flavor (555ml). Supports hydration, endurance, and muscle function."
+            },
+            {
+              "block_heading": "Benefits",
+              "block_type": "list",
+              "data": [
+                "Regulates water and electrolytes",
+                "Increases endurance and energy",
+                "Supports muscular system"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Tipson Matcha Tea",
+          "associated_brands": ["Tipson"],
+          "keywords": ["Tipson", "matcha tea", "organic"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Matcha tea with blueberry (25 pieces). Organic, provides natural energy, and supports well-being."
+            },
+            {
+              "block_heading": "Benefits",
+              "block_type": "list",
+              "data": [
+                "Natural energy boost",
+                "Free from artificial additives",
+                "Supports cardiovascular health",
+                "Rich in vitamins C, A, B1, PP, and carotene"
+              ]
+            }
+          ]
+        },
+        {
+          "item_title": "Pukka Organic Tea",
+          "associated_brands": ["Pukka"],
+          "keywords": ["Pukka", "organic tea", "well-being"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Feel New organic tea (20 sachets)"
+            }
+          ]
+        },
+        {
+          "item_title": "Gatorade Sports Drink",
+          "associated_brands": ["Gatorade"],
+          "keywords": ["Gatorade", "sports drink", "hydration"],
+          "blocks": [
+            {
+              "block_heading": "Description",
+              "block_type": "text",
+              "data": "Orange flavor sports drink (495ml)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
