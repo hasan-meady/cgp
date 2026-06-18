@@ -196,7 +196,8 @@ function printSticker(drugName, content) {
 
 function highlightSearchTerm(text, searchTerm) {
   if (!searchTerm || searchTerm.length < 2) return text;
-  const regex = new RegExp(`(${searchTerm})`, 'gi');
+  const safeTerm = searchTerm.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const regex = new RegExp(`(${safeTerm})`, 'gi');
   return text.replace(regex, '<span class="highlight-term">$1</span>');
 }
 
@@ -206,11 +207,14 @@ function containsTerm(text, searchTerm) {
 }
 
 function highlightLine(content, searchTerm) {
+  if (!searchTerm || searchTerm.length < 2) return content;
+  
   let lowerContent = content.toLowerCase();
   let lowerTerm = searchTerm.toLowerCase();
 
   if (lowerContent.includes(lowerTerm)) {
-    const regex = new RegExp(`(${searchTerm})`, 'gi');
+    const safeTerm = searchTerm.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const regex = new RegExp(`(${safeTerm})`, 'gi');
     return content.replace(regex, '<span class="highlight-term">$1</span>');
   }
   return content;

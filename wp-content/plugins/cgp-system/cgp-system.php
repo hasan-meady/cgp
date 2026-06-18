@@ -10,6 +10,14 @@ require_once plugin_dir_path(__FILE__) . 'admin-importer.php';
 require_once plugin_dir_path(__FILE__) . 'ai-chatbot-api.php';
 require_once plugin_dir_path(__FILE__) . 'auto-importer.php';
 
+// Force cache clear on plugin load
+function cgp_force_cache_clear() {
+    if (function_exists('wp_cache_flush')) {
+        wp_cache_flush();
+    }
+}
+add_action('init', 'cgp_force_cache_clear', 999);
+
 // 1. Register Custom Post Type & Taxonomy
 function cgp_register_post_types() {
     register_post_type('cgp_item', array(
@@ -82,14 +90,17 @@ function cgp_ui_shortcode() {
     $plugin_dir = plugin_dir_path(__FILE__);
     
     // Enqueue modular styles
-    wp_enqueue_style('cgp-variables-css', $plugin_url . 'assets/css/variables.css', array(), filemtime($plugin_dir . 'assets/css/variables.css'));
-    wp_enqueue_style('cgp-layout-css', $plugin_url . 'assets/css/layout.css', array('cgp-variables-css'), filemtime($plugin_dir . 'assets/css/layout.css'));
-    wp_enqueue_style('cgp-accordion-css', $plugin_url . 'assets/css/accordion.css', array('cgp-variables-css'), filemtime($plugin_dir . 'assets/css/accordion.css'));
-    wp_enqueue_style('cgp-sidebar-css', $plugin_url . 'assets/css/sidebar.css', array('cgp-variables-css'), filemtime($plugin_dir . 'assets/css/sidebar.css'));
-    wp_enqueue_style('cgp-components-css', $plugin_url . 'assets/css/components.css', array('cgp-variables-css'), filemtime($plugin_dir . 'assets/css/components.css'));
-    wp_enqueue_style('cgp-autocomplete-css', $plugin_url . 'assets/css/autocomplete.css', array('cgp-variables-css'), filemtime($plugin_dir . 'assets/css/autocomplete.css'));
-    wp_enqueue_style('cgp-interactions-css', $plugin_url . 'assets/css/interactions.css', array('cgp-variables-css'), filemtime($plugin_dir . 'assets/css/interactions.css'));
-    wp_enqueue_style('cgp-chatbot-css', $plugin_url . 'assets/css/chatbot.css', array('cgp-variables-css'), filemtime($plugin_dir . 'assets/css/chatbot.css'));
+    $version = '2.0.' . time(); // Force cache refresh
+    wp_enqueue_style('cgp-variables-css', $plugin_url . 'assets/css/variables.css', array(), $version);
+    wp_enqueue_style('cgp-utilities-css', $plugin_url . 'assets/css/utilities.css', array('cgp-variables-css'), $version);
+    wp_enqueue_style('cgp-typography-css', $plugin_url . 'assets/css/typography.css', array('cgp-variables-css'), $version);
+    wp_enqueue_style('cgp-layout-css', $plugin_url . 'assets/css/layout.css', array('cgp-variables-css', 'cgp-typography-css'), $version);
+    wp_enqueue_style('cgp-accordion-css', $plugin_url . 'assets/css/accordion.css', array('cgp-variables-css', 'cgp-typography-css'), $version);
+    wp_enqueue_style('cgp-sidebar-css', $plugin_url . 'assets/css/sidebar.css', array('cgp-variables-css', 'cgp-typography-css'), $version);
+    wp_enqueue_style('cgp-components-css', $plugin_url . 'assets/css/components.css', array('cgp-variables-css', 'cgp-typography-css'), $version);
+    wp_enqueue_style('cgp-autocomplete-css', $plugin_url . 'assets/css/autocomplete.css', array('cgp-variables-css'), $version);
+    wp_enqueue_style('cgp-interactions-css', $plugin_url . 'assets/css/interactions.css', array('cgp-variables-css'), $version);
+    wp_enqueue_style('cgp-chatbot-css', $plugin_url . 'assets/css/chatbot.css', array('cgp-variables-css'), $version);
     wp_enqueue_style('font-awesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
     
     // Enqueue external libraries via CDN because local lib directory is missing
@@ -97,13 +108,13 @@ function cgp_ui_shortcode() {
     wp_enqueue_script('printjs', 'https://cdnjs.cloudflare.com/ajax/libs/print-js/1.6.0/print.js', array(), null, true);
     
     // Enqueue modularized JS files with correct dependencies
-    wp_enqueue_script('cgp-api', $plugin_url . 'assets/js/api.js', array('jquery'), filemtime($plugin_dir . 'assets/js/api.js'), true);
-    wp_enqueue_script('cgp-utils', $plugin_url . 'assets/js/utils.js', array(), filemtime($plugin_dir . 'assets/js/utils.js'), true);
-    wp_enqueue_script('cgp-search', $plugin_url . 'assets/js/search.js', array('cgp-api', 'cgp-utils'), filemtime($plugin_dir . 'assets/js/search.js'), true);
-    wp_enqueue_script('cgp-interactions', $plugin_url . 'assets/js/interactions.js', array('cgp-api'), filemtime($plugin_dir . 'assets/js/interactions.js'), true);
-    wp_enqueue_script('cgp-render', $plugin_url . 'assets/js/render.js', array('cgp-search', 'cgp-utils', 'cgp-interactions'), filemtime($plugin_dir . 'assets/js/render.js'), true);
-    wp_enqueue_script('cgp-main', $plugin_url . 'assets/js/main.js', array('cgp-render', 'awesomplete'), filemtime($plugin_dir . 'assets/js/main.js'), true);
-    wp_enqueue_script('cgp-chatbot-js', $plugin_url . 'assets/js/chatbot.js', array('jquery'), filemtime($plugin_dir . 'assets/js/chatbot.js'), true);
+    wp_enqueue_script('cgp-api', $plugin_url . 'assets/js/api.js', array('jquery'), $version, true);
+    wp_enqueue_script('cgp-utils', $plugin_url . 'assets/js/utils.js', array(), $version, true);
+    wp_enqueue_script('cgp-search', $plugin_url . 'assets/js/search.js', array('cgp-api', 'cgp-utils'), $version, true);
+    wp_enqueue_script('cgp-interactions', $plugin_url . 'assets/js/interactions.js', array('cgp-api'), $version, true);
+    wp_enqueue_script('cgp-render', $plugin_url . 'assets/js/render.js', array('cgp-search', 'cgp-utils', 'cgp-interactions'), $version, true);
+    wp_enqueue_script('cgp-main', $plugin_url . 'assets/js/main.js', array('cgp-render', 'awesomplete'), $version, true);
+    wp_enqueue_script('cgp-chatbot-js', $plugin_url . 'assets/js/chatbot.js', array('jquery'), $version, true);
     
     // Pass API URL to JS (attached to api.js)
     wp_localize_script('cgp-api', 'cgpData', array(
@@ -148,23 +159,20 @@ function cgp_ui_shortcode() {
         $recent_posts = wp_get_recent_posts(array('numberposts' => 4, 'post_status' => 'publish'));
         ?>
         <div class="cgp-layout-grid">
-            <!-- Left empty column to ensure center column is perfectly centered -->
-            <div class="cgp-grid-left d-none d-lg-block"></div>
-
             <!-- Center column -->
             <div class="cgp-grid-center">
+                <div id="mobile-search-tags" class="mb-4 mt-4" style="display: none;">
+                    <div class="text-muted small fw-bold mb-2"><i class="fas fa-tags"></i> Related Keywords</div>
+                    <div id="mobile-dynamic-tags" class="horizontal-tags-scroll">
+                    </div>
+                </div>
                 <div id="search-results" class="results-container mt-4"></div>
             </div>
 
             <!-- Right column -->
             <div class="cgp-grid-right">
-                <div id="mobile-search-tags" class="d-lg-none mb-4 mt-4" style="display: none;">
-                    <div class="text-muted small fw-bold mb-2"><i class="fas fa-tags"></i> Related Keywords</div>
-                    <div id="mobile-dynamic-tags" class="horizontal-tags-scroll">
-                    </div>
-                </div>
                 <div class="sidebar-wrapper mt-4" id="main-sidebar-wrapper" <?php if (empty($recent_posts) && empty($recent_comments)) echo 'style="display: none;"'; ?>>
-                    <div id="search-tags-sidebar" class="tags-sidebar d-none d-lg-block mb-4" style="display: none;">
+                    <div id="search-tags-sidebar" class="tags-sidebar mb-4" style="display: none;">
                         <div class="tags-sidebar-header">
                             <h5><i class="fas fa-tags"></i> Related Keywords</h5>
                         </div>
