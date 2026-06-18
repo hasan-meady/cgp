@@ -87,9 +87,15 @@
   background-color: #f8f9fa;
   border-radius: 12px;
   border: 1px solid #e8eaed;
-  margin-top: 30px;
+  margin-top: 40px;
   text-align: center;
   box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 400px;
+  z-index: 100;
 }
 
 .no-results-icon {
@@ -223,11 +229,6 @@
   .cgp-grid-right {
     display: none !important;
   }
-  
-  /* Hide post-specific keywords on mobile to prevent double keywords */
-  .keywords-wrapper {
-    display: none !important;
-  }
 }
 
 @media (min-width: 1301px) {
@@ -242,6 +243,11 @@
   .cgp-grid-right {
     grid-column: 2;
     min-width: 0;
+  }
+  
+  /* Hide post-specific keywords on desktop because they exist in the right sidebar */
+  .keywords-wrapper {
+    display: none !important;
   }
 }
 

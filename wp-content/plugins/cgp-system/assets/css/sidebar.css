@@ -3,7 +3,8 @@
   position: fixed;
   left: 0;
   top: 50%;
-  transform: translateY(-50%);
+  transform: translateX(-100%) translateY(-50%);
+  opacity: 0;
   background: var(--theme-color);
   color: var(--secondary-color);
   border: 1px solid var(--border-color);
@@ -20,11 +21,22 @@
   transition: all 0.3s ease;
 }
 
+.sources-toggle-btn::after {
+  content: '';
+  position: absolute;
+  top: -30px;
+  bottom: -30px;
+  right: -30px;
+  width: 30px;
+}
+
 .sources-toggle-btn i {
   font-size: 22px;
 }
 
 .sources-toggle-btn:hover {
+  transform: translateX(0) translateY(-50%);
+  opacity: 1;
   background: var(--accent-color);
   color: white;
   width: 55px;

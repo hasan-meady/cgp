@@ -161,11 +161,6 @@ function cgp_ui_shortcode() {
         <div class="cgp-layout-grid">
             <!-- Center column -->
             <div class="cgp-grid-center">
-                <div id="mobile-search-tags" class="mb-4 mt-4" style="display: none;">
-                    <div class="text-muted small fw-bold mb-2"><i class="fas fa-tags"></i> Related Keywords</div>
-                    <div id="mobile-dynamic-tags" class="horizontal-tags-scroll">
-                    </div>
-                </div>
                 <div id="search-results" class="results-container mt-4"></div>
             </div>
 

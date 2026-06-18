@@ -28,26 +28,24 @@
 
 /* Print Button Styles */
 .print-btn {
-  background-color: var(--accent-color);
+  background-color: #000;
   color: #fff;
-  border: none;
+  border: 1px solid #000;
   border-radius: var(--radius-pill);
-  padding: 6px 12px;
-  font-size: 12px;
+  padding: 6px 16px;
+  font-size: 13px;
   font-weight: 600;
   cursor: pointer;
   display: inline-flex;
   align-items: center;
-  gap: 6px;
+  gap: 8px;
   margin-top: 10px;
-  transition: all 0.3s ease;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease;
 }
 
 .print-btn:hover {
-  background-color: var(--primary-color);
-  transform: translateY(-1px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  background-color: #fff;
+  color: #000;
 }
 
 /* Icon Styles */
@@ -122,11 +120,16 @@
 
  /* Global Loading Indicator */
 .cgp-global-loader-container {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 40px;
     width: 100%;
+    max-width: 400px;
+    z-index: 100;
 }
 
 .cgp-global-loader {

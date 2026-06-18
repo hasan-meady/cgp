@@ -37,10 +37,14 @@ const PostTemplate = {
   
   createContentSection: (content) => `<div class="content">${content}</div>`,
   
-  createPrintButton: (safeContent, safeDrugName) => `
-    <button class="print-btn" data-print-content-encoded="${safeContent}" data-drug-name="${safeDrugName}" title="Print Sticker">
+  createPrintButton: (accordionId, safeDrugName) => `
+    <button class="print-btn" data-print-target="print-content-${accordionId}" data-drug-name="${safeDrugName}" title="Print Sticker">
       <i class="fas fa-print"></i> Print Sticker
     </button>
+  `,
+  
+  createPrintContentTemplate: (accordionId, content) => `
+    <template id="print-content-${accordionId}">${content}</template>
   `,
   
   createInteractionsContainer: (safeDrugName) => `
@@ -187,7 +191,9 @@ const UIManager = {
     // Print button listeners
     document.querySelectorAll('.print-btn').forEach(button => {
       button.addEventListener('click', () => {
-        const printContent = decodeURIComponent(button.dataset.printContentEncoded);
+        const targetId = button.dataset.printTarget;
+        const template = document.getElementById(targetId);
+        const printContent = template ? template.innerHTML : '';
         const drugName = decodeURIComponent(button.dataset.drugName);
         printSticker(drugName, printContent);
       });
@@ -267,9 +273,9 @@ function renderDrugResult(result) {
   // Add print button if needed
   if (result.content && PostRenderer.shouldShowPrintButton(result.content.blocks)) {
     const printContent = PostRenderer.extractPrintContent(result.content.blocks);
-    const safeContent = encodeURIComponent(printContent);
     const safeDrugName = encodeURIComponent(drugName);
-    html += PostTemplate.createPrintButton(safeContent, safeDrugName);
+    html += PostTemplate.createPrintButton(accordionId, safeDrugName);
+    html += PostTemplate.createPrintContentTemplate(accordionId, printContent);
   }
   
   // Add interactions container

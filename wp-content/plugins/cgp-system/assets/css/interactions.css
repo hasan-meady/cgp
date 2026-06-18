@@ -61,6 +61,11 @@
   margin-bottom: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
 }
+.material-input:hover {
+  border-color: rgba(0, 0, 0, 0.3);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.06);
+  transform: translateY(-1px);
+}
 .material-input:focus {
   outline: none;
   border-color: var(--accent-color);
